@@ -22,6 +22,7 @@ def main():
         # Распаковка архива
     shutil.unpack_archive('mods.zip', mods_folder, 'zip')
 
+
     os.remove('mods.zip')
 
     print("Запуск")
