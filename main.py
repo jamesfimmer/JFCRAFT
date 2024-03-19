@@ -37,7 +37,7 @@ def install_mods(minecraft_directory):
 
 
 def install_shaderpacks(minecraft_directory):
-    shaderpacks_url = 'https://github.com/jamesfimmer/JFCRAFT-MODS/raw/main/options.zip'
+    shaderpacks_url = 'https://github.com/jamesfimmer/JFCRAFT-MODS/raw/main/shaderpacks.zip'
     shaderpacks_folder = minecraft_directory + '\\shaderpacks'
     response = requests.get(shaderpacks_url)
     with open('shaderpacks.zip', 'wb') as f:
@@ -58,11 +58,11 @@ def install_options(minecraft_directory):
     print('Профиль настроек успешно загружен!')
 
 
-def launch_jfcraft(minecraft_directory):
+def launch_jfcraft(minecraft_directory, options):
     print('Запуск JFCRAFT...')
     subprocess.run(
         minecraft_launcher_lib.command.get_minecraft_command('1.19.2-forge-43.3.5', minecraft_directory,
-                                                             get_options()))
+                                                             options))
 
 
 def get_username():
@@ -86,13 +86,14 @@ def main():
     if check_jfcraft(minecraft_directory):
         print('Проверка/обновление модов...')
         install_mods(minecraft_directory)
-        launch_jfcraft(minecraft_directory)
+        install_shaderpacks(minecraft_directory)
+        launch_jfcraft(minecraft_directory, get_options())
     else:
         install_jfcraft(minecraft_directory)
         install_mods(minecraft_directory)
         install_shaderpacks(minecraft_directory)
         install_options(minecraft_directory)
-        launch_jfcraft(minecraft_directory)
+        launch_jfcraft(minecraft_directory, get_options())
 
 
 if __name__ == '__main__':
