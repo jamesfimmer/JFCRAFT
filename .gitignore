@@ -4,3 +4,6 @@
 /.idea
 /config
 /logs
+/build
+/dist
+main.spec
