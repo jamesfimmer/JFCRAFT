@@ -86,7 +86,6 @@ def main():
     if check_jfcraft(minecraft_directory):
         print('Проверка/обновление модов...')
         install_mods(minecraft_directory)
-        install_shaderpacks(minecraft_directory)
         launch_jfcraft(minecraft_directory, get_options())
     else:
         install_jfcraft(minecraft_directory)
