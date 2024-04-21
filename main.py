@@ -3,6 +3,13 @@ import subprocess
 import requests
 import os
 import shutil
+import wget
+
+launcher_version = '1.0.0'
+minecraft_directory_new_ic = minecraft_launcher_lib.utils.get_minecraft_directory().replace('.minecraft',
+                                                                                            '.jfcraft-NewIc-1.19.2')
+minecraft_directory_vanilla_expanded = minecraft_launcher_lib.utils.get_minecraft_directory().replace('.minecraft',
+                                                                                                      '.jfcraft-Vanilla-Expanded-1.20.1')
 
 
 def check_jfcraft(minecraft_directory):
@@ -81,18 +88,68 @@ def get_options():
     return options
 
 
-def main():
-    minecraft_directory = minecraft_launcher_lib.utils.get_minecraft_directory().replace('.minecraft', '.jfcraft')
-    if check_jfcraft(minecraft_directory):
-        print('Проверка/обновление модов...')
-        install_mods(minecraft_directory)
-        launch_jfcraft(minecraft_directory, get_options())
+def welcome():
+    print('''
+    ░░░░░██╗███████╗░█████╗░██████╗░░█████╗░███████╗████████╗
+    ░░░░░██║██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔════╝╚══██╔══╝
+    ░░░░░██║█████╗░░██║░░╚═╝██████╔╝███████║█████╗░░░░░██║░░░
+    ██╗░░██║██╔══╝░░██║░░██╗██╔══██╗██╔══██║██╔══╝░░░░░██║░░░
+    ╚█████╔╝██║░░░░░╚█████╔╝██║░░██║██║░░██║██║░░░░░░░░██║░░░
+    ░╚════╝░╚═╝░░░░░░╚════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░░░░░░░╚═╝░░░''')
+    print('Приветствую! Спасибо за использование моего лаунчера. По всем вопросам в Telegram @jamesfimmer')
+    print(f'Версия лаунчера: {launcher_version}')
+
+
+def check_for_update(minecraft_directory):
+    print('Проверка обновлений лаунчера...')
+    launcher_version_url = \
+        'https://github.com/jamesfimmer/jfcraft-download-files/raw/main/jfcraft-launcher/current_version.txt'
+    resp = requests.get(launcher_version_url)
+    if resp.status_code == 200:
+        if resp.text == launcher_version:
+            print('Установлена новейшая версия!')
+        else:
+            print(f'Доступна новая версия {resp.text}...начало установки...')
+            download_newest_launcher_version(minecraft_directory)
     else:
-        install_jfcraft(minecraft_directory)
-        install_mods(minecraft_directory)
-        install_shaderpacks(minecraft_directory)
-        install_options(minecraft_directory)
-        launch_jfcraft(minecraft_directory, get_options())
+        print(f'Ошибка при загрузке актуальной версии, код {resp.status_code}')
+
+
+def download_newest_launcher_version(minecraft_directory):
+    launcher_exe_url = 'https://github.com/jamesfimmer/jfcraft-download-files/raw/main/jfcraft-launcher/JFCRAFT.exe'
+    launcher_exe_folder_path = minecraft_directory + '\\JFCRAFT'
+    resp = requests.get(launcher_exe_url)
+
+    if os.path.exists(launcher_exe_folder_path):
+        try:
+            shutil.rmtree(launcher_exe_folder_path)
+        except OSError as e:
+            print(f'Ошибка при очищении папки: {e}')
+    try:
+        os.makedirs(launcher_exe_folder_path)
+        print(f'Папка успешно создана.')
+    except OSError as error:
+        print(f'Ошибка при создании папки: {error}')
+
+    wget.download(launcher_exe_url, launcher_exe_folder_path)
+    print(f'Успешно загружена новая версия лаунчера! Её можно найти по пути {launcher_exe_folder_path}\JFCRAFT.exe')
+    print('Текущее окно можно закрыть и удалить старый .exe файл!')
+    exit()
+
+
+def main():
+    welcome()
+    # check_for_update(minecraft_directory)
+    # if check_jfcraft(minecraft_directory):
+    #     print('Проверка/обновление модов...')
+    #     install_mods(minecraft_directory)
+    #     launch_jfcraft(minecraft_directory, get_options())
+    # else:
+    #     install_jfcraft(minecraft_directory)
+    #     install_mods(minecraft_directory)
+    #     install_shaderpacks(minecraft_directory)
+    #     install_options(minecraft_directory)
+    #     launch_jfcraft(minecraft_directory, get_options())
 
 
 if __name__ == '__main__':
