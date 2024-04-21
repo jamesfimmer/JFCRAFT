@@ -10,20 +10,34 @@ minecraft_directory_new_ic = minecraft_launcher_lib.utils.get_minecraft_director
                                                                                             '.jfcraft-NewIc-1.19.2')
 minecraft_directory_vanilla_expanded = minecraft_launcher_lib.utils.get_minecraft_directory().replace('.minecraft',
                                                                                                       '.jfcraft-Vanilla-Expanded-1.20.1')
+vanilla_expanded_mods_url = 'https://github.com/jamesfimmer/jfcraft-download-files/raw/main/VanillaExpended-1.20.1/mods.rar'
+
+new_ic_mods_url = 'https://github.com/jamesfimmer/jfcraft-download-files/raw/main/NewIC-1.19.2/mods.zip'
 
 
-def check_jfcraft(minecraft_directory):
-    print('Проверка JFCRAFT...')
+def check_jfcraft_new_ic(minecraft_directory):
+    print('Проверка сборки NewIC-1.19.2...')
     if any(item['id'] == '1.19.2-forge-43.3.5' for item in
            minecraft_launcher_lib.utils.get_installed_versions(minecraft_directory)):
-        print("JFCRAFT установлен на данном компьютере")
+        print("NewIC-1.19.2 установлен на данном компьютере")
         return True
     else:
-        print("JFCRAFT не установлен на данном компьютере")
+        print("NewIC-1.19.2 не установлен на данном компьютере")
         return False
 
 
-def install_jfcraft(minecraft_directory):
+def check_jfcraft_vanilla_expanded(minecraft_directory):
+    print('Проверка JFCRAFT Vanilla Expanded')
+    if any(item['id'] == '1.20.1-forge-47.2.0' for item in
+           minecraft_launcher_lib.utils.get_installed_versions(minecraft_directory)):
+        print("Vanilla-Expended-1.20.1 установлен на данном компьютере")
+        return True
+    else:
+        print("Vanilla-Expended-1.20.1 не установлен на данном компьютере")
+        return False
+
+
+def install_forge_jfcraft_new_ic(minecraft_directory):
     callback = {
         "setStatus": lambda text: print(text, end='\n'),
     }
@@ -32,10 +46,28 @@ def install_jfcraft(minecraft_directory):
     print('Forge успешно установлен!')
 
 
-def install_mods(minecraft_directory):
-    mods_url = 'https://github.com/jamesfimmer/JFCRAFT-MODS/raw/main/mods.zip'
+def install_forge_jfcraft_vanilla_expanded(minecraft_directory):
+    callback = {
+        "setStatus": lambda text: print(text, end='\n'),
+    }
+    print('Начинается установка Forge...')
+    minecraft_launcher_lib.forge.install_forge_version('1.20.1-47.2.0', minecraft_directory, callback)
+    print('Forge успешно установлен!')
+
+
+def install_mods_jfcraft_new_ic(minecraft_directory):
     mods_folder = minecraft_directory + '\\mods'
-    response = requests.get(mods_url)
+    response = requests.get(new_ic_mods_url)
+    with open('mods.zip', 'wb') as f:
+        f.write(response.content)
+    shutil.unpack_archive('mods.zip', mods_folder, 'zip')
+    os.remove('mods.zip')
+    print('Моды успешно установлены/обновлены!')
+
+
+def install_mods_jfcraft_vanilla_expanded(minecraft_directory):
+    mods_folder = minecraft_directory + '\\mods'
+    response = requests.get(vanilla_expanded_mods_url)
     with open('mods.zip', 'wb') as f:
         f.write(response.content)
     shutil.unpack_archive('mods.zip', mods_folder, 'zip')
@@ -65,10 +97,17 @@ def install_options(minecraft_directory):
     print('Профиль настроек успешно загружен!')
 
 
-def launch_jfcraft(minecraft_directory, options):
-    print('Запуск JFCRAFT...')
+def launch_jfcraft_new_ic(minecraft_directory, options):
+    print('Запуск NewIC...')
     subprocess.run(
         minecraft_launcher_lib.command.get_minecraft_command('1.19.2-forge-43.3.5', minecraft_directory,
+                                                             options))
+
+
+def launch_jfcraft_vanilla_expanded(minecraft_directory, options):
+    print('Запуск Vanilla Expanded...')
+    subprocess.run(
+        minecraft_launcher_lib.command.get_minecraft_command('1.20.1-forge-47.2.0', minecraft_directory,
                                                              options))
 
 
@@ -139,6 +178,11 @@ def download_newest_launcher_version(minecraft_directory):
 
 def main():
     welcome()
+    check_jfcraft_new_ic(minecraft_directory_new_ic)
+    check_jfcraft_vanilla_expanded(minecraft_directory_vanilla_expanded)
+    launch_jfcraft_new_ic(minecraft_directory_new_ic, get_options())
+    # install_forge_jfcraft_new_ic(minecraft_directory_new_ic)
+    # install_forge_jfcraft_vanilla_expanded(minecraft_directory_vanilla_expanded)
     # check_for_update(minecraft_directory)
     # if check_jfcraft(minecraft_directory):
     #     print('Проверка/обновление модов...')
