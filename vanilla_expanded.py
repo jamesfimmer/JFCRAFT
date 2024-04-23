@@ -90,14 +90,14 @@ def install_mods(installed_mods_list, actual_mods_list):
 def check_for_installed_shaderpacks():
     try:
         if os.listdir(shaderpacks_directory):
+            print('Шейдеры обнаружены!')
             return
         else:
             install_shaderpacks()
 
     except FileNotFoundError:
         print('Папка shaderpacks не была обнаружена')
-        return []
-    pass
+        install_shaderpacks()
 
 
 def install_shaderpacks():
