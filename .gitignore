@@ -1,9 +1,0 @@
-
-.idea/vcs.xml
-*.zip
-/.idea
-/config
-/logs
-/build
-/dist
-main.spec
