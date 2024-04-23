@@ -16,6 +16,7 @@ def get_username():
 
 
 def get_ip():
+    
     pass
 
 
