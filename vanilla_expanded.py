@@ -11,6 +11,7 @@ mods_directory = minecraft_directory + '\\mods'
 actual_mods_list_url = 'https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/VanillaExpanded-1.20.1/mod_list.txt'
 shaderpacks_directory = minecraft_directory + '\\shaderpacks'
 actual_shaderpacks_url = 'https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/VanillaExpanded-1.20.1/shaderpacks.zip'
+actual_config_url = 'https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/VanillaExpanded-1.20.1/config.zip'
 
 
 def check_for_installed_forge():
@@ -22,7 +23,6 @@ def check_for_installed_forge():
         return True
     else:
         print("Forge для Vanilla-Expanded-1.20.1 не установлен на данном компьютере")
-
         install_forge()
         return False
 
@@ -35,12 +35,17 @@ def install_forge():
     minecraft_launcher_lib.forge.install_forge_version('1.20.1-47.2.0', minecraft_directory, callback)
     print('Forge для Vanilla-Expanded-1.20.1 успешно установлен!')
 
-def first_launch
+
 def get_installed_mods():
+    if not os.path.exists(mods_directory):
+        os.makedirs(mods_directory)
+
     try:
         return os.listdir(mods_directory)
     except FileNotFoundError:
         print('Папка mods не была обнаружена')
+        return []
+    except NotADirectoryError:
         return []
 
 
@@ -82,7 +87,7 @@ def install_mods(installed_mods_list, actual_mods_list):
             wget.download(
                 'https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/VanillaExpanded-1.20.1/mods/' + mod,
                 mods_directory)
-            print('Успешно загружен мод: ' + mod)
+            print('\nУспешно загружен мод: ' + mod)
             print('По пути: ' + mods_directory + '\\' + mod)
     else:
         print('Все модификации на месте!!!')
@@ -101,6 +106,10 @@ def check_for_installed_shaderpacks():
         print('Папка shaderpacks не была обнаружена')
         install_shaderpacks()
 
+    except NotADirectoryError:
+        print('Папка shaderpacks не была обнаружена')
+        install_shaderpacks()
+
 
 def install_shaderpacks():
     response = requests.get(actual_shaderpacks_url)
@@ -113,13 +122,26 @@ def install_shaderpacks():
 
 def check_for_installed_options_files():
     if not os.path.exists(minecraft_directory + '\\' + 'options.txt'):
+        print('Не обнаружен options.txt !!!')
+        print('Загрузка options.txt...')
         wget.download(
             'https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/VanillaExpanded-1.20.1/options.txt',
             minecraft_directory)
-    if not os.path.exists(minecraft_directory + '\\' + 'severs.dat'):
+    if not os.path.exists(minecraft_directory + '\\' + 'servers.dat'):
+        print('Не обнаружен servers.dat !!!')
+        print('Загрузка servers.dat...')
         wget.download(
             'https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/VanillaExpanded-1.20.1/servers.dat',
             minecraft_directory)
+    if not os.path.exists(minecraft_directory + '\\' + 'config'):
+        print('Не обнаружена папка config !!!')
+        print('Загрузка config...')
+        response = requests.get(actual_config_url)
+        with open('config.zip', 'wb') as f:
+            f.write(response.content)
+        shutil.unpack_archive('config.zip', minecraft_directory, 'zip')
+        os.remove('config.zip')
+        print('Конфиги успешно установлены!')
 
 
 def launch(options):
