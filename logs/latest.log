@@ -1,0 +1,1159 @@
+[23апр.2024 17:15:56.848] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, JamesFimmer, --version, 1.20.1-forge-47.2.0, --gameDir, C:\Users\James\AppData\Roaming\.jfcraft-Vanilla-Expanded-1.20.1, --assetsDir, C:\Users\James\AppData\Roaming\.jfcraft-Vanilla-Expanded-1.20.1\assets, --assetIndex, 5, --uuid, {uuid}, --accessToken, ????????, --clientId, ${clientid}, --xuid, ${auth_xuid}, --userType, msa, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --server, 5.165.35.192, --port, 25566]
+[23апр.2024 17:15:56.850] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.8 by Microsoft; OS Windows 10 arch amd64 version 10.0
+[23апр.2024 17:15:57.622] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[23апр.2024 17:15:57.677] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[23апр.2024 17:15:57.833] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[23апр.2024 17:15:57.897] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/James/AppData/Roaming/.jfcraft-Vanilla-Expanded-1.20.1/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23100!/ Service=ModLauncher Env=CLIENT
+[23апр.2024 17:15:57.917] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce GTX 1080/PCIe/SSE2 GL version 4.6.0 NVIDIA 546.17, NVIDIA Corporation
+[23апр.2024 17:15:58.301] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\James\AppData\Roaming\.jfcraft-Vanilla-Expanded-1.20.1\libraries\net\minecraftforge\fmlcore\1.20.1-47.2.0\fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
+[23апр.2024 17:15:58.303] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\James\AppData\Roaming\.jfcraft-Vanilla-Expanded-1.20.1\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.2.0\javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[23апр.2024 17:15:58.304] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\James\AppData\Roaming\.jfcraft-Vanilla-Expanded-1.20.1\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.2.0\lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[23апр.2024 17:15:58.307] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\James\AppData\Roaming\.jfcraft-Vanilla-Expanded-1.20.1\libraries\net\minecraftforge\mclanguage\1.20.1-47.2.0\mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[23апр.2024 17:15:58.521] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[23апр.2024 17:15:58.522] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: resourcefullib. Using Mod File: C:\Users\James\AppData\Roaming\.jfcraft-Vanilla-Expanded-1.20.1\mods\resourcefullib-forge-1.20.1-2.1.24.jar
+[23апр.2024 17:15:58.522] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: geckolib. Using Mod File: C:\Users\James\AppData\Roaming\.jfcraft-Vanilla-Expanded-1.20.1\mods\geckolib-forge-1.20.1-4.4.4.jar
+[23апр.2024 17:15:58.522] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: curios. Using Mod File: C:\Users\James\AppData\Roaming\.jfcraft-Vanilla-Expanded-1.20.1\mods\curios-forge-5.7.2+1.20.1.jar
+[23апр.2024 17:15:58.523] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 19 dependencies adding them to mods collection
+[23апр.2024 17:16:00.203] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[23апр.2024 17:16:00.282] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclient' with arguments [--version, 1.20.1-forge-47.2.0, --gameDir, C:\Users\James\AppData\Roaming\.jfcraft-Vanilla-Expanded-1.20.1, --assetsDir, C:\Users\James\AppData\Roaming\.jfcraft-Vanilla-Expanded-1.20.1\assets, --uuid, {uuid}, --username, JamesFimmer, --assetIndex, 5, --accessToken, ????????, --clientId, ${clientid}, --xuid, ${auth_xuid}, --userType, msa, --versionType, release, --server, 5.165.35.192, --port, 25566]
+[23апр.2024 17:16:00.395] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.16.1+mc1.20.1: 78 options available, 0 override(s) found
+[23апр.2024 17:16:00.395] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[23апр.2024 17:16:00.405] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[23апр.2024 17:16:00.424] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 150 options available, 3 override(s) found
+[23апр.2024 17:16:00.425] [main/INFO] [Embeddium-GraphicsAdapterProbe/]: Searching for graphics cards...
+[23апр.2024 17:16:00.573] [main/INFO] [Embeddium-GraphicsAdapterProbe/]: Found graphics card: GraphicsAdapterInfo[vendor=NVIDIA, name=NVIDIA GeForce GTX 1080, version=DriverVersion=31.0.15.4617]
+[23апр.2024 17:16:00.576] [main/WARN] [Embeddium-Workarounds/]: Sodium has applied one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS]
+[23апр.2024 17:16:00.576] [main/WARN] [Embeddium-Workarounds/]: This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
+[23апр.2024 17:16:00.581] [main/WARN] [mixin/]: Reference map 'handcrafted-forge-1.20.1-forge-refmap.json' for handcrafted.mixins.json could not be read. If this is a development environment you can ignore this message
+[23апр.2024 17:16:00.583] [main/WARN] [mixin/]: Reference map 'ars_artifice-refmap.json' for ars_artifice.mixins.json could not be read. If this is a development environment you can ignore this message
+[23апр.2024 17:16:00.626] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[23апр.2024 17:16:00.627] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras_forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[23апр.2024 17:16:00.632] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
+[23апр.2024 17:16:00.712] [main/WARN] [mixin/]: Reference map 'modonomicon.refmap.json' for modonomicon.mixins.json could not be read. If this is a development environment you can ignore this message
+[23апр.2024 17:16:00.714] [main/WARN] [mixin/]: Reference map 'modonomicon.refmap.json' for modonomicon.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[23апр.2024 17:16:00.740] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[23апр.2024 17:16:01.520] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[23апр.2024 17:16:01.525] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[23апр.2024 17:16:01.588] [main/INFO] [Railways/MixinPlugin/]: com.railwayteam.railways.mixin.compat.voicechat.EntityAudioChannelImplMixin is not being applied because the mod(s) [VOICECHAT] are not loaded
+[23апр.2024 17:16:01.588] [main/INFO] [Railways/MixinPlugin/]: com.railwayteam.railways.mixin.compat.voicechat.ServerMixin is not being applied because the mod(s) [VOICECHAT] are not loaded
+[23апр.2024 17:16:01.589] [main/INFO] [Railways/MixinPlugin/]: com.railwayteam.railways.mixin.compat.voicechat.ServerWorldUtilsMixin is not being applied because the mod(s) [VOICECHAT] are not loaded
+[23апр.2024 17:16:01.677] [main/INFO] [Railways/MixinPlugin/]: com.railwayteam.railways.mixin.compat.malilib.MixinGuiTextFieldGeneric is not being applied because the mod(s) [MALILIB] are not loaded
+[23апр.2024 17:16:01.677] [main/INFO] [Railways/MixinPlugin/]: com.railwayteam.railways.mixin.compat.voicechat.FreecamUtilMixin is not being applied because the mod(s) [VOICECHAT] are not loaded
+[23апр.2024 17:16:01.981] [main/WARN] [mixin/]: Error loading class: dev/latvian/mods/kubejs/recipe/RecipesEventJS (java.lang.ClassNotFoundException: dev.latvian.mods.kubejs.recipe.RecipesEventJS)
+[23апр.2024 17:16:01.982] [main/WARN] [mixin/]: @Mixin target dev.latvian.mods.kubejs.recipe.RecipesEventJS was not found sliceanddice.mixins.json:RecipeEventJSMixin
+[23апр.2024 17:16:02.046] [main/WARN] [mixin/]: Error loading class: noobanidus/mods/lootr/config/ConfigManager (java.lang.ClassNotFoundException: noobanidus.mods.lootr.config.ConfigManager)
+[23апр.2024 17:16:02.159] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.world.sky.WorldRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [oculus]) disables it and children
+[23апр.2024 17:16:02.159] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.world.sky.ClientWorldMixin' as rule 'mixin.features.render.world.sky' (added by mods [oculus]) disables it and children
+[23апр.2024 17:16:02.159] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.world.sky.BackgroundRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [oculus]) disables it and children
+[23апр.2024 17:16:02.160] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.gui.font.GlyphRendererMixin' as rule 'mixin.features.render.gui.font' (added by mods [oculus]) disables it and children
+[23апр.2024 17:16:02.160] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.gui.font.FontSetMixin' as rule 'mixin.features.render.gui.font' (added by mods [oculus]) disables it and children
+[23апр.2024 17:16:02.160] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.entity.shadows.EntityRenderDispatcherMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[23апр.2024 17:16:02.160] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.entity.fast_render.ModelPartMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[23апр.2024 17:16:02.160] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.entity.fast_render.CuboidMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[23апр.2024 17:16:02.161] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.entity.cull.EntityRendererMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[23апр.2024 17:16:02.274] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[23апр.2024 17:16:02.837] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[23апр.2024 17:16:02.837] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[23апр.2024 17:16:02.979] [main/INFO] [net.minecraftforge.coremod.CoreMod.attributeslib/COREMODLOG]: Patching EffectRenderingInventoryScreen#renderEffects
+[23апр.2024 17:16:02.987] [main/INFO] [net.minecraftforge.coremod.CoreMod.attributeslib/COREMODLOG]: Patching EffectRenderingInventoryScreen#renderEffects
+[23апр.2024 17:16:03.104] [pool-4-thread-1/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (7.670 s after launch)
+[23апр.2024 17:16:03.152] [pool-4-thread-1/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[23апр.2024 17:16:03.152] [pool-4-thread-1/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[23апр.2024 17:16:03.687] [pool-4-thread-1/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 581 milliseconds
+[23апр.2024 17:16:03.939] [pool-4-thread-1/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[23апр.2024 17:16:03.939] [pool-4-thread-1/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[23апр.2024 17:16:04.727] [pool-4-thread-1/WARN] [mixin/]: Method overwrite conflict for getHiddenEffect in werewolves.mixins.json:MobEffectInstanceAccessor, previously written by de.teamlapen.vampirism.mixin.MixinMobEffectInstance. Skipping method.
+[23апр.2024 17:16:05.720] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/James/AppData/Roaming/.jfcraft-Vanilla-Expanded-1.20.1/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23350!/assets/.mcassetsroot' uses unexpected schema
+[23апр.2024 17:16:05.720] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/James/AppData/Roaming/.jfcraft-Vanilla-Expanded-1.20.1/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23350!/data/.mcassetsroot' uses unexpected schema
+[23апр.2024 17:16:05.732] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[23апр.2024 17:16:06.162] [Render thread/ERROR] [net.minecraft.client.Minecraft/]: Failed to verify authentication
+com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
+	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-4.0.43.jar%23111!/:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:156) ~[authlib-4.0.43.jar%23111!/:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.<init>(YggdrasilUserApiService.java:55) ~[authlib-4.0.43.jar%23111!/:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createUserApiService(YggdrasilAuthenticationService.java:124) ~[authlib-4.0.43.jar%23111!/:?]
+	at net.minecraft.client.Minecraft.m_193585_(Minecraft.java:649) ~[client-1.20.1-20230612.114412-srg.jar%23350!/:?]
+	at net.minecraft.client.Minecraft.<init>(Minecraft.java:413) ~[client-1.20.1-20230612.114412-srg.jar%23350!/:?]
+	at net.minecraft.client.main.Main.main(Main.java:182) ~[1.20.1-forge-47.2.0.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.0.jar:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.2.0.jar:?]
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25) ~[fmlloader-1.20.1-47.2.0.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:85) ~[authlib-4.0.43.jar%23111!/:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-4.0.43.jar%23111!/:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-4.0.43.jar%23111!/:?]
+	... 20 more
+[23апр.2024 17:16:06.167] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: JamesFimmer
+[23апр.2024 17:16:06.219] [Render thread/INFO] [ModernFix/]: Bypassed Mojang DFU
+[23апр.2024 17:16:06.249] [Render thread/INFO] [mixin/]: BeforeConstant is searching for constants in method with descriptor (Lnet/minecraft/network/chat/Component;Lnet/minecraft/client/GuiMessageTag;)V
+[23апр.2024 17:16:06.249] [Render thread/INFO] [mixin/]:   BeforeConstant found STRING constant: value = , stringValue = null
+[23апр.2024 17:16:06.249] [Render thread/INFO] [mixin/]:     BeforeConstant found a matching constant TYPE at ordinal 0
+[23апр.2024 17:16:06.249] [Render thread/INFO] [mixin/]:       BeforeConstant found LdcInsn 
+[23апр.2024 17:16:06.249] [Render thread/INFO] [mixin/]:   BeforeConstant found STRING constant: value = \\r, stringValue = null
+[23апр.2024 17:16:06.249] [Render thread/INFO] [mixin/]:     BeforeConstant found a matching constant TYPE at ordinal 1
+[23апр.2024 17:16:06.249] [Render thread/INFO] [mixin/]:       BeforeConstant found LdcInsn \\r
+[23апр.2024 17:16:06.249] [Render thread/INFO] [mixin/]:   BeforeConstant found STRING constant: value = 
+, stringValue = null
+[23апр.2024 17:16:06.250] [Render thread/INFO] [mixin/]:     BeforeConstant found a matching constant TYPE at ordinal 2
+[23апр.2024 17:16:06.250] [Render thread/INFO] [mixin/]:       BeforeConstant found LdcInsn 
+
+[23апр.2024 17:16:06.250] [Render thread/INFO] [mixin/]:   BeforeConstant found STRING constant: value = \\n, stringValue = null
+[23апр.2024 17:16:06.250] [Render thread/INFO] [mixin/]:     BeforeConstant found a matching constant TYPE at ordinal 3
+[23апр.2024 17:16:06.250] [Render thread/INFO] [mixin/]:       BeforeConstant found LdcInsn \\n
+[23апр.2024 17:16:06.250] [Render thread/INFO] [mixin/]:   BeforeConstant found CLASS constant: value = Ljava/lang/String;, typeValue = null
+[23апр.2024 17:16:06.250] [Render thread/INFO] [mixin/]:   BeforeConstant found STRING constant: value = [{}] [CHAT] {}, stringValue = null
+[23апр.2024 17:16:06.250] [Render thread/INFO] [mixin/]:     BeforeConstant found a matching constant TYPE at ordinal 4
+[23апр.2024 17:16:06.250] [Render thread/INFO] [mixin/]:       BeforeConstant found LdcInsn [{}] [CHAT] {}
+[23апр.2024 17:16:06.250] [Render thread/INFO] [mixin/]:   BeforeConstant found STRING constant: value = [CHAT] {}, stringValue = null
+[23апр.2024 17:16:06.250] [Render thread/INFO] [mixin/]:     BeforeConstant found a matching constant TYPE at ordinal 5
+[23апр.2024 17:16:06.250] [Render thread/INFO] [mixin/]:       BeforeConstant found LdcInsn [CHAT] {}
+[23апр.2024 17:16:06.281] [Render thread/INFO] [ModernFix/]: Instantiating Mojang DFU
+[23апр.2024 17:16:06.540] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[23апр.2024 17:16:06.574] [Render thread/WARN] [Embeddium-NvidiaWorkarounds/]: Applying workaround: Prevent the NVIDIA OpenGL driver from using broken optimizations (NVIDIA_THREADED_OPTIMIZATIONS)
+[23апр.2024 17:16:06.597] [Render thread/INFO] [Embeddium-PostlaunchChecks/]: OpenGL Vendor: NVIDIA Corporation
+[23апр.2024 17:16:06.597] [Render thread/INFO] [Embeddium-PostlaunchChecks/]: OpenGL Renderer: NVIDIA GeForce GTX 1080/PCIe/SSE2
+[23апр.2024 17:16:06.597] [Render thread/INFO] [Embeddium-PostlaunchChecks/]: OpenGL Version: 4.6.0 NVIDIA 546.17
+[23апр.2024 17:16:06.597] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 71 milliseconds
+[23апр.2024 17:16:06.692] [Render thread/INFO] [Oculus/]: Debug functionality is disabled.
+[23апр.2024 17:16:06.695] [Render thread/INFO] [Oculus/]: OpenGL 4.5 detected, enabling DSA.
+[23апр.2024 17:16:06.700] [Render thread/INFO] [Oculus/]: Shaders are disabled because no valid shaderpack is selected
+[23апр.2024 17:16:06.701] [Render thread/INFO] [Oculus/]: Shaders are disabled
+[23апр.2024 17:16:06.913] [Modding Legacy/blue_skies/Supporters thread/INFO] [ModdingLegacy/blue_skies/Supporter/]: Attempting to load the Modding Legacy supporters list from https://moddinglegacy.com/supporters-changelogs/supporters.txt
+[23апр.2024 17:16:07.093] [modloading-worker-0/INFO] [plus.dragons.createdragonlib.DragonLib/]: Create: Dragon Lib 1.4.2 has initialized, ready to support your Create add-ons!
+[23апр.2024 17:16:07.124] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[23апр.2024 17:16:07.124] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[23апр.2024 17:16:07.124] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[23апр.2024 17:16:07.124] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[23апр.2024 17:16:07.124] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[23апр.2024 17:16:07.124] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[23апр.2024 17:16:07.125] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[23апр.2024 17:16:07.194] [modloading-worker-0/INFO] [Better Compatibility Checker/]: Better Compatibility Checker starting
+[23апр.2024 17:16:07.425] [Modding Legacy/blue_skies/Supporters thread/INFO] [ModdingLegacy/blue_skies/Supporter/]: Successfully loaded the Modding Legacy supporters list.
+[23апр.2024 17:16:07.505] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id architectury:sync_ids
+[23апр.2024 17:16:07.506] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[23апр.2024 17:16:07.569] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
+[23апр.2024 17:16:07.570] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
+[23апр.2024 17:16:07.591] [modloading-worker-0/INFO] [Enchantment Descriptions/]: Loaded config file.
+[23апр.2024 17:16:07.592] [modloading-worker-0/INFO] [Enchantment Descriptions/]: Saved config file.
+[23апр.2024 17:16:07.621] [modloading-worker-0/INFO] [com.jozufozu.flywheel.backend.Backend/]: Oculus detected.
+[23апр.2024 17:16:07.715] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id magistuarmory:packet_long_reach_attack
+[23апр.2024 17:16:07.716] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id magistuarmory:packet_lance_collision
+[23апр.2024 17:16:07.718] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id magistuarmory:packet_bc_or_ef_installed
+[23апр.2024 17:16:07.761] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[23апр.2024 17:16:07.764] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 2.780 ms
+[23апр.2024 17:16:07.905] [modloading-worker-0/INFO] [de.teamlapen.vampirism.config.BalanceConfig/]: IceAndFire is loaded -> Adjusting default fire related configuration.
+[23апр.2024 17:16:08.155] [modloading-worker-0/INFO] [quark-zeta/]: Discovered 163 modules to load.
+[23апр.2024 17:16:08.156] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Abacus...
+[23апр.2024 17:16:08.159] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Adjustable Chat...
+[23апр.2024 17:16:08.161] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ambient Discs...
+[23апр.2024 17:16:08.163] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ancient Tomes...
+[23апр.2024 17:16:08.192] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[23апр.2024 17:16:08.197] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ancient Wood...
+[23апр.2024 17:16:08.214] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Armed Armor Stands...
+[23апр.2024 17:16:08.214] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Auto Walk Keybind...
+[23апр.2024 17:16:08.215] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Automatic Recipe Unlock...
+[23апр.2024 17:16:08.216] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Automatic Tool Restock...
+[23апр.2024 17:16:08.218] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Azalea Wood...
+[23апр.2024 17:16:08.218] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Back Button Keybind...
+[23апр.2024 17:16:08.219] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Backpack...
+[23апр.2024 17:16:08.225] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Beacon Redirection...
+[23апр.2024 17:16:08.226] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Better Elytra Rocket...
+[23апр.2024 17:16:08.226] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Big Stone Clusters...
+[23апр.2024 17:16:08.232] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Blossom Trees...
+[23апр.2024 17:16:08.233] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Bottled Cloud...
+[23апр.2024 17:16:08.234] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Buckets Show Inhabitants...
+[23апр.2024 17:16:08.234] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Camera...
+[23апр.2024 17:16:08.235] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Campfires Boost Elytra...
+[23апр.2024 17:16:08.236] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Celebratory Lamps...
+[23апр.2024 17:16:08.236] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chains Connect Blocks...
+[23апр.2024 17:16:08.236] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chest Searching...
+[23апр.2024 17:16:08.237] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chorus Vegetation...
+[23апр.2024 17:16:08.239] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chute...
+[23апр.2024 17:16:08.239] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Climate Control Remover...
+[23апр.2024 17:16:08.240] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Color Runes...
+[23апр.2024 17:16:08.241] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Compasses Work Everywhere...
+[23апр.2024 17:16:08.241] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Compressed Blocks...
+[23апр.2024 17:16:08.242] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Coral On Cactus...
+[23апр.2024 17:16:08.242] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Corundum...
+[23апр.2024 17:16:08.252] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crabs...
+[23апр.2024 17:16:08.253] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crafter...
+[23апр.2024 17:16:08.254] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crate...
+[23апр.2024 17:16:08.255] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Diamond Repair...
+[23апр.2024 17:16:08.255] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dispensers Place Blocks...
+[23апр.2024 17:16:08.255] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Double Door Opening...
+[23апр.2024 17:16:08.256] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dragon Scales...
+[23апр.2024 17:16:08.256] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Duskbound Blocks...
+[23апр.2024 17:16:08.256] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dyeable Item Frames...
+[23апр.2024 17:16:08.257] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Easy Transfering...
+[23апр.2024 17:16:08.257] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Elytra Indicator...
+[23апр.2024 17:16:08.258] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Emotes...
+[23апр.2024 17:16:08.259] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enchantment Predicates...
+[23апр.2024 17:16:08.259] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enchantments Begone...
+[23апр.2024 17:16:08.260] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ender Watcher...
+[23апр.2024 17:16:08.261] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Endermosh Music Disc...
+[23апр.2024 17:16:08.261] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enhanced Ladders...
+[23апр.2024 17:16:08.261] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Expanded Item Interactions...
+[23апр.2024 17:16:08.263] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Fairy Rings...
+[23апр.2024 17:16:08.263] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Fallen Logs...
+[23апр.2024 17:16:08.264] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Feeding Trough...
+[23апр.2024 17:16:08.266] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Forgotten...
+[23апр.2024 17:16:08.270] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Foxhound...
+[23апр.2024 17:16:08.271] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Framed Glass...
+[23апр.2024 17:16:08.271] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Game Nerfs...
+[23апр.2024 17:16:08.272] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glass Item Frame...
+[23апр.2024 17:16:08.273] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glass Shard...
+[23апр.2024 17:16:08.273] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glimmering Weald...
+[23апр.2024 17:16:08.280] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gold Bars...
+[23апр.2024 17:16:08.280] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gold Tools Have Fortune...
+[23апр.2024 17:16:08.280] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Grab Chickens...
+[23апр.2024 17:16:08.281] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Grate...
+[23апр.2024 17:16:08.282] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gravisand...
+[23апр.2024 17:16:08.283] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Greener Grass...
+[23апр.2024 17:16:08.285] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hedges...
+[23апр.2024 17:16:08.288] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hoe Harvesting...
+[23апр.2024 17:16:08.289] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hollow Logs...
+[23апр.2024 17:16:08.289] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Horses Swim...
+[23апр.2024 17:16:08.289] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hotbar Changer...
+[23апр.2024 17:16:08.290] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Improved Sponges...
+[23апр.2024 17:16:08.291] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Improved Tooltips...
+[23апр.2024 17:16:08.292] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Industrial Palette...
+[23апр.2024 17:16:08.292] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Inventory Sorting...
+[23апр.2024 17:16:08.292] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Iron Rod...
+[23апр.2024 17:16:08.296] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Item Sharing...
+[23апр.2024 17:16:08.297] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Japanese Palette...
+[23апр.2024 17:16:08.297] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Leaf Carpet...
+[23апр.2024 17:16:08.297] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Lock Rotation...
+[23апр.2024 17:16:08.298] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Long Range Pick Block...
+[23апр.2024 17:16:08.298] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Magma Keeps Concrete Powder...
+[23апр.2024 17:16:08.298] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Magnets...
+[23апр.2024 17:16:08.301] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Map Washing...
+[23апр.2024 17:16:08.301] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Matrix Enchanting...
+[23апр.2024 17:16:08.305] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Metal Buttons...
+[23апр.2024 17:16:08.305] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Microcrafting Helper...
+[23апр.2024 17:16:08.306] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Midori...
+[23апр.2024 17:16:08.306] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Monster Box...
+[23апр.2024 17:16:08.307] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Banner Layers...
+[23апр.2024 17:16:08.307] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Brick Types...
+[23апр.2024 17:16:08.307] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Mud Blocks...
+[23апр.2024 17:16:08.307] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Note Block Sounds...
+[23апр.2024 17:16:08.308] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Potted Plants...
+[23апр.2024 17:16:08.308] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Narrator Readout...
+[23апр.2024 17:16:08.308] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Nether Brick Fence Gate...
+[23апр.2024 17:16:08.308] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Nether Obsidian Spikes...
+[23апр.2024 17:16:08.309] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module New Stone Types...
+[23апр.2024 17:16:08.310] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module No Durability On Cosmetics...
+[23апр.2024 17:16:08.310] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module No More Lava Pockets...
+[23апр.2024 17:16:08.310] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Obsidian Plate...
+[23апр.2024 17:16:08.310] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Overlay Shader...
+[23апр.2024 17:16:08.311] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Parrot Eggs...
+[23апр.2024 17:16:08.311] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pat The Dogs...
+[23апр.2024 17:16:08.312] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pathfinder Maps...
+[23апр.2024 17:16:08.314] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Permafrost...
+[23апр.2024 17:16:08.314] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Petals On Water...
+[23апр.2024 17:16:08.315] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pickarang...
+[23апр.2024 17:16:08.319] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pig Litters...
+[23апр.2024 17:16:08.319] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pipes...
+[23апр.2024 17:16:08.321] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pistons Move Tile Entities...
+[23апр.2024 17:16:08.321] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Poison Potato Usage...
+[23апр.2024 17:16:08.321] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Quick Armor Swapping...
+[23апр.2024 17:16:08.322] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Rainbow Lamps...
+[23апр.2024 17:16:08.322] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Raw Metal Bricks...
+[23апр.2024 17:16:08.322] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Reacharound Placing...
+[23апр.2024 17:16:08.322] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Redstone Randomizer...
+[23апр.2024 17:16:08.323] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Renewable Spore Blossoms...
+[23апр.2024 17:16:08.324] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Replace Scaffolding...
+[23апр.2024 17:16:08.324] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Rope...
+[23апр.2024 17:16:08.325] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Safer Creatures...
+[23апр.2024 17:16:08.325] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Seed Pouch...
+[23апр.2024 17:16:08.327] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shear Vines...
+[23апр.2024 17:16:08.332] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shiba...
+[23апр.2024 17:16:08.332] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shingles...
+[23апр.2024 17:16:08.332] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shulker Packing...
+[23апр.2024 17:16:08.333] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Simple Harvest...
+[23апр.2024 17:16:08.333] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Skull Pikes...
+[23апр.2024 17:16:08.335] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slabs To Blocks...
+[23апр.2024 17:16:08.335] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slime In A Bucket...
+[23апр.2024 17:16:08.336] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slimes To Magma Cubes...
+[23апр.2024 17:16:08.337] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Snow Golem Player Heads...
+[23апр.2024 17:16:08.337] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Soul Candles...
+[23апр.2024 17:16:08.337] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Soul Sandstone...
+[23апр.2024 17:16:08.337] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Spawner Replacer...
+[23апр.2024 17:16:08.337] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Spiral Spires...
+[23апр.2024 17:16:08.338] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Stonelings...
+[23апр.2024 17:16:08.339] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Stools...
+[23апр.2024 17:16:08.339] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Sturdy Stone...
+[23апр.2024 17:16:08.340] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Thatch...
+[23апр.2024 17:16:08.340] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Tiny Potato...
+[23апр.2024 17:16:08.340] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Torch Arrow...
+[23апр.2024 17:16:08.342] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Toretoise...
+[23апр.2024 17:16:08.342] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Totem Of Holding...
+[23апр.2024 17:16:08.344] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Trowel...
+[23апр.2024 17:16:08.344] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Usage Ticker...
+[23апр.2024 17:16:08.344] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Uses For Curses...
+[23апр.2024 17:16:08.345] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Utility Recipes...
+[23апр.2024 17:16:08.346] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Animal Textures...
+[23апр.2024 17:16:08.346] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Bookshelves...
+[23апр.2024 17:16:08.346] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Chests...
+[23апр.2024 17:16:08.356] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Furnaces...
+[23апр.2024 17:16:08.361] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Ladders...
+[23апр.2024 17:16:08.361] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Selector...
+[23апр.2024 17:16:08.369] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vertical Planks...
+[23апр.2024 17:16:08.369] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vertical Slabs...
+[23апр.2024 17:16:08.378] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vexes Die With Their Masters...
+[23апр.2024 17:16:08.378] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Villager Rerolling Rework...
+[23апр.2024 17:16:08.379] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Villagers Follow Emeralds...
+[23апр.2024 17:16:08.379] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wooden Posts...
+[23апр.2024 17:16:08.380] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wool Shuts Up Minecarts...
+[23апр.2024 17:16:08.380] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wraith...
+[23апр.2024 17:16:08.381] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Zombie Villagers On Normal...
+[23апр.2024 17:16:08.381] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Stone Variants...
+[23апр.2024 17:16:08.381] [modloading-worker-0/INFO] [quark-zeta/]: Constructed 163 modules.
+[23апр.2024 17:16:08.382] [modloading-worker-0/INFO] [quark-zeta/]: Dispatching ZModulesReady to 1 listener
+[23апр.2024 17:16:08.432] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\James\AppData\Roaming\.jfcraft-Vanilla-Expanded-1.20.1\config\quark-common.toml is not correct. Correcting
+[23апр.2024 17:16:08.454] [modloading-worker-0/INFO] [Railways/]: Registered bogey styles from railways
+[23апр.2024 17:16:08.557] [modloading-worker-0/INFO] [Railways/]: Registering data fixers
+[23апр.2024 17:16:08.560] [Railways Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 2 Datafixer optimizations took 1 milliseconds
+[23апр.2024 17:16:08.563] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Hex Casting
+[23апр.2024 17:16:08.563] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Oh The Biomes You'll Go
+[23апр.2024 17:16:08.563] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Blue Skies
+[23апр.2024 17:16:08.572] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Twilight Forest
+[23апр.2024 17:16:08.575] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Biomes O' Plenty
+[23апр.2024 17:16:08.575] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Nature's Spirit
+[23апр.2024 17:16:08.575] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Dreams and Desires
+[23апр.2024 17:16:08.575] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Quark
+[23апр.2024 17:16:08.576] [modloading-worker-0/INFO] [Railways/]: Registering tracks for TerraFirmaCraft
+[23апр.2024 17:16:09.932] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: The object net.minecraft.sounds.SoundEvent@6e00a1ba has been registered twice for the same name treechop:chop_wood.
+[23апр.2024 17:16:09.949] [Render thread/INFO] [zeta-internal/]: Dispatching ZRegister to 3 listeners
+[23апр.2024 17:16:09.952] [Render thread/INFO] [zeta-internal/]: Dispatching ZRegister$Post to 1 listener
+[23апр.2024 17:16:09.952] [Render thread/INFO] [quark-zeta/]: Dispatching ZRegister to 97 listeners
+[23апр.2024 17:16:10.246] [Render thread/INFO] [quark-zeta/]: Dispatching ZRegister$Post to 6 listeners
+[23апр.2024 17:16:14.345] [Render thread/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:loot_table_alias
+[23апр.2024 17:16:14.350] [Render thread/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:data_handler_type
+[23апр.2024 17:16:14.352] [Render thread/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:dynamic_spawner
+[23апр.2024 17:16:14.353] [Render thread/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:jigsaw_type
+[23апр.2024 17:16:14.492] [Render thread/INFO] [quark-zeta/]: Dispatching ForgeZEntityAttributeCreation (as ZEntityAttributeCreation) to 7 listeners
+[23апр.2024 17:16:14.496] [Render thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.klikli_dev.occultism.common.entity.spirit.DjinniEntity from class com.klikli_dev.occultism.common.entity.spirit.FoliotEntity
+[23апр.2024 17:16:14.516] [Render thread/INFO] [ModernFix/]: Replacing search trees with 'JEI' provider
+[23апр.2024 17:16:14.742] [Render thread/INFO] [Embeddium/]: Block minecraft:fern had its color provider replaced and will not use per-vertex coloring
+[23апр.2024 17:16:14.743] [Render thread/INFO] [Embeddium/]: Block minecraft:tall_grass had its color provider replaced and will not use per-vertex coloring
+[23апр.2024 17:16:14.743] [Render thread/INFO] [Embeddium/]: Block minecraft:large_fern had its color provider replaced and will not use per-vertex coloring
+[23апр.2024 17:16:14.743] [Render thread/INFO] [Embeddium/]: Block minecraft:grass had its color provider replaced and will not use per-vertex coloring
+[23апр.2024 17:16:14.743] [Render thread/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: loaded in block colorizer
+[23апр.2024 17:16:14.748] [Render thread/INFO] [quark-zeta/]: Dispatching ForgeZAddBlockColorHandlers (as ZAddBlockColorHandlers) to 4 listeners
+[23апр.2024 17:16:14.749] [Render thread/INFO] [quark-zeta/]: Dispatching ForgeZAddBlockColorHandlers$Post (as ZAddBlockColorHandlers$Post) to 1 listener
+[23апр.2024 17:16:14.751] [Render thread/INFO] [com.klikli_dev.occultism.Occultism/]: Block color registration complete.
+[23апр.2024 17:16:14.752] [Render thread/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: loaded in item colorizer
+[23апр.2024 17:16:14.756] [Render thread/INFO] [quark-zeta/]: Dispatching ForgeZAddItemColorHandlers (as ZAddItemColorHandlers) to 8 listeners
+[23апр.2024 17:16:14.758] [Render thread/INFO] [quark-zeta/]: Dispatching ForgeZAddItemColorHandlers$Post (as ZAddItemColorHandlers$Post) to 1 listener
+[23апр.2024 17:16:14.759] [Render thread/INFO] [com.klikli_dev.occultism.Occultism/]: Item color registration complete.
+[23апр.2024 17:16:14.854] [Render thread/INFO] [Oculus/]: Hardware information:
+[23апр.2024 17:16:14.855] [Render thread/INFO] [Oculus/]: CPU: 12x 12th Gen Intel(R) Core(TM) i5-12400F
+[23апр.2024 17:16:14.855] [Render thread/INFO] [Oculus/]: GPU: NVIDIA GeForce GTX 1080/PCIe/SSE2 (Supports OpenGL 4.6.0 NVIDIA 546.17)
+[23апр.2024 17:16:14.855] [Render thread/INFO] [Oculus/]: OS: Windows 10 (10.0)
+[23апр.2024 17:16:14.951] [Render thread/INFO] [com.klikli_dev.occultism.Occultism/]: Registered Particle Factories
+[23апр.2024 17:16:15.013] [Render thread/INFO] [quark-zeta/]: Dispatching ZRegisterReloadListeners (as ZRegisterReloadListeners) to 1 listener
+[23апр.2024 17:16:15.064] [Render thread/INFO] [quark-zeta/]: Dispatching ForgeZRegisterLayerDefinitions (as ZRegisterLayerDefinitions) to 1 listener
+[23апр.2024 17:16:15.071] [Render thread/INFO] [quark/]: Registering model layer quark:crab#main
+[23апр.2024 17:16:15.072] [Render thread/INFO] [quark/]: Registering model layer quark:shiba#main
+[23апр.2024 17:16:15.072] [Render thread/INFO] [quark/]: Registering model layer quark:quark_boat_chest#main
+[23апр.2024 17:16:15.072] [Render thread/INFO] [quark/]: Registering model layer quark:wraith#main
+[23апр.2024 17:16:15.072] [Render thread/INFO] [quark/]: Registering model layer quark:forgotten_hat#main
+[23апр.2024 17:16:15.072] [Render thread/INFO] [quark/]: Registering model layer quark:stoneling#main
+[23апр.2024 17:16:15.072] [Render thread/INFO] [quark/]: Registering model layer quark:toretoise#main
+[23апр.2024 17:16:15.072] [Render thread/INFO] [quark/]: Registering model layer quark:quark_boat#main
+[23апр.2024 17:16:15.072] [Render thread/INFO] [quark/]: Registering model layer quark:foxhound#main
+[23апр.2024 17:16:15.072] [Render thread/INFO] [quark/]: Registering model layer quark:backpack#main
+[23апр.2024 17:16:15.317] [Render thread/INFO] [quark-zeta/]: Dispatching ForgeZTooltipComponents (as ZTooltipComponents) to 3 listeners
+[23апр.2024 17:16:15.338] [Render thread/INFO] [quark-zeta/]: Dispatching ForgeZKeyMapping (as ZKeyMapping) to 10 listeners
+[23апр.2024 17:16:15.416] [Worker-Main-1/ERROR] [net.minecraft.client.multiplayer.AccountProfileKeyPairManager/]: Failed to retrieve profile key pair
+java.io.IOException: Could not retrieve profile key pair
+	at net.minecraft.client.multiplayer.AccountProfileKeyPairManager.m_253252_(AccountProfileKeyPairManager.java:129) ~[client-1.20.1-20230612.114412-srg.jar%23350!/:?]
+	at net.minecraft.client.multiplayer.AccountProfileKeyPairManager.m_252828_(AccountProfileKeyPairManager.java:74) ~[client-1.20.1-20230612.114412-srg.jar%23350!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[23апр.2024 17:16:15.453] [Render thread/INFO] [ModernFix/]: Invalidating pack caches
+[23апр.2024 17:16:15.453] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, builtin/towntalk
+[23апр.2024 17:16:15.515] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\James\AppData\Roaming\.jfcraft-Vanilla-Expanded-1.20.1\config\vampirism-client.toml is not correct. Correcting
+[23апр.2024 17:16:15.567] [Finalizer/WARN] [ModernFix/]: One or more BufferBuilders have been leaked, ModernFix will attempt to correct this.
+[23апр.2024 17:16:15.623] [modloading-worker-0/INFO] [com.tom.createores.CreateOreExcavation/]: Loaded Create Ore Excavation config file createoreexcavation-common.toml
+[23апр.2024 17:16:15.627] [modloading-worker-0/INFO] [zeta-internal/]: Dispatching ZConfigChanged to 3 listeners
+[23апр.2024 17:16:15.627] [modloading-worker-0/INFO] [zeta/]: 'zeta' is enabling Zeta's piston structure resolver.
+[23апр.2024 17:16:15.653] [modloading-worker-0/INFO] [quark-zeta/]: Dispatching ZConfigChanged to 54 listeners
+[23апр.2024 17:16:15.842] [Worker-ResourceReload-6/INFO] [Better Compatibility Checker/]: Better Compatibility Checker setup
+[23апр.2024 17:16:15.902] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [blue_skies] Starting version check at http://changelogs.moddinglegacy.com/blue-skies.json
+[23апр.2024 17:16:15.906] [Worker-ResourceReload-4/INFO] [com.tom.createores.CreateOreExcavation/]: Create Ore Excavation starting
+[23апр.2024 17:16:15.914] [Worker-ResourceReload-4/INFO] [com.tom.createores.CreateOreExcavation/]: Initilaized Network Handler
+[23апр.2024 17:16:15.915] [Worker-ResourceReload-4/INFO] [zeta-internal/]: Dispatching ForgeZCommonSetup (as ZCommonSetup) to 2 listeners
+[23апр.2024 17:16:15.916] [Worker-ResourceReload-4/INFO] [quark-zeta/]: Dispatching ForgeZCommonSetup (as ZCommonSetup) to 41 listeners
+[23апр.2024 17:16:15.916] [Worker-ResourceReload-9/INFO] [de.sarenor.arsinstrumentum.network.Networking/]: ArsInstrumentum: Registering Network Packets
+[23апр.2024 17:16:15.988] [Worker-ResourceReload-10/INFO] [com.klikli_dev.occultism.Occultism/]: Common setup complete.
+[23апр.2024 17:16:16.040] [Worker-ResourceReload-6/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[23апр.2024 17:16:16.400] [Worker-ResourceReload-3/WARN] [net.minecraft.client.sounds.SoundManager/]: File minecolonies:sounds/male2/farmer/badweather.ogg does not exist, cannot add it to event minecolonies:citizen.farmer.male2.general
+[23апр.2024 17:16:16.403] [Worker-ResourceReload-3/WARN] [net.minecraft.client.sounds.SoundManager/]: File minecolonies:sounds/male2/florist/badweather.ogg does not exist, cannot add it to event minecolonies:citizen.florist.male2.general
+[23апр.2024 17:16:16.410] [Worker-ResourceReload-3/WARN] [net.minecraft.client.sounds.SoundManager/]: File minecolonies:sounds/female4/farmer/badweather.ogg does not exist, cannot add it to event minecolonies:citizen.farmer.female4.general
+[23апр.2024 17:16:16.413] [Worker-ResourceReload-3/WARN] [net.minecraft.client.sounds.SoundManager/]: File minecolonies:sounds/female4/florist/badweather.ogg does not exist, cannot add it to event minecolonies:citizen.florist.female4.general
+[23апр.2024 17:16:16.421] [Worker-ResourceReload-3/WARN] [net.minecraft.client.sounds.SoundManager/]: File minecolonies:sounds/male4/florist/badweather.ogg does not exist, cannot add it to event minecolonies:citizen.florist.male4.general
+[23апр.2024 17:16:16.425] [Worker-ResourceReload-3/WARN] [net.minecraft.client.sounds.SoundManager/]: File minecolonies:sounds/male1/farmer/badweather.ogg does not exist, cannot add it to event minecolonies:citizen.farmer.male1.general
+[23апр.2024 17:16:16.431] [Worker-ResourceReload-3/WARN] [net.minecraft.client.sounds.SoundManager/]: File minecolonies:sounds/male1/florist/badweather.ogg does not exist, cannot add it to event minecolonies:citizen.florist.male1.general
+[23апр.2024 17:16:16.437] [Worker-ResourceReload-3/WARN] [net.minecraft.client.sounds.SoundManager/]: File minecolonies:sounds/male3/farmer/badweather.ogg does not exist, cannot add it to event minecolonies:citizen.farmer.male3.general
+[23апр.2024 17:16:16.466] [Worker-ResourceReload-3/WARN] [net.minecraft.client.sounds.SoundManager/]: File minecolonies:sounds/male3/florist/badweather.ogg does not exist, cannot add it to event minecolonies:citizen.florist.male3.general
+[23апр.2024 17:16:16.493] [Worker-ResourceReload-3/WARN] [net.minecraft.client.sounds.SoundManager/]: File minecolonies:sounds/female3/farmer/badweather.ogg does not exist, cannot add it to event minecolonies:citizen.farmer.female3.general
+[23апр.2024 17:16:16.497] [Worker-ResourceReload-3/WARN] [net.minecraft.client.sounds.SoundManager/]: File minecolonies:sounds/female3/florist/badweather.ogg does not exist, cannot add it to event minecolonies:citizen.florist.female3.general
+[23апр.2024 17:16:16.699] [Render thread/INFO] [quark-zeta/]: Dispatching ZConfigChanged to 54 listeners
+[23апр.2024 17:16:16.705] [Render thread/INFO] [zeta-internal/]: Dispatching ZConfigChanged to 3 listeners
+[23апр.2024 17:16:16.794] [Render thread/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
+[23апр.2024 17:16:16.794] [Render thread/INFO] [com.klikli_dev.occultism.Occultism/]: Registered compostable Items
+[23апр.2024 17:16:16.822] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [blue_skies] Found status: BETA Current: 1.3.31 Target: null
+[23апр.2024 17:16:16.822] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Starting version check at https://github.com/The-Aether-Team/The-Aether/raw/1.20.1-develop/update.json
+[23апр.2024 17:16:16.846] [Worker-ResourceReload-6/INFO] [xaero.map.WorldMap/]: Loading Xaero's World Map - Stage 1/2
+[23апр.2024 17:16:16.857] [Placebo Patreon Trail Loader/INFO] [placebo/]: Loading patreon trails data...
+[23апр.2024 17:16:16.858] [Placebo Patreon Wing Loader/INFO] [placebo/]: Loading patreon wing data...
+[23апр.2024 17:16:16.928] [Placebo Patreon Wing Loader/INFO] [placebo/]: Loaded 28 patreon wings.
+[23апр.2024 17:16:16.929] [Placebo Patreon Trail Loader/INFO] [placebo/]: Loaded 38 patreon trails.
+[23апр.2024 17:16:16.973] [Worker-ResourceReload-4/INFO] [SpectreLib/]: Registering config screens for mod comforts with 1 config(s)
+[23апр.2024 17:16:16.975] [Worker-ResourceReload-4/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2
+[23апр.2024 17:16:16.986] [Worker-ResourceReload-7/INFO] [quark-zeta/]: Dispatching ForgeZClientSetup (as ZClientSetup) to 40 listeners
+[23апр.2024 17:16:17.074] [Worker-ResourceReload-7/INFO] [com.klikli_dev.occultism.Occultism/]: Client setup complete.
+[23апр.2024 17:16:17.248] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Found status: OUTDATED Current: 1.20.1-1.3.1-neoforge Target: 1.20.1-1.4.0-neoforge
+[23апр.2024 17:16:17.248] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/window.json
+[23апр.2024 17:16:17.302] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Found status: UP_TO_DATE Current: 2.2.1 Target: null
+[23апр.2024 17:16:17.302] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [controlling] Starting version check at https://updates.blamejared.com/get?n=controlling&gv=1.20.1
+[23апр.2024 17:16:17.476] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [controlling] Found status: BETA Current: 12.0.2 Target: 12.0.2
+[23апр.2024 17:16:17.476] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.20.1
+[23апр.2024 17:16:17.531] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 20.1.10 Target: 20.1.10
+[23апр.2024 17:16:17.531] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwdoors] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/doors.json
+[23апр.2024 17:16:17.586] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwdoors] Found status: UP_TO_DATE Current: 1.1.0 Target: null
+[23апр.2024 17:16:17.586] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[23апр.2024 17:16:17.866] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: AHEAD Current: 4.3.2145 Target: null
+[23апр.2024 17:16:17.866] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Starting version check at http://changelogs.moddinglegacy.com/structure-gel.json
+[23апр.2024 17:16:18.197] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Found status: BETA Current: 2.16.1 Target: null
+[23апр.2024 17:16:18.197] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/bridges.json
+[23апр.2024 17:16:18.251] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Found status: UP_TO_DATE Current: 3.0.0 Target: null
+[23апр.2024 17:16:18.251] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfences] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/fences.json
+[23апр.2024 17:16:18.305] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfences] Found status: UP_TO_DATE Current: 1.1.1 Target: null
+[23апр.2024 17:16:18.305] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [searchables] Starting version check at https://updates.blamejared.com/get?n=searchables&gv=1.20.1
+[23апр.2024 17:16:18.360] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [searchables] Found status: BETA_OUTDATED Current: 1.0.2 Target: 1.0.3
+[23апр.2024 17:16:18.360] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Starting version check at https://github.com/The-Aether-Team/Cumulus/raw/1.20.1-develop/update.json
+[23апр.2024 17:16:18.624] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Found status: UP_TO_DATE Current: 1.20.1-1.0.0-neoforge Target: null
+[23апр.2024 17:16:18.624] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwroofs] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/roofs.json
+[23апр.2024 17:16:18.678] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwroofs] Found status: UP_TO_DATE Current: 2.3.0 Target: null
+[23апр.2024 17:16:18.678] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
+[23апр.2024 17:16:19.705] [Render thread/WARN] [com.github.alexthe666.iceandfire.IceAndFire/]: Could not load /assets/iceandfire/models/tabula/firedragon/firedragon_swimming.tbl: in is null
+[23апр.2024 17:16:19.722] [Render thread/WARN] [com.github.alexthe666.iceandfire.IceAndFire/]: Could not load /assets/iceandfire/models/tabula/firedragon/firedragon_swim5.tbl: in is null
+[23апр.2024 17:16:19.822] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Found status: BETA Current: 7.0.0-pre36 Target: 7.0.0-pre36
+[23апр.2024 17:16:19.822] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/furniture.json
+[23апр.2024 17:16:19.877] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Found status: UP_TO_DATE Current: 3.2.2 Target: null
+[23апр.2024 17:16:19.877] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[23апр.2024 17:16:19.956] [Render thread/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2
+[23апр.2024 17:16:20.892] [Render thread/INFO] [xaero.common.MinimapLogs/]: Registered player tracker system: minimap_synced
+[23апр.2024 17:16:20.892] [Render thread/INFO] [xaero.common.MinimapLogs/]: Xaero's Minimap: World Map found!
+[23апр.2024 17:16:20.892] [Render thread/INFO] [xaero.common.MinimapLogs/]: No Optifine!
+[23апр.2024 17:16:20.892] [Render thread/INFO] [xaero.common.MinimapLogs/]: Xaero's Minimap: No Vivecraft!
+[23апр.2024 17:16:20.892] [Render thread/INFO] [xaero.common.MinimapLogs/]: Xaero's Minimap: Iris found!
+[23апр.2024 17:16:20.892] [Render thread/INFO] [xaero.map.WorldMap/]: Loading Xaero's World Map - Stage 2/2
+[23апр.2024 17:16:20.896] [Render thread/INFO] [xaero.map.WorldMap/]: New world map region cache hash code: -1341983088
+[23апр.2024 17:16:20.897] [Render thread/INFO] [xaero.map.WorldMap/]: Registered player tracker system: map_synced
+[23апр.2024 17:16:20.902] [Render thread/INFO] [xaero.map.WorldMap/]: Xaero's WorldMap Mod: Xaero's minimap found!
+[23апр.2024 17:16:20.905] [Render thread/INFO] [xaero.map.WorldMap/]: Registered player tracker system: minimap_synced
+[23апр.2024 17:16:20.905] [Render thread/INFO] [xaero.map.WorldMap/]: No Optifine!
+[23апр.2024 17:16:20.905] [Render thread/INFO] [xaero.map.WorldMap/]: Xaero's World Map: No Vivecraft!
+[23апр.2024 17:16:20.905] [Render thread/INFO] [xaero.map.WorldMap/]: Xaero's World Map: Iris found!
+[23апр.2024 17:16:21.022] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=east,floor=true,level=1,roof=true'
+[23апр.2024 17:16:21.022] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=east,floor=true,level=0,roof=true'
+[23апр.2024 17:16:21.022] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=east,floor=true,level=3,roof=true'
+[23апр.2024 17:16:21.022] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=north,floor=true,level=10,roof=true'
+[23апр.2024 17:16:21.022] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=north,floor=true,level=11,roof=true'
+[23апр.2024 17:16:21.022] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=north,floor=true,level=9,roof=true'
+[23апр.2024 17:16:21.022] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=east,floor=true,level=2,roof=true'
+[23апр.2024 17:16:21.022] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=east,floor=true,level=7,roof=true'
+[23апр.2024 17:16:21.022] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=north,floor=true,level=4,roof=true'
+[23апр.2024 17:16:21.022] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=east,floor=true,level=8,roof=true'
+[23апр.2024 17:16:21.022] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=north,floor=true,level=14,roof=true'
+[23апр.2024 17:16:21.022] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=east,floor=true,level=12,roof=true'
+[23апр.2024 17:16:21.022] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=east,floor=true,level=13,roof=true'
+[23апр.2024 17:16:21.023] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=north,floor=true,level=13,roof=true'
+[23апр.2024 17:16:21.023] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=north,floor=true,level=3,roof=true'
+[23апр.2024 17:16:21.023] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=east,floor=true,level=14,roof=true'
+[23апр.2024 17:16:21.023] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=east,floor=true,level=11,roof=true'
+[23апр.2024 17:16:21.024] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=north,floor=true,level=2,roof=true'
+[23апр.2024 17:16:21.024] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=north,floor=true,level=5,roof=true'
+[23апр.2024 17:16:21.024] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=east,floor=true,level=15,roof=true'
+[23апр.2024 17:16:21.024] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=east,floor=true,level=9,roof=true'
+[23апр.2024 17:16:21.024] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=north,floor=true,level=15,roof=true'
+[23апр.2024 17:16:21.024] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=east,floor=true,level=6,roof=true'
+[23апр.2024 17:16:21.024] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=north,floor=true,level=12,roof=true'
+[23апр.2024 17:16:21.024] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=north,floor=true,level=8,roof=true'
+[23апр.2024 17:16:21.024] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=north,floor=true,level=0,roof=true'
+[23апр.2024 17:16:21.024] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=north,floor=true,level=7,roof=true'
+[23апр.2024 17:16:21.024] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=east,floor=true,level=4,roof=true'
+[23апр.2024 17:16:21.024] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=east,floor=true,level=5,roof=true'
+[23апр.2024 17:16:21.024] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=north,floor=true,level=6,roof=true'
+[23апр.2024 17:16:21.024] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=east,floor=true,level=10,roof=true'
+[23апр.2024 17:16:21.024] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=north,floor=true,level=1,roof=true'
+[23апр.2024 17:16:21.025] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_artifice:blockstates/artificers_workbench.json' missing model for variant: 'ars_artifice:artificers_workbench#facing=north,part=other'
+[23апр.2024 17:16:21.025] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_artifice:blockstates/artificers_workbench.json' missing model for variant: 'ars_artifice:artificers_workbench#facing=south,part=other'
+[23апр.2024 17:16:21.025] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_artifice:blockstates/artificers_workbench.json' missing model for variant: 'ars_artifice:artificers_workbench#facing=east,part=other'
+[23апр.2024 17:16:21.025] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_artifice:blockstates/artificers_workbench.json' missing model for variant: 'ars_artifice:artificers_workbench#facing=west,part=other'
+[23апр.2024 17:16:21.837] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'guideapi_vp:vampirism-guidebook#inventory' referenced from: guideapi_vp:vampirism-guidebook#inventory: java.io.FileNotFoundException: guideapi_vp:models/item/vampirism-guidebook.json
+[23апр.2024 17:16:21.850] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA Current: 0.6.27 Target: 0.6.27
+[23апр.2024 17:16:21.850] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwlights] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/lights.json
+[23апр.2024 17:16:21.858] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'occultism:lighted_air#inventory' referenced from: occultism:lighted_air#inventory: java.io.FileNotFoundException: occultism:models/item/lighted_air.json
+[23апр.2024 17:16:21.877] [Worker-ResourceReload-8/INFO] [quark-zeta/]: Dispatching ForgeZAddModels (as ZAddModels) to 5 listeners
+[23апр.2024 17:16:21.957] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwlights] Found status: UP_TO_DATE Current: 1.0.6 Target: null
+[23апр.2024 17:16:21.957] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
+[23апр.2024 17:16:22.928] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Found status: BETA Current: 1.9.3 Target: 1.9.3
+[23апр.2024 17:16:22.928] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
+[23апр.2024 17:16:22.982] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA_OUTDATED Current: 12.0.0.3 Target: 12.0.0.4
+[23апр.2024 17:16:22.982] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [configured] Starting version check at https://mrcrayfish.com/modupdatejson?id=configured
+[23апр.2024 17:16:23.944] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [configured] Found status: BETA Current: 2.2.3 Target: 2.2.3
+[23апр.2024 17:16:23.944] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [guideapi_vp] Starting version check at https://maxanier.de/projects/guideapi/versions.json
+[23апр.2024 17:16:24.163] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [guideapi_vp] Found status: BETA Current: 2.2.6 Target: null
+[23апр.2024 17:16:24.163] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[23апр.2024 17:16:24.784] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.2.0 Target: null
+[23апр.2024 17:16:24.784] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Starting version check at https://updates.blamejared.com/get?n=enchdesc&gv=1.20.1
+[23апр.2024 17:16:24.838] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Found status: BETA Current: 17.0.14 Target: 17.0.14
+[23апр.2024 17:16:24.838] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
+[23апр.2024 17:16:25.130] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.10-7 Target: null
+[23апр.2024 17:16:25.130] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [createoreexcavation] Starting version check at https://raw.githubusercontent.com/tom5454/Create-Ore-Excavation/main/version-check.json
+[23апр.2024 17:16:25.184] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [createoreexcavation] Found status: BETA Current: 1.4.3 Target: 1.4.3
+[23апр.2024 17:16:25.184] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vampirism] Starting version check at https://api.modrinth.com/updates/vampirism/forge_updates.json
+[23апр.2024 17:16:25.406] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vampirism] Found status: UP_TO_DATE Current: 1.10.7 Target: null
+[23апр.2024 17:16:25.406] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [occultism] Starting version check at https://raw.githubusercontent.com/klikli-dev/occultism/meta/updates.json
+[23апр.2024 17:16:25.460] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [occultism] Found status: BETA Current: 1.125.0 Target: null
+[23апр.2024 17:16:26.939] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model ars_nouveau:redstone_relay#facing=east,power=10:
+    minecraft:textures/atlas/blocks.png:ars_nouveau:blocks/agronomic_sourcelink
+[23апр.2024 17:16:26.940] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model vampirism:hunter_table#facing=south,variant=potion:
+    minecraft:textures/atlas/blocks.png:vampirism:block/weapon_table
+[23апр.2024 17:16:27.087] [Worker-ResourceReload-8/INFO] [quark-zeta/]: Dispatching ForgeZModel$ModifyBakingResult (as ZModel$ModifyBakingResult) to 1 listener
+[23апр.2024 17:16:27.089] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=true,north=true,south=true,up=false,waterlogged=false,west=false
+[23апр.2024 17:16:27.089] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=false,north=true,south=false,up=true,waterlogged=false,west=false
+[23апр.2024 17:16:27.089] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=false,east=true,north=false,south=false,up=false,west=true
+[23апр.2024 17:16:27.090] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=true,enabled=false,facing=west,waterlogged=true
+[23апр.2024 17:16:27.090] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=true,north=false,south=false,up=true,waterlogged=true,west=false
+[23апр.2024 17:16:27.090] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_tank#bottom=false,shape=window_ne,top=false
+[23апр.2024 17:16:27.090] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_tank#bottom=true,shape=plain,top=true
+[23апр.2024 17:16:27.090] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:block/fluid_pipe/connection/west
+[23апр.2024 17:16:27.090] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:creative_fluid_tank#bottom=false,shape=window,top=true
+[23апр.2024 17:16:27.090] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:creative_fluid_tank#bottom=true,shape=window_sw,top=false
+[23апр.2024 17:16:27.090] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=true,east=true,north=true,south=true,up=true,west=false
+[23апр.2024 17:16:27.091] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=true,north=true,south=true,up=false,waterlogged=false,west=true
+[23апр.2024 17:16:27.091] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=false,north=true,south=false,up=true,waterlogged=true,west=false
+[23апр.2024 17:16:27.091] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=false,north=true,south=false,up=false,waterlogged=true,west=true
+[23апр.2024 17:16:27.091] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=true,east=true,north=false,south=true,up=true,west=false
+[23апр.2024 17:16:27.091] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=true,east=false,north=true,south=false,up=false,west=true
+[23апр.2024 17:16:27.091] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=true,enabled=false,facing=north,waterlogged=true
+[23апр.2024 17:16:27.092] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=false,north=false,south=true,up=true,waterlogged=true,west=true
+[23апр.2024 17:16:27.092] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=false,north=false,south=true,up=false,waterlogged=true,west=true
+[23апр.2024 17:16:27.092] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=true,north=false,south=false,up=false,waterlogged=true,west=true
+[23апр.2024 17:16:27.092] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=false,north=false,south=true,up=true,waterlogged=false,west=true
+[23апр.2024 17:16:27.092] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=true,north=true,south=false,up=true,waterlogged=true,west=true
+[23апр.2024 17:16:27.092] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=false,north=false,south=false,up=false,waterlogged=false,west=false
+[23апр.2024 17:16:27.093] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=false,east=false,north=true,south=true,up=false,west=true
+[23апр.2024 17:16:27.093] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=false,east=false,north=false,south=true,up=false,west=false
+[23апр.2024 17:16:27.093] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: quark:tiny_potato/taterfluid
+[23апр.2024 17:16:27.093] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=false,north=false,south=false,up=false,waterlogged=false,west=true
+[23апр.2024 17:16:27.093] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:block/portable_fluid_interface/block_top
+[23апр.2024 17:16:27.094] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=true,east=true,north=false,south=true,up=false,west=false
+[23апр.2024 17:16:27.094] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=false,north=true,south=false,up=true,waterlogged=true,west=true
+[23апр.2024 17:16:27.094] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=true,north=true,south=false,up=false,waterlogged=false,west=true
+[23апр.2024 17:16:27.094] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=true,enabled=false,facing=north,waterlogged=false
+[23апр.2024 17:16:27.094] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=true,north=false,south=true,up=false,waterlogged=true,west=true
+[23апр.2024 17:16:27.094] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=false,east=false,north=false,south=false,up=true,west=false
+[23апр.2024 17:16:27.095] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:portable_fluid_interface#facing=south
+[23апр.2024 17:16:27.095] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:creative_fluid_tank#bottom=true,shape=plain,top=true
+[23апр.2024 17:16:27.096] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=true,north=false,south=true,up=true,waterlogged=true,west=false
+[23апр.2024 17:16:27.096] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=false,enabled=true,facing=up,waterlogged=true
+[23апр.2024 17:16:27.096] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=true,east=true,north=true,south=false,up=false,west=true
+[23апр.2024 17:16:27.097] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=true,east=true,north=false,south=false,up=true,west=false
+[23апр.2024 17:16:27.097] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:creative_fluid_tank#bottom=false,shape=window_ne,top=false
+[23апр.2024 17:16:27.097] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=false,north=true,south=false,up=false,waterlogged=false,west=true
+[23апр.2024 17:16:27.097] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:smart_fluid_pipe#face=ceiling,facing=north,waterlogged=false
+[23апр.2024 17:16:27.098] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=true,north=true,south=true,up=true,waterlogged=true,west=true
+[23апр.2024 17:16:27.098] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=false,north=true,south=false,up=false,waterlogged=true,west=false
+[23апр.2024 17:16:27.098] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: botania:tiny_potato/taterfluid
+[23апр.2024 17:16:27.098] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: quark:tiny_potato/genderfluidtater
+[23апр.2024 17:16:27.098] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=false,enabled=false,facing=north,waterlogged=true
+[23апр.2024 17:16:27.098] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:smart_fluid_pipe#face=ceiling,facing=east,waterlogged=false
+[23апр.2024 17:16:27.099] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_tank#bottom=false,shape=plain,top=false
+[23апр.2024 17:16:27.099] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=false,north=false,south=false,up=false,waterlogged=false,west=true
+[23апр.2024 17:16:27.099] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=true,east=false,north=false,south=true,up=false,west=true
+[23апр.2024 17:16:27.099] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#inventory
+[23апр.2024 17:16:27.099] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:block/fluid_pipe/rim_connector/north
+[23апр.2024 17:16:27.099] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=true,east=false,north=false,south=false,up=true,west=true
+[23апр.2024 17:16:27.099] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=true,enabled=false,facing=south,waterlogged=true
+[23апр.2024 17:16:27.099] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:smart_fluid_pipe#inventory
+[23апр.2024 17:16:27.099] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=false,east=true,north=true,south=true,up=false,west=false
+[23апр.2024 17:16:27.099] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=true,north=false,south=false,up=true,waterlogged=false,west=false
+[23апр.2024 17:16:27.099] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:creative_fluid_tank#bottom=false,shape=window_ne,top=true
+[23апр.2024 17:16:27.100] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=false,enabled=false,facing=up,waterlogged=false
+[23апр.2024 17:16:27.100] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_tank#bottom=true,shape=window_ne,top=false
+[23апр.2024 17:16:27.100] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_tank#bottom=false,shape=window_ne,top=true
+[23апр.2024 17:16:27.100] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=true,north=true,south=true,up=false,waterlogged=false,west=true
+[23апр.2024 17:16:27.100] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=false,enabled=true,facing=north,waterlogged=true
+[23апр.2024 17:16:27.101] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:glass_fluid_pipe#alt=false,axis=z,waterlogged=false
+[23апр.2024 17:16:27.101] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=true,north=true,south=false,up=false,waterlogged=false,west=false
+[23апр.2024 17:16:27.101] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=true,east=true,north=true,south=true,up=false,west=true
+[23апр.2024 17:16:27.101] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:creative_fluid_tank#bottom=false,shape=plain,top=false
+[23апр.2024 17:16:27.101] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=true,east=true,north=true,south=false,up=true,west=true
+[23апр.2024 17:16:27.101] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:smart_fluid_pipe#face=floor,facing=north,waterlogged=true
+[23апр.2024 17:16:27.101] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=false,north=false,south=true,up=false,waterlogged=false,west=true
+[23апр.2024 17:16:27.101] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:creative_fluid_tank#bottom=true,shape=window_ne,top=false
+[23апр.2024 17:16:27.102] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=false,north=false,south=true,up=true,waterlogged=false,west=true
+[23апр.2024 17:16:27.102] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=false,north=true,south=false,up=true,waterlogged=true,west=false
+[23апр.2024 17:16:27.102] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=true,enabled=true,facing=down,waterlogged=true
+[23апр.2024 17:16:27.103] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:smart_fluid_pipe#face=wall,facing=east,waterlogged=false
+[23апр.2024 17:16:27.103] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=false,north=false,south=true,up=false,waterlogged=false,west=false
+[23апр.2024 17:16:27.103] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: botania:tiny_potato/genderfluidtater
+[23апр.2024 17:16:27.103] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:block/fluid_pipe/drain/east
+[23апр.2024 17:16:27.103] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:glass_fluid_pipe#alt=false,axis=x,waterlogged=true
+[23апр.2024 17:16:27.103] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=false,north=false,south=false,up=true,waterlogged=true,west=false
+[23апр.2024 17:16:27.103] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=true,north=false,south=true,up=true,waterlogged=true,west=false
+[23апр.2024 17:16:27.103] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_tank#bottom=false,shape=window_sw,top=true
+[23апр.2024 17:16:27.104] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=true,north=false,south=false,up=false,waterlogged=true,west=false
+[23апр.2024 17:16:27.104] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:block/fluid_pipe/drain/down
+[23апр.2024 17:16:27.104] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=false,east=false,north=true,south=true,up=true,west=true
+[23апр.2024 17:16:27.104] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=true,north=true,south=true,up=true,waterlogged=true,west=false
+[23апр.2024 17:16:27.104] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=true,enabled=false,facing=west,waterlogged=false
+[23апр.2024 17:16:27.104] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:block/fluid_pipe/connection/south
+[23апр.2024 17:16:27.104] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=true,east=true,north=false,south=false,up=true,west=true
+[23апр.2024 17:16:27.105] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=false,north=false,south=true,up=false,waterlogged=false,west=false
+[23апр.2024 17:16:27.105] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=true,enabled=true,facing=north,waterlogged=false
+[23апр.2024 17:16:27.105] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:creative_fluid_tank#bottom=false,shape=window_sw,top=true
+[23апр.2024 17:16:27.105] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:block/fluid_pipe/rim/west
+[23апр.2024 17:16:27.105] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=false,east=false,north=true,south=false,up=false,west=false
+[23апр.2024 17:16:27.105] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:block/fluid_pipe/rim_connector/down
+[23апр.2024 17:16:27.105] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=true,east=true,north=false,south=false,up=false,west=false
+[23апр.2024 17:16:27.105] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=false,enabled=true,facing=south,waterlogged=true
+[23апр.2024 17:16:27.105] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=true,north=false,south=true,up=false,waterlogged=true,west=true
+[23апр.2024 17:16:27.105] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_tank#bottom=false,shape=window_nw,top=false
+[23апр.2024 17:16:27.105] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:block/fluid_pipe/drain/south
+[23апр.2024 17:16:27.105] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=false,north=true,south=false,up=false,waterlogged=true,west=true
+[23апр.2024 17:16:27.105] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=true,north=false,south=false,up=true,waterlogged=true,west=false
+[23апр.2024 17:16:27.106] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:smart_fluid_pipe#face=ceiling,facing=south,waterlogged=false
+[23апр.2024 17:16:27.106] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_tank#bottom=true,shape=window_se,top=true
+[23апр.2024 17:16:27.106] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=true,enabled=true,facing=east,waterlogged=true
+[23апр.2024 17:16:27.106] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=true,north=false,south=false,up=false,waterlogged=true,west=true
+[23апр.2024 17:16:27.106] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=false,north=true,south=true,up=false,waterlogged=false,west=false
+[23апр.2024 17:16:27.106] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=true,north=false,south=false,up=true,waterlogged=false,west=true
+[23апр.2024 17:16:27.106] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=false,east=false,north=false,south=true,up=true,west=true
+[23апр.2024 17:16:27.106] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=false,east=true,north=true,south=false,up=true,west=false
+[23апр.2024 17:16:27.106] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=true,enabled=false,facing=south,waterlogged=false
+[23апр.2024 17:16:27.106] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=false,enabled=false,facing=down,waterlogged=true
+[23апр.2024 17:16:27.106] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=false,enabled=true,facing=up,waterlogged=false
+[23апр.2024 17:16:27.106] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=false,north=false,south=false,up=false,waterlogged=true,west=true
+[23апр.2024 17:16:27.106] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=false,enabled=false,facing=south,waterlogged=true
+[23апр.2024 17:16:27.106] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=true,north=true,south=true,up=false,waterlogged=false,west=false
+[23апр.2024 17:16:27.106] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:block/fluid_pipe/rim_connector/east
+[23апр.2024 17:16:27.106] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=true,north=true,south=true,up=false,waterlogged=true,west=true
+[23апр.2024 17:16:27.107] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:glass_fluid_pipe#alt=true,axis=z,waterlogged=false
+[23апр.2024 17:16:27.107] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=true,east=true,north=false,south=true,up=false,west=true
+[23апр.2024 17:16:27.107] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=false,north=true,south=false,up=true,waterlogged=false,west=true
+[23апр.2024 17:16:27.107] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=true,east=true,north=true,south=false,up=false,west=false
+[23апр.2024 17:16:27.107] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:creative_fluid_tank#bottom=true,shape=window_se,top=true
+[23апр.2024 17:16:27.107] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=true,north=true,south=false,up=true,waterlogged=true,west=false
+[23апр.2024 17:16:27.107] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=true,north=false,south=true,up=true,waterlogged=false,west=true
+[23апр.2024 17:16:27.107] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=false,enabled=true,facing=west,waterlogged=false
+[23апр.2024 17:16:27.107] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=false,north=true,south=true,up=true,waterlogged=true,west=false
+[23апр.2024 17:16:27.108] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=true,enabled=true,facing=north,waterlogged=true
+[23апр.2024 17:16:27.108] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:smart_fluid_pipe#face=floor,facing=south,waterlogged=true
+[23апр.2024 17:16:27.108] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=false,north=true,south=true,up=true,waterlogged=false,west=false
+[23апр.2024 17:16:27.109] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:portable_fluid_interface#inventory
+[23апр.2024 17:16:27.109] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=true,north=false,south=true,up=true,waterlogged=false,west=false
+[23апр.2024 17:16:27.109] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=true,east=false,north=true,south=true,up=true,west=false
+[23апр.2024 17:16:27.109] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=true,east=true,north=false,south=false,up=false,west=true
+[23апр.2024 17:16:27.109] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=false,east=false,north=true,south=true,up=false,west=false
+[23апр.2024 17:16:27.109] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=false,east=true,north=true,south=true,up=true,west=true
+[23апр.2024 17:16:27.109] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=false,enabled=true,facing=west,waterlogged=true
+[23апр.2024 17:16:27.109] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#inventory
+[23апр.2024 17:16:27.109] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=false,east=false,north=false,south=false,up=false,west=true
+[23апр.2024 17:16:27.109] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_tank#bottom=false,shape=window,top=false
+[23апр.2024 17:16:27.109] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=false,enabled=false,facing=west,waterlogged=false
+[23апр.2024 17:16:27.109] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=false,east=true,north=true,south=true,up=true,west=false
+[23апр.2024 17:16:27.109] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=false,north=false,south=false,up=true,waterlogged=true,west=true
+[23апр.2024 17:16:27.109] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:creative_fluid_tank#bottom=false,shape=window,top=false
+[23апр.2024 17:16:27.109] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:creative_fluid_tank#bottom=false,shape=window_nw,top=false
+[23апр.2024 17:16:27.109] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:block/portable_fluid_interface/block_middle_powered
+[23апр.2024 17:16:27.109] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=false,enabled=false,facing=east,waterlogged=true
+[23апр.2024 17:16:27.109] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:glass_fluid_pipe#alt=false,axis=y,waterlogged=true
+[23апр.2024 17:16:27.110] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=true,north=false,south=false,up=true,waterlogged=false,west=false
+[23апр.2024 17:16:27.110] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=false,east=true,north=false,south=true,up=true,west=false
+[23апр.2024 17:16:27.110] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=false,north=true,south=false,up=false,waterlogged=false,west=false
+[23апр.2024 17:16:27.110] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:block/fluid_pipe/casing
+[23апр.2024 17:16:27.110] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:smart_fluid_pipe#face=floor,facing=west,waterlogged=false
+[23апр.2024 17:16:27.110] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=true,enabled=true,facing=up,waterlogged=false
+[23апр.2024 17:16:27.110] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:block/fluid_pipe/connection/up
+[23апр.2024 17:16:27.110] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:glass_fluid_pipe#alt=true,axis=x,waterlogged=true
+[23апр.2024 17:16:27.110] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:smart_fluid_pipe#face=wall,facing=west,waterlogged=true
+[23апр.2024 17:16:27.110] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=false,north=true,south=true,up=false,waterlogged=true,west=true
+[23апр.2024 17:16:27.111] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=true,east=true,north=true,south=true,up=true,west=true
+[23апр.2024 17:16:27.111] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=false,enabled=true,facing=north,waterlogged=false
+[23апр.2024 17:16:27.111] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:portable_fluid_interface#facing=down
+[23апр.2024 17:16:27.111] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=true,north=true,south=false,up=false,waterlogged=true,west=true
+[23апр.2024 17:16:27.111] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=false,north=true,south=false,up=false,waterlogged=false,west=true
+[23апр.2024 17:16:27.111] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:portable_fluid_interface#facing=east
+[23апр.2024 17:16:27.111] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=false,enabled=false,facing=up,waterlogged=true
+[23апр.2024 17:16:27.111] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=true,enabled=true,facing=up,waterlogged=true
+[23апр.2024 17:16:27.111] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=true,north=true,south=true,up=true,waterlogged=false,west=true
+[23апр.2024 17:16:27.111] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=false,north=true,south=true,up=false,waterlogged=true,west=false
+[23апр.2024 17:16:27.111] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_tank#bottom=true,shape=window_nw,top=true
+[23апр.2024 17:16:27.112] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=true,north=true,south=true,up=false,waterlogged=true,west=true
+[23апр.2024 17:16:27.112] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=false,north=true,south=true,up=true,waterlogged=true,west=true
+[23апр.2024 17:16:27.112] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=true,enabled=false,facing=down,waterlogged=true
+[23апр.2024 17:16:27.112] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=false,north=false,south=false,up=true,waterlogged=false,west=true
+[23апр.2024 17:16:27.112] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=true,north=false,south=false,up=false,waterlogged=false,west=true
+[23апр.2024 17:16:27.112] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=true,north=false,south=true,up=false,waterlogged=true,west=false
+[23апр.2024 17:16:27.112] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:creative_fluid_tank#bottom=true,shape=window_nw,top=true
+[23апр.2024 17:16:27.112] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:smart_fluid_pipe#face=floor,facing=west,waterlogged=true
+[23апр.2024 17:16:27.112] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=true,enabled=true,facing=south,waterlogged=true
+[23апр.2024 17:16:27.112] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=false,east=false,north=true,south=false,up=true,west=false
+[23апр.2024 17:16:27.112] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=false,north=true,south=false,up=true,waterlogged=false,west=true
+[23апр.2024 17:16:27.112] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:glass_fluid_pipe#alt=false,axis=z,waterlogged=true
+[23апр.2024 17:16:27.112] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=true,north=true,south=true,up=true,waterlogged=true,west=false
+[23апр.2024 17:16:27.112] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=true,north=false,south=true,up=true,waterlogged=false,west=true
+[23апр.2024 17:16:27.112] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=false,north=true,south=true,up=true,waterlogged=true,west=false
+[23апр.2024 17:16:27.112] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:block/fluid_pipe/connection/down
+[23апр.2024 17:16:27.112] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=true,enabled=true,facing=south,waterlogged=false
+[23апр.2024 17:16:27.112] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_tank#bottom=true,shape=window_nw,top=false
+[23апр.2024 17:16:27.112] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:block/fluid_pipe/connection/east
+[23апр.2024 17:16:27.112] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_tank#bottom=false,shape=window_se,top=false
+[23апр.2024 17:16:27.112] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=false,north=true,south=false,up=false,waterlogged=false,west=false
+[23апр.2024 17:16:27.113] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=true,enabled=false,facing=east,waterlogged=true
+[23апр.2024 17:16:27.113] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:glass_fluid_pipe#alt=false,axis=y,waterlogged=false
+[23апр.2024 17:16:27.113] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=true,north=false,south=false,up=false,waterlogged=true,west=false
+[23апр.2024 17:16:27.113] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=true,enabled=false,facing=east,waterlogged=false
+[23апр.2024 17:16:27.113] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=false,north=false,south=false,up=false,waterlogged=true,west=true
+[23апр.2024 17:16:27.113] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=false,north=true,south=true,up=false,waterlogged=false,west=false
+[23апр.2024 17:16:27.113] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=true,north=true,south=false,up=true,waterlogged=false,west=false
+[23апр.2024 17:16:27.113] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:creative_fluid_tank#bottom=true,shape=window_nw,top=false
+[23апр.2024 17:16:27.113] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=true,north=true,south=false,up=true,waterlogged=true,west=false
+[23апр.2024 17:16:27.113] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=false,enabled=false,facing=north,waterlogged=false
+[23апр.2024 17:16:27.113] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:block/fluid_pipe/rim/north
+[23апр.2024 17:16:27.113] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:block/fluid_pipe/rim_connector/up
+[23апр.2024 17:16:27.113] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=true,east=false,north=false,south=true,up=false,west=false
+[23апр.2024 17:16:27.114] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:glass_fluid_pipe#alt=true,axis=y,waterlogged=true
+[23апр.2024 17:16:27.114] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=true,north=true,south=false,up=false,waterlogged=true,west=true
+[23апр.2024 17:16:27.114] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=false,north=true,south=true,up=false,waterlogged=true,west=true
+[23апр.2024 17:16:27.114] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=false,east=true,north=true,south=false,up=false,west=true
+[23апр.2024 17:16:27.114] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=true,enabled=false,facing=up,waterlogged=true
+[23апр.2024 17:16:27.114] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=true,enabled=true,facing=west,waterlogged=false
+[23апр.2024 17:16:27.114] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=true,east=true,north=false,south=true,up=true,west=true
+[23апр.2024 17:16:27.114] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=false,north=false,south=false,up=true,waterlogged=true,west=false
+[23апр.2024 17:16:27.114] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:smart_fluid_pipe#face=ceiling,facing=west,waterlogged=true
+[23апр.2024 17:16:27.114] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:block/fluid_pipe/rim_connector/south
+[23апр.2024 17:16:27.115] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=true,north=false,south=false,up=false,waterlogged=false,west=false
+[23апр.2024 17:16:27.115] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=true,north=false,south=false,up=true,waterlogged=false,west=true
+[23апр.2024 17:16:27.115] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=false,east=true,north=true,south=true,up=false,west=true
+[23апр.2024 17:16:27.115] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=false,east=true,north=true,south=false,up=true,west=true
+[23апр.2024 17:16:27.115] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=false,east=false,north=false,south=true,up=true,west=false
+[23апр.2024 17:16:27.115] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=false,north=true,south=true,up=true,waterlogged=false,west=true
+[23апр.2024 17:16:27.115] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=true,east=false,north=true,south=true,up=false,west=true
+[23апр.2024 17:16:27.115] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=false,north=false,south=true,up=true,waterlogged=false,west=false
+[23апр.2024 17:16:27.115] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=false,north=false,south=false,up=true,waterlogged=true,west=true
+[23апр.2024 17:16:27.115] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=true,east=false,north=true,south=false,up=true,west=true
+[23апр.2024 17:16:27.115] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=true,north=true,south=false,up=true,waterlogged=false,west=true
+[23апр.2024 17:16:27.116] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=true,north=false,south=false,up=false,waterlogged=false,west=false
+[23апр.2024 17:16:27.116] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=false,enabled=true,facing=south,waterlogged=false
+[23апр.2024 17:16:27.116] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=true,north=false,south=true,up=true,waterlogged=false,west=false
+[23апр.2024 17:16:27.116] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_tank#bottom=false,shape=window_se,top=true
+[23апр.2024 17:16:27.116] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=true,enabled=false,facing=up,waterlogged=false
+[23апр.2024 17:16:27.116] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=false,north=true,south=true,up=true,waterlogged=false,west=false
+[23апр.2024 17:16:27.116] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:creative_fluid_tank#bottom=false,shape=window_se,top=false
+[23апр.2024 17:16:27.117] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:glass_fluid_pipe#alt=true,axis=y,waterlogged=false
+[23апр.2024 17:16:27.117] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=true,enabled=false,facing=down,waterlogged=false
+[23апр.2024 17:16:27.117] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:smart_fluid_pipe#face=ceiling,facing=north,waterlogged=true
+[23апр.2024 17:16:27.118] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:creative_fluid_tank#bottom=false,shape=window_se,top=true
+[23апр.2024 17:16:27.118] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=true,north=true,south=false,up=false,waterlogged=true,west=false
+[23апр.2024 17:16:27.118] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=false,north=false,south=true,up=false,waterlogged=true,west=false
+[23апр.2024 17:16:27.119] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_tank#bottom=true,shape=window,top=false
+[23апр.2024 17:16:27.119] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=false,enabled=false,facing=east,waterlogged=false
+[23апр.2024 17:16:27.119] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_tank#inventory
+[23апр.2024 17:16:27.119] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:block/fluid_valve/pointer
+[23апр.2024 17:16:27.119] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=true,east=false,north=true,south=true,up=false,west=false
+[23апр.2024 17:16:27.119] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=true,north=false,south=true,up=false,waterlogged=false,west=false
+[23апр.2024 17:16:27.119] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=false,east=true,north=false,south=false,up=true,west=true
+[23апр.2024 17:16:27.119] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=false,east=true,north=false,south=true,up=false,west=true
+[23апр.2024 17:16:27.119] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=true,north=true,south=true,up=true,waterlogged=false,west=true
+[23апр.2024 17:16:27.120] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=false,enabled=true,facing=east,waterlogged=false
+[23апр.2024 17:16:27.120] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:portable_fluid_interface#facing=north
+[23апр.2024 17:16:27.120] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=false,north=false,south=false,up=true,waterlogged=false,west=false
+[23апр.2024 17:16:27.120] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=false,east=false,north=true,south=false,up=false,west=true
+[23апр.2024 17:16:27.120] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=true,east=false,north=false,south=false,up=true,west=false
+[23апр.2024 17:16:27.120] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=false,north=true,south=true,up=true,waterlogged=true,west=true
+[23апр.2024 17:16:27.121] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=false,north=true,south=true,up=false,waterlogged=true,west=false
+[23апр.2024 17:16:27.121] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:glass_fluid_pipe#alt=true,axis=z,waterlogged=true
+[23апр.2024 17:16:27.121] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=false,east=true,north=false,south=true,up=false,west=false
+[23апр.2024 17:16:27.121] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=false,north=true,south=true,up=true,waterlogged=false,west=true
+[23апр.2024 17:16:27.121] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=false,enabled=false,facing=south,waterlogged=false
+[23апр.2024 17:16:27.121] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=true,north=false,south=true,up=false,waterlogged=false,west=true
+[23апр.2024 17:16:27.122] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=true,north=true,south=false,up=true,waterlogged=false,west=true
+[23апр.2024 17:16:27.122] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:smart_fluid_pipe#face=wall,facing=north,waterlogged=true
+[23апр.2024 17:16:27.122] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=true,north=false,south=false,up=true,waterlogged=true,west=true
+[23апр.2024 17:16:27.122] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:creative_fluid_tank#inventory
+[23апр.2024 17:16:27.122] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:block/fluid_pipe/drain/west
+[23апр.2024 17:16:27.122] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_tank#bottom=true,shape=window_se,top=false
+[23апр.2024 17:16:27.122] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=false,north=true,south=true,up=false,waterlogged=false,west=true
+[23апр.2024 17:16:27.122] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:creative_fluid_tank#bottom=true,shape=window_se,top=false
+[23апр.2024 17:16:27.122] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:smart_fluid_pipe#face=ceiling,facing=south,waterlogged=true
+[23апр.2024 17:16:27.122] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:creative_fluid_tank#bottom=true,shape=window,top=false
+[23апр.2024 17:16:27.122] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=true,north=true,south=true,up=true,waterlogged=false,west=false
+[23апр.2024 17:16:27.123] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:block/fluid_pipe/rim/down
+[23апр.2024 17:16:27.123] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=false,enabled=true,facing=down,waterlogged=false
+[23апр.2024 17:16:27.123] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:smart_fluid_pipe#face=floor,facing=east,waterlogged=false
+[23апр.2024 17:16:27.123] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=false,north=true,south=false,up=true,waterlogged=false,west=false
+[23апр.2024 17:16:27.123] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_tank#bottom=true,shape=window,top=true
+[23апр.2024 17:16:27.123] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=true,north=false,south=true,up=false,waterlogged=true,west=false
+[23апр.2024 17:16:27.123] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=false,enabled=false,facing=down,waterlogged=false
+[23апр.2024 17:16:27.123] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=false,east=true,north=false,south=false,up=false,west=false
+[23апр.2024 17:16:27.123] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:block/fluid_pipe/rim/up
+[23апр.2024 17:16:27.123] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=true,east=false,north=false,south=false,up=false,west=false
+[23апр.2024 17:16:27.123] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=false,north=false,south=false,up=false,waterlogged=false,west=false
+[23апр.2024 17:16:27.123] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:smart_fluid_pipe#face=floor,facing=north,waterlogged=false
+[23апр.2024 17:16:27.124] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_tank#bottom=false,shape=window_nw,top=true
+[23апр.2024 17:16:27.124] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=false,north=false,south=false,up=false,waterlogged=true,west=false
+[23апр.2024 17:16:27.124] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=true,east=false,north=true,south=false,up=true,west=false
+[23апр.2024 17:16:27.124] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:block/fluid_pipe/rim/east
+[23апр.2024 17:16:27.124] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:creative_fluid_tank#bottom=true,shape=window,top=true
+[23апр.2024 17:16:27.124] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=false,north=false,south=true,up=false,waterlogged=true,west=true
+[23апр.2024 17:16:27.124] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=false,north=false,south=false,up=true,waterlogged=false,west=false
+[23апр.2024 17:16:27.124] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:smart_fluid_pipe#face=wall,facing=north,waterlogged=false
+[23апр.2024 17:16:27.124] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:block/fluid_pipe/connection/north
+[23апр.2024 17:16:27.124] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:creative_fluid_tank#bottom=false,shape=window_nw,top=true
+[23апр.2024 17:16:27.124] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=false,east=false,north=true,south=true,up=true,west=false
+[23апр.2024 17:16:27.124] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=false,north=false,south=true,up=true,waterlogged=true,west=false
+[23апр.2024 17:16:27.124] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=true,north=true,south=false,up=true,waterlogged=false,west=false
+[23апр.2024 17:16:27.125] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=true,north=true,south=true,up=false,waterlogged=true,west=false
+[23апр.2024 17:16:27.125] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:block/fluid_pipe/rim_connector/west
+[23апр.2024 17:16:27.125] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=false,north=false,south=false,up=true,waterlogged=false,west=true
+[23апр.2024 17:16:27.125] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=true,enabled=true,facing=west,waterlogged=true
+[23апр.2024 17:16:27.125] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=true,north=false,south=false,up=false,waterlogged=false,west=true
+[23апр.2024 17:16:27.125] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=false,east=false,north=false,south=false,up=true,west=true
+[23апр.2024 17:16:27.125] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=false,east=true,north=false,south=false,up=true,west=false
+[23апр.2024 17:16:27.125] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=true,north=false,south=true,up=true,waterlogged=true,west=true
+[23апр.2024 17:16:27.125] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=false,enabled=true,facing=down,waterlogged=true
+[23апр.2024 17:16:27.125] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=true,east=true,north=true,south=true,up=false,west=false
+[23апр.2024 17:16:27.126] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_tank#bottom=false,shape=window_sw,top=false
+[23апр.2024 17:16:27.126] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=true,north=true,south=false,up=true,waterlogged=true,west=true
+[23апр.2024 17:16:27.126] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_tank#bottom=true,shape=window_ne,top=true
+[23апр.2024 17:16:27.126] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=true,east=true,north=true,south=false,up=true,west=false
+[23апр.2024 17:16:27.126] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:smart_fluid_pipe#face=wall,facing=south,waterlogged=true
+[23апр.2024 17:16:27.126] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=true,enabled=true,facing=east,waterlogged=false
+[23апр.2024 17:16:27.126] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=true,east=false,north=false,south=true,up=true,west=true
+[23апр.2024 17:16:27.126] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=true,east=false,north=true,south=false,up=false,west=false
+[23апр.2024 17:16:27.127] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:smart_fluid_pipe#face=ceiling,facing=west,waterlogged=false
+[23апр.2024 17:16:27.127] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=true,north=true,south=false,up=false,waterlogged=false,west=false
+[23апр.2024 17:16:27.127] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=false,enabled=true,facing=east,waterlogged=true
+[23апр.2024 17:16:27.127] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_tank#bottom=false,shape=plain,top=true
+[23апр.2024 17:16:27.127] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=true,north=true,south=true,up=true,waterlogged=false,west=false
+[23апр.2024 17:16:27.127] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:creative_fluid_tank#bottom=false,shape=window_sw,top=false
+[23апр.2024 17:16:27.127] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:creative_fluid_tank#bottom=true,shape=window_ne,top=true
+[23апр.2024 17:16:27.127] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:block/portable_fluid_interface/block_middle
+[23апр.2024 17:16:27.127] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=true,north=false,south=false,up=true,waterlogged=true,west=true
+[23апр.2024 17:16:27.127] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=false,east=false,north=false,south=true,up=false,west=true
+[23апр.2024 17:16:27.127] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=false,north=true,south=false,up=false,waterlogged=true,west=false
+[23апр.2024 17:16:27.127] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:block/fluid_pipe/drain/north
+[23апр.2024 17:16:27.127] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=false,north=false,south=true,up=true,waterlogged=false,west=false
+[23апр.2024 17:16:27.128] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=true,north=true,south=false,up=false,waterlogged=true,west=false
+[23апр.2024 17:16:27.128] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:creative_fluid_tank#bottom=false,shape=plain,top=true
+[23апр.2024 17:16:27.128] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=false,north=true,south=true,up=false,waterlogged=false,west=true
+[23апр.2024 17:16:27.128] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:smart_fluid_pipe#face=wall,facing=west,waterlogged=false
+[23апр.2024 17:16:27.128] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=true,east=false,north=false,south=true,up=true,west=false
+[23апр.2024 17:16:27.128] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=false,north=false,south=false,up=false,waterlogged=true,west=false
+[23апр.2024 17:16:27.128] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=true,enabled=true,facing=down,waterlogged=false
+[23апр.2024 17:16:27.128] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=true,east=false,north=false,south=false,up=false,west=true
+[23апр.2024 17:16:27.128] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=true,north=false,south=true,up=false,waterlogged=false,west=false
+[23апр.2024 17:16:27.128] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=false,east=false,north=false,south=false,up=false,west=false
+[23апр.2024 17:16:27.128] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=false,north=false,south=true,up=true,waterlogged=true,west=true
+[23апр.2024 17:16:27.128] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=true,east=false,north=true,south=true,up=true,west=true
+[23апр.2024 17:16:27.128] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:smart_fluid_pipe#face=floor,facing=east,waterlogged=true
+[23апр.2024 17:16:27.129] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:smart_fluid_pipe#face=wall,facing=east,waterlogged=true
+[23апр.2024 17:16:27.129] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:block/fluid_pipe/drain/up
+[23апр.2024 17:16:27.129] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:smart_fluid_pipe#face=floor,facing=south,waterlogged=false
+[23апр.2024 17:16:27.129] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=false,north=false,south=true,up=false,waterlogged=false,west=true
+[23апр.2024 17:16:27.129] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_tank#bottom=true,shape=window_sw,top=true
+[23апр.2024 17:16:27.129] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:glass_fluid_pipe#alt=false,axis=x,waterlogged=false
+[23апр.2024 17:16:27.130] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=true,north=false,south=true,up=false,waterlogged=false,west=true
+[23апр.2024 17:16:27.130] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_tank#bottom=true,shape=plain,top=false
+[23апр.2024 17:16:27.130] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=true,north=true,south=false,up=false,waterlogged=false,west=true
+[23апр.2024 17:16:27.130] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_valve#axis_along_first=false,enabled=false,facing=west,waterlogged=true
+[23апр.2024 17:16:27.130] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=false,east=true,north=false,south=true,up=true,west=true
+[23апр.2024 17:16:27.131] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:portable_fluid_interface#facing=west
+[23апр.2024 17:16:27.131] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:glass_fluid_pipe#alt=true,axis=x,waterlogged=false
+[23апр.2024 17:16:27.131] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=false,north=true,south=false,up=true,waterlogged=true,west=true
+[23апр.2024 17:16:27.132] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:creative_fluid_tank#bottom=true,shape=window_sw,top=true
+[23апр.2024 17:16:27.132] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=true,east=false,north=false,south=true,up=false,waterlogged=true,west=false
+[23апр.2024 17:16:27.132] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=true,north=false,south=true,up=true,waterlogged=true,west=true
+[23апр.2024 17:16:27.132] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:portable_fluid_interface#facing=up
+[23апр.2024 17:16:27.132] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_tank#bottom=true,shape=window_sw,top=false
+[23апр.2024 17:16:27.133] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=true,north=true,south=true,up=true,waterlogged=true,west=true
+[23апр.2024 17:16:27.133] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_tank#bottom=false,shape=window,top=true
+[23апр.2024 17:16:27.133] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=false,east=true,north=true,south=false,up=false,west=false
+[23апр.2024 17:16:27.133] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=true,north=true,south=true,up=false,waterlogged=true,west=false
+[23апр.2024 17:16:27.133] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:fluid_pipe#down=false,east=false,north=false,south=true,up=true,waterlogged=true,west=false
+[23апр.2024 17:16:27.133] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:block/fluid_pipe/rim/south
+[23апр.2024 17:16:27.134] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:encased_fluid_pipe#down=false,east=false,north=true,south=false,up=true,west=true
+[23апр.2024 17:16:27.134] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:smart_fluid_pipe#face=wall,facing=south,waterlogged=false
+[23апр.2024 17:16:27.134] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:smart_fluid_pipe#face=ceiling,facing=east,waterlogged=true
+[23апр.2024 17:16:27.134] [Worker-ResourceReload-8/INFO] [de.teamlapen.vampirism.client.core.ClientEventHandler/]: create:creative_fluid_tank#bottom=true,shape=plain,top=false
+[23апр.2024 17:16:27.662] [Render thread/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 13 journal_lang
+[23апр.2024 17:16:27.709] [Render thread/INFO] [com.jozufozu.flywheel.backend.Backend/]: Loaded all shader sources.
+[23апр.2024 17:16:27.792] [Worker-ResourceReload-10/INFO] [quark-zeta/]: Dispatching ForgeZLoadComplete (as ZLoadComplete) to 6 listeners
+[23апр.2024 17:16:27.792] [Worker-ResourceReload-0/INFO] [zeta-internal/]: Dispatching ForgeZLoadComplete (as ZLoadComplete) to 1 listener
+[23апр.2024 17:16:27.799] [Worker-ResourceReload-3/INFO] [Jade/]: Start loading plugin at ht.treechop.compat.Jade
+[23апр.2024 17:16:27.808] [Worker-ResourceReload-3/INFO] [Jade/]: Start loading plugin at com.aetherteam.aether.integration.jade.AetherJadePlugin
+[23апр.2024 17:16:27.808] [Worker-ResourceReload-3/INFO] [Jade/]: Start loading plugin at dev.shadowsoffire.gateways.compat.GatewayJadePlugin
+[23апр.2024 17:16:27.809] [Worker-ResourceReload-3/INFO] [Jade/]: Start loading plugin at twilightforest.compat.jade.JadeCompat
+[23апр.2024 17:16:27.809] [Worker-ResourceReload-3/INFO] [Jade/]: Start loading plugin at com.hollingsworth.arsnouveau.client.waila.WailaArsNouveauPlugin
+[23апр.2024 17:16:27.810] [Worker-ResourceReload-3/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[23апр.2024 17:16:27.823] [Worker-ResourceReload-3/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[23апр.2024 17:16:27.826] [Worker-ResourceReload-3/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[23апр.2024 17:16:27.829] [Worker-ResourceReload-3/INFO] [Jade/]: Start loading plugin at reliquary.compat.jade.JadeCompat
+[23апр.2024 17:16:27.857] [Render thread/INFO] [Configured/]: Successfully loaded config provider: com.mrcrayfish.configured.impl.forge.ForgeConfigProvider
+[23апр.2024 17:16:27.857] [Render thread/INFO] [Configured/]: Successfully loaded config provider: com.mrcrayfish.configured.impl.framework.FrameworkConfigProvider
+[23апр.2024 17:16:27.858] [Render thread/INFO] [Configured/]: Successfully loaded config provider: com.mrcrayfish.configured.impl.jei.JeiConfigProvider
+[23апр.2024 17:16:27.858] [Render thread/INFO] [Configured/]: Creating config GUI factories...
+[23апр.2024 17:16:27.862] [Render thread/INFO] [Configured/]: Registering config factory for mod treechop. Found 2 config(s)
+[23апр.2024 17:16:27.863] [Render thread/INFO] [Configured/]: Registering config factory for mod betterdungeons. Found 1 config(s)
+[23апр.2024 17:16:27.863] [Render thread/INFO] [Configured/]: Registering config factory for mod blue_skies. Found 2 config(s)
+[23апр.2024 17:16:27.863] [Render thread/INFO] [Configured/]: Registering config factory for mod alexsmobs. Found 1 config(s)
+[23апр.2024 17:16:27.863] [Render thread/INFO] [Configured/]: Registering config factory for mod aether. Found 3 config(s)
+[23апр.2024 17:16:27.863] [Render thread/INFO] [Configured/]: Registering config factory for mod sophisticatedcore. Found 2 config(s)
+[23апр.2024 17:16:27.863] [Render thread/INFO] [Configured/]: Registering config factory for mod citadel. Found 1 config(s)
+[23апр.2024 17:16:27.864] [Render thread/INFO] [Configured/]: Registering config factory for mod sophisticatedbackpacks. Found 2 config(s)
+[23апр.2024 17:16:27.864] [Render thread/INFO] [Configured/]: Registering config factory for mod railways. Found 3 config(s)
+[23апр.2024 17:16:27.864] [Render thread/INFO] [Configured/]: Registering config factory for mod balm. Found 1 config(s)
+[23апр.2024 17:16:27.864] [Render thread/INFO] [Configured/]: Registering config factory for mod jeresources. Found 1 config(s)
+[23апр.2024 17:16:27.864] [Render thread/INFO] [Configured/]: Registering config factory for mod twilightforest. Found 2 config(s)
+[23апр.2024 17:16:27.864] [Render thread/INFO] [Configured/]: Registering config factory for mod structure_gel. Found 2 config(s)
+[23апр.2024 17:16:27.864] [Render thread/INFO] [Configured/]: Registering config factory for mod bcc. Found 1 config(s)
+[23апр.2024 17:16:27.864] [Render thread/INFO] [Configured/]: Registering config factory for mod ars_artifice. Found 4 config(s)
+[23апр.2024 17:16:27.864] [Render thread/INFO] [Configured/]: Registering config factory for mod botania. Found 2 config(s)
+[23апр.2024 17:16:27.864] [Render thread/INFO] [Configured/]: Registering config factory for mod cataclysm. Found 1 config(s)
+[23апр.2024 17:16:27.864] [Render thread/INFO] [Configured/]: Registering config factory for mod curios. Found 2 config(s)
+[23апр.2024 17:16:27.864] [Render thread/INFO] [Configured/]: Registering config factory for mod patchouli. Found 1 config(s)
+[23апр.2024 17:16:27.864] [Render thread/INFO] [Configured/]: Registering config factory for mod betterstrongholds. Found 1 config(s)
+[23апр.2024 17:16:27.864] [Render thread/INFO] [Configured/]: Registering config factory for mod cumulus_menus. Found 1 config(s)
+[23апр.2024 17:16:27.864] [Render thread/INFO] [Configured/]: Registering config factory for mod ars_creo. Found 1 config(s)
+[23апр.2024 17:16:27.864] [Render thread/INFO] [Configured/]: Registering config factory for mod cfm. Found 2 config(s)
+[23апр.2024 17:16:27.864] [Render thread/INFO] [Configured/]: Registering config factory for mod ars_ocultas. Found 1 config(s)
+[23апр.2024 17:16:27.864] [Render thread/INFO] [Configured/]: Registering config factory for mod fastleafdecay. Found 1 config(s)
+[23апр.2024 17:16:27.864] [Render thread/INFO] [Configured/]: Registering config factory for mod bettermineshafts. Found 1 config(s)
+[23апр.2024 17:16:27.864] [Render thread/INFO] [Configured/]: Registering config factory for mod sliceanddice. Found 1 config(s)
+[23апр.2024 17:16:27.864] [Render thread/INFO] [Configured/]: Registering config factory for mod inventorysorter. Found 2 config(s)
+[23апр.2024 17:16:27.865] [Render thread/INFO] [Configured/]: Registering config factory for mod jei. Found 5 config(s)
+[23апр.2024 17:16:27.866] [Render thread/INFO] [Configured/]: Registering config factory for mod goblintraders. Found 1 config(s)
+[23апр.2024 17:16:27.866] [Render thread/INFO] [Configured/]: Registering config factory for mod naturescompass. Found 2 config(s)
+[23апр.2024 17:16:27.866] [Render thread/INFO] [Configured/]: Registering config factory for mod guideapi_vp. Found 1 config(s)
+[23апр.2024 17:16:27.866] [Render thread/INFO] [Configured/]: Registering config factory for mod iceandfire. Found 2 config(s)
+[23апр.2024 17:16:27.866] [Render thread/INFO] [Configured/]: Registering config factory for mod ars_nouveau. Found 83 config(s)
+[23апр.2024 17:16:27.866] [Render thread/INFO] [Configured/]: Registering config factory for mod forge. Found 2 config(s)
+[23апр.2024 17:16:27.868] [Render thread/INFO] [Configured/]: Registering config factory for mod createoreexcavation. Found 2 config(s)
+[23апр.2024 17:16:27.868] [Render thread/INFO] [Configured/]: Registering config factory for mod werewolves. Found 4 config(s)
+[23апр.2024 17:16:27.868] [Render thread/INFO] [Configured/]: Registering config factory for mod flywheel. Found 1 config(s)
+[23апр.2024 17:16:27.868] [Render thread/INFO] [Configured/]: Registering config factory for mod reliquary. Found 2 config(s)
+[23апр.2024 17:16:27.868] [Render thread/INFO] [Configured/]: Registering config factory for mod zeta. Found 1 config(s)
+[23апр.2024 17:16:27.868] [Render thread/INFO] [Configured/]: Registering config factory for mod ars_instrumentum. Found 1 config(s)
+[23апр.2024 17:16:27.869] [Render thread/INFO] [Configured/]: Registering config factory for mod modonomicon. Found 1 config(s)
+[23апр.2024 17:16:27.869] [Render thread/INFO] [Configured/]: Registering config factory for mod appleskin. Found 1 config(s)
+[23апр.2024 17:16:27.869] [Render thread/INFO] [Configured/]: Registering config factory for mod vampirism. Found 4 config(s)
+[23апр.2024 17:16:27.869] [Render thread/INFO] [Configured/]: Registering config factory for mod occultism. Found 2 config(s)
+[23апр.2024 17:16:27.869] [Render thread/INFO] [Configured/]: Registering config factory for mod create_enchantment_industry. Found 1 config(s)
+[23апр.2024 17:16:27.895] [Render thread/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
+[23апр.2024 17:16:28.255] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[23апр.2024 17:16:28.255] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[23апр.2024 17:16:28.256] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: cataclysm:ignisshieldbreak
+[23апр.2024 17:16:28.256] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: vampirism:coffin_lid
+[23апр.2024 17:16:28.394] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Динамики (Focusrite USB Audio)
+[23апр.2024 17:16:28.394] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[23апр.2024 17:16:28.473] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x4096x4 minecraft:textures/atlas/blocks.png-atlas
+[23апр.2024 17:16:28.536] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/signs.png-atlas
+[23апр.2024 17:16:28.537] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[23апр.2024 17:16:28.538] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x2048x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[23апр.2024 17:16:28.544] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x2048x4 minecraft:textures/atlas/armor_trims.png-atlas
+[23апр.2024 17:16:28.554] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[23апр.2024 17:16:28.554] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/chest.png-atlas
+[23апр.2024 17:16:28.556] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[23апр.2024 17:16:28.557] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[23апр.2024 17:16:29.063] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to minecraft:creeper, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.063] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to aether:whirlwind, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.063] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to aether:evil_whirlwind, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.063] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to twilightforest:plateau_boss, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.063] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to twilightforest:roving_cube, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.063] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to iceandfire:dragon_skull, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.063] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to iceandfire:stone_statue, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.063] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to iceandfire:mob_skull, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.063] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to ars_nouveau:bookwyrm, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.063] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to ars_nouveau:starbuncle, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.063] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to ars_nouveau:whirlisprig, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.063] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to ars_nouveau:wixie, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.063] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to ars_nouveau:wilden_hunter, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.063] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to ars_nouveau:wilden_stalker, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.063] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to ars_nouveau:wilden_guardian, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.063] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to ars_nouveau:wilden_boss, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.063] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to ars_nouveau:drygmy, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.063] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to ars_nouveau:familiar_starbuncle, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.064] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to ars_nouveau:familiar_wixie, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.064] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to ars_nouveau:familiar_bookwyrm, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.064] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to ars_nouveau:familiar_drygmy, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.064] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to ars_nouveau:familiar_whirlisprig, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.064] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to ars_nouveau:familiar_amethyst_golem, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.064] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to ars_nouveau:cascading_weald_walker, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.067] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to ars_nouveau:flourishing_weald_walker, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.067] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to ars_nouveau:blazing_weald_walker, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.067] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to ars_nouveau:vexing_weald_walker, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.067] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to ars_nouveau:amethyst_golem, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.067] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to ars_nouveau:gift_starby, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.067] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to ars_nouveau:animated_block, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.067] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to ars_nouveau:animated_head, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.067] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to ars_nouveau:lily, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.067] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to creeperoverhaul:jungle_creeper, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.067] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to creeperoverhaul:bamboo_creeper, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.067] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to creeperoverhaul:desert_creeper, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.067] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to creeperoverhaul:badlands_creeper, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.067] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to creeperoverhaul:hills_creeper, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.067] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to creeperoverhaul:savannah_creeper, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.067] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to creeperoverhaul:mushroom_creeper, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.067] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to creeperoverhaul:swamp_creeper, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.067] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to creeperoverhaul:dripstone_creeper, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.067] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to creeperoverhaul:cave_creeper, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.067] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to creeperoverhaul:dark_oak_creeper, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.067] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to creeperoverhaul:spruce_creeper, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.067] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to creeperoverhaul:beach_creeper, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.067] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to creeperoverhaul:snowy_creeper, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.067] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to creeperoverhaul:ocean_creeper, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.068] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to vampirism:converted_creature, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.068] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to vampirism:dummy_creature, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.068] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to vampirism:converted_creature_imob, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.068] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to vampirism:vulnerable_remains_dummy, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.068] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to occultism:foliot, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.068] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to occultism:djinni, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.068] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to occultism:afrit, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.068] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to occultism:afrit_wild, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.068] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to occultism:marid, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.068] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to occultism:devil_familiar, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.068] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to occultism:demonic_wife, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.068] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to occultism:demonic_husband, has custom renderer that is not LivingEntityRenderer.
+[23апр.2024 17:16:29.085] [Render thread/INFO] [quark-zeta/]: Dispatching ForgeZAddModelLayers (as ZAddModelLayers) to 1 listener
+[23апр.2024 17:16:29.124] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[23апр.2024 17:16:29.145] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader botania:film_grain_particle could not find sampler named Sampler2 in the specified shader program.
+[23апр.2024 17:16:29.157] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x0 minecraft:textures/atlas/particles.png-atlas
+[23апр.2024 17:16:29.160] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/paintings.png-atlas
+[23апр.2024 17:16:29.161] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/mob_effects.png-atlas
+[23апр.2024 17:16:29.164] [Render thread/INFO] [xaero.map.WorldMap/]: Successfully reloaded the world map shaders!
+[23апр.2024 17:16:29.165] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 twilightforest:textures/atlas/magic_paintings.png-atlas
+[23апр.2024 17:16:29.166] [Render thread/INFO] [patchouli/]: BookContentResourceListenerLoader preloaded 562 jsons
+[23апр.2024 17:16:29.712] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
+[23апр.2024 17:16:29.723] [Render thread/INFO] [xaero.common.MinimapLogs/]: Successfully reloaded the minimap shaders!
+[23апр.2024 17:16:29.945] [Render thread/INFO] [Oculus/]: Creating pipeline for dimension NamespacedId{namespace='minecraft', name='overworld'}
+[23апр.2024 17:16:29.967] [Render thread/INFO] [quark-zeta/]: Dispatching ZFirstClientTick to 1 listener
+[23апр.2024 17:16:29.967] [Render thread/INFO] [Embeddium/]: Block minecraft:large_fern had its color provider replaced and will not use per-vertex coloring
+[23апр.2024 17:16:29.968] [Render thread/INFO] [Embeddium/]: Block minecraft:tall_grass had its color provider replaced and will not use per-vertex coloring
+[23апр.2024 17:16:29.968] [Render thread/INFO] [Embeddium/]: Block minecraft:grass_block had its color provider replaced and will not use per-vertex coloring
+[23апр.2024 17:16:29.968] [Render thread/INFO] [Embeddium/]: Block minecraft:fern had its color provider replaced and will not use per-vertex coloring
+[23апр.2024 17:16:29.968] [Render thread/INFO] [Embeddium/]: Block minecraft:grass had its color provider replaced and will not use per-vertex coloring
+[23апр.2024 17:16:29.968] [Render thread/INFO] [Embeddium/]: Block minecraft:potted_fern had its color provider replaced and will not use per-vertex coloring
+[23апр.2024 17:16:29.968] [Render thread/INFO] [Embeddium/]: Block minecraft:sugar_cane had its color provider replaced and will not use per-vertex coloring
+[23апр.2024 17:16:29.968] [Render thread/INFO] [Embeddium/]: Block minecraft:spruce_leaves had its color provider replaced and will not use per-vertex coloring
+[23апр.2024 17:16:29.968] [Render thread/INFO] [Embeddium/]: Block minecraft:birch_leaves had its color provider replaced and will not use per-vertex coloring
+[23апр.2024 17:16:29.968] [Render thread/INFO] [Embeddium/]: Block minecraft:oak_leaves had its color provider replaced and will not use per-vertex coloring
+[23апр.2024 17:16:29.968] [Render thread/INFO] [Embeddium/]: Block minecraft:jungle_leaves had its color provider replaced and will not use per-vertex coloring
+[23апр.2024 17:16:29.968] [Render thread/INFO] [Embeddium/]: Block minecraft:acacia_leaves had its color provider replaced and will not use per-vertex coloring
+[23апр.2024 17:16:29.968] [Render thread/INFO] [Embeddium/]: Block minecraft:dark_oak_leaves had its color provider replaced and will not use per-vertex coloring
+[23апр.2024 17:16:29.968] [Render thread/INFO] [Embeddium/]: Block minecraft:vine had its color provider replaced and will not use per-vertex coloring
+[23апр.2024 17:16:30.208] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[23апр.2024 17:16:31.831] [Render thread/WARN] [ModernFix/]: Game took 36.398 seconds to start
+[23апр.2024 17:16:47.462] [Render thread/ERROR] [Cristel Lib/]: Cristel Lib Config Pack has no data
+[23апр.2024 17:16:47.463] [Render thread/ERROR] [Cristel Lib/]: T&T Waystone Patch Pack condition is false, skipping
+[23апр.2024 17:16:47.468] [Render thread/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack builtin/aether_accessories, loading it automatically
+[23апр.2024 17:16:48.506] [Render thread/INFO] [de.teamlapen.werewolves.world.gen.OverworldModifications/]: Adding biome ResourceKey[minecraft:worldgen/biome / werewolves:werewolf_heaven] to ParameterPoints [ParameterPoint[temperature=[1900-4000], humidity=[-2500-2500], continentalness=[2000-5500], erosion=[-3750--2225], depth=0, weirdness=[-2000-2000], offset=0], ParameterPoint[temperature=[1900-4000], humidity=[-2500-2500], continentalness=[2000-5500], erosion=[-3750--2225], depth=0, weirdness=[2000-6000], offset=0]] in Preset.OVERWORLD
+[23апр.2024 17:16:48.575] [Render thread/INFO] [de.teamlapen.vampirism.world.biome.OverworldModifications/]: Adding biome vampirism:vampire_forest to ParameterPoints [ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[-5666--500], offset=0], ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[500-4000], offset=0]] in Preset.OVERWORLD
+[23апр.2024 17:16:48.987] [Render thread/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[23апр.2024 17:16:48.989] [Render thread/INFO] [com.github.L_Ender.cataclysm.Cataclysm/]: Adding datapack listener altar_of_amethyst_recipes
+[23апр.2024 17:16:48.991] [Render thread/INFO] [quark-zeta/]: Dispatching ForgeZAddReloadListener (as ZAddReloadListener) to 2 listeners
+[23апр.2024 17:16:48.992] [Render thread/INFO] [zeta-internal/]: Dispatching ForgeZAddReloadListener (as ZAddReloadListener) to 2 listeners
+[23апр.2024 17:16:49.108] [Worker-ResourceReload-0/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [#forge:tools/axes (from sliceanddice-forge-3.2.0.jar)] as it is missing following references: #forge:tools/axes (from sliceanddice-forge-3.2.0.jar)
+[23апр.2024 17:16:49.708] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Datapack tried to redefine minecraft:empty loot table, ignoring
+[23апр.2024 17:16:49.748] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe reliquary:squid_beak as it's serializer returned null
+[23апр.2024 17:16:49.766] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe railways:sequenced_assembly/track_quark_azalea_wide: com.google.gson.JsonSyntaxException: Unknown item 'quark:azalea_slab'
+[23апр.2024 17:16:49.770] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:general/umbrella as it's serializer returned null
+[23апр.2024 17:16:49.773] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe railways:sequenced_assembly/track_quark_ancient_narrow: com.google.gson.JsonSyntaxException: Unknown item 'quark:ancient_slab'
+[23апр.2024 17:16:49.787] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe reliquary:rib_bone as it's serializer returned null
+[23апр.2024 17:16:49.791] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[23апр.2024 17:16:49.792] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe railways:sequenced_assembly/track_quark_blossom: com.google.gson.JsonSyntaxException: Unknown item 'quark:blossom_slab'
+[23апр.2024 17:16:49.794] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:vampire/blood_bottle as it's serializer returned null
+[23апр.2024 17:16:49.797] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe railways:sequenced_assembly/track_quark_blossom_narrow: com.google.gson.JsonSyntaxException: Unknown item 'quark:blossom_slab'
+[23апр.2024 17:16:49.805] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe reliquary:frozen_core as it's serializer returned null
+[23апр.2024 17:16:49.814] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe railways:sequenced_assembly/track_quark_azalea: com.google.gson.JsonSyntaxException: Unknown item 'quark:azalea_slab'
+[23апр.2024 17:16:49.816] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe reliquary:zombie_heart as it's serializer returned null
+[23апр.2024 17:16:49.817] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe reliquary:eye_of_the_storm as it's serializer returned null
+[23апр.2024 17:16:49.822] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[23апр.2024 17:16:49.828] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe reliquary:withered_rib as it's serializer returned null
+[23апр.2024 17:16:49.842] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:cutting/compat/blue_skies/cherry_wood: com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:cherry_wood'
+[23апр.2024 17:16:49.843] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe reliquary:catalyzing_gland as it's serializer returned null
+[23апр.2024 17:16:49.846] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe reliquary:slime_pearl as it's serializer returned null
+[23апр.2024 17:16:49.852] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe reliquary:guardian_spike as it's serializer returned null
+[23апр.2024 17:16:49.853] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe railways:sequenced_assembly/track_quark_ancient: com.google.gson.JsonSyntaxException: Unknown item 'quark:ancient_slab'
+[23апр.2024 17:16:49.856] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[23апр.2024 17:16:49.861] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[23апр.2024 17:16:49.865] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:cutting/compat/blue_skies/cherry_log: com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:cherry_log'
+[23апр.2024 17:16:49.873] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[23апр.2024 17:16:49.874] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe railways:sequenced_assembly/track_quark_ancient_wide: com.google.gson.JsonSyntaxException: Unknown item 'quark:ancient_slab'
+[23апр.2024 17:16:49.892] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:cutting/compat/blue_skies/stripped_cherry_wood: com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:stripped_cherry_wood'
+[23апр.2024 17:16:49.892] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[23апр.2024 17:16:49.899] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe reliquary:molten_core as it's serializer returned null
+[23апр.2024 17:16:49.904] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe reliquary:bat_wing as it's serializer returned null
+[23апр.2024 17:16:49.905] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:cutting/compat/blue_skies/stripped_cherry_log: com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:stripped_cherry_log'
+[23апр.2024 17:16:49.906] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe railways:sequenced_assembly/track_quark_azalea_narrow: com.google.gson.JsonSyntaxException: Unknown item 'quark:azalea_slab'
+[23апр.2024 17:16:49.909] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe reliquary:nebulous_heart as it's serializer returned null
+[23апр.2024 17:16:49.911] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[23апр.2024 17:16:49.912] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe railways:sequenced_assembly/track_quark_blossom_wide: com.google.gson.JsonSyntaxException: Unknown item 'quark:blossom_slab'
+[23апр.2024 17:16:49.917] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe reliquary:alkahestry/crafting/tin_ingot as it's serializer returned null
+[23апр.2024 17:16:49.923] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe reliquary:chelicerae as it's serializer returned null
+[23апр.2024 17:16:49.923] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[23апр.2024 17:16:49.929] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 72 recipes
+[23апр.2024 17:16:49.932] [Render thread/INFO] [com.possible_triangle.sliceanddice.SliceAndDice/]: Injecting recipes
+[23апр.2024 17:16:50.042] [Render thread/INFO] [quark/]: [Automatic Recipe Unlock] Removed 7189 recipe advancements
+[23апр.2024 17:16:50.046] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 904 advancements
+[23апр.2024 17:16:50.050] [Render thread/INFO] [placebo/]: Registered 0 additional recipes.
+[23апр.2024 17:16:50.050] [Render thread/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 8 tool_handle_types
+[23апр.2024 17:16:50.050] [Render thread/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 37 snowcap_oven_freezing_recipes
+[23апр.2024 17:16:50.050] [Render thread/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 7 horizonite_forge_fuels
+[23апр.2024 17:16:50.050] [Render thread/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 12 snowcap_mushroom_freezing
+[23апр.2024 17:16:50.063] [Render thread/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 70 alchemy_recipes
+[23апр.2024 17:16:50.065] [Render thread/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 81 journal/entries
+[23апр.2024 17:16:50.065] [Render thread/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 3 journal/sections
+[23апр.2024 17:16:50.065] [Render thread/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 7 journal/requirements
+[23апр.2024 17:16:50.066] [Render thread/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[23апр.2024 17:16:50.076] [Render thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 18 curio slots
+[23апр.2024 17:16:50.085] [Render thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 9 curio entities
+[23апр.2024 17:16:50.114] [Render thread/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/wax_on with 2 patches
+[23апр.2024 17:16:50.114] [Render thread/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/kill_a_mob with 3 patches
+[23апр.2024 17:16:50.114] [Render thread/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/bred_all_animals with 3 patches
+[23апр.2024 17:16:50.114] [Render thread/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/kill_all_mobs with 3 patches
+[23апр.2024 17:16:50.114] [Render thread/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/balanced_diet with 2 patches
+[23апр.2024 17:16:50.114] [Render thread/INFO] [quark-zeta/]: Modified advancement minecraft:nether/all_effects with 1 patches
+[23апр.2024 17:16:50.114] [Render thread/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/wax_off with 2 patches
+[23апр.2024 17:16:50.114] [Render thread/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/adventuring_time with 1 patches
+[23апр.2024 17:16:50.115] [Render thread/INFO] [quark-zeta/]: Modified advancement minecraft:nether/all_potions with 1 patches
+[23апр.2024 17:16:50.115] [Render thread/INFO] [de.teamlapen.vampirism.entity.player.skills.SkillTree/]: Loaded 82 skill nodes
+[23апр.2024 17:16:50.118] [Render thread/INFO] [de.teamlapen.vampirism.entity.converted.VampirismEntityRegistry/]: Registered 14 convertibles
+[23апр.2024 17:16:50.126] [Render thread/INFO] [placebo/]: Registered 4 gear_sets.
+[23апр.2024 17:16:50.140] [Render thread/INFO] [Gateways to Eternity/]: Registered 7 gateways.
+[23апр.2024 17:16:50.202] [Render thread/INFO] [zeta-internal/]: Dispatching ZTagsUpdated to 1 listener
+[23апр.2024 17:17:08.231] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

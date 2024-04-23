@@ -18,19 +18,22 @@ def get_username():
 def get_ip():
     current_ip = requests.get(
         'https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/launcher/curreint_ip.txt')
+    return current_ip.text
+
+
+def get_port():
     current_port = requests.get(
-        'https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/launcher/curreint_port.txt')
-    print('Актуальный IP адрес: ' + current_ip.text + ':' + current_port.text)
-    return current_ip.text + ':' + current_port.text
+        'https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/launcher/current_port.txt')
+    return current_port.text
 
 
 def get_options():
     options = {
         'username': get_username(),
         'launcherName': 'JFCRAFT',
-        'launcherVersion': '0.0.1',
-        'server': '5.165.58.207',
-        'port': '25565'
+        'launcherVersion': launcher_version,
+        'server': get_ip(),
+        'port': get_port()
     }
     return options
 
@@ -47,11 +50,9 @@ def welcome():
     print(f'Версия лаунчера: {launcher_version}')
 
 
-def check_for_update():
+def check_launcher_updates():
     print('Проверка обновлений лаунчера...')
-    launcher_version_url = \
-        'https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/launcher/current_version.txt'
-    resp = requests.get(launcher_version_url)
+    resp = requests.get('https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/launcher/current_version.txt')
     if resp.status_code == 200:
         if resp.text == launcher_version:
             print('Установлена новейшая версия!')
@@ -92,9 +93,8 @@ def get_file_list(folder_path):
 
 def main():
     welcome()
-    check_for_update()
-    vanilla_expanded.check_for_installed_forge()
-    # print(get_ip())
+    check_launcher_updates()
+    vanilla_expanded.launch(get_options())
 
 
 if __name__ == '__main__':

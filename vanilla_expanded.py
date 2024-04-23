@@ -22,7 +22,6 @@ def check_for_installed_forge():
     else:
         print("Forge для Vanilla-Expanded-1.20.1 не установлен на данном компьютере")
         install_forge()
-        check_for_installed_mods()
         return False
 
 
@@ -89,6 +88,15 @@ def install_mods(installed_mods_list, actual_mods_list):
 
 
 def check_for_installed_shaderpacks():
+    try:
+        if os.listdir(shaderpacks_directory):
+            return
+        else:
+            install_shaderpacks()
+
+    except FileNotFoundError:
+        print('Папка shaderpacks не была обнаружена')
+        return []
     pass
 
 
@@ -100,6 +108,7 @@ def install_shaderpacks():
     shutil.unpack_archive('shaderpacks.zip', shaderpacks_directory, 'zip')
     os.remove('shaderpacks.zip')
     print('Шейдеры успешно установлены!')
+
 
 
 def install_options():
@@ -114,7 +123,11 @@ def install_options():
 
 
 def launch(options):
-    print('Запуск Vanilla Expanded...')
+    check_for_installed_forge()
+    check_for_installed_mods()
+    check_for_installed_shaderpacks()
+    check_for_installed_options_files()
+    print('Запуск Vanilla-Expanded-1.20.1...')
     subprocess.run(
         minecraft_launcher_lib.command.get_minecraft_command('1.20.1-forge-47.2.0', minecraft_directory,
                                                              options))
