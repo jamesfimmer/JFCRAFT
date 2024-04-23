@@ -9,7 +9,7 @@ minecraft_directory = minecraft_launcher_lib.utils.get_minecraft_directory().rep
                                                                                      '.jfcraft-Vanilla-Expanded-1.20.1')
 mods_directory = minecraft_directory + '\\mods'
 shaderpacks_directory = minecraft_directory + '\\shaderpacks'
-actual_mods_list_url = 'https://github.com/jamesfimmer/jfcraft-download-files/raw/main/VanillaExpanded-1.20.1/mod_list.txt'
+actual_mods_list_url = 'https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/VanillaExpanded-1.20.1/mod_list.txt'
 
 
 def check_for_installed_forge():
@@ -79,9 +79,10 @@ def install_mods(installed_mods_list, actual_mods_list):
         print(mods_to_install)
         for mod in mods_to_install:
             wget.download(
-                'https://github.com/jamesfimmer/jfcraft-download-files/raw/main/VanillaExpanded-1.20.1/mods/' + mod,
+                'https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/VanillaExpanded-1.20.1/mods/' + mod,
                 mods_directory)
             print('Успешно загружен мод: ' + mod)
+            print('По пути: ' + mods_directory + '\\' + mod)
     else:
         print('Все модификации на месте!!!')
         return

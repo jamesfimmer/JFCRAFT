@@ -16,8 +16,12 @@ def get_username():
 
 
 def get_ip():
-    
-    pass
+    current_ip = requests.get(
+        'https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/launcher/curreint_ip.txt')
+    current_port = requests.get(
+        'https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/launcher/curreint_port.txt')
+    print('Актуальный IP адрес: ' + current_ip.text + ':' + current_port.text)
+    return current_ip.text + ':' + current_port.text
 
 
 def get_options():
@@ -43,24 +47,26 @@ def welcome():
     print(f'Версия лаунчера: {launcher_version}')
 
 
-def check_for_update(minecraft_directory):
+def check_for_update():
     print('Проверка обновлений лаунчера...')
     launcher_version_url = \
-        'https://github.com/jamesfimmer/jfcraft-download-files/raw/main/jfcraft-launcher/current_version.txt'
+        'https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/launcher/current_version.txt'
     resp = requests.get(launcher_version_url)
     if resp.status_code == 200:
         if resp.text == launcher_version:
             print('Установлена новейшая версия!')
         else:
             print(f'Доступна новая версия {resp.text}...начало установки...')
-            download_newest_launcher_version(minecraft_directory)
+            download_newest_launcher_version()
     else:
         print(f'Ошибка при загрузке актуальной версии, код {resp.status_code}')
 
 
-def download_newest_launcher_version(minecraft_directory):
-    launcher_exe_url = 'https://github.com/jamesfimmer/jfcraft-download-files/raw/main/jfcraft-launcher/JFCRAFT.exe'
-    launcher_exe_folder_path = minecraft_directory + '\\JFCRAFT'
+def download_newest_launcher_version():
+    launcher_exe_url = 'https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/launcher/JFCRAFT.exe'
+    launcher_exe_folder_path = minecraft_directory = minecraft_launcher_lib.utils.get_minecraft_directory().replace(
+        '.minecraft',
+        '.JFCRAFT')
     resp = requests.get(launcher_exe_url)
 
     if os.path.exists(launcher_exe_folder_path):
@@ -86,7 +92,9 @@ def get_file_list(folder_path):
 
 def main():
     welcome()
+    check_for_update()
     vanilla_expanded.check_for_installed_forge()
+    # print(get_ip())
 
 
 if __name__ == '__main__':
