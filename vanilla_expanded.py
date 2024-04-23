@@ -8,8 +8,10 @@ import wget
 minecraft_directory = minecraft_launcher_lib.utils.get_minecraft_directory().replace('.minecraft',
                                                                                      '.jfcraft-Vanilla-Expanded-1.20.1')
 mods_directory = minecraft_directory + '\\mods'
-shaderpacks_directory = minecraft_directory + '\\shaderpacks'
 actual_mods_list_url = 'https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/VanillaExpanded-1.20.1/mod_list.txt'
+shaderpacks_directory = minecraft_directory + '\\shaderpacks'
+actual_shaderpacks_url = 'https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/VanillaExpanded-1.20.1/shaderpacks.rar'
+
 
 
 def check_for_installed_forge():
@@ -101,8 +103,8 @@ def check_for_installed_shaderpacks():
 
 
 def install_shaderpacks():
-    shaderpacks_url = 'https://github.com/jamesfimmer/JFCRAFT-MODS/raw/main/shaderpacks.zip'
-    response = requests.get(shaderpacks_url)
+
+    response = requests.get(actual_shaderpacks_url)
     with open('shaderpacks.zip', 'wb') as f:
         f.write(response.content)
     shutil.unpack_archive('shaderpacks.zip', shaderpacks_directory, 'zip')
