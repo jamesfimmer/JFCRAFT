@@ -10,8 +10,7 @@ minecraft_directory = minecraft_launcher_lib.utils.get_minecraft_directory().rep
 mods_directory = minecraft_directory + '\\mods'
 actual_mods_list_url = 'https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/VanillaExpanded-1.20.1/mod_list.txt'
 shaderpacks_directory = minecraft_directory + '\\shaderpacks'
-actual_shaderpacks_url = 'https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/VanillaExpanded-1.20.1/shaderpacks.rar'
-
+actual_shaderpacks_url = 'https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/VanillaExpanded-1.20.1/shaderpacks.zip'
 
 
 def check_for_installed_forge():
@@ -23,6 +22,7 @@ def check_for_installed_forge():
         return True
     else:
         print("Forge для Vanilla-Expanded-1.20.1 не установлен на данном компьютере")
+
         install_forge()
         return False
 
@@ -35,7 +35,7 @@ def install_forge():
     minecraft_launcher_lib.forge.install_forge_version('1.20.1-47.2.0', minecraft_directory, callback)
     print('Forge для Vanilla-Expanded-1.20.1 успешно установлен!')
 
-
+def first_launch
 def get_installed_mods():
     try:
         return os.listdir(mods_directory)
@@ -103,7 +103,6 @@ def check_for_installed_shaderpacks():
 
 
 def install_shaderpacks():
-
     response = requests.get(actual_shaderpacks_url)
     with open('shaderpacks.zip', 'wb') as f:
         f.write(response.content)
@@ -112,16 +111,15 @@ def install_shaderpacks():
     print('Шейдеры успешно установлены!')
 
 
-
-def install_options():
-    options_url = 'https://github.com/jamesfimmer/JFCRAFT-MODS/raw/main/options.zip'
-    options_folder = minecraft_directory
-    response = requests.get(options_url)
-    with open('options.zip', 'wb') as f:
-        f.write(response.content)
-    shutil.unpack_archive('options.zip', options_folder, 'zip')
-    os.remove('options.zip')
-    print('Профиль настроек успешно загружен!')
+def check_for_installed_options_files():
+    if not os.path.exists(minecraft_directory + '\\' + 'options.txt'):
+        wget.download(
+            'https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/VanillaExpanded-1.20.1/options.txt',
+            minecraft_directory)
+    if not os.path.exists(minecraft_directory + '\\' + 'severs.dat'):
+        wget.download(
+            'https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/VanillaExpanded-1.20.1/servers.dat',
+            minecraft_directory)
 
 
 def launch(options):
