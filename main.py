@@ -6,6 +6,7 @@ import shutil
 import wget
 import new_ic
 import vanilla_expanded
+import sys
 
 launcher_version = '1.0.0'
 
@@ -91,7 +92,15 @@ def get_file_list(folder_path):
     return os.listdir(folder_path)
 
 
+def excepthook(exc_type, exc_value, exc_traceback):
+    with open("error_report.txt", "a") as f:
+        f.write("Unhandled exception occurred:\n")
+        import traceback
+        traceback.print_exception(exc_type, exc_value, exc_traceback, file=f)
+
+
 def main():
+    sys.excepthook = excepthook
     welcome()
     check_launcher_updates()
     vanilla_expanded.launch(get_options())

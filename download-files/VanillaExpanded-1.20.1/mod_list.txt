@@ -95,3 +95,8 @@ YungsBridges-1.20-Forge-4.0.3.jar
 YungsExtras-1.20-Forge-4.0.3.jar
 Zeta-1.0-16.jar
 [1.20.1-forge]-Epic-Knights-9.8.jar
+blockui-1.20.1-1.0.156-RELEASE.jar
+domum_ornamentum-1.20.1-1.0.186-RELEASE-universal.jar
+minecolonies-1.20.1-1.1.563-RELEASE.jar
+multipiston-1.20-1.2.43-RELEASE.jar
+structurize-1.20.1-1.0.731-RELEASE.jar

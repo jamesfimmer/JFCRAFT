@@ -1,5 +1,23 @@
 {
-  "bookGuiScale": 0,
+  "bookGuiScale": 3,
   "clickedVisualize": false,
-  "bookData": {}
+  "bookData": {
+    "botania:lexicon": {
+      "viewedEntries": [
+        "botania:basics/welcome",
+        "botania:basics/apothecary",
+        "botania:basics/black_lotus",
+        "botania:basics/flowers",
+        "botania:basics/lexicon",
+        "botania:basics/pure_daisy",
+        "botania:basics/rune_altar",
+        "botania:basics/flower_bag",
+        "botania:basics/terrasteel",
+        "botania:basics/wand",
+        "botania:tools/grass_seeds"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
 }

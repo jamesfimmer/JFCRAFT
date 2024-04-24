@@ -7,6 +7,7 @@ import wget
 
 minecraft_directory = minecraft_launcher_lib.utils.get_minecraft_directory().replace('.minecraft',
                                                                                      '.jfcraft-Vanilla-Expanded-1.20.1')
+# minecraft_directory = 'C:\\JFCRAFT'
 mods_directory = minecraft_directory + '\\mods'
 actual_mods_list_url = 'https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/VanillaExpanded-1.20.1/mod_list.txt'
 shaderpacks_directory = minecraft_directory + '\\shaderpacks'
@@ -19,12 +20,9 @@ def check_for_installed_forge():
     if any(item['id'] == '1.20.1-forge-47.2.0' for item in
            minecraft_launcher_lib.utils.get_installed_versions(minecraft_directory)):
         print("Forge для Vanilla-Expanded-1.20.1... установлен на данном компьютере")
-        check_for_installed_mods()
-        return True
     else:
         print("Forge для Vanilla-Expanded-1.20.1 не установлен на данном компьютере")
         install_forge()
-        return False
 
 
 def install_forge():
