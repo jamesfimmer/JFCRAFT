@@ -81,7 +81,6 @@ supermartijn642configlib-1.1.8-forge-mc1.20.jar
 supermartijn642corelib-1.1.17-forge-mc1.20.1.jar
 Towns-and-Towers-1.12-Fabric+Forge.jar
 towntalk-1.20.1-1.0.1.jar
-TreeChop-1.20.1-forge-0.19.0.jar
 twilightforest-1.20.1-4.3.2145-universal.jar
 Vampirism-1.20.1-1.10.7.jar
 Werewolves-1.20.1-2.0.0.0.jar
@@ -100,3 +99,4 @@ domum_ornamentum-1.20.1-1.0.186-RELEASE-universal.jar
 minecolonies-1.20.1-1.1.563-RELEASE.jar
 multipiston-1.20-1.2.43-RELEASE.jar
 structurize-1.20.1-1.0.731-RELEASE.jar
+FallingTree-1.20.1-4.3.4.jar
