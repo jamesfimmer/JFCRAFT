@@ -32,3 +32,23 @@ Traceback (most recent call last):
   File "D:\Python\jfcraft-launcher\main.py", line 104, in main
     os.remove('Mem:')
 OSError: [WinError 123] Синтаксическая ошибка в имени файла, имени папки или метке тома: 'Mem:'
+Unhandled exception occurred:
+Traceback (most recent call last):
+  File "D:\Python\jfcraft-launcher\main.py", line 111, in <module>
+    main()
+  File "D:\Python\jfcraft-launcher\main.py", line 107, in main
+    vanilla_expanded.launch(get_options())
+  File "D:\Python\jfcraft-launcher\vanilla_expanded.py", line 151, in launch
+    subprocess.run(
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1201, in communicate
+    self.wait()
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1588, in _wait
+    result = _winapi.WaitForSingleObject(self._handle,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
