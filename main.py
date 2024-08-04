@@ -1,12 +1,15 @@
-import minecraft_launcher_lib
-import subprocess
-import requests
+import sys
 import os
-import shutil
-import wget
+import subprocess
+
 import new_ic
 import vanilla_expanded
-import sys
+import launcher_ui
+
+import minecraft_launcher_lib
+import requests
+import shutil
+import wget
 
 launcher_version = '1.0.0'
 
@@ -62,7 +65,8 @@ def welcome():
 
 def check_launcher_updates():
     print('Проверка обновлений лаунчера...')
-    resp = requests.get('https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/launcher/current_version.txt', verify=False)
+    resp = requests.get('https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/launcher/current_version.txt',
+                        verify=False)
     if resp.status_code == 200:
         if resp.text == launcher_version:
             print('Установлена новейшая версия!')
@@ -110,9 +114,12 @@ def excepthook(exc_type, exc_value, exc_traceback):
 
 def main():
     sys.excepthook = excepthook
-    welcome()
-    check_launcher_updates()
-    vanilla_expanded.launch(get_options())
+    # welcome()
+    # check_launcher_updates()
+   # vanilla_expanded.launch(get_options())
+    print(os.listdir('C:\\Users\\James\\AppData\\Roaming\\.minecraft\\versions\\Pokecraft 1.20.1\\mods'))
+
+    launcher_ui.startup()
 
 
 if __name__ == '__main__':

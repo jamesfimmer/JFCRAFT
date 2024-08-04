@@ -52,3 +52,443 @@ Traceback (most recent call last):
     result = _winapi.WaitForSingleObject(self._handle,
              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 KeyboardInterrupt
+Unhandled exception occurred:
+Traceback (most recent call last):
+  File "D:\PythonProjects\JFCRAFT\main.py", line 125, in <module>
+    main()
+  File "D:\PythonProjects\JFCRAFT\main.py", line 120, in main
+    launcher_ui.create_ui()
+  File "D:\PythonProjects\JFCRAFT\launcher_ui.py", line 78, in create_ui
+    root.mainloop()
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1485, in mainloop
+    self.tk.mainloop(n)
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1943, in __call__
+    def __call__(self, *args):
+    
+KeyboardInterrupt
+Unhandled exception occurred:
+Traceback (most recent call last):
+  File "D:\PythonProjects\JFCRAFT\main.py", line 125, in <module>
+    main()
+  File "D:\PythonProjects\JFCRAFT\main.py", line 120, in main
+    launcher_ui.create_ui()
+  File "D:\PythonProjects\JFCRAFT\launcher_ui.py", line 84, in create_ui
+    root.mainloop()
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1485, in mainloop
+    self.tk.mainloop(n)
+KeyboardInterrupt
+Unhandled exception occurred:
+Traceback (most recent call last):
+  File "D:\PythonProjects\JFCRAFT\main.py", line 125, in <module>
+    main()
+  File "D:\PythonProjects\JFCRAFT\main.py", line 120, in main
+    launcher_ui.create_ui()
+  File "D:\PythonProjects\JFCRAFT\launcher_ui.py", line 84, in create_ui
+    root.mainloop()
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1485, in mainloop
+    self.tk.mainloop(n)
+KeyboardInterrupt
+Unhandled exception occurred:
+Traceback (most recent call last):
+  File "D:\PythonProjects\JFCRAFT\main.py", line 125, in <module>
+    main()
+  File "D:\PythonProjects\JFCRAFT\main.py", line 120, in main
+    launcher_ui.create_ui()
+  File "D:\PythonProjects\JFCRAFT\launcher_ui.py", line 84, in create_ui
+    root.mainloop()
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1485, in mainloop
+    self.tk.mainloop(n)
+KeyboardInterrupt
+Unhandled exception occurred:
+Traceback (most recent call last):
+  File "D:\PythonProjects\JFCRAFT\main.py", line 125, in <module>
+    main()
+  File "D:\PythonProjects\JFCRAFT\main.py", line 120, in main
+    launcher_ui.create_ui()
+  File "D:\PythonProjects\JFCRAFT\launcher_ui.py", line 84, in create_ui
+    root.mainloop()
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1485, in mainloop
+    self.tk.mainloop(n)
+KeyboardInterrupt
+Unhandled exception occurred:
+Traceback (most recent call last):
+  File "D:\PythonProjects\JFCRAFT\main.py", line 125, in <module>
+    main()
+  File "D:\PythonProjects\JFCRAFT\main.py", line 120, in main
+    launcher_ui.create_ui()
+  File "D:\PythonProjects\JFCRAFT\launcher_ui.py", line 85, in create_ui
+    root.mainloop()
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1485, in mainloop
+    self.tk.mainloop(n)
+KeyboardInterrupt
+Unhandled exception occurred:
+Traceback (most recent call last):
+  File "D:\PythonProjects\JFCRAFT\main.py", line 125, in <module>
+    main()
+  File "D:\PythonProjects\JFCRAFT\main.py", line 119, in main
+    vanilla_expanded.launch(get_options())
+  File "D:\PythonProjects\JFCRAFT\vanilla_expanded.py", line 146, in launch
+    check_for_installed_forge()
+  File "D:\PythonProjects\JFCRAFT\vanilla_expanded.py", line 25, in check_for_installed_forge
+    install_forge()
+  File "D:\PythonProjects\JFCRAFT\vanilla_expanded.py", line 33, in install_forge
+    minecraft_launcher_lib.forge.install_forge_version('1.20.1-47.2.0', minecraft_directory, callback)
+  File "D:\PythonProjects\JFCRAFT\venv\Lib\site-packages\minecraft_launcher_lib\forge.py", line 110, in install_forge_version
+    install_minecraft_version(minecraft_version, path, callback=callback)
+  File "D:\PythonProjects\JFCRAFT\venv\Lib\site-packages\minecraft_launcher_lib\install.py", line 191, in install_minecraft_version
+    do_version_install(versionid, minecraft_directory, callback, url=i["url"], sha1=i["sha1"])
+  File "D:\PythonProjects\JFCRAFT\venv\Lib\site-packages\minecraft_launcher_lib\install.py", line 131, in do_version_install
+    install_libraries(versiondata["id"], versiondata["libraries"], path, callback)
+  File "D:\PythonProjects\JFCRAFT\venv\Lib\site-packages\minecraft_launcher_lib\install.py", line 67, in install_libraries
+    download_file(download_url, os.path.join(current_path, jar_filename), callback=callback, session=session, minecraft_directory=path)
+  File "D:\PythonProjects\JFCRAFT\venv\Lib\site-packages\minecraft_launcher_lib\_helper.py", line 69, in download_file
+    shutil.copyfileobj(r.raw, f)
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\shutil.py", line 197, in copyfileobj
+    buf = fsrc_read(length)
+          ^^^^^^^^^^^^^^^^^
+  File "D:\PythonProjects\JFCRAFT\venv\Lib\site-packages\urllib3\response.py", line 935, in read
+    data = self._raw_read(amt)
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\PythonProjects\JFCRAFT\venv\Lib\site-packages\urllib3\response.py", line 862, in _raw_read
+    data = self._fp_read(amt, read1=read1) if not fp_closed else b""
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PythonProjects\JFCRAFT\venv\Lib\site-packages\urllib3\response.py", line 845, in _fp_read
+    return self._fp.read(amt) if amt is not None else self._fp.read()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 466, in read
+    s = self.fp.read(amt)
+        ^^^^^^^^^^^^^^^^^
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\ssl.py", line 1278, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\ssl.py", line 1134, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Unhandled exception occurred:
+Traceback (most recent call last):
+  File "D:\PythonProjects\JFCRAFT\main.py", line 125, in <module>
+    main()
+  File "D:\PythonProjects\JFCRAFT\main.py", line 120, in main
+    launcher_ui.create_ui()
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'launcher_ui' has no attribute 'create_ui'
+Unhandled exception occurred:
+Traceback (most recent call last):
+  File "D:\PythonProjects\JFCRAFT\main.py", line 125, in <module>
+    main()
+  File "D:\PythonProjects\JFCRAFT\main.py", line 120, in main
+    launcher_ui.create_ui()
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'launcher_ui' has no attribute 'create_ui'
+Unhandled exception occurred:
+Traceback (most recent call last):
+  File "D:\PythonProjects\JFCRAFT\launcher_ui.py", line 17, in run
+    install.start_install(self.version)  # Запуск установки
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PythonProjects\JFCRAFT\install.py", line 62, in start_install
+    check_for_installed_forge()
+  File "D:\PythonProjects\JFCRAFT\install.py", line 18, in check_for_installed_forge
+    launcher_ui.message_to_console(f'Проверка Forge для {modpack}...')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'launcher_ui' has no attribute 'message_to_console'
+Unhandled exception occurred:
+Traceback (most recent call last):
+  File "D:\PythonProjects\JFCRAFT\launcher_ui.py", line 17, in run
+    install.start_install(self.version)  # Запуск установки
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PythonProjects\JFCRAFT\install.py", line 62, in start_install
+    check_for_installed_forge()
+  File "D:\PythonProjects\JFCRAFT\install.py", line 18, in check_for_installed_forge
+    launcher_ui.message_to_console(f'Проверка Forge для {modpack}...')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'launcher_ui' has no attribute 'message_to_console'
+Unhandled exception occurred:
+Traceback (most recent call last):
+  File "D:\PythonProjects\JFCRAFT\launcher_ui.py", line 70, in start_install
+    install.start_install(version)
+  File "D:\PythonProjects\JFCRAFT\install.py", line 62, in start_install
+    check_for_installed_forge()
+  File "D:\PythonProjects\JFCRAFT\install.py", line 18, in check_for_installed_forge
+    launcher_ui.message_to_console(f'Проверка Forge для {modpack}...')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'launcher_ui' has no attribute 'message_to_console'
+Unhandled exception occurred:
+Traceback (most recent call last):
+  File "D:\PythonProjects\JFCRAFT\launcher_ui.py", line 70, in start_install
+    install.start_install(version)
+  File "D:\PythonProjects\JFCRAFT\install.py", line 62, in start_install
+    check_for_installed_forge()
+  File "D:\PythonProjects\JFCRAFT\install.py", line 18, in check_for_installed_forge
+    launcher_ui.message_to_console(f'Проверка Forge для {modpack}...')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'launcher_ui' has no attribute 'message_to_console'
+Unhandled exception occurred:
+Traceback (most recent call last):
+  File "D:\PythonProjects\JFCRAFT\main.py", line 125, in <module>
+    main()
+  File "D:\PythonProjects\JFCRAFT\main.py", line 120, in main
+    launcher_ui.startup()
+  File "D:\PythonProjects\JFCRAFT\launcher_ui.py", line 96, in startup
+    thread_ui = threading.Thread(target=create_ui())
+                                        ^^^^^^^^^^^
+  File "D:\PythonProjects\JFCRAFT\launcher_ui.py", line 92, in create_ui
+    root.mainloop()
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1485, in mainloop
+    self.tk.mainloop(n)
+KeyboardInterrupt
+Unhandled exception occurred:
+Traceback (most recent call last):
+  File "D:\PythonProjects\JFCRAFT\main.py", line 125, in <module>
+    main()
+  File "D:\PythonProjects\JFCRAFT\main.py", line 120, in main
+    launcher_ui.startup()
+  File "D:\PythonProjects\JFCRAFT\launcher_ui.py", line 96, in startup
+    thread_ui = threading.Thread(target=create_ui())
+                                        ^^^^^^^^^^^
+  File "D:\PythonProjects\JFCRAFT\launcher_ui.py", line 92, in create_ui
+    root.mainloop()
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1485, in mainloop
+    self.tk.mainloop(n)
+KeyboardInterrupt
+Unhandled exception occurred:
+Traceback (most recent call last):
+  File "D:\PythonProjects\JFCRAFT\main.py", line 125, in <module>
+    main()
+  File "D:\PythonProjects\JFCRAFT\main.py", line 120, in main
+    launcher_ui.startup()
+  File "D:\PythonProjects\JFCRAFT\launcher_ui.py", line 96, in startup
+    thread_ui = threading.Thread(target=create_ui())
+                                        ^^^^^^^^^^^
+  File "D:\PythonProjects\JFCRAFT\launcher_ui.py", line 92, in create_ui
+    root.mainloop()
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1485, in mainloop
+    self.tk.mainloop(n)
+KeyboardInterrupt
+Unhandled exception occurred:
+Traceback (most recent call last):
+  File "D:\PythonProjects\JFCRAFT\main.py", line 125, in <module>
+    main()
+  File "D:\PythonProjects\JFCRAFT\main.py", line 119, in main
+    vanilla_expanded.launch(get_options())
+  File "D:\PythonProjects\JFCRAFT\vanilla_expanded.py", line 147, in launch
+    check_for_installed_mods()
+  File "D:\PythonProjects\JFCRAFT\vanilla_expanded.py", line 59, in check_for_installed_mods
+    install_mods(installed_mods_list, actual_mods_list)
+  File "D:\PythonProjects\JFCRAFT\vanilla_expanded.py", line 85, in install_mods
+    wget.download(
+  File "D:\PythonProjects\JFCRAFT\venv\Lib\site-packages\wget.py", line 526, in download
+    (tmpfile, headers) = ulib.urlretrieve(binurl, tmpfile, callback)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 241, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+                            ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 519, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 1391, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1286, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1332, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1281, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1041, in _send_output
+    self.send(msg)
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 979, in send
+    self.connect()
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1458, in connect
+    self.sock = self._context.wrap_socket(self.sock,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\ssl.py", line 517, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\ssl.py", line 1075, in _create
+    self.do_handshake()
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\ssl.py", line 1346, in do_handshake
+    self._sslobj.do_handshake()
+KeyboardInterrupt
+Unhandled exception occurred:
+Traceback (most recent call last):
+  File "D:\PythonProjects\JFCRAFT\main.py", line 125, in <module>
+    main()
+  File "D:\PythonProjects\JFCRAFT\main.py", line 120, in main
+    launcher_ui.startup()
+  File "D:\PythonProjects\JFCRAFT\launcher_ui.py", line 96, in startup
+    thread_ui = threading.Thread(target=create_ui())
+                                        ^^^^^^^^^^^
+  File "D:\PythonProjects\JFCRAFT\launcher_ui.py", line 92, in create_ui
+    root.mainloop()
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1485, in mainloop
+    self.tk.mainloop(n)
+KeyboardInterrupt
+Unhandled exception occurred:
+Traceback (most recent call last):
+  File "D:\PythonProjects\JFCRAFT\main.py", line 125, in <module>
+    main()
+  File "D:\PythonProjects\JFCRAFT\main.py", line 120, in main
+    launcher_ui.startup()
+  File "D:\PythonProjects\JFCRAFT\launcher_ui.py", line 96, in startup
+    thread_ui = threading.Thread(target=create_ui())
+                                        ^^^^^^^^^^^
+  File "D:\PythonProjects\JFCRAFT\launcher_ui.py", line 92, in create_ui
+    root.mainloop()
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1485, in mainloop
+    self.tk.mainloop(n)
+KeyboardInterrupt
+Unhandled exception occurred:
+Traceback (most recent call last):
+  File "D:\PythonProjects\JFCRAFT\main.py", line 125, in <module>
+    main()
+  File "D:\PythonProjects\JFCRAFT\main.py", line 120, in main
+    launcher_ui.startup()
+  File "D:\PythonProjects\JFCRAFT\launcher_ui.py", line 92, in startup
+    thread_ui = threading.Thread(target=create_ui())
+                                        ^^^^^^^^^^^
+  File "D:\PythonProjects\JFCRAFT\launcher_ui.py", line 88, in create_ui
+    root.mainloop()
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1485, in mainloop
+    self.tk.mainloop(n)
+KeyboardInterrupt
+Unhandled exception occurred:
+Traceback (most recent call last):
+  File "D:\PythonProjects\JFCRAFT\main.py", line 125, in <module>
+    main()
+  File "D:\PythonProjects\JFCRAFT\main.py", line 120, in main
+    launcher_ui.startup()
+  File "D:\PythonProjects\JFCRAFT\launcher_ui.py", line 81, in startup
+    thread_ui = threading.Thread(target=create_ui())
+                                        ^^^^^^^^^^^
+  File "D:\PythonProjects\JFCRAFT\launcher_ui.py", line 77, in create_ui
+    root.mainloop()
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1485, in mainloop
+    self.tk.mainloop(n)
+KeyboardInterrupt
+Unhandled exception occurred:
+Traceback (most recent call last):
+  File "D:\PythonProjects\JFCRAFT\main.py", line 125, in <module>
+    main()
+  File "D:\PythonProjects\JFCRAFT\main.py", line 120, in main
+    launcher_ui.startup()
+  File "D:\PythonProjects\JFCRAFT\launcher_ui.py", line 81, in startup
+    thread_ui = threading.Thread(target=create_ui())
+                                        ^^^^^^^^^^^
+  File "D:\PythonProjects\JFCRAFT\launcher_ui.py", line 77, in create_ui
+    root.mainloop()
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1485, in mainloop
+    self.tk.mainloop(n)
+KeyboardInterrupt
+Unhandled exception occurred:
+Traceback (most recent call last):
+  File "D:\PythonProjects\JFCRAFT\main.py", line 125, in <module>
+    main()
+  File "D:\PythonProjects\JFCRAFT\main.py", line 120, in main
+    launcher_ui.startup()
+  File "D:\PythonProjects\JFCRAFT\launcher_ui.py", line 81, in startup
+    thread_ui = threading.Thread(target=create_ui())
+                                        ^^^^^^^^^^^
+  File "D:\PythonProjects\JFCRAFT\launcher_ui.py", line 77, in create_ui
+    root.mainloop()
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1485, in mainloop
+    self.tk.mainloop(n)
+KeyboardInterrupt
+Unhandled exception occurred:
+Traceback (most recent call last):
+  File "D:\PythonProjects\JFCRAFT\main.py", line 125, in <module>
+    main()
+  File "D:\PythonProjects\JFCRAFT\main.py", line 120, in main
+    launcher_ui.startup()
+  File "D:\PythonProjects\JFCRAFT\launcher_ui.py", line 81, in startup
+    thread_ui = threading.Thread(target=create_ui())
+                                        ^^^^^^^^^^^
+  File "D:\PythonProjects\JFCRAFT\launcher_ui.py", line 77, in create_ui
+    root.mainloop()
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1485, in mainloop
+    self.tk.mainloop(n)
+KeyboardInterrupt
+Unhandled exception occurred:
+Traceback (most recent call last):
+  File "D:\PythonProjects\JFCRAFT\main.py", line 125, in <module>
+    main()
+  File "D:\PythonProjects\JFCRAFT\main.py", line 120, in main
+    launcher_ui.startup()
+  File "D:\PythonProjects\JFCRAFT\launcher_ui.py", line 81, in startup
+    thread_ui = threading.Thread(target=create_ui())
+                                        ^^^^^^^^^^^
+  File "D:\PythonProjects\JFCRAFT\launcher_ui.py", line 77, in create_ui
+    root.mainloop()
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1485, in mainloop
+    self.tk.mainloop(n)
+KeyboardInterrupt
+Unhandled exception occurred:
+Traceback (most recent call last):
+  File "D:\PythonProjects\JFCRAFT\main.py", line 125, in <module>
+    main()
+  File "D:\PythonProjects\JFCRAFT\main.py", line 120, in main
+    launcher_ui.startup()
+  File "D:\PythonProjects\JFCRAFT\launcher_ui.py", line 81, in startup
+    thread_ui = threading.Thread(target=create_ui())
+                                        ^^^^^^^^^^^
+  File "D:\PythonProjects\JFCRAFT\launcher_ui.py", line 77, in create_ui
+    root.mainloop()
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1485, in mainloop
+    self.tk.mainloop(n)
+KeyboardInterrupt
+Unhandled exception occurred:
+Traceback (most recent call last):
+  File "D:\PythonProjects\JFCRAFT\main.py", line 125, in <module>
+    main()
+  File "D:\PythonProjects\JFCRAFT\main.py", line 120, in main
+    launcher_ui.startup()
+  File "D:\PythonProjects\JFCRAFT\launcher_ui.py", line 81, in startup
+    thread_ui = threading.Thread(target=create_ui())
+                                        ^^^^^^^^^^^
+  File "D:\PythonProjects\JFCRAFT\launcher_ui.py", line 77, in create_ui
+    root.mainloop()
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1485, in mainloop
+    self.tk.mainloop(n)
+KeyboardInterrupt
+Unhandled exception occurred:
+Traceback (most recent call last):
+  File "D:\PythonProjects\JFCRAFT\main.py", line 125, in <module>
+    main()
+  File "D:\PythonProjects\JFCRAFT\main.py", line 120, in main
+    launcher_ui.startup()
+  File "D:\PythonProjects\JFCRAFT\launcher_ui.py", line 81, in startup
+    thread_ui = threading.Thread(target=create_ui())
+                                        ^^^^^^^^^^^
+  File "D:\PythonProjects\JFCRAFT\launcher_ui.py", line 77, in create_ui
+    root.mainloop()
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1485, in mainloop
+    self.tk.mainloop(n)
+KeyboardInterrupt
+Unhandled exception occurred:
+Traceback (most recent call last):
+  File "D:\PythonProjects\JFCRAFT\main.py", line 126, in <module>
+    main()
+  File "D:\PythonProjects\JFCRAFT\main.py", line 122, in main
+    launcher_ui.startup()
+  File "D:\PythonProjects\JFCRAFT\launcher_ui.py", line 81, in startup
+    thread_ui = threading.Thread(target=create_ui())
+                                        ^^^^^^^^^^^
+  File "D:\PythonProjects\JFCRAFT\launcher_ui.py", line 77, in create_ui
+    root.mainloop()
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1485, in mainloop
+    self.tk.mainloop(n)
+KeyboardInterrupt
