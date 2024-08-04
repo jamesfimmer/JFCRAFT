@@ -18,14 +18,22 @@ def get_username():
 
 def get_ip():
     current_ip = requests.get(
-        'https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/launcher/curreint_ip.txt')
+        'https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/launcher/curreint_ip.txt', verify=False)
     return current_ip.text
 
 
 def get_port():
     current_port = requests.get(
-        'https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/launcher/current_port.txt')
+        'https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/launcher/current_port.txt', verify=False)
     return current_port.text
+
+
+def get_jvmArguments():
+    xms = input(
+        'Пожалуйста введите количество оперативной памяти в гигабайтах для минимального порога (оптимально 2-3): ')
+    xmx = input(
+        'Пожалуйста введите количество оперативной памяти в гигабайтах для максимального порога (оптимально 6-8): ')
+    return [f'-Xms{xms}G', f'-Xmx{xmx}G']
 
 
 def get_options():
@@ -34,7 +42,8 @@ def get_options():
         'launcherName': 'JFCRAFT',
         'launcherVersion': launcher_version,
         'server': get_ip(),
-        'port': get_port()
+        'port': get_port(),
+        'jvmArguments': get_jvmArguments()
     }
     return options
 
@@ -53,7 +62,7 @@ def welcome():
 
 def check_launcher_updates():
     print('Проверка обновлений лаунчера...')
-    resp = requests.get('https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/launcher/current_version.txt')
+    resp = requests.get('https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/launcher/current_version.txt', verify=False)
     if resp.status_code == 200:
         if resp.text == launcher_version:
             print('Установлена новейшая версия!')
@@ -69,7 +78,7 @@ def download_newest_launcher_version():
     launcher_exe_folder_path = minecraft_directory = minecraft_launcher_lib.utils.get_minecraft_directory().replace(
         '.minecraft',
         '.JFCRAFT')
-    resp = requests.get(launcher_exe_url)
+    resp = requests.get(launcher_exe_url, verify=False)
 
     if os.path.exists(launcher_exe_folder_path):
         try:

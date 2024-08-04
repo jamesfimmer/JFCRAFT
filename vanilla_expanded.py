@@ -51,7 +51,7 @@ def check_for_installed_mods():
     installed_mods_list = get_installed_mods()
     print('Установленные моды: ')
     print(installed_mods_list)
-    actual_mods_list = requests.get(actual_mods_list_url).text.splitlines()
+    actual_mods_list = requests.get(actual_mods_list_url, verify=False).text.splitlines()
     print('Актуальные моды: ')
     print(actual_mods_list)
 
@@ -110,7 +110,7 @@ def check_for_installed_shaderpacks():
 
 
 def install_shaderpacks():
-    response = requests.get(actual_shaderpacks_url)
+    response = requests.get(actual_shaderpacks_url, verify=False)
     with open('shaderpacks.zip', 'wb') as f:
         f.write(response.content)
     shutil.unpack_archive('shaderpacks.zip', shaderpacks_directory, 'zip')
@@ -134,7 +134,7 @@ def check_for_installed_options_files():
     if not os.path.exists(minecraft_directory + '\\' + 'config'):
         print('Не обнаружена папка config !!!')
         print('Загрузка config...')
-        response = requests.get(actual_config_url)
+        response = requests.get(actual_config_url, verify=False)
         with open('config.zip', 'wb') as f:
             f.write(response.content)
         shutil.unpack_archive('config.zip', minecraft_directory, 'zip')

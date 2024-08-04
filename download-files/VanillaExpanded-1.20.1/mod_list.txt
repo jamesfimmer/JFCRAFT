@@ -14,7 +14,6 @@ blue_skies-1.20.1-1.3.31.jar
 Bookshelf-Forge-1.20.1-20.1.10.jar
 Botania-1.20.1-443-FORGE.jar
 cfm-forge-1.20.1-7.0.0-pre36.jar
-chunkloaders-1.2.8a-forge-mc1.20.1.jar
 citadel-2.5.4-1.20.1.jar
 cloth-config-11.1.118-forge.jar
 Clumps-forge-1.20.1-12.0.0.3.jar
@@ -100,3 +99,5 @@ minecolonies-1.20.1-1.1.563-RELEASE.jar
 multipiston-1.20-1.2.43-RELEASE.jar
 structurize-1.20.1-1.0.731-RELEASE.jar
 FallingTree-1.20.1-4.3.4.jar
+ChickenChunks-1.20.1-2.10.0.100-universal.jar
+CodeChickenLib-1.20.1-4.4.0.509-universal.jar
