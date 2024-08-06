@@ -12,7 +12,7 @@ def launch(version_var, username_entry, min_ram_entry, max_ram_entry):
     username = username_entry.get()
     min_ram = min_ram_entry.get()
     max_ram = max_ram_entry.get()
-    jvmArguments = [f'-Xms{min}G', f'-Xmx{max}G']
+    jvmArguments = [f'-Xms{min_ram}G', f'-Xmx{max_ram}G']
 
     thread_install = threading.Thread(target=modpack.launch, args=[version, username, jvmArguments, launcher_version])
     thread_install.start()
