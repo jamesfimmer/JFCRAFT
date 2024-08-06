@@ -112,13 +112,30 @@ def excepthook(exc_type, exc_value, exc_traceback):
         traceback.print_exception(exc_type, exc_value, exc_traceback, file=f)
 
 
+def list_files_in_directory(directory_path, output_file):
+    try:
+        # Получаем список всех файлов и папок в указанной директории
+        files_and_folders = os.listdir(directory_path)
+
+        # Оставляем только файлы
+        files = [f for f in files_and_folders if os.path.isfile(os.path.join(directory_path, f))]
+
+        # Записываем имена файлов в текстовый файл
+        with open(output_file, 'w') as file:
+            for file_name in files:
+                file.write(file_name + '\n')
+
+        print(f"Список файлов успешно записан в '{output_file}'")
+    except Exception as e:
+        print(f"Произошла ошибка: {e}")
+
 def main():
     sys.excepthook = excepthook
     # welcome()
     # check_launcher_updates()
     # vanilla_expanded.launch(get_options())
     print(os.listdir('C:\\Users\\James\\AppData\\Roaming\\.minecraft\\versions\\Pokecraft 1.20.1\\mods'))
-
+    list_files_in_directory('C:\\Users\\James\\AppData\\Roaming\\.minecraft\\versions\\Pokecraft 1.20.1\\mods', 'mod_list.txt')
     launcher_ui.startup()
 
 
