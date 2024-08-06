@@ -116,7 +116,7 @@ def main():
     sys.excepthook = excepthook
     # welcome()
     # check_launcher_updates()
-   # vanilla_expanded.launch(get_options())
+    # vanilla_expanded.launch(get_options())
     print(os.listdir('C:\\Users\\James\\AppData\\Roaming\\.minecraft\\versions\\Pokecraft 1.20.1\\mods'))
 
     launcher_ui.startup()

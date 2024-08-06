@@ -1,5 +1,6 @@
 import os
 
+import rarfile
 import requests
 from requests import HTTPError, Timeout, RequestException
 
@@ -93,8 +94,48 @@ def install_mods(installed_mods_list, actual_mods_list):
             launcher_ui.message_to_console('\nУспешно загружен мод: ' + mod)
             launcher_ui.message_to_console('По пути: ' + mods_directory + '\\' + mod)
     else:
-        print('Все модификации на месте!!!')
+        launcher_ui.message_to_console('Все модификации на месте!!!')
         return
+
+
+def check_for_installed_shaderpacks():
+    try:
+        if os.listdir(shaderpacks_directory):
+            launcher_ui.message_to_console('Шейдеры обнаружены!')
+            return
+        else:
+            install_shaderpacks()
+
+    except FileNotFoundError:
+        launcher_ui.message_to_console('Папка shaderpacks не была обнаружена')
+        install_shaderpacks()
+
+    except NotADirectoryError:
+        launcher_ui.message_to_console('Папка shaderpacks не была обнаружена')
+        install_shaderpacks()
+
+
+def install_shaderpacks():
+    download_file(shaderpacks_url, minecraft_directory, '')
+    extract_rar(minecraft_directory + 'shaderpacks.rar', minecraft_directory)
+    print('Шейдеры успешно установлены!')
+
+
+def extract_rar(rar_path, extract_to):
+    try:
+        # Создаем директорию, если она не существует
+        os.makedirs(extract_to, exist_ok=True)
+
+        # Распаковываем архив
+        with rarfile.RarFile(rar_path) as rf:
+            rf.extractall(extract_to)
+
+        print(f"Archive extracted successfully to '{extract_to}'.")
+
+    except rarfile.BadRarFile as rar_err:
+        print(f"Rar file error: {rar_err}")
+    except Exception as err:
+        print(f"An error occurred: {err}")
 
 
 def download_file(url, local_path, name):
@@ -105,7 +146,7 @@ def download_file(url, local_path, name):
             response.raise_for_status()
 
             # Открываем локальный файл для записи
-            with open(mods_directory + '\\' + name, 'wb') as file:
+            with open(local_path + '\\' + name, 'wb') as file:
                 # Записываем содержимое файла по частям (чтобы избежать больших загрузок в память)
                 for chunk in response.iter_content(chunk_size=8192):
                     file.write(chunk)
@@ -123,7 +164,7 @@ def download_file(url, local_path, name):
 
 
 def set_global_variables(version):
-    global modpack, forge_version_for_install, forge_version_for_check, minecraft_directory, mods_directory, shaderpacks_directory, url, mods_list_url
+    global modpack, forge_version_for_install, forge_version_for_check, minecraft_directory, mods_directory, shaderpacks_directory, url, mods_list_url, shaderpacks_url
     if version == 'Vanilla Expanded 1.20.1':
         modpack = 'Vanilla Expanded 1.20.1'
         forge_version_for_install = '1.20.1-47.2.0'
@@ -135,6 +176,7 @@ def set_global_variables(version):
 
         url = 'https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/VanillaExpanded-1.20.1/'
         mods_list_url = url + 'mod_list.txt'
+        shaderpacks_url = url + 'shaderpacks.rar'
     elif version == 'Pokecraft 1.20.1':
         modpack = 'Pokecraft 1.20.1'
         forge_version_for_install = '1.20.1-47.3.0'
@@ -151,6 +193,7 @@ def start_install(version):
     set_global_variables(version)
     check_for_installed_forge()
     check_for_installed_mods()
+    check_for_installed_shaderpacks()
 
 
 if __name__ == '__main__':
