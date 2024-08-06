@@ -1,4 +1,5 @@
 import os
+import subprocess
 
 import rarfile
 import requests
@@ -18,6 +19,8 @@ shaderpacks_directory = ''
 url = ''
 mods_list_url = ''
 shaderpacks_url = ''
+options_url = ''
+servers_url = ''
 config_url = ''
 
 
@@ -116,9 +119,27 @@ def check_for_installed_shaderpacks():
 
 
 def install_shaderpacks():
-    download_file(shaderpacks_url, minecraft_directory, '')
-    extract_rar(minecraft_directory + 'shaderpacks.rar', minecraft_directory)
+    download_file(shaderpacks_url, minecraft_directory, 'shaderpacks.rar')
+    print('Успешно скачаны шейдеры')
+    extract_rar(minecraft_directory + '\\shaderpacks.rar', minecraft_directory)
     print('Шейдеры успешно установлены!')
+
+
+def check_for_installed_options_files():
+    if not os.path.exists(minecraft_directory + '\\' + 'options.txt'):
+        print('Не обнаружен options.txt !!!')
+        print('Загрузка options.txt...')
+        download_file(options_url, minecraft_directory, 'options.txt')
+    if not os.path.exists(minecraft_directory + '\\' + 'servers.dat'):
+        print('Не обнаружен servers.dat !!!')
+        print('Загрузка servers.dat...')
+        download_file(options_url, minecraft_directory, 'servers.dat')
+    if not os.path.exists(minecraft_directory + '\\' + 'config'):
+        print('Не обнаружена папка config !!!')
+        print('Загрузка config...')
+        download_file(config_url, minecraft_directory, 'config.rar')
+        extract_rar(minecraft_directory + '\\config.rar', minecraft_directory)
+        print('Конфиги успешно установлены!')
 
 
 def extract_rar(rar_path, extract_to):
@@ -164,7 +185,7 @@ def download_file(url, local_path, name):
 
 
 def set_global_variables(version):
-    global modpack, forge_version_for_install, forge_version_for_check, minecraft_directory, mods_directory, shaderpacks_directory, url, mods_list_url, shaderpacks_url
+    global modpack, forge_version_for_install, forge_version_for_check, minecraft_directory, mods_directory, shaderpacks_directory, url, mods_list_url, shaderpacks_url, options_url, servers_url, config_url
     if version == 'Vanilla Expanded 1.20.1':
         modpack = 'Vanilla Expanded 1.20.1'
         forge_version_for_install = '1.20.1-47.2.0'
@@ -177,6 +198,9 @@ def set_global_variables(version):
         url = 'https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/VanillaExpanded-1.20.1/'
         mods_list_url = url + 'mod_list.txt'
         shaderpacks_url = url + 'shaderpacks.rar'
+        options_url = url + 'options.txt'
+        servers_url = url + 'servers.dat'
+        config_url = url + 'config.rar'
     elif version == 'Pokecraft 1.20.1':
         modpack = 'Pokecraft 1.20.1'
         forge_version_for_install = '1.20.1-47.3.0'
@@ -187,14 +211,48 @@ def set_global_variables(version):
         shaderpacks_directory = minecraft_directory + '\\shaderpacks'
         url = 'https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/Pokecraft-1.20.1/'
         mods_list_url = url + 'mod_list.txt'
+        shaderpacks_url = url + 'shaderpacks.rar'
+        options_url = url + 'options.txt'
+        servers_url = url + 'servers.dat'
+        config_url = url + 'config.rar'
 
 
-def start_install(version):
+def get_ip():
+    current_ip = requests.get(
+        'https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/launcher/curreint_ip.txt', verify=False)
+    return current_ip.text
+
+
+def get_port():
+    current_port = requests.get(
+        'https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/launcher/current_port.txt', verify=False)
+    return current_port.text
+
+
+def get_options(username, jvmArguments, launcher_version):
+    options = {
+        'username': username,
+        'launcherName': 'JFCRAFT',
+        'launcherVersion': launcher_version,
+        'server': get_ip(),
+        'port': get_port(),
+        'jvmArguments': jvmArguments
+    }
+    return options
+
+
+def launch(version, username, jvmArguments, launcher_version):
     set_global_variables(version)
     check_for_installed_forge()
     check_for_installed_mods()
     check_for_installed_shaderpacks()
+    check_for_installed_options_files()
+    launcher_ui.message_to_console(f'Запуск {modpack}...')
+
+    subprocess.run(
+        minecraft_launcher_lib.command.get_minecraft_command(forge_version_for_check, minecraft_directory,
+                                                             get_options(username, jvmArguments, launcher_version)))
 
 
 if __name__ == '__main__':
-    start_install()
+    launch()

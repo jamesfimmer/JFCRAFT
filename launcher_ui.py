@@ -4,14 +4,17 @@ from tkinter import ttk
 
 import modpack
 
+launcher_version = '1.1.0'
 
-def launch(version_var, username_entry, min_ram_entry, max_ram_entry, console_output):
+
+def launch(version_var, username_entry, min_ram_entry, max_ram_entry):
     version = version_var.get()
     username = username_entry.get()
     min_ram = min_ram_entry.get()
     max_ram = max_ram_entry.get()
+    jvmArguments = [f'-Xms{min}G', f'-Xmx{max}G']
 
-    thread_install = threading.Thread(target=modpack.start_install, args=[version])
+    thread_install = threading.Thread(target=modpack.launch, args=[version, username, jvmArguments, launcher_version])
     thread_install.start()
 
 
@@ -29,33 +32,35 @@ def create_ui():
 
     # Заголовок
     title_label = tk.Label(root, text="JFCRAFT", font=("Helvetica", 16))
-    title_label.pack(pady=10)
+    title_label.pack(pady=0)
 
+    title_label = tk.Label(root, text='Текущая версия лаунчера: ' + launcher_version, font=("Helvetica", 8))
+    title_label.pack(pady=10)
     # Пункт выбора версии
     version_label = tk.Label(root, text="Выберите версию:")
     version_label.pack()
 
     version_var = tk.StringVar()
     version_combobox = ttk.Combobox(root, textvariable=version_var)
-    version_combobox['values'] = ("Vanilla Expanded 1.20.1", "Pokecraft 1.20.1")
+    version_combobox['values'] = ("Pokecraft 1.20.1", "Vanilla Expanded 1.20.1")
     version_combobox.current(0)  # Устанавливаем начальное значение
     version_combobox.pack(pady=5)
 
     # Поле ввода никнейма
-    username_label = tk.Label(root, text="Никнейм:")
+    username_label = tk.Label(root, text="Имя пользователя:")
     username_label.pack()
 
     username_entry = tk.Entry(root)
     username_entry.pack(pady=5)
 
     # Поля ввода для минимальной и максимальной границы ОЗУ
-    min_ram_label = tk.Label(root, text="Минимальная граница ОЗУ (MB):")
+    min_ram_label = tk.Label(root, text="Минимальная граница ОЗУ в гигабайтах (рекомендуется 2-3):")
     min_ram_label.pack()
 
     min_ram_entry = tk.Entry(root)
     min_ram_entry.pack(pady=5)
 
-    max_ram_label = tk.Label(root, text="Максимальная граница ОЗУ (MB):")
+    max_ram_label = tk.Label(root, text="Максимальная граница ОЗУ в гигабайтах (рекомендуется 5-6):")
     max_ram_label.pack()
 
     max_ram_entry = tk.Entry(root)
@@ -63,8 +68,7 @@ def create_ui():
 
     # Кнопки "Запустить" и "Установить"
     launch_button = tk.Button(root, text="Запустить",
-                              command=lambda: launch(version_var, username_entry, min_ram_entry, max_ram_entry,
-                                                     console_output))
+                              command=lambda: launch(version_var, username_entry, min_ram_entry, max_ram_entry,))
     launch_button.pack(pady=10)
 
     # Окно для вывода сообщений консоли

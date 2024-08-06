@@ -492,3 +492,59 @@ Traceback (most recent call last):
   File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1485, in mainloop
     self.tk.mainloop(n)
 KeyboardInterrupt
+Unhandled exception occurred:
+Traceback (most recent call last):
+  File "D:\Python\JFCRAFT\main.py", line 126, in <module>
+    main()
+  File "D:\Python\JFCRAFT\main.py", line 122, in main
+    launcher_ui.startup()
+  File "D:\Python\JFCRAFT\launcher_ui.py", line 81, in startup
+    thread_ui = threading.Thread(target=create_ui())
+                                        ^^^^^^^^^^^
+  File "D:\Python\JFCRAFT\launcher_ui.py", line 77, in create_ui
+    root.mainloop()
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1485, in mainloop
+    self.tk.mainloop(n)
+KeyboardInterrupt
+Unhandled exception occurred:
+Traceback (most recent call last):
+  File "D:\Python\JFCRAFT\main.py", line 126, in <module>
+    main()
+  File "D:\Python\JFCRAFT\main.py", line 122, in main
+    launcher_ui.startup()
+  File "D:\Python\JFCRAFT\launcher_ui.py", line 86, in startup
+    thread_ui = threading.Thread(target=create_ui())
+                                        ^^^^^^^^^^^
+  File "D:\Python\JFCRAFT\launcher_ui.py", line 82, in create_ui
+    root.mainloop()
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1485, in mainloop
+    self.tk.mainloop(n)
+KeyboardInterrupt
+Unhandled exception occurred:
+Traceback (most recent call last):
+  File "D:\Python\JFCRAFT\main.py", line 126, in <module>
+    main()
+  File "D:\Python\JFCRAFT\main.py", line 122, in main
+    launcher_ui.startup()
+  File "D:\Python\JFCRAFT\launcher_ui.py", line 86, in startup
+    thread_ui = threading.Thread(target=create_ui())
+                                        ^^^^^^^^^^^
+  File "D:\Python\JFCRAFT\launcher_ui.py", line 82, in create_ui
+    root.mainloop()
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1485, in mainloop
+    self.tk.mainloop(n)
+KeyboardInterrupt
+Unhandled exception occurred:
+Traceback (most recent call last):
+  File "D:\Python\JFCRAFT\main.py", line 126, in <module>
+    main()
+  File "D:\Python\JFCRAFT\main.py", line 122, in main
+    launcher_ui.startup()
+  File "D:\Python\JFCRAFT\launcher_ui.py", line 85, in startup
+    thread_ui = threading.Thread(target=create_ui())
+                                        ^^^^^^^^^^^
+  File "D:\Python\JFCRAFT\launcher_ui.py", line 81, in create_ui
+    root.mainloop()
+  File "C:\Users\James\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1485, in mainloop
+    self.tk.mainloop(n)
+KeyboardInterrupt
