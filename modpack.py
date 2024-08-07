@@ -26,7 +26,6 @@ config_url = ''
 
 def check_for_installed_forge():
     launcher_ui.message_to_console(f'Проверка Forge для {modpack}...')
-    print(forge_version_for_check)
     if any(item['id'] == forge_version_for_check for item in
            minecraft_launcher_lib.utils.get_installed_versions(minecraft_directory)):
         launcher_ui.message_to_console(f"Forge для {modpack} установлен на данном компьютере!")
@@ -41,7 +40,7 @@ def install_forge():
         "setStatus": lambda text: launcher_ui.message_to_console(text),
     }
     minecraft_launcher_lib.forge.install_forge_version(forge_version_for_install, minecraft_directory, callback)
-    print(f'Forge для {modpack} успешно установлен!')
+    launcher_ui.message_to_console(f'Forge для {modpack} успешно установлен!')
 
 
 def get_installed_mods():
@@ -58,6 +57,7 @@ def get_installed_mods():
 
 
 def check_for_installed_mods():
+    launcher_ui.message_to_console('Проверка модов...')
     installed_mods_list = get_installed_mods()
     launcher_ui.message_to_console('Установленные моды: ')
     launcher_ui.message_to_console(installed_mods_list)
@@ -74,7 +74,7 @@ def check_for_installed_mods():
 def delete_extra_mods(installed_mods_list, actual_mods_list):
     mods_to_remove = [mod for mod in installed_mods_list if mod not in actual_mods_list]
     if mods_to_remove:
-        launcher_ui.message_to_console('Обнаружены лишние моды!!!')
+        launcher_ui.message_to_console('Обнаружены лишние моды!')
         launcher_ui.message_to_console('Моды для удаления: ')
         launcher_ui.message_to_console(mods_to_remove)
         for mod in mods_to_remove:
@@ -90,7 +90,7 @@ def install_mods(installed_mods_list, actual_mods_list):
     if mods_to_install:
         launcher_ui.message_to_console('Начало установки модификаций...')
         launcher_ui.message_to_console('Моды для установки: ')
-        print(mods_to_install)
+        launcher_ui.message_to_console(mods_to_install)
         for mod in mods_to_install:
             download_file(url + 'mods/' + mod, mods_directory, mod)
 
@@ -120,26 +120,25 @@ def check_for_installed_shaderpacks():
 
 def install_shaderpacks():
     download_file(shaderpacks_url, minecraft_directory, 'shaderpacks.rar')
-    print('Успешно скачаны шейдеры')
     extract_rar(minecraft_directory + '\\shaderpacks.rar', minecraft_directory)
-    print('Шейдеры успешно установлены!')
+    launcher_ui.message_to_console('Шейдеры успешно установлены!')
 
 
 def check_for_installed_options_files():
     if not os.path.exists(minecraft_directory + '\\' + 'options.txt'):
-        print('Не обнаружен options.txt !!!')
-        print('Загрузка options.txt...')
+        launcher_ui.message_to_console('Не обнаружен options.txt !!!')
+        launcher_ui.message_to_console('Загрузка options.txt...')
         download_file(options_url, minecraft_directory, 'options.txt')
     if not os.path.exists(minecraft_directory + '\\' + 'servers.dat'):
-        print('Не обнаружен servers.dat !!!')
-        print('Загрузка servers.dat...')
+        launcher_ui.message_to_console('Не обнаружен servers.dat !!!')
+        launcher_ui.message_to_console('Загрузка servers.dat...')
         download_file(options_url, minecraft_directory, 'servers.dat')
     if not os.path.exists(minecraft_directory + '\\' + 'config'):
-        print('Не обнаружена папка config !!!')
-        print('Загрузка config...')
+        launcher_ui.message_to_console('Не обнаружена папка config !!!')
+        launcher_ui.message_to_console('Загрузка config...')
         download_file(config_url, minecraft_directory, 'config.rar')
         extract_rar(minecraft_directory + '\\config.rar', minecraft_directory)
-        print('Конфиги успешно установлены!')
+        launcher_ui.message_to_console('Конфиги успешно установлены!')
 
 
 def extract_rar(rar_path, extract_to):
@@ -151,7 +150,6 @@ def extract_rar(rar_path, extract_to):
         with rarfile.RarFile(rar_path) as rf:
             rf.extractall(extract_to)
 
-        print(f"Archive extracted successfully to '{extract_to}'.")
 
     except rarfile.BadRarFile as rar_err:
         print(f"Rar file error: {rar_err}")

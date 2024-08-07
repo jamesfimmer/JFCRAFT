@@ -1,9 +1,6 @@
 import sys
 import os
-import subprocess
 
-import new_ic
-import vanilla_expanded
 import launcher_ui
 
 import minecraft_launcher_lib
@@ -12,56 +9,6 @@ import shutil
 import wget
 
 launcher_version = '1.0.0'
-
-
-def get_username():
-    username = input('Пожалуйста введите ваш никнейм: ')
-    return username
-
-
-def get_ip():
-    current_ip = requests.get(
-        'https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/launcher/curreint_ip.txt', verify=False)
-    return current_ip.text
-
-
-def get_port():
-    current_port = requests.get(
-        'https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/launcher/current_port.txt', verify=False)
-    return current_port.text
-
-
-def get_jvmArguments():
-    xms = input(
-        'Пожалуйста введите количество оперативной памяти в гигабайтах для минимального порога (оптимально 2-3): ')
-    xmx = input(
-        'Пожалуйста введите количество оперативной памяти в гигабайтах для максимального порога (оптимально 6-8): ')
-    return [f'-Xms{xms}G', f'-Xmx{xmx}G']
-
-
-def get_options():
-    options = {
-        'username': get_username(),
-        'launcherName': 'JFCRAFT',
-        'launcherVersion': launcher_version,
-        'server': get_ip(),
-        'port': get_port(),
-        'jvmArguments': get_jvmArguments()
-    }
-    return options
-
-
-def welcome():
-    print('''
-    ░░░░░██╗███████╗░█████╗░██████╗░░█████╗░███████╗████████╗
-    ░░░░░██║██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔════╝╚══██╔══╝
-    ░░░░░██║█████╗░░██║░░╚═╝██████╔╝███████║█████╗░░░░░██║░░░
-    ██╗░░██║██╔══╝░░██║░░██╗██╔══██╗██╔══██║██╔══╝░░░░░██║░░░
-    ╚█████╔╝██║░░░░░╚█████╔╝██║░░██║██║░░██║██║░░░░░░░░██║░░░
-    ░╚════╝░╚═╝░░░░░░╚════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░░░░░░░╚═╝░░░''')
-    print('Приветствую! Спасибо за использование моего лаунчера. По всем вопросам в Telegram @jamesfimmer')
-    print(f'Версия лаунчера: {launcher_version}')
-
 
 def check_launcher_updates():
     print('Проверка обновлений лаунчера...')
@@ -112,30 +59,13 @@ def excepthook(exc_type, exc_value, exc_traceback):
         traceback.print_exception(exc_type, exc_value, exc_traceback, file=f)
 
 
-def list_files_in_directory(directory_path, output_file):
-    try:
-        # Получаем список всех файлов и папок в указанной директории
-        files_and_folders = os.listdir(directory_path)
-
-        # Оставляем только файлы
-        files = [f for f in files_and_folders if os.path.isfile(os.path.join(directory_path, f))]
-
-        # Записываем имена файлов в текстовый файл
-        with open(output_file, 'w') as file:
-            for file_name in files:
-                file.write(file_name + '\n')
-
-        print(f"Список файлов успешно записан в '{output_file}'")
-    except Exception as e:
-        print(f"Произошла ошибка: {e}")
-
 def main():
     sys.excepthook = excepthook
     # welcome()
     # check_launcher_updates()
     # vanilla_expanded.launch(get_options())
-    print(os.listdir('C:\\Users\\James\\AppData\\Roaming\\.minecraft\\versions\\Pokecraft 1.20.1\\mods'))
-    list_files_in_directory('C:\\Users\\James\\AppData\\Roaming\\.minecraft\\versions\\Pokecraft 1.20.1\\mods', 'mod_list.txt')
+    # print(os.listdir('C:\\Users\\James\\AppData\\Roaming\\.minecraft\\versions\\Pokecraft 1.20.1\\mods'))
+    # list_files_in_directory('C:\\Users\\James\\AppData\\Roaming\\.minecraft\\versions\\Pokecraft 1.20.1\\mods', 'mod_list.txt')
     launcher_ui.startup()
 
 

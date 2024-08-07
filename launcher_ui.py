@@ -21,39 +21,35 @@ def launch(version_var, username_entry, min_ram_entry, max_ram_entry):
 def message_to_console(message):
     console_output.insert(tk.END, message)
     console_output.insert(tk.END, '\n')
-    console_output.see(tk.END)  # Автоматическая прокрутка до конца
+    console_output.see(tk.END)
 
 
 def create_ui():
-    # Создание основного окна
     root = tk.Tk()
     root.title("JFCRAFT")
-    root.geometry("400x500")  # Устанавливаем размер окна
+    root.geometry("400x500")
 
-    # Заголовок
+
     title_label = tk.Label(root, text="JFCRAFT", font=("Helvetica", 16))
     title_label.pack(pady=0)
 
     title_label = tk.Label(root, text='Текущая версия лаунчера: ' + launcher_version, font=("Helvetica", 8))
     title_label.pack(pady=10)
-    # Пункт выбора версии
     version_label = tk.Label(root, text="Выберите версию:")
     version_label.pack()
 
     version_var = tk.StringVar()
     version_combobox = ttk.Combobox(root, textvariable=version_var)
     version_combobox['values'] = ("Pokecraft 1.20.1", "Vanilla Expanded 1.20.1")
-    version_combobox.current(0)  # Устанавливаем начальное значение
+    version_combobox.current(0)
     version_combobox.pack(pady=5)
 
-    # Поле ввода никнейма
     username_label = tk.Label(root, text="Имя пользователя:")
     username_label.pack()
 
     username_entry = tk.Entry(root)
     username_entry.pack(pady=5)
 
-    # Поля ввода для минимальной и максимальной границы ОЗУ
     min_ram_label = tk.Label(root, text="Минимальная граница ОЗУ в гигабайтах (рекомендуется 2-3):")
     min_ram_label.pack()
 
@@ -66,18 +62,15 @@ def create_ui():
     max_ram_entry = tk.Entry(root)
     max_ram_entry.pack(pady=5)
 
-    # Кнопки "Запустить" и "Установить"
     launch_button = tk.Button(root, text="Запустить",
                               command=lambda: launch(version_var, username_entry, min_ram_entry, max_ram_entry,))
     launch_button.pack(pady=10)
 
-    # Окно для вывода сообщений консоли
     global console_output
     console_output = tk.Text(root, height=10, width=50)
     console_output.pack(pady=10)
     console_output.insert(tk.END, "Консоль запущена...\n")
 
-    # Запуск основного цикла обработки событий
     root.mainloop()
 
 
