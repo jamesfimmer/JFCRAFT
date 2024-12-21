@@ -123,6 +123,8 @@ def check_for_installed_shaderpacks():
 def install_shaderpacks():
     download_file(shaderpacks_url, minecraft_directory, 'shaderpacks.rar')
     extract_rar(minecraft_directory + '\\shaderpacks.rar', minecraft_directory)
+
+    launcher_ui.message_to_console("Установка ресурс паков")
     download_file(resourcepacks_url, minecraft_directory, 'resourcepacks.rar')
     extract_rar(minecraft_directory + '\\resourcepacks.rar', minecraft_directory)
     launcher_ui.message_to_console('Шейдеры успешно установлены!')
@@ -187,7 +189,8 @@ def download_file(url, local_path, name):
 
 
 def set_global_variables(version):
-    global modpack, forge_version_for_install, forge_version_for_check, minecraft_directory, mods_directory, shaderpacks_directory, url, mods_list_url, shaderpacks_url, options_url, servers_url, config_url
+    global modpack, forge_version_for_install, forge_version_for_check, minecraft_directory, mods_directory, shaderpacks_directory, resourcepacks_directory, url, mods_list_url, \
+        shaderpacks_url, resourcepacks_url, options_url, servers_url, config_url
     if version == 'Vanilla Expanded 1.20.1':
         modpack = 'Vanilla Expanded 1.20.1'
         forge_version_for_install = '1.20.1-47.2.0'
@@ -233,8 +236,6 @@ def set_global_variables(version):
         options_url = url + 'options.txt'
         servers_url = url + 'servers.dat'
         config_url = url + 'config.rar'
-
-
 
 
 def get_ip():
