@@ -49,7 +49,14 @@ def download_newest_launcher_version():
 
 
 def get_file_list(folder_path):
+    """Возвращает список файлов в указанной папке."""
     return os.listdir(folder_path)
+
+def write_list_to_file(file_list, output_file):
+    """Записывает список в текстовый файл построчно."""
+    with open(output_file, 'w') as f:
+        for item in file_list:
+            f.write(f"{item}\n")
 
 
 def excepthook(exc_type, exc_value, exc_traceback):
@@ -65,8 +72,9 @@ def main():
     # check_launcher_updates()
     # vanilla_expanded.launch(get_options())
     # print(os.listdir('C:\\Users\\James\\AppData\\Roaming\\.minecraft\\versions\\Pokecraft 1.20.1\\mods'))
-    # list_files_in_directory('C:\\Users\\James\\AppData\\Roaming\\.minecraft\\versions\\Pokecraft 1.20.1\\mods', 'mod_list.txt')
-    launcher_ui.startup()
+    file_list = get_file_list('C:\\Users\\James\\AppData\\Roaming\\.minecraft\\versions\\WinterCraft 1.20.1\\mods')
+    write_list_to_file(file_list, 'output_file.txt')
+    # launcher_ui.startup()
 
 
 if __name__ == '__main__':

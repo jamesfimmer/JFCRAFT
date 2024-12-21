@@ -15,10 +15,12 @@ forge_version_for_check = ''
 minecraft_directory = ''
 mods_directory = ''
 shaderpacks_directory = ''
+resourcepacks_directory = ''
 
 url = ''
 mods_list_url = ''
 shaderpacks_url = ''
+resourcepacks_url = ''
 options_url = ''
 servers_url = ''
 config_url = ''
@@ -121,6 +123,8 @@ def check_for_installed_shaderpacks():
 def install_shaderpacks():
     download_file(shaderpacks_url, minecraft_directory, 'shaderpacks.rar')
     extract_rar(minecraft_directory + '\\shaderpacks.rar', minecraft_directory)
+    download_file(shaderpacks_url, minecraft_directory, 'resourcepacks.rar')
+    extract_rar(minecraft_directory + '\\resourcepacks.rar', minecraft_directory)
     launcher_ui.message_to_console('Шейдеры успешно установлены!')
 
 
@@ -213,6 +217,24 @@ def set_global_variables(version):
         options_url = url + 'options.txt'
         servers_url = url + 'servers.dat'
         config_url = url + 'config.rar'
+    elif version == 'WinterCraft 1.20.1':
+        modpack = 'WinterCraft 1.20.1'
+        forge_version_for_install = '1.20.1-47.3.0'
+        forge_version_for_check = '1.20.1-forge-47.3.0'
+        minecraft_directory = minecraft_launcher_lib.utils.get_minecraft_directory().replace('.minecraft',
+                                                                                             '.jfcraft-WinterCraft-1.20.1')
+        mods_directory = minecraft_directory + '\\mods'
+        shaderpacks_directory = minecraft_directory + '\\shaderpacks'
+        resourcepacks_directory = minecraft_directory + '\\resourcepacks'
+        url = 'https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/WinterCraft-1.20.1/'
+        mods_list_url = url + 'mod_list.txt'
+        shaderpacks_url = url + 'shaderpacks.rar'
+        resourcepacks_url = url + 'resourcepacks.rar'
+        options_url = url + 'options.txt'
+        servers_url = url + 'servers.dat'
+        config_url = url + 'config.rar'
+
+
 
 
 def get_ip():
