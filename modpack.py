@@ -123,7 +123,7 @@ def check_for_installed_shaderpacks():
 def install_shaderpacks():
     download_file(shaderpacks_url, minecraft_directory, 'shaderpacks.rar')
     extract_rar(minecraft_directory + '\\shaderpacks.rar', minecraft_directory)
-    download_file(shaderpacks_url, minecraft_directory, 'resourcepacks.rar')
+    download_file(resourcepacks_url, minecraft_directory, 'resourcepacks.rar')
     extract_rar(minecraft_directory + '\\resourcepacks.rar', minecraft_directory)
     launcher_ui.message_to_console('Шейдеры успешно установлены!')
 

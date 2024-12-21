@@ -72,9 +72,9 @@ def main():
     # check_launcher_updates()
     # vanilla_expanded.launch(get_options())
     # print(os.listdir('C:\\Users\\James\\AppData\\Roaming\\.minecraft\\versions\\Pokecraft 1.20.1\\mods'))
-    file_list = get_file_list('C:\\Users\\James\\AppData\\Roaming\\.minecraft\\versions\\WinterCraft 1.20.1\\mods')
-    write_list_to_file(file_list, 'output_file.txt')
-    # launcher_ui.startup()
+    # file_list = get_file_list('C:\\Users\\James\\AppData\\Roaming\\.minecraft\\versions\\WinterCraft 1.20.1\\mods')
+    # write_list_to_file(file_list, 'output_file.txt')
+    launcher_ui.startup()
 
 
 if __name__ == '__main__':
