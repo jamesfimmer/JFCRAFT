@@ -66,3 +66,5 @@ trashcans-1.0.18b-forge-mc1.20.jar
 TreeChop-1.20.1-forge-0.19.0-fixed.jar
 XaerosWorldMap_1.39.2_Forge_1.20.jar
 Xaeros_Minimap_24.6.1_Forge_1.20.jar
+gravestone-forge-1.20.1-1.0.24.jar
+curios-forge-5.11.0+1.20.1.jar
