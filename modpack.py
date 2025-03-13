@@ -147,6 +147,7 @@ def check_for_installed_options_files():
         launcher_ui.message_to_console('Конфиги успешно установлены!')
 
 
+
 def extract_rar(rar_path, extract_to):
     try:
         # Создаем директорию, если она не существует
@@ -184,6 +185,71 @@ def download_file(url, local_path, name):
         print(f"Request error occurred: {req_err}")
     except Exception as err:
         print(f"An error occurred: {err}")
+
+
+def download_config_files():
+    base_url = 'https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/Middle-Earth-Chronicles-1.7.10/config/'
+    config_files = [
+        'battlegear2.cfg',
+        'BetterFoliage.cfg',
+        'BiblioCraft.cfg',
+        'campfirebackport.cfg',
+        'campfirebackportmixins.cfg',
+        'carbonconfig.cfg',
+        'ChunkAnimator.cfg',
+        'ClientFixer.cfg',
+        'CodeChickenCore.cfg',
+        'CustomNpcs.cfg',
+        'DamageIndicatorsMod.cfg',
+        'defaultkeys.txt',
+        'defaultoptions.txt',
+        'defaultoptionsof.txt',
+        'DIAdvancedCompatibility.cfg',
+        'Ding.cfg',
+        'dss.cfg',
+        'fastcraft.ini',
+        'fastleafdecay.cfg',
+        'forge.cfg',
+        'forgeChunkLoading.cfg',
+        'genst.cfg',
+        'gravestone.cfg',
+        'gtnhlib.cfg',
+        'iChunUtil.cfg',
+        'iChunUtil_KeyBinds.cfg',
+        'InvTweaks.cfg',
+        'InvTweaksRules.txt',
+        'InvTweaksTree.txt',
+        'itemphysic.cfg',
+        'localconfig-example.txt',
+        'localconfig.txt',
+        'lotr.cfg',
+        'LOTR_EntityRegistry.txt',
+        'mobends.cfg',
+        'MorePlayerModels.cfg',
+        'MouseTweaks.cfg',
+        'MUD.cfg',
+        'Neat.cfg',
+        'neirecipehandlers.cfg',
+        'shouldersurfing.cfg',
+        'skinport.cfg',
+        'sonicvisuals.cfg',
+        'soundfilters.cfg',
+        'splash.properties',
+        'StorageDrawers.cfg',
+        'unimixins.properties',
+        'Waila.cfg',
+        'WailaHarvestability.cfg'
+    ]
+
+    config_folder = os.path.join(minecraft_directory, 'config')
+    if not os.path.exists(config_folder):
+        os.makedirs(config_folder)
+
+    for filename in config_files:
+        file_url = base_url + filename
+        launcher_ui.message_to_console(f"Загрузка {filename}...")
+        download_file(file_url, config_folder, filename)
+        launcher_ui.message_to_console(f"{filename} успешно загружен.")
 
 
 def set_global_variables(version):
@@ -282,6 +348,9 @@ def launch(version, username, jvmArguments, launcher_version):
     check_for_installed_mods()
     check_for_installed_shaderpacks()
     check_for_installed_options_files()
+    if modpack == 'Middle-Earth Chronicles 1.7.10':
+        download_config_files()
+
     launcher_ui.message_to_console(f'Запуск {modpack}...')
 
     subprocess.run(
