@@ -3,8 +3,6 @@ INFO: Loaded class registry: NEI mod support
 INFO: Loaded class registry: MFR mod support
 INFO: MineTweaker: Building registry
 INFO: MineTweaker: Sucessfully built item registry
-INFO: Adding command minetweaker
 INFO: Adding minetweaker command mfr
 INFO: tried to remove command: mfr failed. THIS IS NOT AN ERROR!
-INFO: tried to remove command: minetweaker failed. THIS IS NOT AN ERROR!
 INFO: 

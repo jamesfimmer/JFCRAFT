@@ -140,12 +140,14 @@ def check_for_installed_options_files():
         launcher_ui.message_to_console('Загрузка servers.dat...')
         download_file(options_url, minecraft_directory, 'servers.dat')
     if not os.path.exists(minecraft_directory + '\\' + 'config'):
-        launcher_ui.message_to_console('Не обнаружена папка config !!!')
-        launcher_ui.message_to_console('Загрузка config...')
-        download_file(config_url, minecraft_directory, 'config.rar')
-        extract_rar(minecraft_directory + '\\config.rar', minecraft_directory)
-        launcher_ui.message_to_console('Конфиги успешно установлены!')
-
+        if modpack == 'Middle-Earth Chronicles 1.7.10':
+            download_config_files()
+        else:
+            launcher_ui.message_to_console('Не обнаружена папка config !!!')
+            launcher_ui.message_to_console('Загрузка config...')
+            download_file(config_url, minecraft_directory, 'config.rar')
+            extract_rar(minecraft_directory + '\\config.rar', minecraft_directory)
+            launcher_ui.message_to_console('Конфиги успешно установлены!')
 
 
 def extract_rar(rar_path, extract_to):
@@ -348,9 +350,6 @@ def launch(version, username, jvmArguments, launcher_version):
     check_for_installed_mods()
     check_for_installed_shaderpacks()
     check_for_installed_options_files()
-    if modpack == 'Middle-Earth Chronicles 1.7.10':
-        if not os.path.exists(minecraft_directory + '\\config'):
-            download_config_files()
 
     launcher_ui.message_to_console(f'Запуск {modpack}...')
 
