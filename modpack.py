@@ -50,12 +50,13 @@ def get_installed_mods():
         os.makedirs(mods_directory)
 
     try:
-        return os.listdir(mods_directory)
+        return [file for file in os.listdir(mods_directory) if file.lower().endswith('.jar')]
     except FileNotFoundError:
         launcher_ui.message_to_console('Папка mods не была обнаружена')
         return []
     except NotADirectoryError:
         return []
+
 
 
 def check_for_installed_mods():
