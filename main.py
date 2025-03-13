@@ -73,9 +73,9 @@ def main():
     # welcome()
     # check_launcher_updates()
     # vanilla_expanded.launch(get_options())
-    file_list = get_file_list("C:\\Users\\James\\AppData\\Roaming\\.minecraft\\versions\\Middle-earth Chronicles 1.7.10\\config")
-    write_list_to_file(file_list, 'output_file.txt')
-    # launcher_ui.startup()
+    # file_list = get_file_list("C:\\Users\\James\\AppData\\Roaming\\.minecraft\\versions\\Middle-earth Chronicles 1.7.10\\config")
+    # write_list_to_file(file_list, 'output_file.txt')
+    launcher_ui.startup()
     # print(minecraft_launcher_lib.forge.list_forge_versions())
     # print(minecraft_launcher_lib.forge.find_forge_version("1.7.10"))
 

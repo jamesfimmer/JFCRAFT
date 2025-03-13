@@ -349,7 +349,8 @@ def launch(version, username, jvmArguments, launcher_version):
     check_for_installed_shaderpacks()
     check_for_installed_options_files()
     if modpack == 'Middle-Earth Chronicles 1.7.10':
-        download_config_files()
+        if not os.path.exists(minecraft_directory + '\\config'):
+            download_config_files()
 
     launcher_ui.message_to_console(f'Запуск {modpack}...')
 
