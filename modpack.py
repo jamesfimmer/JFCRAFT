@@ -237,7 +237,7 @@ def set_global_variables(version):
     elif version == 'Middle-Earth Chronicles 1.7.10':
         modpack = 'Middle-Earth Chronicles 1.7.10'
         forge_version_for_install = '1.7.10-10.13.4.1614-1.7.10'
-        forge_version_for_check = '1.7.10-Forge10.13.4.1614-1.7.10'
+        forge_version_for_check = 'Forge 10.13.4.1614-1.7.10'
         minecraft_directory = minecraft_launcher_lib.utils.get_minecraft_directory().replace('.minecraft',
                                                                                              '.jfcraft-Middle-Earth-Chronicles-1.7.10')
         mods_directory = minecraft_directory + '\\mods'
