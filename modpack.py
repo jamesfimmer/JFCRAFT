@@ -58,7 +58,6 @@ def get_installed_mods():
         return []
 
 
-
 def check_for_installed_mods():
     launcher_ui.message_to_console('Проверка модов...')
     installed_mods_list = get_installed_mods()
@@ -286,7 +285,7 @@ def launch(version, username, jvmArguments, launcher_version):
     launcher_ui.message_to_console(f'Запуск {modpack}...')
 
     subprocess.run(
-            minecraft_launcher_lib.command.get_minecraft_command(forge_version_for_check, minecraft_directory,
+        minecraft_launcher_lib.command.get_minecraft_command(forge_version_for_check, minecraft_directory,
                                                              get_options(username, jvmArguments, launcher_version)))
 
 
