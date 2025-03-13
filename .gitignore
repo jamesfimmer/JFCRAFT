@@ -10,3 +10,7 @@ patchouli_data.json
 /output
 /showdown
 /shematics
+/asm
+/.mixin.out
+/__pycache__
+/__pycache__

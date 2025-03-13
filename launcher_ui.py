@@ -40,7 +40,7 @@ def create_ui():
 
     version_var = tk.StringVar()
     version_combobox = ttk.Combobox(root, textvariable=version_var)
-    version_combobox['values'] = ("PokeCraft 1.20.1", "Vanilla Expanded 1.20.1", "WinterCraft 1.20.1", "Middle-earth Chronicles 1.7.10")
+    version_combobox['values'] = ("PokeCraft 1.20.1", "Vanilla Expanded 1.20.1", "WinterCraft 1.20.1", "Middle-Earth Chronicles 1.7.10")
     version_combobox.current(0)
     version_combobox.pack(pady=5)
 

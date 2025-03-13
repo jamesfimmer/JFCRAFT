@@ -76,7 +76,8 @@ def main():
     # file_list = get_file_list("D:\\Python\\JFCRAFT\\download-files\\Middle-Earth-Chronicles-1.7.10\\mods")
     # write_list_to_file(file_list, 'output_file.txt')
     launcher_ui.startup()
-
+    # print(minecraft_launcher_lib.forge.list_forge_versions())
+    # print(minecraft_launcher_lib.forge.find_forge_version("1.7.10"))
 
 
 if __name__ == '__main__':

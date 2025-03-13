@@ -234,10 +234,10 @@ def set_global_variables(version):
         options_url = url + 'options.txt'
         servers_url = url + 'servers.dat'
         config_url = url + 'config.rar'
-    elif version == 'Middle-earth Chronicles 1.7.10':
-        modpack = 'Middle-earth Chronicles 1.7.10'
+    elif version == 'Middle-Earth Chronicles 1.7.10':
+        modpack = 'Middle-Earth Chronicles 1.7.10'
         forge_version_for_install = '1.7.10-10.13.4.1614-1.7.10'
-        forge_version_for_check = '1.7.10-10.13.4.1614-1.7.10'
+        forge_version_for_check = '1.7.10-Forge10.13.4.1614-1.7.10'
         minecraft_directory = minecraft_launcher_lib.utils.get_minecraft_directory().replace('.minecraft',
                                                                                              '.jfcraft-Middle-Earth-Chronicles-1.7.10')
         mods_directory = minecraft_directory + '\\mods'
@@ -285,7 +285,7 @@ def launch(version, username, jvmArguments, launcher_version):
     launcher_ui.message_to_console(f'Запуск {modpack}...')
 
     subprocess.run(
-        minecraft_launcher_lib.command.get_minecraft_command(forge_version_for_check, minecraft_directory,
+            minecraft_launcher_lib.command.get_minecraft_command(forge_version_for_check, minecraft_directory,
                                                              get_options(username, jvmArguments, launcher_version)))
 
 
