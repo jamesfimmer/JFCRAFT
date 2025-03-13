@@ -155,8 +155,6 @@ def extract_rar(rar_path, extract_to):
         # Распаковываем архив
         with rarfile.RarFile(rar_path) as rf:
             rf.extractall(extract_to)
-
-
     except rarfile.BadRarFile as rar_err:
         print(f"Rar file error: {rar_err}")
     except Exception as err:
@@ -230,6 +228,22 @@ def set_global_variables(version):
         shaderpacks_directory = minecraft_directory + '\\shaderpacks'
         resourcepacks_directory = minecraft_directory + '\\resourcepacks'
         url = 'https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/WinterCraft-1.20.1/'
+        mods_list_url = url + 'mod_list.txt'
+        shaderpacks_url = url + 'shaderpacks.rar'
+        resourcepacks_url = url + 'resourcepacks.rar'
+        options_url = url + 'options.txt'
+        servers_url = url + 'servers.dat'
+        config_url = url + 'config.rar'
+    elif version == 'Middle-earth Chronicles 1.7.10':
+        modpack = 'Middle-earth Chronicles 1.7.10'
+        forge_version_for_install = '1.7.10-10.13.4.1614-1.7.10'
+        forge_version_for_check = '1.7.10-10.13.4.1614-1.7.10'
+        minecraft_directory = minecraft_launcher_lib.utils.get_minecraft_directory().replace('.minecraft',
+                                                                                             '.jfcraft-Middle-Earth-Chronicles-1.7.10')
+        mods_directory = minecraft_directory + '\\mods'
+        shaderpacks_directory = minecraft_directory + '\\shaderpacks'
+        resourcepacks_directory = minecraft_directory + '\\resourcepacks'
+        url = 'https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/Middle-Earth-Chronicles-1.7.10/'
         mods_list_url = url + 'mod_list.txt'
         shaderpacks_url = url + 'shaderpacks.rar'
         resourcepacks_url = url + 'resourcepacks.rar'

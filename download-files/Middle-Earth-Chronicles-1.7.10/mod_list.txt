@@ -1,0 +1,34 @@
+BackTools-4.0.0.jar
+BetterFoliage-MC1.7.10-2.0.17.jar
+BetterHorseHud-1.7.10-1.0.jar
+BiblioCraft[v1.11.7][MC1.7.10].jar
+campfirebackport-1.7.10-1.11.3.jar
+clientfixer-1.0.jar
+CodeChickenCore-1.7.10-1.0.7.48-universal.jar
+Controlling-1.7.10-1.0.0.8.jar
+CosmeticArmorReworked-1.7.10-v7.jar
+CraftTweaker-1.7.10-3.1.0-legacy.jar
+CreativeCore v1.3.24 mc1.7.10.jar
+CustomNPCs_1.7.10d(29oct17).jar
+defaultkeys-mc1.7.10-1.0.28.jar
+Ding-MC1.7.10v2.jar
+DSS_a59.jar
+DynamicSurroundings-1.7.10-1.0.6.4.jar
+EnhancedVisuals v0.2.4 mc1.7.10.jar
+fastcraft-1.25.jar
+FastLeafDecay-1.7.10-1.4.jar
+Genst-II-24.04.27.jar
+GraveStone Mod 0.7.10.3.jar
+iChunUtil-4.2.3.jar
+InventoryTweaks-1.59-dev-152.jar
+ItemPhysic Full 1.2.5 mc1.7.10.jar
+LOTR+RU Update 1.14-v19.02.25-09.05.02.jar
+MouseTweaks-2.4.4-mc1.7.10.jar
+neiRecipeHandlers-1.1.0-BETA.jar
+NotEnoughItems-1.7.10-1.0.5.120-universal.jar
+OptiFine_1.7.10_HD_U_E7.jar
+sit-1.7.10-v1.1.jar
+SkinPort-1.7.10-v10d.jar
+SoundFilters-0.8_for_1.7.X.jar
+Waila-1.5.10_1.7.10.jar
+WailaHarvestability-mc1.7.10-1.1.6.jar

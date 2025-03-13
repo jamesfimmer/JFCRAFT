@@ -10,6 +10,7 @@ import wget
 
 launcher_version = '1.0.0'
 
+
 def check_launcher_updates():
     print('Проверка обновлений лаунчера...')
     resp = requests.get('https://github.com/jamesfimmer/JFCRAFT/raw/main/download-files/launcher/current_version.txt',
@@ -52,6 +53,7 @@ def get_file_list(folder_path):
     """Возвращает список файлов в указанной папке."""
     return os.listdir(folder_path)
 
+
 def write_list_to_file(file_list, output_file):
     """Записывает список в текстовый файл построчно."""
     with open(output_file, 'w') as f:
@@ -71,10 +73,10 @@ def main():
     # welcome()
     # check_launcher_updates()
     # vanilla_expanded.launch(get_options())
-    # print(os.listdir('C:\\Users\\James\\AppData\\Roaming\\.minecraft\\versions\\Pokecraft 1.20.1\\mods'))
-    # file_list = get_file_list('C:\\Users\\James\\AppData\\Roaming\\.minecraft\\versions\\WinterCraft 1.20.1\\mods')
+    # file_list = get_file_list("D:\\Python\\JFCRAFT\\download-files\\Middle-Earth-Chronicles-1.7.10\\mods")
     # write_list_to_file(file_list, 'output_file.txt')
     launcher_ui.startup()
+
 
 
 if __name__ == '__main__':
