@@ -13,7 +13,6 @@ CustomNPCs_1.7.10d(29oct17).jar
 defaultkeys-mc1.7.10-1.0.28.jar
 Ding-MC1.7.10v2.jar
 DSS_a59.jar
-DynamicSurroundings-1.7.10-1.0.6.4.jar
 EnhancedVisuals v0.2.4 mc1.7.10.jar
 fastcraft-1.25.jar
 FastLeafDecay-1.7.10-1.4.jar
