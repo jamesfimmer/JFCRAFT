@@ -21,7 +21,7 @@ GraveStone Mod 0.7.10.3.jar
 iChunUtil-4.2.3.jar
 InventoryTweaks-1.59-dev-152.jar
 ItemPhysic Full 1.2.5 mc1.7.10.jar
-LOTR+RU Update 1.14-v19.02.25-09.05.02.jar
+LOTR+RU Update 1.15-v16.03.25-23.24.34.jar
 MouseTweaks-2.4.4-mc1.7.10.jar
 neiRecipeHandlers-1.1.0-BETA.jar
 NotEnoughItems-1.7.10-1.0.5.120-universal.jar
