@@ -13,7 +13,6 @@ env/
 
 # == PyInstaller build ==
 *.spec
-*.exe
 /dist/
 /build/
 
@@ -22,6 +21,7 @@ env/
 *.txt
 *.tmp
 *.bak
+*.ico
 error_report.txt
 output_file
 output_file.txt
@@ -38,6 +38,7 @@ output_file.txt
 /LOTRO/
 /showdown/
 /shematics/
+/LOTR/moneydata
 
 # == JSON-файлы (если временные) ==
 *.json
