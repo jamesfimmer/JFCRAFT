@@ -29,7 +29,6 @@ output_file.txt
 # == Minecraft & лаунчер ==
 /logs/
 /output/
-/download-files/
 /cachedImages/
 /saves/
 /scripts/
