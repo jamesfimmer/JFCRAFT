@@ -1,0 +1,173 @@
+"""Application settings and Minecraft process lifecycle, independent of Tk."""
+from contextlib import contextmanager
+import hashlib
+import json
+import os
+from pathlib import Path
+import re
+import shutil
+import subprocess
+import sys
+import uuid
+import requests
+
+from jfcraft_core import Installer, atomic_json, Cancelled, load_manifest
+
+VERSION = '2.0.0-dev'
+
+
+def data_dir():
+    return Path(os.environ.get('JFCRAFT_HOME', str(Path(os.environ.get('APPDATA', Path.home())) / 'JFCRAFT')))
+
+
+def resource_dir():
+    return Path(getattr(sys, '_MEIPASS', Path(__file__).resolve().parent))
+
+
+def load_settings():
+    defaults = {'username': 'Player', 'min_ram': 1024, 'max_ram': 4096, 'java': '', 'pack': '', 'sources': []}
+    path = data_dir() / 'settings.json'
+    if path.exists():
+        defaults.update(json.loads(path.read_text(encoding='utf-8')))
+    return defaults
+
+
+def validate_settings(settings):
+    if not re.fullmatch(r'[A-Za-z0-9_]{3,16}', settings['username']):
+        raise ValueError('Ник: 3–16 латинских букв, цифр или знак подчёркивания')
+    try:
+        low, high = int(settings['min_ram']), int(settings['max_ram'])
+    except (TypeError, ValueError):
+        raise ValueError('Память нужно указать целым числом в МБ') from None
+    if not 512 <= low <= high <= 65536:
+        raise ValueError('Память: от 512 до 65536 МБ, минимум не больше максимума')
+    return dict(settings, min_ram=low, max_ram=high)
+
+
+@contextmanager
+def profile_lock(root):
+    root.mkdir(parents=True, exist_ok=True)
+    stream = (root / '.jfcraft.lock').open('a+b')
+    try:
+        if os.fstat(stream.fileno()).st_size == 0:
+            stream.write(b'0')
+            stream.flush()
+        stream.seek(0)
+        if os.name == 'nt':
+            import msvcrt
+            msvcrt.locking(stream.fileno(), msvcrt.LK_NBLCK, 1)
+        else:
+            import fcntl
+            fcntl.flock(stream, fcntl.LOCK_EX | fcntl.LOCK_NB)
+    except OSError:
+        stream.close()
+        raise ValueError('Эта сборка уже открыта в другом окне JFCRAFT') from None
+    try:
+        yield
+    finally:
+        stream.close()
+
+
+def check_java(executable, required):
+    executable = executable.strip() or shutil.which('java')
+    if not executable:
+        raise ValueError(f'Укажи путь к 64-битной Java {required} в настройках')
+    result = subprocess.run([executable, '-XshowSettings:properties', '-version'], capture_output=True, text=True,
+                            errors='replace', timeout=15, creationflags=getattr(subprocess, 'CREATE_NO_WINDOW', 0))
+    output = result.stdout + result.stderr
+    match = re.search(r'version "(?:1\.)?(\d+)', output)
+    if result.returncode or not match or int(match[1]) != required:
+        raise ValueError(f'Для этой сборки нужна Java {required}. Выбери подходящий java.exe')
+    if 'sun.arch.data.model = 64' not in output and '64-Bit' not in output:
+        raise ValueError('Требуется 64-битная Java')
+    return executable
+
+
+def ensure_forge(pack, root, java, report, cancel, repair=False):
+    import minecraft_launcher_lib as mc
+    callback = {'setStatus': lambda message: (check_cancel(cancel), report(message))}
+    marker = root / '.jfcraft-runtime.json'
+    identity = {k: pack[k] for k in ('minecraft', 'forge', 'installed_version')}
+    version_file = root / 'versions' / pack['installed_version'] / (pack['installed_version'] + '.json')
+    if not repair and marker.exists() and json.loads(marker.read_text(encoding='utf-8')) == identity and version_file.exists():
+        return
+    report('Установка Minecraft и Forge…')
+    version_file.parent.mkdir(parents=True, exist_ok=True)
+    # 6.5 can extract the legacy install_profile directly, despite its conservative
+    # supports_automatic_install helper. The 1.7.10 build needs the trailing suffix.
+    mc.forge.install_forge_version(pack['forge'], str(root), callback=callback, java=java)
+    if not version_file.exists():
+        # Legacy installers use a display name for the directory but a different
+        # versionInfo.id inside the JSON. Normalize to the actual launch ID.
+        for candidate in (root / 'versions').glob('*/*.json'):
+            metadata = json.loads(candidate.read_text(encoding='utf-8'))
+            if metadata.get('id') == pack['installed_version']:
+                atomic_json(version_file, metadata)
+                break
+    if not version_file.exists():
+        raise ValueError(f"Forge не создал профиль {pack['installed_version']}")
+    atomic_json(marker, identity)
+
+
+def check_cancel(cancel):
+    if cancel.is_set():
+        raise Cancelled('Операция отменена')
+
+
+def run_pack(pack, settings, play, report, progress, cancel):
+    import minecraft_launcher_lib as mc
+    settings = validate_settings(settings)
+    root = data_dir() / 'instances' / pack['id']
+    with profile_lock(root):
+        pack = refresh_pack(pack, report)
+        java = check_java(settings.get('java', ''), pack['java'])
+        Installer(root, report, progress, cancel).recover()
+        ensure_forge(pack, root, java, report, cancel, repair=not play)
+        Installer(root, report, progress, cancel).install(pack)
+        check_cancel(cancel)
+        if not play:
+            return
+        offline_uuid = uuid.UUID(bytes=hashlib.md5(('OfflinePlayer:' + settings['username']).encode()).digest(), version=3)
+        options = {'username': settings['username'], 'uuid': str(offline_uuid), 'token': '0',
+                   'launcherName': 'JFCRAFT', 'launcherVersion': VERSION,
+                   'executablePath': java, 'gameDirectory': str(root),
+                   'jvmArguments': [f"-Xms{settings['min_ram']}M", f"-Xmx{settings['max_ram']}M"]}
+        command = mc.command.get_minecraft_command(pack['installed_version'], str(root), options)
+        log_dir = root / 'logs'
+        log_dir.mkdir(exist_ok=True)
+        report('Minecraft запущен. Журнал игры: ' + str(log_dir / 'jfcraft-game.log'))
+        with (log_dir / 'jfcraft-game.log').open('w', encoding='utf-8') as log:
+            process = subprocess.Popen(command, cwd=root, stdout=log, stderr=subprocess.STDOUT)
+            code = process.wait()
+        if code:
+            raise RuntimeError(f'Minecraft завершился с кодом {code}. См. logs/jfcraft-game.log')
+        report('Игра закрыта')
+
+
+def refresh_pack(pack, report):
+    """A mutable HTTPS manifest points to immutable, checksum-pinned assets."""
+    cache = data_dir() / 'manifests' / (pack['id'] + '.json')
+    if cache.exists():
+        cached = load_manifest(cache)
+        if cached['id'] == pack['id']:
+            pack = cached
+    source = pack.get('update_url')
+    if not source:
+        report('У этой сборки нет канала обновлений. Проверяется сохранённый выпуск.')
+        return pack
+    report('Проверка обновлений сборки…')
+    try:
+        latest = load_manifest(source)
+    except requests.RequestException:
+        report('Канал обновлений недоступен. Используется сохранённое описание сборки.')
+        return pack
+    if latest['id'] != pack['id']:
+        raise ValueError('Канал обновлений вернул другую сборку')
+    # Keep the subscribed channel even when a release manifest omits it.
+    latest['update_url'] = source
+    if latest != pack:
+        report(f"Доступен выпуск {latest['version']}. Будут проверены изменения.")
+    else:
+        report(f"Актуальный выпуск: {latest['version']}")
+    atomic_json(cache, latest)
+    return latest

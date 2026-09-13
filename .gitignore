@@ -1,45 +1,19 @@
-# == Python ==
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
 
-# == Virtual environment ==
-env/
-.venv/
-
-# == IDE/Editor ==
-.idea/
-
-# == PyInstaller build ==
-*.spec
-/dist/
-/build/
-
-# == Временные и лог-файлы ==
-*.log
-*.tmp
-*.bak
-*.ico
-error_report.txt
-output_file
-output_file.txt
-
-# == Minecraft & лаунчер ==
-/logs/
-/output/
-/cachedImages/
-/saves/
-/scripts/
-/config/
-/asm/
-/.mixin.out/
-/LOTRO/
-/showdown/
-/shematics/
-/LOTR/moneydata
-
-# == JSON-файлы (если временные) ==
-*.json
+/logs
+/dist
+/logs
+/build
 patchouli_data.json
 creeperoverhaul-3.0.2-forge.jarkfjf0mfp.tmp
+patchouli_data.json
+*.json
+/output
+
+# Launcher development and bundled manifest exceptions
+!packs/
+!packs/*.json
+.buildenv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+error_report.txt
