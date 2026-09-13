@@ -26,5 +26,14 @@ python -m unittest discover -s tests
 python tools/audit_catalog.py
 ```
 
-Манифесты — в `packs`, каталог — `packs/catalog/index.json`. EXE собирается командой
-`python build_exe.py`; готовый файл появится в `dist/JFCRAFT.exe`.
+Манифесты — в `packs`, каталог — `packs/catalog/index.json`. Для новой сборки положи
+файлы в `download-files/<folder>` и выполни:
+
+```powershell
+python tools/build_pack.py download-files/MyPack packs/my-pack.json --folder MyPack --id my-pack --name "My Pack" --version 1.0.0 --minecraft 1.20.1 --forge 1.20.1-47.3.0 --installed-version 1.20.1-forge-47.3.0 --java 17
+```
+
+После commit/push лаунчер увидит сборку через каталог. Releases используются только
+для распространения `JFCRAFT.exe`. EXE собирается командой `python build_exe.py`.
+
+Свой логотип для EXE положи в `assets/jfcraft-logo.png`; следующая сборка подхватит его автоматически.

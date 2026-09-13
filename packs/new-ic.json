@@ -2,7 +2,7 @@
   "schema": 1,
   "id": "new-ic",
   "name": "New IC",
-  "version": "legacy-2024",
+  "version": "legacy 1.0",
   "minecraft": "1.19.2",
   "forge": "1.19.2-43.3.5",
   "installed_version": "1.19.2-forge-43.3.5",

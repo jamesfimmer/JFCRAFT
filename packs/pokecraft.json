@@ -2,7 +2,7 @@
   "schema": 1,
   "id": "pokecraft",
   "name": "Pokecraft",
-  "version": "legacy-2024",
+  "version": "legacy 1.0",
   "minecraft": "1.20.1",
   "forge": "1.20.1-47.3.0",
   "installed_version": "1.20.1-forge-47.3.0",

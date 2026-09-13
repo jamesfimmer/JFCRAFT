@@ -7,16 +7,15 @@
     <list default="true" id="3ba1f7ac-d517-4781-91b7-9ca7911f1e8c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jfcraft_archives.py" beforeDir="false" afterPath="$PROJECT_DIR$/jfcraft_archives.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jfcraft_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/jfcraft_ui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_exe.py" beforeDir="false" afterPath="$PROJECT_DIR$/build_exe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jfcraft.spec" beforeDir="false" afterPath="$PROJECT_DIR$/jfcraft.spec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packs/middle-earth-classic.json" beforeDir="false" afterPath="$PROJECT_DIR$/packs/middle-earth-classic.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packs/new-ic.json" beforeDir="false" afterPath="$PROJECT_DIR$/packs/new-ic.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packs/pokecraft.json" beforeDir="false" afterPath="$PROJECT_DIR$/packs/pokecraft.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packs/vanilla-expanded.json" beforeDir="false" afterPath="$PROJECT_DIR$/packs/vanilla-expanded.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packs/wintercraft.json" beforeDir="false" afterPath="$PROJECT_DIR$/packs/wintercraft.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/build_additional_catalog.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/build_additional_catalog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/build_legacy_catalog.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/build_legacy_catalog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/build_pack.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/build_pack.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

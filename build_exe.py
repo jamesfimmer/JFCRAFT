@@ -33,6 +33,7 @@ def main():
         pyinstaller = Path(sys.executable).with_name('pyinstaller.exe')
     if not pyinstaller.is_file():
         raise SystemExit('PyInstaller не найден. Установи зависимости из requirements.txt.')
+    run([sys.executable, ROOT / 'tools' / 'make_icon.py'])
 
     run([pyinstaller, '--clean', '--noconfirm', '--distpath', DIST, SPEC])
     result = DIST / 'JFCRAFT.exe'

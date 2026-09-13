@@ -2,7 +2,7 @@
   "schema": 1,
   "id": "vanilla-expanded",
   "name": "Vanilla Expanded",
-  "version": "legacy-2024",
+  "version": "legacy 1.0",
   "minecraft": "1.20.1",
   "forge": "1.20.1-47.2.0",
   "installed_version": "1.20.1-forge-47.2.0",
