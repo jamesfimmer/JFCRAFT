@@ -10,7 +10,7 @@ import tkinter as tk
 from tkinter import filedialog, messagebox, simpledialog, ttk
 
 from jfcraft_core import atomic_json, Cancelled, load_manifest
-from launcher_service import data_dir, load_settings, resource_dir, run_pack, validate_settings, VERSION, sync_catalog, older_manifest
+from launcher_service import data_dir, load_settings, resource_dir, run_pack, validate_settings, VERSION, sync_catalog, older_manifest, remove_pack
 
 BG = '#111917'
 PANEL = '#1c2823'
@@ -84,10 +84,15 @@ class Launcher:
         tk.Label(right, text='Локальный профиль по нику • Вход Microsoft пока не подключён', bg=BG, fg=MUTED, anchor='w', font=('Segoe UI', 9)).pack(fill='x', pady=(8, 12))
         actions = tk.Frame(right, bg=BG)
         actions.pack(fill='x')
-        self.install_button = self.button(actions, 'Установить', lambda: self.start(False))
-        self.install_button.pack(side='left')
         self.play_button = self.button(actions, 'Играть', lambda: self.start(True), primary=True)
-        self.play_button.pack(side='left', padx=10)
+        self.play_button.pack(side='left')
+        self.pack_menu = tk.Menu(root, tearoff=False)
+        self.pack_menu.add_command(label='Обновить / восстановить', command=lambda: self.start(False))
+        self.pack_menu.add_command(label='Открыть папку сборки', command=self.open_instance)
+        self.pack_menu.add_separator()
+        self.pack_menu.add_command(label='Удалить сборку…', command=self.delete_pack)
+        self.menu_button = self.button(actions, '⋯', self.show_pack_menu)
+        self.menu_button.pack(side='left', padx=10)
         self.play_button.configure(disabledforeground='#777d76')
         self.cancel_button = tk.Button(actions, text='Отменить', command=self.cancel_install, bg=PANEL, fg=MUTED, relief='flat', padx=12, pady=8, state='disabled')
         self.cancel_button.pack(side='left')
@@ -147,7 +152,7 @@ class Launcher:
         self.title.configure(text=pack['name'])
         self.subtitle.configure(text=f"Minecraft {pack['minecraft']}   /   Forge {pack['forge'].split('-')[1]}   /   Java {pack['java']}   /   {pack['version']}")
         size = sum(f['size'] for f in pack['files']) / 1024**2
-        self.description.configure(text=pack.get('description', f"{len(pack['files'])} файлов • {size:.0f} МБ. «Играть» запускает установленную сборку без интернета. Обновления — по кнопке «Установить / обновить»."))
+        self.description.configure(text=pack.get('description', f"{len(pack['files'])} файлов • {size:.0f} МБ. Первая установка требует интернета. Установленная сборка запускается без проверки обновлений."))
         chosen = self.settings.get('java_by_pack', {}).get(pack['id'], '')
         if not chosen:
             java_base = Path(os.environ.get('ProgramFiles', 'C:/Program Files')) / 'Java'
@@ -168,9 +173,33 @@ class Launcher:
                          not (root / '.jfcraft-journal.json').exists())
         except (ValueError, OSError, KeyError):
             pass
-        self.play_button.configure(state='normal' if installed and not self.is_busy else 'disabled',
-                                   bg=GOLD if installed else '#2c3c33')
-        self.install_button.configure(text='Обновить / восстановить' if installed else 'Установить')
+        self.installed = installed
+        self.play_button.configure(state='disabled' if self.is_busy or not self.packs else 'normal', bg=GOLD)
+
+    def show_pack_menu(self):
+        if not self.is_busy:
+            try:
+                self.pack_menu.tk_popup(self.menu_button.winfo_rootx(),
+                                        self.menu_button.winfo_rooty() + self.menu_button.winfo_height())
+            finally:
+                self.pack_menu.grab_release()
+
+    def delete_pack(self):
+        if self.is_busy:
+            return
+        pack = self.current()
+        if not messagebox.askyesno('Удалить сборку?',
+                f"Удалить установленную сборку «{pack['name']}»?\n\n"
+                'Миры и остальные файлы сохранятся в резервной копии. '
+                'Место на диске не освободится. '
+                'Сборка останется в библиотеке для повторной установки.'):
+            return
+        try:
+            backup = remove_pack(pack['id'])
+            self.log('Сборка удалена из установленных. Резервная копия: ' + str(backup))
+        except Exception as error:
+            messagebox.showerror('Не удалось удалить сборку', str(error))
+        self.update_actions()
 
     def log(self, message):
         logging.info(message)
@@ -225,6 +254,10 @@ class Launcher:
             self.update_actions()
 
     def start(self, play):
+        if self.is_busy:
+            return
+        self.update_actions()
+        needs_install = not play or not self.installed
         try:
             pack = self.current()
             settings = validate_settings(dict(self.settings, **{key: value.get().strip() for key, value in self.values.items()}))
@@ -241,14 +274,19 @@ class Launcher:
         self.status.configure(text='Подготовка сборки…')
         def work():
             try:
-                if not play:
+                if needs_install:
                     try:
                         for available in sync_catalog(lambda m: self.events.put(('log', m))):
                             self.events.put(('catalog_pack', available))
                     except Exception as error:
                         self.events.put(('log', f'Каталог недоступен, используется сохранённая библиотека: {error}'))
-                run_pack(pack, settings, play, lambda m: self.events.put(('log', m)),
-                         lambda v, t: self.events.put(('progress', (v, t))), self.cancel)
+                    run_pack(pack, settings, False, lambda m: self.events.put(('log', m)),
+                             lambda v, t: self.events.put(('progress', (v, t))), self.cancel)
+                if play:
+                    if self.cancel.is_set():
+                        raise Cancelled('Операция отменена')
+                    run_pack(pack, settings, True, lambda m: self.events.put(('log', m)),
+                             lambda v, t: self.events.put(('progress', (v, t))), self.cancel)
                 self.events.put(('log', 'Готово'))
             except Cancelled:
                 self.events.put(('log', 'Установка отменена'))

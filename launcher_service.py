@@ -68,6 +68,32 @@ def profile_lock(root):
         stream.close()
 
 
+def remove_pack(pack_id):
+    """Remove an installation by retaining it in a recoverable local backup."""
+    if not re.fullmatch(r'[a-z0-9][a-z0-9-]{0,63}', pack_id):
+        raise ValueError('Некорректный ID сборки')
+    instances = (data_dir() / 'instances').resolve()
+    root = instances / pack_id
+    if root.is_symlink() or root.resolve().parent != instances:
+        raise ValueError('Недопустимый путь сборки')
+    backup = data_dir() / 'removed-packs' / (pack_id + '-' + uuid.uuid4().hex)
+    with profile_lock(root):
+        children = [p for p in root.iterdir() if p.name != '.jfcraft.lock']
+        if any(p.is_symlink() or not p.resolve().is_relative_to(root.resolve()) for p in children):
+            raise ValueError('Папка содержит ссылки за пределы сборки')
+        backup.mkdir(parents=True)
+        moved = []
+        try:
+            for child in children:
+                child.rename(backup / child.name)
+                moved.append(child.name)
+        except Exception:
+            for name in reversed(moved):
+                (backup / name).rename(root / name)
+            raise
+    return backup
+
+
 def check_java(executable, required):
     executable = executable.strip() or shutil.which('java')
     if not executable:
