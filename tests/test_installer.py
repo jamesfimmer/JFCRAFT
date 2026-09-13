@@ -1,6 +1,8 @@
 import copy
 import hashlib
 import json
+import os
+import subprocess
 from pathlib import Path
 import tempfile
 import threading
@@ -31,6 +33,39 @@ class InstallTests(unittest.TestCase):
         target = self.root / name
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_bytes(content)
+
+    @unittest.skipUnless(os.name == 'nt', 'Windows junction regression')
+    def test_profile_under_aliased_parent_is_not_rejected(self):
+        actual = self.root / 'real-parent'
+        actual.mkdir()
+        alias = self.root / 'alias-parent'
+        subprocess.run(['cmd', '/c', 'mklink', '/J', str(alias), str(actual)],
+                       check=True, capture_output=True)
+        try:
+            profile = alias / 'profile'
+            (profile / 'mods').mkdir(parents=True)
+            (profile / 'mods/extra.jar').write_bytes(b'extra')
+            installer = Installer(profile)
+            installer.clean_extra_mods(manifest())
+            self.assertFalse((actual / 'profile/mods/extra.jar').exists())
+            self.assertEqual(next((actual / 'profile/.jfcraft-backups').rglob('extra.jar')).read_bytes(), b'extra')
+        finally:
+            alias.rmdir()
+
+    @unittest.skipUnless(os.name == 'nt', 'Windows junction regression')
+    def test_mods_junction_is_still_rejected(self):
+        protected = self.root / 'saves'
+        protected.mkdir()
+        (protected / 'level.dat').write_bytes(b'world')
+        alias = self.root / 'mods'
+        subprocess.run(['cmd', '/c', 'mklink', '/J', str(alias), str(protected)],
+                       check=True, capture_output=True)
+        try:
+            with self.assertRaises(ValueError):
+                self.installer.clean_extra_mods(manifest())
+            self.assertEqual((protected / 'level.dat').read_bytes(), b'world')
+        finally:
+            alias.rmdir()
 
     def download(self, item, target):
         target.parent.mkdir(parents=True, exist_ok=True)

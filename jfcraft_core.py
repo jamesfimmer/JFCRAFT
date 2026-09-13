@@ -122,7 +122,9 @@ def load_manifest(source):
 
 class Installer:
     def __init__(self, root, report=lambda message: None, progress=lambda value, total: None, cancel=None):
-        self.root = Path(root)
+        # Normalize ancestor junctions and Windows short (8.3) names once.
+        # Checks below must compare paths relative to this canonical root.
+        self.root = Path(root).resolve()
         self.report = report
         self.progress = progress
         self.cancel = cancel or threading.Event()

@@ -29,7 +29,7 @@ class Launcher:
         self.packs = []
         self.controls = []
         self.settings = load_settings()
-        root.title('JFCRAFT • Библиотека сборок')
+        root.title('JFCRAFT • by jamesfimmer')
         self.ui_scale = max(1.0, root.winfo_fpixels('1i') / 96)
         root.geometry(f'{round(1080 * self.ui_scale)}x{round(740 * self.ui_scale)}')
         root.minsize(round(920 * self.ui_scale), round(680 * self.ui_scale))
@@ -56,11 +56,6 @@ class Launcher:
         self.library.pack(fill='x', padx=14)
         self.library.bind('<<ListboxSelect>>', self.select_pack)
         self.controls.append(self.library)
-        tk.Label(left, text='СКОРО В БИБЛИОТЕКЕ', bg=PANEL, fg=MUTED, font=('Segoe UI', 9, 'bold')).pack(anchor='w', padx=18, pady=(28, 8))
-        tk.Label(left, text='Middle-earth Chronicles\nНовая глава', justify='left', bg=PANEL, fg=GOLD,
-                 font=('Segoe UI', 13, 'bold')).pack(anchor='w', padx=18)
-        tk.Label(left, text='Minecraft 1.7.10\nForge 10.13.4.1614\n\nСостав новой сборки готовится.', justify='left', bg=PANEL, fg=MUTED,
-                 font=('Segoe UI', 10)).pack(anchor='w', padx=18, pady=12)
         right = tk.Frame(body, bg=BG)
         right.pack(side='left', fill='both', expand=True)
         self.title = tk.Label(right, text='Выбери сборку', bg=BG, fg=TEXT, font=('Segoe UI', 23, 'bold'), anchor='w')
@@ -81,9 +76,8 @@ class Launcher:
             self.controls.append(entry)
         form.columnconfigure(1, weight=1)
         self.button(form, '…', self.choose_java).grid(row=3, column=2, padx=(8, 0))
-        tk.Label(right, text='Локальный профиль по нику • Вход Microsoft пока не подключён', bg=BG, fg=MUTED, anchor='w', font=('Segoe UI', 9)).pack(fill='x', pady=(8, 12))
         actions = tk.Frame(right, bg=BG)
-        actions.pack(fill='x')
+        actions.pack(fill='x', pady=(12, 0))
         self.play_button = self.button(actions, 'Играть', lambda: self.start(True), primary=True)
         self.play_button.pack(side='left')
         self.pack_menu = tk.Menu(root, tearoff=False)
@@ -152,7 +146,7 @@ class Launcher:
         self.title.configure(text=pack['name'])
         self.subtitle.configure(text=f"Minecraft {pack['minecraft']}   /   Forge {pack['forge'].split('-')[1]}   /   Java {pack['java']}   /   {pack['version']}")
         size = sum(f['size'] for f in pack['files']) / 1024**2
-        self.description.configure(text=pack.get('description', f"{len(pack['files'])} файлов • {size:.0f} МБ. Первая установка требует интернета. Установленная сборка запускается без проверки обновлений."))
+        self.description.configure(text=pack.get('description', f"{len(pack['files'])} файлов • {size:.0f} МБ"))
         chosen = self.settings.get('java_by_pack', {}).get(pack['id'], '')
         if not chosen:
             java_base = Path(os.environ.get('ProgramFiles', 'C:/Program Files')) / 'Java'
