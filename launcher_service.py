@@ -119,11 +119,26 @@ def run_pack(pack, settings, play, report, progress, cancel):
     settings = validate_settings(settings)
     root = data_dir() / 'instances' / pack['id']
     with profile_lock(root):
-        pack = refresh_pack(pack, report)
+        installer = Installer(root, report, progress, cancel)
+        installer.recover()
+        if play:
+            state = root / '.jfcraft-state.json'
+            if not state.exists():
+                raise ValueError('Сначала установи сборку с подключением к интернету.')
+            installed = load_manifest(state)
+            if installed['id'] != pack['id']:
+                raise ValueError('Сохранённое описание относится к другой сборке.')
+            pack = installed
+            version_file = root / 'versions' / pack['installed_version'] / (pack['installed_version'] + '.json')
+            if not version_file.exists():
+                raise ValueError('Не найден установленный Forge. Выполни установку / обновление.')
+            report('Запуск установленной сборки без проверки обновлений и скачивания файлов…')
+        else:
+            pack = refresh_pack(pack, report)
         java = check_java(settings.get('java', ''), pack['java'])
-        Installer(root, report, progress, cancel).recover()
-        ensure_forge(pack, root, java, report, cancel, repair=not play)
-        Installer(root, report, progress, cancel).install(pack)
+        if not play:
+            ensure_forge(pack, root, java, report, cancel, repair=True)
+            installer.install(pack)
         check_cancel(cancel)
         if not play:
             return
@@ -149,7 +164,7 @@ def refresh_pack(pack, report):
     cache = data_dir() / 'manifests' / (pack['id'] + '.json')
     if cache.exists():
         cached = load_manifest(cache)
-        if cached['id'] == pack['id']:
+        if cached['id'] == pack['id'] and not older_manifest(cached, pack):
             pack = cached
     source = pack.get('update_url')
     if not source:
@@ -163,6 +178,9 @@ def refresh_pack(pack, report):
         return pack
     if latest['id'] != pack['id']:
         raise ValueError('Канал обновлений вернул другую сборку')
+    if older_manifest(latest, pack):
+        report('На сервере прежняя редакция описания; используется исправленная локальная.')
+        return pack
     # Keep the subscribed channel even when a release manifest omits it.
     latest['update_url'] = source
     if latest != pack:
@@ -171,3 +189,37 @@ def refresh_pack(pack, report):
         report(f"Актуальный выпуск: {latest['version']}")
     atomic_json(cache, latest)
     return latest
+
+
+def older_manifest(candidate, current):
+    return (candidate['version'] == current['version'] and
+            candidate.get('manifest_revision', 0) < current.get('manifest_revision', 0))
+
+
+def sync_catalog(report):
+    """Refresh the official library on an explicit install/update action only."""
+    url = 'https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/packs/catalog/index.json'
+    response = requests.get(url, timeout=(10, 30))
+    response.raise_for_status()
+    catalog = response.json()
+    if catalog.get('schema') != 1 or not isinstance(catalog.get('packs'), list) or len(catalog['packs']) > 100:
+        raise ValueError('Некорректный каталог сборок')
+    packs = []
+    for pack_id in catalog['packs']:
+        if not isinstance(pack_id, str) or not re.fullmatch(r'[a-z0-9][a-z0-9-]{0,63}', pack_id):
+            raise ValueError('Некорректное имя сборки в каталоге')
+        source = f'https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/packs/{pack_id}.json'
+        pack = load_manifest(source)
+        if pack['id'] != pack_id:
+            raise ValueError('Каталог вернул другую сборку')
+        pack['update_url'] = source
+        bundled = resource_dir() / 'packs' / (pack_id + '.json')
+        if bundled.exists():
+            local = load_manifest(bundled)
+            if older_manifest(pack, local):
+                pack = local
+        packs.append(pack)
+    for pack in packs:
+        atomic_json(data_dir() / 'manifests' / (pack['id'] + '.json'), pack)
+    report('Библиотека сборок обновлена с GitHub.')
+    return packs

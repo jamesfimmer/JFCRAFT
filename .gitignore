@@ -12,6 +12,8 @@ patchouli_data.json
 # Launcher development and bundled manifest exceptions
 !packs/
 !packs/*.json
+!packs/catalog/
+!packs/catalog/*.json
 .buildenv/
 __pycache__/
 *.py[cod]

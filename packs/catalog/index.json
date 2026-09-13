@@ -1,0 +1,4 @@
+{
+  "schema": 1,
+  "packs": ["middle-earth-classic", "new-ic", "pokecraft", "vanilla-expanded", "wintercraft"]
+}

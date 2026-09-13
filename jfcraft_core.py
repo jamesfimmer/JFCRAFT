@@ -149,7 +149,9 @@ class Installer:
                             stream.write(chunk)
                             digest.update(chunk)
                     if count != item['size'] or digest.hexdigest() != item['sha256']:
-                        raise ValueError(f"Повреждён файл {item['path']}")
+                        raise ValueError(f"Файл {item['path']} не соответствует описанию сборки: "
+                                         f"ожидалось {item['size']} байт / {item['sha256']}, "
+                                         f"получено {count} байт / {digest.hexdigest()}")
                 return
             except (requests.RequestException, ValueError):
                 if attempt == 2:

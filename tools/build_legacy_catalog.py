@@ -8,6 +8,7 @@ import zipfile
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from jfcraft_core import atomic_json, sha256, validate_manifest
+from git_snapshot import snapshot
 
 ROOT = Path(__file__).resolve().parents[1]
 COMMIT = '262c645cacbe76de64b1bf5f3831a4c22d73e412'
@@ -29,19 +30,19 @@ def record(name, content, url):
                 policy='preserve' if name in {'options.txt', 'servers.dat'} else 'merge' if name.startswith('config/') else 'managed')
 
 
-def main():
+def build(source_root):
     tracked = set(subprocess.check_output(['git', '-c', f'safe.directory={ROOT.as_posix()}', 'ls-tree', '-r', '--name-only', COMMIT], cwd=ROOT, text=True).splitlines())
     for pack_id, name, folder, minecraft, forge in PACKS:
         manifest = dict(schema=1, id=pack_id, name=name, version='legacy-2024', minecraft=minecraft,
                         forge=f'{minecraft}-{forge}', installed_version=f'{minecraft}-forge-{forge}', java=17, files=[])
         manifest['update_url'] = f'https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/packs/{pack_id}.json'
-        source = ROOT / 'download-files' / folder
+        source = source_root / 'download-files' / folder
         files = {}
         for file in sorted(source.rglob('*')):
-            if not file.is_file() or file.relative_to(ROOT).as_posix() not in tracked:
+            if not file.is_file() or file.relative_to(source_root).as_posix() not in tracked:
                 continue
             relative = file.relative_to(source).as_posix()
-            url = BASE + quote(file.relative_to(ROOT).as_posix(), safe='/')
+            url = BASE + quote(file.relative_to(source_root).as_posix(), safe='/')
             if allowed(relative):
                 files[relative] = record(relative, file.read_bytes(), url)
             elif relative in {'mods.zip', 'config.zip', 'options.zip', 'shaderpacks.zip'}:
@@ -60,10 +61,12 @@ def main():
                         entry['archive'] = dict(url=url, size=file.stat().st_size, sha256=digest, member=member.filename)
                         files.setdefault(target, entry)
         manifest['files'] = list(files.values())
+        manifest['manifest_revision'] = 1
         validate_manifest(manifest)
         atomic_json(ROOT / 'packs' / (pack_id + '.json'), manifest)
         print(name, len(files), 'files')
 
 
 if __name__ == '__main__':
-    main()
+    with snapshot(ROOT, COMMIT) as source_root:
+        build(source_root)

@@ -10,8 +10,8 @@
   "files": [
     {
       "path": "config/aiimprovements-common.toml",
-      "size": 6211,
-      "sha256": "08a9f7c6f63bd35d49b15fa5bccd8cdf667f21af0c9a8cb2ab5998eb598ee7c3",
+      "size": 6088,
+      "sha256": "d65113ea15e814463b1f477b0cebcc98dfe06a5d3f7100e3bacd414c7cb391ec",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/aiimprovements-common.toml",
       "policy": "merge"
     },
@@ -31,85 +31,85 @@
     },
     {
       "path": "config/appleskin-client.toml",
-      "size": 1361,
-      "sha256": "e6609ffbea927ee6390b1317bb6f3abb3f31ee591ca5c1d5e748f5e625fefea1",
+      "size": 1337,
+      "sha256": "28c6ad7570268b02ec6f73fb7c39c49ecf90f0697d0db9447899e8aa96285200",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/appleskin-client.toml",
       "policy": "merge"
     },
     {
       "path": "config/balm-common.toml",
-      "size": 553,
-      "sha256": "2e83e8a8f8e120214aeb50f55eb08f26c53b90e841c1949a9b7ca400f6c34088",
+      "size": 534,
+      "sha256": "f24f7cede066400c657af13b1aff84e4920ac531bf24ab18cff1ef32fff72835",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/balm-common.toml",
       "policy": "merge"
     },
     {
       "path": "config/bcc-common.toml",
-      "size": 370,
-      "sha256": "d048f1f87fd8e006a5a77accb0416f7ef673197b29d65d0397dce7eb6b2b7d0f",
+      "size": 356,
+      "sha256": "b8b739119da61fca0fb52d06ce813c8362f967bb9a0396cd5f6feb240182cdc0",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/bcc-common.toml",
       "policy": "merge"
     },
     {
       "path": "config/betteradvancements-client.toml",
-      "size": 924,
-      "sha256": "2c5eba79cde20bd1658a43dc0527e5d45b2e462d2f065e228527eee8513446be",
+      "size": 900,
+      "sha256": "caca7ec27174c71dfcaabc93724a2281950df979cfd6b7a40c5557c75e15438f",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/betteradvancements-client.toml",
       "policy": "merge"
     },
     {
       "path": "config/betterdungeons-forge-1_20.toml",
-      "size": 3486,
-      "sha256": "946ce267d09bcedf40defb277de8b64ee72b37118230d47b20eabf55aa32f91a",
+      "size": 3417,
+      "sha256": "61bddf5e2cdd86d220a56c7e79de8f49a16b269294e859a884a318834009e6ab",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/betterdungeons-forge-1_20.toml",
       "policy": "merge"
     },
     {
       "path": "config/bettermineshafts-forge-1_20.toml",
-      "size": 3773,
-      "sha256": "016afc8af06af822bdaa07681699b3c068ec26274116b30b359d5ff03ef9ce11",
+      "size": 3667,
+      "sha256": "1d7adabcca64c0d0dca4494cfee67081cc2a3071e734594b2afe56559467211c",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/bettermineshafts-forge-1_20.toml",
       "policy": "merge"
     },
     {
       "path": "config/betterthirdperson-common.toml",
-      "size": 687,
-      "sha256": "3843f47cb52faddf9bc4d8dd08a4d7e30061e671128d99412ca6a6c27bd1485b",
+      "size": 668,
+      "sha256": "1cae9855e777afbbdca5cd858bc66d10069c902fbd1b8d073cbedace3fa71779",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/betterthirdperson-common.toml",
       "policy": "merge"
     },
     {
       "path": "config/borderlesswindow-client.toml",
-      "size": 989,
-      "sha256": "8fc19943fd720316f8e5d6fbb264b72a363499c397011abf2c926aab2841f068",
+      "size": 975,
+      "sha256": "2b458c2c821cd05b6bedd655267c9717bfbe39369a031938122c88e7d8b58d49",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/borderlesswindow-client.toml",
       "policy": "merge"
     },
     {
       "path": "config/ccl.cfg",
-      "size": 446,
-      "sha256": "7ea96c71ef15522cdcaec7bafdc73fc7cfaa2d6398342d8f447b94906f14e97d",
+      "size": 437,
+      "sha256": "d0accd9879a8d31db8bdb55163dbb1b1668890a4558ac0689f807c6e207d1d99",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/ccl.cfg",
       "policy": "merge"
     },
     {
       "path": "config/ChickenChunks.cfg",
-      "size": 753,
-      "sha256": "56eba4fbecafd76d33e3ef3ec278f0b298df2b1312a61ca70559424b4f3dc552",
+      "size": 732,
+      "sha256": "845a3528deb8d5231393b27341806640a845cda93da72fff4a523bd6f16b129e",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/ChickenChunks.cfg",
       "policy": "merge"
     },
     {
       "path": "config/comforts-server.toml",
-      "size": 1854,
-      "sha256": "24702276d0b1d6f7b5e94b4b34cbc5bd426c524a31bc005231324fc1b7976438",
+      "size": 1815,
+      "sha256": "04e49bd0851cabb26a7177b014dc7f5622b4e817f6fbdeaf5c9f53030bed8a3a",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/comforts-server.toml",
       "policy": "merge"
     },
     {
       "path": "config/configured-client.toml",
-      "size": 93,
-      "sha256": "a823c528792d2fda677b9a05956a8c609b6279386b6b4b840d992fa43b931698",
+      "size": 89,
+      "sha256": "fded2b62bfa868e8f23007991e6f192a08f7d73c87ebd34f10a5b08bf1c26ff0",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/configured-client.toml",
       "policy": "merge"
     },
@@ -129,15 +129,15 @@
     },
     {
       "path": "config/defaultoptions/keybindings.txt",
-      "size": 6544,
-      "sha256": "5f0ddb0913fda243d4964372d4762e94d3c4710cb83e6dee913e19bfe6e0150a",
+      "size": 6419,
+      "sha256": "3d58e0c099054e587dc754b69a0c6509cbf632caee6e4cdde9e7696ece0ae105",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/defaultoptions/keybindings.txt",
       "policy": "merge"
     },
     {
       "path": "config/defaultoptions/options.txt",
-      "size": 2352,
-      "sha256": "c1831b162196993c78379ceb355d91cb429ecce5bb15cb61e29d5f98826e386c",
+      "size": 2249,
+      "sha256": "16f51377188275af64524411ebebc229031db34f6505e8c4f5140594c919e973",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/defaultoptions/options.txt",
       "policy": "merge"
     },
@@ -150,8 +150,8 @@
     },
     {
       "path": "config/defaultoptions-common.toml",
-      "size": 381,
-      "sha256": "3c6307abe209aeab5c7ae65e011e1460d59826bde479b284c297f876cbb07355",
+      "size": 375,
+      "sha256": "9424ceb580ec8f3f074ebcc0618bfceebb62bb44d64750c7df5964fc7713964c",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/defaultoptions-common.toml",
       "policy": "merge"
     },
@@ -164,29 +164,29 @@
     },
     {
       "path": "config/fallingleaves-client.toml",
-      "size": 1207,
-      "sha256": "57593ac22df771e7ed941c2da70987799fdfc6bc0c77bff173f82b6b03d3f560",
+      "size": 1175,
+      "sha256": "1fa3f509589f5d16ec8b4590ff98fd3774c353f9a90160750e01c329d18e5663",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/fallingleaves-client.toml",
       "policy": "merge"
     },
     {
       "path": "config/farmersdelight-client.toml",
-      "size": 369,
-      "sha256": "e5f8f5743c23e6c1e569070d720f91e66495e8da03550a0d37d9a07c6d543014",
+      "size": 359,
+      "sha256": "13a11f20b305f6f975ebc35802d87c7bf22a04dc79464e41089823603b76a227",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/farmersdelight-client.toml",
       "policy": "merge"
     },
     {
       "path": "config/farmersdelight-common.toml",
-      "size": 4425,
-      "sha256": "23dac8e8964b311ec6361b30dfb33db572a4bf13657c545bb1b618ffe7f896f1",
+      "size": 4310,
+      "sha256": "6c5ef17d96281e06120161c02bc3365ed55e90151cb99f8ebde9c7042e340bbb",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/farmersdelight-common.toml",
       "policy": "merge"
     },
     {
       "path": "config/ferritecore-mixin.toml",
-      "size": 1516,
-      "sha256": "c164439c632aa7c95c07edec5cfef74b8e2d5671a8445a781deeb4de7ad0c8b6",
+      "size": 1493,
+      "sha256": "e3ca99e0f233e3bcf8b6762a85b1139f716bf96644318fe9cb022c270461b287",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/ferritecore-mixin.toml",
       "policy": "merge"
     },
@@ -199,29 +199,29 @@
     },
     {
       "path": "config/fml.toml",
-      "size": 963,
-      "sha256": "125de7caed3fb652b3194199ce1fb541542c69cb10bfc6cb848c4cea67f1c5e8",
+      "size": 936,
+      "sha256": "41b084426379f92d274f982be5fbbd80cf3f7a14a809204838928ff7bb5d47ff",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/fml.toml",
       "policy": "merge"
     },
     {
       "path": "config/forge-client.toml",
-      "size": 1399,
-      "sha256": "7bc724152ad613fc492e7439074edeed178bc3405fc80a741add5ab562626684",
+      "size": 1375,
+      "sha256": "887ab56b28b84932643280912fe29bd66e3f2c7e80c31b114925bfe7a670601b",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/forge-client.toml",
       "policy": "merge"
     },
     {
       "path": "config/gravestone-client.toml",
-      "size": 217,
-      "sha256": "0f7657373c8cccc3e9f11a79533c0c85c84e68762b65e5c6f9728ca9226873d3",
+      "size": 212,
+      "sha256": "25d84c998664dc4aea1c5dd2ae85f25088b517082b74ad44253f3b09eb40fa94",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/gravestone-client.toml",
       "policy": "merge"
     },
     {
       "path": "config/inventorysorter-client.toml",
-      "size": 129,
-      "sha256": "92de49a9405703845f2da9cde2b77dfa75c0088217c0c7a94d4e9ea200cf0549",
+      "size": 121,
+      "sha256": "a9a90c120d374d82018b03e579f1a4df8b4c5218e47a5c59a06fb3284661195f",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/inventorysorter-client.toml",
       "policy": "merge"
     },
@@ -234,64 +234,64 @@
     },
     {
       "path": "config/jei/ingredient-list-mod-sort-order.ini",
-      "size": 451,
-      "sha256": "6da89073c366fa1a3637770ca3ec24d754def6d7bc4117ec0a082f6b16b0c0a1",
+      "size": 426,
+      "sha256": "2d9a70da2aad134bff56d1d73ed4a92762ca91037461f91708a8e0f6b0743afa",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/jei/ingredient-list-mod-sort-order.ini",
       "policy": "merge"
     },
     {
       "path": "config/jei/ingredient-list-type-sort-order.ini",
-      "size": 74,
-      "sha256": "39b5426fb7faf645a83c210d457352b05f64859d4b9adb58242c113c2c8e6878",
+      "size": 72,
+      "sha256": "ca6f0515891afed86c30c9d3d8ad1496a7d03de9ea532ab431f2ec1d3968826b",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/jei/ingredient-list-type-sort-order.ini",
       "policy": "merge"
     },
     {
       "path": "config/jei/jei-client.ini",
-      "size": 6940,
-      "sha256": "9932a1bc18b2d02f3e57225eed7154bde8eb2cc99d1ffed6e9730a433800ceb1",
+      "size": 6729,
+      "sha256": "02c69babf36e3611ad3f7002a60bba45019ded90df6abd50e14978193b287e0f",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/jei/jei-client.ini",
       "policy": "merge"
     },
     {
       "path": "config/jei/jei-colors.ini",
-      "size": 1337,
-      "sha256": "c6328dcf3fb8b20a9f6ea6b61266ce289565c167353e183a105fb4915c36c072",
+      "size": 1329,
+      "sha256": "bca5b02f5689992eedefaea160cecac8fd69ee8ae7cee403f5294afbe539e8ce",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/jei/jei-colors.ini",
       "policy": "merge"
     },
     {
       "path": "config/jei/jei-debug.ini",
-      "size": 669,
-      "sha256": "7a52ffd21f84a31ee6c8551b67aa6e5ebc8719e4286481bd42ed016903b10b96",
+      "size": 642,
+      "sha256": "96fc54f4883daeae13bb15e0b156e35d7659c070172d0e372f45056efa1c2685",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/jei/jei-debug.ini",
       "policy": "merge"
     },
     {
       "path": "config/jei/jei-mod-id-format.ini",
-      "size": 416,
-      "sha256": "34eb990ae2cf62220a0d1be95629bcac46e6732f1cd6f7b6fdc54bcae02916e5",
+      "size": 405,
+      "sha256": "8f2761840207e6e133df740cd06303e52c711f418942300073cf58827a06b989",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/jei/jei-mod-id-format.ini",
       "policy": "merge"
     },
     {
       "path": "config/jei/recipe-category-sort-order.ini",
-      "size": 918,
-      "sha256": "e99b394eba7ff543fbcb8227c1d4b897a8c210586115ef8b5c19b02a83dbab6a",
+      "size": 885,
+      "sha256": "aa35a5f00c2cf8679716449a1f1c0899a090abeeb5a5a836995bd5d233457dbd",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/jei/recipe-category-sort-order.ini",
       "policy": "merge"
     },
     {
       "path": "config/jeresources-common.toml",
-      "size": 236,
-      "sha256": "9dbe8c6973dc932be6dd20cb63381276740b23c75349dbe870fc8098c8529989",
+      "size": 225,
+      "sha256": "13a4d5e1d1ac4207cbebef810696525975ec4f0c2470f6b858cbd9f62a6cd3ec",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/jeresources-common.toml",
       "policy": "merge"
     },
     {
       "path": "config/jeresources.toml",
-      "size": 236,
-      "sha256": "b101c668c6c658e2db126b7f6d3b9eb913537ff8903fbfce0128534299b2aea5",
+      "size": 225,
+      "sha256": "dba9b465be70853db2eaa9ab61747b244c2dd1127668dd72121251150a4833a1",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/jeresources.toml",
       "policy": "merge"
     },
@@ -332,8 +332,8 @@
     },
     {
       "path": "config/modernfix-common.toml",
-      "size": 107,
-      "sha256": "fad9aea710ec3508eab562cd8f2b5f8e2dda6ee1c5fb1fe818f90ce253017f66",
+      "size": 104,
+      "sha256": "d40a0510a5eaf56e3c48e881348d7d826c5a1f61aa29b69cf0fc33dd96d6fdcd",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/modernfix-common.toml",
       "policy": "merge"
     },
@@ -346,15 +346,15 @@
     },
     {
       "path": "config/moonlight-client.toml",
-      "size": 1018,
-      "sha256": "135255a72816385345a135fa013c93dd1737c35eebb80690d29d1b572917267d",
+      "size": 1005,
+      "sha256": "f7135f0beb4eec4e7e3314502086a96a371c73e8fe4249e727b1eb5088ce8725",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/moonlight-client.toml",
       "policy": "merge"
     },
     {
       "path": "config/moonlight-common.toml",
-      "size": 2,
-      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "size": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/moonlight-common.toml",
       "policy": "merge"
     },
@@ -367,29 +367,29 @@
     },
     {
       "path": "config/mowziesmobs-client.toml",
-      "size": 694,
-      "sha256": "f1ac5e4261522330176a25eee7888b06ba2476d1708bac24a215cec33279f1f2",
+      "size": 677,
+      "sha256": "7039e706dd3429eab91249b1b9ebefe7f4a1535b117bcfaa5c47440c2e3a057a",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/mowziesmobs-client.toml",
       "policy": "merge"
     },
     {
       "path": "config/mowziesmobs-common.toml",
-      "size": 28015,
-      "sha256": "b0a7e9733b9660d7af4b77d76f356a5975349d84e0da42c08176156475264b7e",
+      "size": 27372,
+      "sha256": "f5a2c395e5fc277406dbfbd0e7bbc7f7f604c0892b31bb4d5f9b478d69e60714",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/mowziesmobs-common.toml",
       "policy": "merge"
     },
     {
       "path": "config/naturescompass-client.toml",
-      "size": 432,
-      "sha256": "4215398614d28a24d2fe39593bf25981dd67ae46f85bc710ee07ba2d37c74c0b",
+      "size": 419,
+      "sha256": "12e21e8f6b4f99c727bf907935dbc7140cfd8e332f494e067f1c5fb7077b98d2",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/naturescompass-client.toml",
       "policy": "merge"
     },
     {
       "path": "config/naturescompass-common.toml",
-      "size": 1142,
-      "sha256": "eebe4b4c01047b3d8cbf1106fcfe8af8e912ca62dfbb5258f46b36623b535fa2",
+      "size": 1124,
+      "sha256": "19e32515b4d9338aaa605bcd30dda6634d0a999f82ed0689749d95cb40397f5a",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/naturescompass-common.toml",
       "policy": "merge"
     },
@@ -402,106 +402,106 @@
     },
     {
       "path": "config/oculus.properties",
-      "size": 286,
-      "sha256": "e272b8598b50c33d8d4e20c31066983d695a97ec84ea98122be4fac55f53e6ec",
+      "size": 278,
+      "sha256": "bfcb1c876d951e3f22ae99b43be6b302353c8081311ccd1ffc4e526d55c85377",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/oculus.properties",
       "policy": "merge"
     },
     {
       "path": "config/patchouli-client.toml",
-      "size": 1091,
-      "sha256": "d289f4c7540e3e24bcf6bbf3f5a2aaaf87ccf58027d2213e40497fc627422068",
+      "size": 1075,
+      "sha256": "3b6236845f6a5ff8804487b63b0d74305b91316dc9a008362838607b0be3bd8e",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/patchouli-client.toml",
       "policy": "merge"
     },
     {
       "path": "config/rctmod-client.toml",
-      "size": 590,
-      "sha256": "07e126f1fbb57464f6c5539755c7f86670b545e09a0598935c708dc772c91ef1",
+      "size": 572,
+      "sha256": "10621cb7968da6b0d22a90c96926da953b48d2308cdeea4e81546d994d164eef",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/rctmod-client.toml",
       "policy": "merge"
     },
     {
       "path": "config/refurbished_furniture.client.toml",
-      "size": 1005,
-      "sha256": "3910a814528dae85fc3d09d6a3c31c2d420f611ee37a4b412d657259bf37318c",
+      "size": 984,
+      "sha256": "83f9a0e7edb41bbbedfdb972a420c4e7ecc2c631a9ab5b32a54fdfe8d2c54213",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/refurbished_furniture.client.toml",
       "policy": "merge"
     },
     {
       "path": "config/refurbished_furniture.server.toml",
-      "size": 6778,
-      "sha256": "fe5cd5a4a381f3176b8cf9ac9ea9c586c75441fcb100985ed831ad6f423249c2",
+      "size": 6645,
+      "sha256": "56ae2d6bb31e557f4817fe374e083f440946b0d7e69ab6a68900d8bd96e15c8c",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/refurbished_furniture.server.toml",
       "policy": "merge"
     },
     {
       "path": "config/sereneseasons/fertility.toml",
-      "size": 538,
-      "sha256": "8a9d38ca6b3d5054984f03f4f97689c1d6bde5c2b84250095033d3122576fc2c",
+      "size": 522,
+      "sha256": "fd5037d2a044a0f4718215180f0d04b2698a6896ad1195c8093dde4cdd025a53",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/sereneseasons/fertility.toml",
       "policy": "merge"
     },
     {
       "path": "config/sereneseasons/seasons.toml",
-      "size": 361,
-      "sha256": "4fe5c2073c3a7a58c6388467b853347a09dffb9d67c2bd86bf57c9dcb3970bf2",
+      "size": 353,
+      "sha256": "1e2947edfe05bf3763e248fad734a46e577f983a64c93ac7b3cdb767244db17a",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/sereneseasons/seasons.toml",
       "policy": "merge"
     },
     {
       "path": "config/sophisticatedbackpacks-common.toml",
-      "size": 122,
-      "sha256": "6674ec92f625296aa8accc93d71fdf1eecfc8050111c5ae7b6d9a94b4fe14506",
+      "size": 116,
+      "sha256": "b377e97ca3d8ae8560448b92ab820872d7c11bef0ca52dcf3f4901b44c6ddca7",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/sophisticatedbackpacks-common.toml",
       "policy": "merge"
     },
     {
       "path": "config/sophisticatedcore-client.toml",
-      "size": 351,
-      "sha256": "06813199751af809ce5043408f99066b30dccfa72b2597d74543dfa6b64e8d36",
+      "size": 342,
+      "sha256": "293088be5b4d13e99f6c12a0aaa7b56f0f9db5f9abbc615086989b689b3827d3",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/sophisticatedcore-client.toml",
       "policy": "merge"
     },
     {
       "path": "config/sophisticatedcore-common.toml",
-      "size": 2554,
-      "sha256": "5120359660f13c31b7cfc792b335a1f2d60fea4c011bfd8a1e3722be5f163416",
+      "size": 2548,
+      "sha256": "65c8af2c63278c4d6bb7e7caddc660be0e27c2d548741a84bdcd360208693dcf",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/sophisticatedcore-common.toml",
       "policy": "merge"
     },
     {
       "path": "config/supplementaries-client.toml",
-      "size": 8830,
-      "sha256": "66f7544a5bcde19c68f70ce929c25d6b5a84be42dbd31dba8594f08455c7206b",
+      "size": 8587,
+      "sha256": "ad2b8b4bd0391418d570c11eaa436c3bcbeca43d69f7ab64776a9012c4a41dfd",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/supplementaries-client.toml",
       "policy": "merge"
     },
     {
       "path": "config/supplementaries-common.toml",
-      "size": 20498,
-      "sha256": "85279543f15998db93b477492a735ff1f1a49cc08f16694a4f3956c039996831",
+      "size": 19935,
+      "sha256": "ebc19717d6d616d71f2b16234ab1272416000aaf31dee56d18c50e28d08327e0",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/supplementaries-common.toml",
       "policy": "merge"
     },
     {
       "path": "config/tombstone-client.toml",
-      "size": 4010,
-      "sha256": "bae02e74159e5f3f9a4e60058ee49af36b6b79389717d9c2ce082fc10b161f0c",
+      "size": 3932,
+      "sha256": "fa44adf87b0acf23128550313b920c1b573a8722c95072df9b5d6ff98a86dc5b",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/tombstone-client.toml",
       "policy": "merge"
     },
     {
       "path": "config/tombstone-common.toml",
-      "size": 9959,
-      "sha256": "a7cb337e42064f847805811a85765102f7d20e628be203a8c6dd1620618a9f8a",
+      "size": 9743,
+      "sha256": "731f5d9f38118acd35ed990d84e5faf3412f76bdde39dcbe7e3d8fd3d9d6f2b9",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/tombstone-common.toml",
       "policy": "merge"
     },
     {
       "path": "config/tombstone-server.toml",
-      "size": 8802,
-      "sha256": "b745d81ad6a2b954753d20541ecd7d256e748f1f4d25a304b7d40bd59be7bb1f",
+      "size": 8582,
+      "sha256": "25b63d388a9af4c0db138af5a54c3ed7a4584beb4cfb30ae24aaa701321ce522",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/tombstone-server.toml",
       "policy": "merge"
     },
@@ -521,43 +521,43 @@
     },
     {
       "path": "config/treechop-client.toml",
-      "size": 1625,
-      "sha256": "ae1995c3bac2a03f767a2c8da6af75364f8a0fc8de6bd82334d05191d97bdc79",
+      "size": 1589,
+      "sha256": "a2f240f4e251700a592d2c07a9290878e15ad73c040f863306c7f68629b0a8f6",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/treechop-client.toml",
       "policy": "merge"
     },
     {
       "path": "config/treechop-common.toml",
-      "size": 8869,
-      "sha256": "020e51de0257db1acf83204e5981142f1dac1f54309b5d8e867e8f3a0c56d8d6",
+      "size": 8674,
+      "sha256": "75ea674c9390bc0e6aa6fd492622ad0b98efd6a71d3b679b782ced60f4506fae",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/treechop-common.toml",
       "policy": "merge"
     },
     {
       "path": "config/valhelsia_structures-client.toml",
-      "size": 108,
-      "sha256": "8ab414b34601e3023481f85777bc831a1b3cc78478103b71645b503792c7e6e7",
+      "size": 105,
+      "sha256": "54cd19f69340f655ae0d59facdef22fde150c74f78c89a5fc28764ff89d77e8e",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/valhelsia_structures-client.toml",
       "policy": "merge"
     },
     {
       "path": "config/valhelsia_structures-common.toml",
-      "size": 720,
-      "sha256": "b867176a5df54ccc38411903baf8a5ad4129f66ffad4594fc292601cc3cb9eeb",
+      "size": 700,
+      "sha256": "9965ae186213d409a68fe3d1ac3b7dee6dd19e97fd14cb1e2d13e4a4c0a0a8f3",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/valhelsia_structures-common.toml",
       "policy": "merge"
     },
     {
       "path": "config/xaerominimap-common.txt",
-      "size": 115,
-      "sha256": "1dcee38470c2939f7265891203775b7631c81822bf2506a451727fcaaf2cc4a2",
+      "size": 111,
+      "sha256": "12d59cbd75c19a2bfb7f837f161f762e6136e834b07d3c3c5bba806a66e34bc2",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/xaerominimap-common.txt",
       "policy": "merge"
     },
     {
       "path": "config/xaerominimap.txt",
-      "size": 3505,
-      "sha256": "45c59ef10cb8774e46cdafd9ef953ff78989abd8575475419aba2876a0386c49",
+      "size": 3376,
+      "sha256": "00bbcc952d3f7f00ceb1e8cb7bd6646cedbe39371ec71ee9e6cb3409b89e2627",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/xaerominimap.txt",
       "policy": "merge"
     },
@@ -570,15 +570,15 @@
     },
     {
       "path": "config/xaeroworldmap-common.txt",
-      "size": 90,
-      "sha256": "103979a8e59e396f99fb8646c4f8a690c2d743ca3744a2eb8f663b3102b7498c",
+      "size": 87,
+      "sha256": "d1f01c1b88e9f0273da1a90cd0c5d0ff62c2313b7ef4c901993aa8cafa84e5d6",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/xaeroworldmap-common.txt",
       "policy": "merge"
     },
     {
       "path": "config/xaeroworldmap.txt",
-      "size": 1218,
-      "sha256": "6028733f967d0d0f6a80dd236d3dcc7d2446912c719ab9a7d3f83d8624d9b92d",
+      "size": 1163,
+      "sha256": "6cae8c6c64eeebf4dd15076b8f172a440bf1ece460aef63d3abe206e2d45fe8f",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/config/xaeroworldmap.txt",
       "policy": "merge"
     },
@@ -1151,8 +1151,8 @@
     },
     {
       "path": "options.txt",
-      "size": 8331,
-      "sha256": "bf5a7da63da45f4f5c8812c35afe5536f582e2e9851fed17a37768e3140d422b",
+      "size": 8103,
+      "sha256": "2611eb37bb3836c0e4c61d24565ba8e465444596fa721cb6fec21f6ff43d199a",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/Pokecraft-1.20.1/options.txt",
       "policy": "preserve"
     },
@@ -1199,5 +1199,6 @@
       "policy": "managed"
     }
   ],
-  "update_url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/packs/pokecraft.json"
+  "update_url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/packs/pokecraft.json",
+  "manifest_revision": 1
 }

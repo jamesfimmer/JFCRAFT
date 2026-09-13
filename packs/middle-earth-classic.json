@@ -1,0 +1,2016 @@
+{
+  "schema": 1,
+  "id": "middle-earth-classic",
+  "name": "Middle-earth Chronicles Classic",
+  "version": "legacy-c2150b27",
+  "minecraft": "1.7.10",
+  "forge": "1.7.10-10.13.4.1614-1.7.10",
+  "installed_version": "1.7.10-Forge10.13.4.1614-1.7.10",
+  "java": 8,
+  "files": [
+    {
+      "path": "config/battlegear2.cfg",
+      "size": 4378,
+      "sha256": "ca42d005baf179bc2341667b88ff5e0c7096eb35adc0e04bffbdb5cde2813a6d",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/battlegear2.cfg",
+      "policy": "merge"
+    },
+    {
+      "path": "config/BetterFoliage.cfg",
+      "size": 5716,
+      "sha256": "1fdb01abfa30c83a5cf365d63ac5c10b174755df3bc9051212e2a2bd2068d025",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/BetterFoliage.cfg",
+      "policy": "merge"
+    },
+    {
+      "path": "config/BiblioCraft.cfg",
+      "size": 6656,
+      "sha256": "5355fadbd4c6f72a4780417c7c2cdf9d843189861ffbe56964d672fc7d8e4c87",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/BiblioCraft.cfg",
+      "policy": "merge"
+    },
+    {
+      "path": "config/campfirebackport.cfg",
+      "size": 12190,
+      "sha256": "f3c11034826606b93ff086c6461be91000f4ea93e82009abf2d3a165801c47f4",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/campfirebackport.cfg",
+      "policy": "merge"
+    },
+    {
+      "path": "config/campfirebackportmixins.cfg",
+      "size": 1599,
+      "sha256": "b2dd4abadbcaba12db006a50df7eedf92a0291beccdc84ce1426584f820d39a7",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/campfirebackportmixins.cfg",
+      "policy": "merge"
+    },
+    {
+      "path": "config/carbonconfig.cfg",
+      "size": 966,
+      "sha256": "bb9797f584384be7fb67fd4e188b4a80ebce50c08471e1d9487ac45f2e1b6e8f",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/carbonconfig.cfg",
+      "policy": "merge"
+    },
+    {
+      "path": "config/ChunkAnimator.cfg",
+      "size": 386,
+      "sha256": "4c76be80e1552c507c66176aaa2ed23fbc56ebc991116d5876ae2d3b4c10e00d",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/ChunkAnimator.cfg",
+      "policy": "merge"
+    },
+    {
+      "path": "config/ClientFixer.cfg",
+      "size": 205,
+      "sha256": "d32eac6289a1f4f7e4e9a2f6720996f925743410ee449e4c0852ba724c93c2ec",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/ClientFixer.cfg",
+      "policy": "merge"
+    },
+    {
+      "path": "config/CodeChickenCore.cfg",
+      "size": 808,
+      "sha256": "0c3e0399ca50d0ddace26078335b3e177ab2079cc9eef13e8734154588d38b77",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/CodeChickenCore.cfg",
+      "policy": "merge"
+    },
+    {
+      "path": "config/CustomNpcs.cfg",
+      "size": 1288,
+      "sha256": "a4a74462f9e6073c957822f15ff5d351c7ac568520a8ba41798a61da2bb373ff",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/CustomNpcs.cfg",
+      "policy": "merge"
+    },
+    {
+      "path": "config/DamageIndicatorsMod.cfg",
+      "size": 7020,
+      "sha256": "61dbecfc792187c957a6c3b0b1b1c6cdc9802397d5843980ff43241284913818",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/DamageIndicatorsMod.cfg",
+      "policy": "merge"
+    },
+    {
+      "path": "config/defaultkeys.txt",
+      "size": 1111,
+      "sha256": "8495c03edb87f37fefa6110e52464ada0d526ae5f7a548d284625126fb3f0dcb",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/defaultkeys.txt",
+      "policy": "merge"
+    },
+    {
+      "path": "config/defaultoptions.txt",
+      "size": 1247,
+      "sha256": "b9d0aaf7e6bbd8876b1b503da388951e642a82c4949e43a486ccfcd8f344ad74",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/defaultoptions.txt",
+      "policy": "merge"
+    },
+    {
+      "path": "config/defaultoptionsof.txt",
+      "size": 1250,
+      "sha256": "4dc78a751ce582ef452f4a3c883fb7df11b1767377c29fc8ef440efaf5ff7f40",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/defaultoptionsof.txt",
+      "policy": "merge"
+    },
+    {
+      "path": "config/DIAdvancedCompatibility.cfg",
+      "size": 856415,
+      "sha256": "3023d672cf0f5c1879a054078bd63975695c756c0e035cdee4ecd231e0d1a00d",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/DIAdvancedCompatibility.cfg",
+      "policy": "merge"
+    },
+    {
+      "path": "config/Ding.cfg",
+      "size": 810,
+      "sha256": "6e4c514c909ef80261042c8db96489b5d973905d6231de9572cb29686c7f015b",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/Ding.cfg",
+      "policy": "merge"
+    },
+    {
+      "path": "config/dss.cfg",
+      "size": 4183,
+      "sha256": "8ec950c1f6ba9871aeb84b24c7b65bb250752336da66f65229a6547afcd1f96d",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/dss.cfg",
+      "policy": "merge"
+    },
+    {
+      "path": "config/fastcraft.ini",
+      "size": 4528,
+      "sha256": "092421e40ce7c3a41e40d043cc707c4327654e3b1741fe17823a5e6cdd56f46e",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/fastcraft.ini",
+      "policy": "merge"
+    },
+    {
+      "path": "config/fastleafdecay.cfg",
+      "size": 669,
+      "sha256": "fea51d79b962ef69834748da5452b42a9bc7e56df499c5b82ce01106c7d6c8cb",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/fastleafdecay.cfg",
+      "policy": "merge"
+    },
+    {
+      "path": "config/forge.cfg",
+      "size": 2308,
+      "sha256": "f657188d1664c88d2e1dc22fde844d577aad29f92f717094aeb1b6fcbbe552eb",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/forge.cfg",
+      "policy": "merge"
+    },
+    {
+      "path": "config/forgeChunkLoading.cfg",
+      "size": 1978,
+      "sha256": "7f4f70b4bbc8d0c73abe4f2926b47bf71c9746554bd1ef2d15c68b5d82206610",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/forgeChunkLoading.cfg",
+      "policy": "merge"
+    },
+    {
+      "path": "config/genst.cfg",
+      "size": 8853,
+      "sha256": "9819b61148c54b202b96e044b8f10a83ee86fb4da83e324248f89204eb68bc45",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/genst.cfg",
+      "policy": "merge"
+    },
+    {
+      "path": "config/gravestone.cfg",
+      "size": 2098,
+      "sha256": "b6524000728f68722bb760798bb9f8cc9ac80a89f2744ff5b9c10937ae542d9a",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/gravestone.cfg",
+      "policy": "merge"
+    },
+    {
+      "path": "config/gtnhlib.cfg",
+      "size": 183,
+      "sha256": "2ced2c7410667125e0dbc302f754309616d55e6dacd7a3668644dc81c3ecaca3",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/gtnhlib.cfg",
+      "policy": "merge"
+    },
+    {
+      "path": "config/iChunUtil.cfg",
+      "size": 2459,
+      "sha256": "6b346f11d9e1081dd8a97343826de8eac158a1c31b0df647aab0687cbd65c83c",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/iChunUtil.cfg",
+      "policy": "merge"
+    },
+    {
+      "path": "config/iChunUtil_KeyBinds.cfg",
+      "size": 22,
+      "sha256": "3b24ae8b5cededbe729d0a938727db46ea2a01fe2d5e42463f525dadde921023",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/iChunUtil_KeyBinds.cfg",
+      "policy": "merge"
+    },
+    {
+      "path": "config/InvTweaks.cfg",
+      "size": 656,
+      "sha256": "48fa7312ca110de75a34ddc39186a8fb3e3f718cdb35a7599ef7bdf726a8d4a6",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/InvTweaks.cfg",
+      "policy": "merge"
+    },
+    {
+      "path": "config/InvTweaksRules.txt",
+      "size": 1352,
+      "sha256": "0000352266492dce0737a2e841dae5160365d7b56a7fe9a9abb8acab2c5d0827",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/InvTweaksRules.txt",
+      "policy": "merge"
+    },
+    {
+      "path": "config/InvTweaksTree.txt",
+      "size": 43373,
+      "sha256": "cff08041dc5ce51b8d565b238ad9292774a6b34ef5bff22213d18cc37e3b1d5f",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/InvTweaksTree.txt",
+      "policy": "merge"
+    },
+    {
+      "path": "config/itemphysic.cfg",
+      "size": 165,
+      "sha256": "453f6f8684c61029dbf584d3c2b607ac447ed765eb731b168b49b8cd4c5f1a4c",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/itemphysic.cfg",
+      "policy": "merge"
+    },
+    {
+      "path": "config/localconfig-example.txt",
+      "size": 7291,
+      "sha256": "32b4f784d757c71c2e1d3312f351ca2eba89cb42639d6f1e0995b900ac8dd484",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/localconfig-example.txt",
+      "policy": "merge"
+    },
+    {
+      "path": "config/localconfig.txt",
+      "size": 824,
+      "sha256": "ef4fd34cde3ec5f0321b114f54a6544b2a60cb8ca6167305a2ec892e6b6182d1",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/localconfig.txt",
+      "policy": "merge"
+    },
+    {
+      "path": "config/lotr.cfg",
+      "size": 4095,
+      "sha256": "c72c96839049d44bb91a7ee6c36aa28ed788f1967a1f72c9546c9d32c8fbcb58",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/lotr.cfg",
+      "policy": "merge"
+    },
+    {
+      "path": "config/LOTR_EntityRegistry.txt",
+      "size": 1518,
+      "sha256": "11557d89a787bed47db8f0c19a2b659c21724823b9f932c8043411274e980ff8",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/LOTR_EntityRegistry.txt",
+      "policy": "merge"
+    },
+    {
+      "path": "config/mobends.cfg",
+      "size": 152,
+      "sha256": "76aaa6fc1126ddd18502efe744abd8ff665daf78092cf5218d62d2c3a4fa7d6e",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/mobends.cfg",
+      "policy": "merge"
+    },
+    {
+      "path": "config/MorePlayerModels.cfg",
+      "size": 521,
+      "sha256": "9044786296f628d1b182438d93863d8627491ba211949f1e7f11dd5ac8c332f9",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/MorePlayerModels.cfg",
+      "policy": "merge"
+    },
+    {
+      "path": "config/MouseTweaks.cfg",
+      "size": 170,
+      "sha256": "e9549998292e027d9527abca9a06cdcbcac49baf61592651032a514e30f11507",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/MouseTweaks.cfg",
+      "policy": "merge"
+    },
+    {
+      "path": "config/MUD.cfg",
+      "size": 466,
+      "sha256": "2a5d40c76c257d73654ab18d084cca6621224cfa3e43e1b7ffe4027b41ea8372",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/MUD.cfg",
+      "policy": "merge"
+    },
+    {
+      "path": "config/Neat.cfg",
+      "size": 5588,
+      "sha256": "98ead7e4ddd2fc3f40840bd6ba0bc34ba2d3847dca6f99e8847734bf4defae78",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/Neat.cfg",
+      "policy": "merge"
+    },
+    {
+      "path": "config/neirecipehandlers.cfg",
+      "size": 93327,
+      "sha256": "6bb9baba48c8b951cb726d0fcb7d50bd0af32fc3ae45d758dccc30ce9f24a66f",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/neirecipehandlers.cfg",
+      "policy": "merge"
+    },
+    {
+      "path": "config/shouldersurfing.cfg",
+      "size": 2526,
+      "sha256": "94362267e47b340ce0e73057003fc053a77a853a0f390ffbb634f8e6bf3b5cdd",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/shouldersurfing.cfg",
+      "policy": "merge"
+    },
+    {
+      "path": "config/skinport.cfg",
+      "size": 875,
+      "sha256": "81a4fd4045fa2fc4ec7ce610443c89985281023abc483c9121d1ee09647086b7",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/skinport.cfg",
+      "policy": "merge"
+    },
+    {
+      "path": "config/sonicvisuals.cfg",
+      "size": 475,
+      "sha256": "1230ffcc6da7bbdf7a96a9e67a709fe341b5f1c93a5ba48f5cb20014dc0f8581",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/sonicvisuals.cfg",
+      "policy": "merge"
+    },
+    {
+      "path": "config/soundfilters.cfg",
+      "size": 2539,
+      "sha256": "34af924625faf749153f0108a20e40c8bfc2392680d1423410fae6ac27cc0b04",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/soundfilters.cfg",
+      "policy": "merge"
+    },
+    {
+      "path": "config/splash.properties",
+      "size": 326,
+      "sha256": "889424b16e0b63b59112e726cf840709313be2b34e85591a1eff4f01abfb1a1f",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/splash.properties",
+      "policy": "merge"
+    },
+    {
+      "path": "config/StorageDrawers.cfg",
+      "size": 2270,
+      "sha256": "c8a5d36387a0c5b0ffb9ceaef76017f52c0745ba4dd107de3b474be140635eb2",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/StorageDrawers.cfg",
+      "policy": "merge"
+    },
+    {
+      "path": "config/unimixins.properties",
+      "size": 764,
+      "sha256": "350884e3ccf46194eef318bec5f9b2b1e74f9b3067b3b8abafcbaeffe42029ad",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/unimixins.properties",
+      "policy": "merge"
+    },
+    {
+      "path": "config/Waila.cfg",
+      "size": 5476,
+      "sha256": "32e97e11d4e073a470e84f5a5819570df68f312e69e1564c230f9b695b442a08",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/Waila.cfg",
+      "policy": "merge"
+    },
+    {
+      "path": "config/WailaHarvestability.cfg",
+      "size": 216,
+      "sha256": "b7d1f0bfcaaf9ea872527fb42d08600c3b95ea70ae394885acc5ed0290853b9b",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/config/WailaHarvestability.cfg",
+      "policy": "merge"
+    },
+    {
+      "path": "mods/1.7.10/CodeChickenLib-1.7.10-1.1.3.141-universal.jar",
+      "size": 311450,
+      "sha256": "49131e1960b8a968bdaf7806e595a73a9e96f7db1c128aaeb7b25a6a13c2788c",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/mods/1.7.10/CodeChickenLib-1.7.10-1.1.3.141-universal.jar",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/BackTools-4.0.0.jar",
+      "size": 10184,
+      "sha256": "85faa2ce2e0108883c8ea717f7c2c626fd5c84a63294b7695167e34cabb6f48c",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/mods/BackTools-4.0.0.jar",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/BetterFoliage-MC1.7.10-2.0.17.jar",
+      "size": 1767080,
+      "sha256": "aafcfdf841a128857de35231d6eaa25eb373f2e1def7c5dbc80edaea0bf25d81",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/mods/BetterFoliage-MC1.7.10-2.0.17.jar",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/BetterHorseHud-1.7.10-1.0.jar",
+      "size": 5834,
+      "sha256": "6bd85f95f3a9078ae3818f92780303a4be753b7d03aad8da769ae6d6d9c8700b",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/mods/BetterHorseHud-1.7.10-1.0.jar",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/BiblioCraft[v1.11.7][MC1.7.10].jar",
+      "size": 5452316,
+      "sha256": "6c6cdba3b5fc7ceedb4441063d41482b0ee0736dd7354931dc599ec1de1f33ef",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/mods/BiblioCraft%5Bv1.11.7%5D%5BMC1.7.10%5D.jar",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/campfirebackport-1.7.10-1.11.3.jar",
+      "size": 4125926,
+      "sha256": "4cfed5e942f9afec0af201b30c3a0c2590f144d555d703f4ab043ef94b5817de",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/mods/campfirebackport-1.7.10-1.11.3.jar",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/clientfixer-1.0.jar",
+      "size": 15005,
+      "sha256": "457b5a0c3cbc22ab395a0ecf864b956e4eb02c8fbbe999e73de886f5582ca7ce",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/mods/clientfixer-1.0.jar",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/CodeChickenCore-1.7.10-1.0.7.48-universal.jar",
+      "size": 143985,
+      "sha256": "98b33b39c05e83fe76d7bfedda76db686acccd53c0e996c11da75838b15a1399",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/mods/CodeChickenCore-1.7.10-1.0.7.48-universal.jar",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/Controlling-1.7.10-1.0.0.8.jar",
+      "size": 30525,
+      "sha256": "233f5dac426020b9ddd8585b2a0005e632128e4fba1be75d99a356e099d7f58f",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/mods/Controlling-1.7.10-1.0.0.8.jar",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/CosmeticArmorReworked-1.7.10-v7.jar",
+      "size": 50199,
+      "sha256": "fb718bdd35b1d99cc20514723a3b577a951344ab2c92d3edc7b071e1727c25a6",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/mods/CosmeticArmorReworked-1.7.10-v7.jar",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/CraftTweaker-1.7.10-3.1.0-legacy.jar",
+      "size": 1047406,
+      "sha256": "4eacf3356cee806bfc8085665a02d17191ab9a5199d517305c1e35205ba499b6",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/mods/CraftTweaker-1.7.10-3.1.0-legacy.jar",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/CreativeCore v1.3.24 mc1.7.10.jar",
+      "size": 265199,
+      "sha256": "bcffd76d9fb29a3b6546c319be91e90624e54b0b5b77f53fba88dbe955ca8373",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/mods/CreativeCore%20v1.3.24%20mc1.7.10.jar",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/CustomNPCs_1.7.10d(29oct17).jar",
+      "size": 9007920,
+      "sha256": "c4c4d34731a02dfc071580d9e25b54ecb656e4526cfd07f48818dea9a22246d4",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/mods/CustomNPCs_1.7.10d%2829oct17%29.jar",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/defaultkeys-mc1.7.10-1.0.28.jar",
+      "size": 34518,
+      "sha256": "755f2f5b1a0e4ecbf92a5906f309e09bce5cdf86dcbbf76e13d36411b90a7f97",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/mods/defaultkeys-mc1.7.10-1.0.28.jar",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/Ding-MC1.7.10v2.jar",
+      "size": 4764,
+      "sha256": "1790a2267ee028fe2a2e802f2636bd26efb4f847051a8149a686a28b8381edda",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/mods/Ding-MC1.7.10v2.jar",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/DSS_a59.jar",
+      "size": 363203,
+      "sha256": "2051dd16de8e44086a8b8e439584073763fa938e8d707ed0a161748a8e825063",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/mods/DSS_a59.jar",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/EnhancedVisuals v0.2.4 mc1.7.10.jar",
+      "size": 3573909,
+      "sha256": "29d54eb011937e9636883e1c4866b7c115ca7ae6512ca05c304bb8cfe5a6b38c",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/mods/EnhancedVisuals%20v0.2.4%20mc1.7.10.jar",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/fastcraft-1.25.jar",
+      "size": 183482,
+      "sha256": "11e974ac0a0bbe1ed63eb4d0f8ecce5245e77dde8aefd78ee3c95f49b3c3c31d",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/mods/fastcraft-1.25.jar",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/FastLeafDecay-1.7.10-1.4.jar",
+      "size": 7079,
+      "sha256": "17cf47a96cd31da7bd13f72d1afe97f35df601297446b21e30e051e9ae2107e2",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/mods/FastLeafDecay-1.7.10-1.4.jar",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/Genst-II-24.04.27.jar",
+      "size": 2064824,
+      "sha256": "f3127a621905906d805281031974cadf02c2274e4123495a6cad6beb33a60dae",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/mods/Genst-II-24.04.27.jar",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/GraveStone Mod 0.7.10.3.jar",
+      "size": 71108,
+      "sha256": "3118408a45396b1c89e8ddd19e1813eadffd3ac13e274e9086b48cde165cd88f",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/mods/GraveStone%20Mod%200.7.10.3.jar",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/iChunUtil-4.2.3.jar",
+      "size": 213084,
+      "sha256": "18236a63620280880ccac38f216c126573784bdd101f41e929f0bc92da057a6b",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/mods/iChunUtil-4.2.3.jar",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/InventoryTweaks-1.59-dev-152.jar",
+      "size": 224461,
+      "sha256": "03aa8f9a012c2a34748648b8556c4391ca985bce744c4a589001c222f978ba04",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/mods/InventoryTweaks-1.59-dev-152.jar",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/ItemPhysic Full 1.2.5 mc1.7.10.jar",
+      "size": 36718,
+      "sha256": "ddc90a66d590b34eacdd1040e1e8371afe40abcdfc3661aa6beec3b510eb0899",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/mods/ItemPhysic%20Full%201.2.5%20mc1.7.10.jar",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/LOTR+RU Update 1.15-v16.03.25-23.24.34.jar",
+      "size": 57050596,
+      "sha256": "a5bd76f0b3e106cb46d4555033e69dd9f7450fb55d7134e75eacc4a33765e60d",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/mods/LOTR%2BRU%20Update%201.15-v16.03.25-23.24.34.jar",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/MouseTweaks-2.4.4-mc1.7.10.jar",
+      "size": 51898,
+      "sha256": "8b141026e0be476978015a789680f2e550c1bef4518065ff5dbf5ad640ea2164",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/mods/MouseTweaks-2.4.4-mc1.7.10.jar",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/neiRecipeHandlers-1.1.0-BETA.jar",
+      "size": 431642,
+      "sha256": "e657fe68c3f90d9ddc95d1aa0dcd168af49bc6ec5ea8b369b0e3d3a7f57ff1e8",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/mods/neiRecipeHandlers-1.1.0-BETA.jar",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/NotEnoughItems-1.7.10-1.0.5.120-universal.jar",
+      "size": 513136,
+      "sha256": "3ebbc2f82b61812aa158375005a47da4d450bec870860fcbf015a64de74cde1c",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/mods/NotEnoughItems-1.7.10-1.0.5.120-universal.jar",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/OptiFine_1.7.10_HD_U_E7.jar",
+      "size": 1774165,
+      "sha256": "8bcd9d83de001a0591f498105f369f070c47d2c9192774d5a5b69f646e44fab4",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/mods/OptiFine_1.7.10_HD_U_E7.jar",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/sit-1.7.10-v1.1.jar",
+      "size": 5843,
+      "sha256": "dc0fc52d16b5111e996572eb7cafebe45c8e4e373175213823821a57c37df204",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/mods/sit-1.7.10-v1.1.jar",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/skinshifter.jar",
+      "size": 139462,
+      "sha256": "de5803755eff84bf42adcf29b9a5a9374d3a740ba96c75a86291d33ca3ef9d5a",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/mods/skinshifter.jar",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/SoundFilters-0.8_for_1.7.X.jar",
+      "size": 41252,
+      "sha256": "40757863dd2814fc65c60a80690011c4c153519e7210f1f785dd594919b6197e",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/mods/SoundFilters-0.8_for_1.7.X.jar",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/Waila-1.5.10_1.7.10.jar",
+      "size": 544821,
+      "sha256": "44423d7c43bde9274e1dbc1b00d6bd14ec7cb2572326eeefa9c6dd6fab47930b",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/mods/Waila-1.5.10_1.7.10.jar",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/WailaHarvestability-mc1.7.10-1.1.6.jar",
+      "size": 28800,
+      "sha256": "6ad51ca015242901d2dace8bcf187a2b6ba90e277269b820cd895c53b3c9cd22",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/mods/WailaHarvestability-mc1.7.10-1.1.6.jar",
+      "policy": "managed"
+    },
+    {
+      "path": "options.txt",
+      "size": 2350,
+      "sha256": "b5ed7b7812b70cc9a951a50cab20510c193f47686ef4b444c7f814230152023d",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/options.txt",
+      "policy": "preserve"
+    },
+    {
+      "path": "shaderpacks/shaders/block.properties",
+      "size": 13078,
+      "sha256": "700ca24817e6ec3025ec9244088a9a74fefa68f77ffade6db0a87fabdef97f21",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/block.properties",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/composite.fsh",
+      "size": 48865,
+      "sha256": "b9b811a7f5a3149f83c317ab75abf15905fc27fec10a825c2d0f46e1c3ce7d97",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/composite.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/composite.vsh",
+      "size": 3690,
+      "sha256": "53b5a3bebaca65c7b36d328d61a096bd5e97aeebff7b097e9b870603fbb11824",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/composite.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/composite1.fsh",
+      "size": 33413,
+      "sha256": "07aa0dcd272088561ab06b8c6a1a3c87e1a5c4996e5e3ef9de773d7dd171b92b",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/composite1.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/composite1.vsh",
+      "size": 5483,
+      "sha256": "fcd4c30e4643f6e4e2dad6158b41336abcdaf8ab802c3cb5a53319a32bb6fbb0",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/composite1.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/composite2.fsh",
+      "size": 9665,
+      "sha256": "b4a465ff914049bdcd2778d84d52206dec18cbfa9a8cb2b735eb8879b0e39227",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/composite2.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/composite2.vsh",
+      "size": 117,
+      "sha256": "0f3f0caf96e32cda7cb929367f563c906af5ab4a3018a0eb8fb4d932c53ee0a5",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/composite2.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/entity.properties",
+      "size": 37,
+      "sha256": "329592fcf2e4827155e45e15e835f0909c7789e9e6fa009ac72948dc76cd575f",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/entity.properties",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/final.fsh",
+      "size": 11033,
+      "sha256": "cd8330ab3b64fc66eec164a46b7129651820238c15c3565cc1af22a2c0469883",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/final.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/final.vsh",
+      "size": 3388,
+      "sha256": "ef7a3a21c94a2080a2db2e9250971332c489da45380e1496af8f6869cd07fea6",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/final.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/gbuffers_armor_glint.fsh",
+      "size": 776,
+      "sha256": "3c90863ae70d0067a979161898ca710d89e4ecc2a77ec782eebb42102372f84a",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/gbuffers_armor_glint.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/gbuffers_armor_glint.vsh",
+      "size": 869,
+      "sha256": "60a3d30e5264cb375dabf59894c2e476ef4d18c1dd8344fd5b28ab4e33acc611",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/gbuffers_armor_glint.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/gbuffers_basic.fsh",
+      "size": 748,
+      "sha256": "240c2db56048cd1e0c0b1dd5707f35c2f4f2c3ca4413be09694a5e5a49a93f05",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/gbuffers_basic.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/gbuffers_basic.vsh",
+      "size": 323,
+      "sha256": "4b7a7779774cb7742ecdf4c7af22d398f7a157bf708654aab6b237c18cb1dc9e",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/gbuffers_basic.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/gbuffers_block.fsh",
+      "size": 3378,
+      "sha256": "1834ec6d5c49e587d76aab3405ebf3b8a9a20440cb8e9a1c6ed2843cb15b2aa1",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/gbuffers_block.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/gbuffers_block.vsh",
+      "size": 4320,
+      "sha256": "68caa909b3fe8fe53bb01f110b0df62ee337ac91c785ee2a0a660c98a56d3a67",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/gbuffers_block.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/gbuffers_clouds.fsh",
+      "size": 816,
+      "sha256": "b2e9d1228cd53aa4c285db0eb62786515539165418cfdcca0ec37a028035f8e4",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/gbuffers_clouds.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/gbuffers_clouds.vsh",
+      "size": 786,
+      "sha256": "1c8c7b8726346c727af4bf414fc59f6d5e267be9038ceb66a5c04980d940cba2",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/gbuffers_clouds.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/gbuffers_skybasic.fsh",
+      "size": 220,
+      "sha256": "763c3f19235ebc17a3c11d62b6deef5d6fa24c23e4a5aac180ca4b9339e2bafe",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/gbuffers_skybasic.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/gbuffers_skybasic.vsh",
+      "size": 62,
+      "sha256": "b415fa336809baecc6eb1626177e1c990d60d347c660d9f4b27febe3d33048a8",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/gbuffers_skybasic.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/gbuffers_skytextured.fsh",
+      "size": 310,
+      "sha256": "e23707b6ceaf71ea105dd0e599638089d9fc47705916d2e03d16151b864af646",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/gbuffers_skytextured.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/gbuffers_skytextured.vsh",
+      "size": 199,
+      "sha256": "04b7b6fc8291b398d5f224fba487c5bc914d663bbebe52fcac6b11a85f385013",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/gbuffers_skytextured.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/gbuffers_spidereyes.fsh",
+      "size": 443,
+      "sha256": "653b73cdca89dfca9c8614330f22eab829739026228464a52215df01b007c5fd",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/gbuffers_spidereyes.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/gbuffers_spidereyes.vsh",
+      "size": 2041,
+      "sha256": "2c5b44f061c523029e8633b1219f935b1fa4d2c2912bba54638177ae1b228a5d",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/gbuffers_spidereyes.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/gbuffers_terrain.fsh",
+      "size": 4281,
+      "sha256": "3d66f57f1a8a75b65e3232c826d82f4e2099d2968d78f19c8e7813ad21891fae",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/gbuffers_terrain.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/gbuffers_terrain.vsh",
+      "size": 8596,
+      "sha256": "3e7c2ddd719aae3eac53de6d273fd27c39fad2d2ac8a9671445f96794291a975",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/gbuffers_terrain.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/gbuffers_textured.fsh",
+      "size": 3753,
+      "sha256": "3dbb262c8755d511dc38b48e6437fbdfb8d255ac5b6b52b0a1c5ea4f8745bbd1",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/gbuffers_textured.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/gbuffers_textured.vsh",
+      "size": 4725,
+      "sha256": "0cf0e61958543d3f9a4f2026af98c28dbc2d466987de44a2cfedb4abd91674a4",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/gbuffers_textured.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/gbuffers_water.fsh",
+      "size": 4195,
+      "sha256": "6a9d506275f11e02cbc8199e7e255e60f1263b4c55e27bb609fa0aa3519b575b",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/gbuffers_water.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/gbuffers_water.vsh",
+      "size": 7473,
+      "sha256": "41d03e02fd31aa26ef763aee727fd3265b8c095fa73e5602535e16ac33316f44",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/gbuffers_water.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/gbuffers_weather.fsh",
+      "size": 428,
+      "sha256": "5227161f2eb8f5a8c1773bea8d236ad5900da45eadaca64355d0d782cd05cfe5",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/gbuffers_weather.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/gbuffers_weather.vsh",
+      "size": 696,
+      "sha256": "0a79c039a0d49e40bc946e1607b263a5693cf61ef01043e579d1161c2a54685e",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/gbuffers_weather.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/lang/en_US.lang",
+      "size": 16007,
+      "sha256": "2e92e16a16ad5cc7c0a87c42c5f7c320c3520fa5dc1adb811b876b3d18918295",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/lang/en_US.lang",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/shaders.properties",
+      "size": 6961,
+      "sha256": "8109178f52871648c103e3b39bf0b1d8b6db427541147d34a524b8c8a16c1b66",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/shaders.properties",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/shaders.settings",
+      "size": 16171,
+      "sha256": "feb2794a8a0419838538fee045c7cb45781c2e7d0f9fbbc3ed2efa47bba94bd4",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/shaders.settings",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/shadow.fsh",
+      "size": 946,
+      "sha256": "048229be7bf563376029b7a434425ff2c3b61859daa0d394f291675637ada250",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/shadow.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/shadow.vsh",
+      "size": 844,
+      "sha256": "c4118c01765579518c64796d89e2d8b6cad09bb97b18ff88b718d9e6b37cfcea",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/shadow.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world-1/composite.fsh",
+      "size": 10108,
+      "sha256": "19e68201500bc8593721d55d1e46174d3126d5d693a3895a845770423652b4a2",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world-1/composite.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world-1/composite.vsh",
+      "size": 1662,
+      "sha256": "e0b4e2d73b022b6faf5ac96d2948553368012a52475a0618cd90694b5afb8e85",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world-1/composite.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world-1/composite1.fsh",
+      "size": 9239,
+      "sha256": "75f6b7026de1b215c5161385d0755bee1d0f0c43b71c2465a839e9a0543b737b",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world-1/composite1.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world-1/composite1.vsh",
+      "size": 119,
+      "sha256": "901aa5ffb214fb1f1f1ee44a9c3bdb2f46bddeca8b29362cb5247a54750a7637",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world-1/composite1.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world-1/composite2.fsh",
+      "size": 7470,
+      "sha256": "61d3abd6490e2a93ba7f53e480ea2f45d6de9c26b2683c3139f14dc719742594",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world-1/composite2.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world-1/composite2.vsh",
+      "size": 117,
+      "sha256": "0f3f0caf96e32cda7cb929367f563c906af5ab4a3018a0eb8fb4d932c53ee0a5",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world-1/composite2.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world-1/composite3.fsh",
+      "size": 1053,
+      "sha256": "a32912d5bbb9288e242a90bc4bf92d8053e626a6f08ab5cef0bf85407708a770",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world-1/composite3.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world-1/composite3.vsh",
+      "size": 119,
+      "sha256": "74dceffce39a8e59094fc1d49de58868307feb620f18ee41a0ad6cf8ed1ab51a",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world-1/composite3.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world-1/composite4.fsh",
+      "size": 1181,
+      "sha256": "01d21408e3db528192f5ef3247717bcfb70361e0174b2a72a39dd6272cc13e02",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world-1/composite4.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world-1/composite4.vsh",
+      "size": 2310,
+      "sha256": "508dbfbae7b638a601f24ca0896f2d45ed0c232f46487f34316b7f7def29a219",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world-1/composite4.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world-1/final.fsh",
+      "size": 8776,
+      "sha256": "1419fe3abf9da9f7a45c0f3eb1653870e13d018d0269891632ea242b7de17ab7",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world-1/final.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world-1/final.vsh",
+      "size": 119,
+      "sha256": "901aa5ffb214fb1f1f1ee44a9c3bdb2f46bddeca8b29362cb5247a54750a7637",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world-1/final.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world-1/gbuffers_armor_glint.fsh",
+      "size": 776,
+      "sha256": "3c90863ae70d0067a979161898ca710d89e4ecc2a77ec782eebb42102372f84a",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world-1/gbuffers_armor_glint.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world-1/gbuffers_armor_glint.vsh",
+      "size": 870,
+      "sha256": "2406b1a2c6d07bb685d351e8a5aaf572d5f81b748b6eb4ee8d94782a7e2e3d44",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world-1/gbuffers_armor_glint.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world-1/gbuffers_basic.fsh",
+      "size": 748,
+      "sha256": "240c2db56048cd1e0c0b1dd5707f35c2f4f2c3ca4413be09694a5e5a49a93f05",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world-1/gbuffers_basic.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world-1/gbuffers_basic.vsh",
+      "size": 323,
+      "sha256": "4b7a7779774cb7742ecdf4c7af22d398f7a157bf708654aab6b237c18cb1dc9e",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world-1/gbuffers_basic.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world-1/gbuffers_block.fsh",
+      "size": 668,
+      "sha256": "d907284155db941a8f28048b2eed4bbef5d6023fc974c9a3019a288fcc2d7705",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world-1/gbuffers_block.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world-1/gbuffers_block.vsh",
+      "size": 3700,
+      "sha256": "59ea258555049c2235dc5efaeed07de35448c64dc92c64a793e1c88eed404f37",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world-1/gbuffers_block.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world-1/gbuffers_clouds.fsh",
+      "size": 42,
+      "sha256": "1a00dbcb19c94cd0140dbd4659e5fa31248843b3fa1df3ee9fb47cfac252eec9",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world-1/gbuffers_clouds.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world-1/gbuffers_clouds.vsh",
+      "size": 58,
+      "sha256": "8ed8bbab69ddc9e5b95611cc3b32e9cefef5f26bf3d3758cee28b587bb0e6655",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world-1/gbuffers_clouds.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world-1/gbuffers_skybasic.fsh",
+      "size": 220,
+      "sha256": "763c3f19235ebc17a3c11d62b6deef5d6fa24c23e4a5aac180ca4b9339e2bafe",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world-1/gbuffers_skybasic.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world-1/gbuffers_skybasic.vsh",
+      "size": 62,
+      "sha256": "b415fa336809baecc6eb1626177e1c990d60d347c660d9f4b27febe3d33048a8",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world-1/gbuffers_skybasic.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world-1/gbuffers_skytextured.fsh",
+      "size": 83,
+      "sha256": "bf3d952dddde6c3fb9b27fab9faca6072a77fbfe2a28bd3286a4ad43ed783afa",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world-1/gbuffers_skytextured.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world-1/gbuffers_skytextured.vsh",
+      "size": 68,
+      "sha256": "f64b9be47a2e378a2085f2ed9f22ad5a0c269e79669c719d5e0f39931911dc3f",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world-1/gbuffers_skytextured.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world-1/gbuffers_spidereyes.fsh",
+      "size": 444,
+      "sha256": "6fe4ecf0e50db63f7dafbb113ac8062c2be4160a8307ccdef7df59e787065ac1",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world-1/gbuffers_spidereyes.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world-1/gbuffers_spidereyes.vsh",
+      "size": 1868,
+      "sha256": "8d91168d8365acd39a2e3abe8743a97d8508fc26784a7bb206eba289b039cf37",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world-1/gbuffers_spidereyes.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world-1/gbuffers_terrain.fsh",
+      "size": 3977,
+      "sha256": "718a8d05ed63ef654a7c9dcb247935e738924d62ccbd3fd97842323f0b04cc47",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world-1/gbuffers_terrain.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world-1/gbuffers_terrain.vsh",
+      "size": 8127,
+      "sha256": "e7cc334ca045eb93cb4b344d52678736606f4d67e4e7989bfc5fad15d3730fd6",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world-1/gbuffers_terrain.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world-1/gbuffers_textured.fsh",
+      "size": 946,
+      "sha256": "edfdd6a394327728ca53348f195bfd8ee23033f4a2f733fae418603d77561a21",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world-1/gbuffers_textured.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world-1/gbuffers_textured.vsh",
+      "size": 4272,
+      "sha256": "11ba22f41510359654e45e057d90918ec4b89923e7a369eb564e21c09923d552",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world-1/gbuffers_textured.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world-1/gbuffers_water.fsh",
+      "size": 2801,
+      "sha256": "cc94d9c9c6bd7d7542e5aa5c5a50d4e7cf847c224cb9faee1c918acfc1085707",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world-1/gbuffers_water.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world-1/gbuffers_water.vsh",
+      "size": 6404,
+      "sha256": "adc0b33cb72d10555e548ff04d23b23ea7fbb877946a739e4d862bc7b60e987b",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world-1/gbuffers_water.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world1/composite.fsh",
+      "size": 10254,
+      "sha256": "80e7eb15c626b9acd9e5542e5ea651daf7a3e7d274a6b494f8ea7565fdcfc53a",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world1/composite.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world1/composite.vsh",
+      "size": 1662,
+      "sha256": "e0b4e2d73b022b6faf5ac96d2948553368012a52475a0618cd90694b5afb8e85",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world1/composite.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world1/composite1.fsh",
+      "size": 9215,
+      "sha256": "60ea93a174482b95936b8bb86be36a8637dc4da1611ecf4114e43321344d3850",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world1/composite1.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world1/composite1.vsh",
+      "size": 119,
+      "sha256": "901aa5ffb214fb1f1f1ee44a9c3bdb2f46bddeca8b29362cb5247a54750a7637",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world1/composite1.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world1/composite2.fsh",
+      "size": 7461,
+      "sha256": "0da850a757c71ff60b5cb15ce11dddff7088489b2810c57128755671fd019a72",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world1/composite2.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world1/composite2.vsh",
+      "size": 117,
+      "sha256": "0f3f0caf96e32cda7cb929367f563c906af5ab4a3018a0eb8fb4d932c53ee0a5",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world1/composite2.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world1/composite3.fsh",
+      "size": 1053,
+      "sha256": "a32912d5bbb9288e242a90bc4bf92d8053e626a6f08ab5cef0bf85407708a770",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world1/composite3.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world1/composite3.vsh",
+      "size": 119,
+      "sha256": "74dceffce39a8e59094fc1d49de58868307feb620f18ee41a0ad6cf8ed1ab51a",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world1/composite3.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world1/composite4.fsh",
+      "size": 1181,
+      "sha256": "01d21408e3db528192f5ef3247717bcfb70361e0174b2a72a39dd6272cc13e02",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world1/composite4.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world1/composite4.vsh",
+      "size": 2310,
+      "sha256": "508dbfbae7b638a601f24ca0896f2d45ed0c232f46487f34316b7f7def29a219",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world1/composite4.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world1/final.fsh",
+      "size": 8774,
+      "sha256": "3baef4c9354a6d86fbe056111f619c60e24e9c94316cb63ba972e877898b42dd",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world1/final.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world1/final.vsh",
+      "size": 119,
+      "sha256": "901aa5ffb214fb1f1f1ee44a9c3bdb2f46bddeca8b29362cb5247a54750a7637",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world1/final.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world1/gbuffers_armor_glint.fsh",
+      "size": 776,
+      "sha256": "3c90863ae70d0067a979161898ca710d89e4ecc2a77ec782eebb42102372f84a",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world1/gbuffers_armor_glint.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world1/gbuffers_armor_glint.vsh",
+      "size": 870,
+      "sha256": "2406b1a2c6d07bb685d351e8a5aaf572d5f81b748b6eb4ee8d94782a7e2e3d44",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world1/gbuffers_armor_glint.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world1/gbuffers_basic.fsh",
+      "size": 748,
+      "sha256": "240c2db56048cd1e0c0b1dd5707f35c2f4f2c3ca4413be09694a5e5a49a93f05",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world1/gbuffers_basic.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world1/gbuffers_basic.vsh",
+      "size": 323,
+      "sha256": "4b7a7779774cb7742ecdf4c7af22d398f7a157bf708654aab6b237c18cb1dc9e",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world1/gbuffers_basic.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world1/gbuffers_block.fsh",
+      "size": 668,
+      "sha256": "d907284155db941a8f28048b2eed4bbef5d6023fc974c9a3019a288fcc2d7705",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world1/gbuffers_block.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world1/gbuffers_block.vsh",
+      "size": 3700,
+      "sha256": "5b62c22dc7c3e38b8446071a3cddc918f2e95ffd8110178c82985a3ff82eeb8e",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world1/gbuffers_block.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world1/gbuffers_clouds.fsh",
+      "size": 42,
+      "sha256": "1a00dbcb19c94cd0140dbd4659e5fa31248843b3fa1df3ee9fb47cfac252eec9",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world1/gbuffers_clouds.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world1/gbuffers_clouds.vsh",
+      "size": 58,
+      "sha256": "8ed8bbab69ddc9e5b95611cc3b32e9cefef5f26bf3d3758cee28b587bb0e6655",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world1/gbuffers_clouds.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world1/gbuffers_skybasic.fsh",
+      "size": 220,
+      "sha256": "763c3f19235ebc17a3c11d62b6deef5d6fa24c23e4a5aac180ca4b9339e2bafe",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world1/gbuffers_skybasic.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world1/gbuffers_skybasic.vsh",
+      "size": 62,
+      "sha256": "b415fa336809baecc6eb1626177e1c990d60d347c660d9f4b27febe3d33048a8",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world1/gbuffers_skybasic.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world1/gbuffers_skytextured.fsh",
+      "size": 190,
+      "sha256": "2cff29dba9c5e4b8666eefce1a3f3fdec9411634ed271b620aa1b6b904acc371",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world1/gbuffers_skytextured.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world1/gbuffers_skytextured.vsh",
+      "size": 199,
+      "sha256": "04b7b6fc8291b398d5f224fba487c5bc914d663bbebe52fcac6b11a85f385013",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world1/gbuffers_skytextured.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world1/gbuffers_spidereyes.fsh",
+      "size": 444,
+      "sha256": "6fe4ecf0e50db63f7dafbb113ac8062c2be4160a8307ccdef7df59e787065ac1",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world1/gbuffers_spidereyes.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world1/gbuffers_spidereyes.vsh",
+      "size": 1875,
+      "sha256": "ff6925fab87223b512d048cfc4bd97bc45945b73e45d7c915ab72788952e414b",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world1/gbuffers_spidereyes.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world1/gbuffers_terrain.fsh",
+      "size": 3978,
+      "sha256": "cfda7e9b218e2d0ef9166a1d1ecb6c041e66f0fcd3d3010a2f3dff172cf9e51e",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world1/gbuffers_terrain.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world1/gbuffers_terrain.vsh",
+      "size": 8480,
+      "sha256": "f72f527a76b0758e2f0d5457ea7dbfa1160f07d3f1b0037700f2645476928cf8",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world1/gbuffers_terrain.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world1/gbuffers_textured.fsh",
+      "size": 668,
+      "sha256": "d907284155db941a8f28048b2eed4bbef5d6023fc974c9a3019a288fcc2d7705",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world1/gbuffers_textured.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world1/gbuffers_textured.vsh",
+      "size": 4272,
+      "sha256": "a183a2eb2f8878845910b086b6d1be800eb9bf13298be584b4ae04fc015536c6",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world1/gbuffers_textured.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world1/gbuffers_water.fsh",
+      "size": 2801,
+      "sha256": "cc94d9c9c6bd7d7542e5aa5c5a50d4e7cf847c224cb9faee1c918acfc1085707",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world1/gbuffers_water.fsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    },
+    {
+      "path": "shaderpacks/shaders/world1/gbuffers_water.vsh",
+      "size": 6406,
+      "sha256": "ea3d9497b400245dd85ba24ec65bef80fa2b88f97e1a2d1bf233ecd95b18f575",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+      "policy": "managed",
+      "archive": {
+        "format": "rar",
+        "member": "shaders/world1/gbuffers_water.vsh",
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar",
+        "size": 7776501,
+        "sha256": "c4791b8ea55d22e4b7ccf43a764a8fea7d05b681e094472ce47c9a58ec7a5a7d"
+      }
+    }
+  ],
+  "update_url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/packs/middle-earth-classic.json",
+  "manifest_revision": 1
+}

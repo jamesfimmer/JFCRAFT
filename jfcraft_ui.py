@@ -10,7 +10,7 @@ import tkinter as tk
 from tkinter import filedialog, messagebox, simpledialog, ttk
 
 from jfcraft_core import atomic_json, Cancelled, load_manifest
-from launcher_service import data_dir, load_settings, resource_dir, run_pack, validate_settings, VERSION
+from launcher_service import data_dir, load_settings, resource_dir, run_pack, validate_settings, VERSION, sync_catalog, older_manifest
 
 BG = '#111917'
 PANEL = '#1c2823'
@@ -25,12 +25,14 @@ class Launcher:
         self.events = queue.Queue()
         self.cancel = threading.Event()
         self.worker = None
+        self.is_busy = False
         self.packs = []
         self.controls = []
         self.settings = load_settings()
         root.title('JFCRAFT • Библиотека сборок')
-        root.geometry('1080x740')
-        root.minsize(920, 680)
+        self.ui_scale = max(1.0, root.winfo_fpixels('1i') / 96)
+        root.geometry(f'{round(1080 * self.ui_scale)}x{round(740 * self.ui_scale)}')
+        root.minsize(round(920 * self.ui_scale), round(680 * self.ui_scale))
         root.configure(bg=BG)
         root.protocol('WM_DELETE_WINDOW', self.close)
         style = ttk.Style(root)
@@ -44,7 +46,7 @@ class Launcher:
         tk.Label(header, text=VERSION, bg=BG, fg=MUTED).pack(side='right')
         body = tk.Frame(root, bg=BG)
         body.pack(fill='both', expand=True, padx=28)
-        left = tk.Frame(body, bg=PANEL, width=260)
+        left = tk.Frame(body, bg=PANEL, width=round(260 * self.ui_scale))
         left.pack(side='left', fill='y', padx=(0, 20))
         left.pack_propagate(False)
         tk.Label(left, text='БИБЛИОТЕКА', bg=PANEL, fg=MUTED, font=('Segoe UI', 10, 'bold')).pack(anchor='w', padx=18, pady=(20, 12))
@@ -54,8 +56,6 @@ class Launcher:
         self.library.pack(fill='x', padx=14)
         self.library.bind('<<ListboxSelect>>', self.select_pack)
         self.controls.append(self.library)
-        self.button(left, 'Подключить манифест', self.import_manifest).pack(fill='x', padx=18, pady=8)
-        self.button(left, 'Добавить по ссылке', self.import_url).pack(fill='x', padx=18)
         tk.Label(left, text='СКОРО В БИБЛИОТЕКЕ', bg=PANEL, fg=MUTED, font=('Segoe UI', 9, 'bold')).pack(anchor='w', padx=18, pady=(28, 8))
         tk.Label(left, text='Middle-earth Chronicles\nНовая глава', justify='left', bg=PANEL, fg=GOLD,
                  font=('Segoe UI', 13, 'bold')).pack(anchor='w', padx=18)
@@ -84,8 +84,11 @@ class Launcher:
         tk.Label(right, text='Локальный профиль по нику • Вход Microsoft пока не подключён', bg=BG, fg=MUTED, anchor='w', font=('Segoe UI', 9)).pack(fill='x', pady=(8, 12))
         actions = tk.Frame(right, bg=BG)
         actions.pack(fill='x')
-        self.button(actions, 'Установить / проверить', lambda: self.start(False)).pack(side='left')
-        self.button(actions, 'Играть', lambda: self.start(True), primary=True).pack(side='left', padx=10)
+        self.install_button = self.button(actions, 'Установить', lambda: self.start(False))
+        self.install_button.pack(side='left')
+        self.play_button = self.button(actions, 'Играть', lambda: self.start(True), primary=True)
+        self.play_button.pack(side='left', padx=10)
+        self.play_button.configure(disabledforeground='#777d76')
         self.cancel_button = tk.Button(actions, text='Отменить', command=self.cancel_install, bg=PANEL, fg=MUTED, relief='flat', padx=12, pady=8, state='disabled')
         self.cancel_button.pack(side='left')
         self.progress = ttk.Progressbar(right, mode='determinate')
@@ -99,7 +102,7 @@ class Launcher:
         self.button(footer, 'Папка сборки', self.open_instance).pack(side='left')
         self.button(footer, 'Журналы', lambda: self.open_folder(data_dir() / 'logs')).pack(side='left', padx=10)
         tk.Label(footer, text='Каждая сборка — отдельный профиль и сохранения', bg=BG, fg=MUTED, font=('Segoe UI', 9)).pack(side='right')
-        sources = list((resource_dir() / 'packs').glob('*.json')) + [Path(s) for s in self.settings.get('sources', [])]
+        sources = list((resource_dir() / 'packs').glob('*.json')) + list((data_dir() / 'manifests').glob('*.json'))
         for source in sources:
             try:
                 self.add_pack(load_manifest(source))
@@ -121,6 +124,8 @@ class Launcher:
     def add_pack(self, pack):
         existing = next((i for i, p in enumerate(self.packs) if p['id'] == pack['id']), None)
         if existing is not None:
+            if older_manifest(pack, self.packs[existing]):
+                return
             self.packs[existing] = pack
             self.library.delete(existing)
             self.library.insert(existing, pack['name'])
@@ -142,13 +147,30 @@ class Launcher:
         self.title.configure(text=pack['name'])
         self.subtitle.configure(text=f"Minecraft {pack['minecraft']}   /   Forge {pack['forge'].split('-')[1]}   /   Java {pack['java']}   /   {pack['version']}")
         size = sum(f['size'] for f in pack['files']) / 1024**2
-        self.description.configure(text=pack.get('description', f"{len(pack['files'])} файлов • {size:.0f} МБ. Проверка целостности перед каждым запуском."))
+        self.description.configure(text=pack.get('description', f"{len(pack['files'])} файлов • {size:.0f} МБ. «Играть» запускает установленную сборку без интернета. Обновления — по кнопке «Установить / обновить»."))
         chosen = self.settings.get('java_by_pack', {}).get(pack['id'], '')
         if not chosen:
             java_base = Path(os.environ.get('ProgramFiles', 'C:/Program Files')) / 'Java'
             pattern = 'jre1.8*/bin/java.exe' if pack['java'] == 8 else f"jdk-{pack['java']}*/bin/java.exe"
             chosen = next((str(p) for p in java_base.glob(pattern)), '')
         self.values['java'].set(chosen)
+        self.update_actions()
+
+    def update_actions(self):
+        installed = False
+        try:
+            pack = self.current()
+            root = data_dir() / 'instances' / pack['id']
+            state = load_manifest(root / '.jfcraft-state.json')
+            version = state['installed_version']
+            installed = (state['id'] == pack['id'] and
+                         (root / 'versions' / version / (version + '.json')).is_file() and
+                         not (root / '.jfcraft-journal.json').exists())
+        except (ValueError, OSError, KeyError):
+            pass
+        self.play_button.configure(state='normal' if installed and not self.is_busy else 'disabled',
+                                   bg=GOLD if installed else '#2c3c33')
+        self.install_button.configure(text='Обновить / восстановить' if installed else 'Установить')
 
     def log(self, message):
         logging.info(message)
@@ -195,9 +217,12 @@ class Launcher:
         self.worker.start()
 
     def busy(self, value):
+        self.is_busy = value
         for control in self.controls:
             control.configure(state='disabled' if value else 'normal')
         self.cancel_button.configure(state='normal' if value else 'disabled')
+        if not value:
+            self.update_actions()
 
     def start(self, play):
         try:
@@ -216,6 +241,12 @@ class Launcher:
         self.status.configure(text='Подготовка сборки…')
         def work():
             try:
+                if not play:
+                    try:
+                        for available in sync_catalog(lambda m: self.events.put(('log', m))):
+                            self.events.put(('catalog_pack', available))
+                    except Exception as error:
+                        self.events.put(('log', f'Каталог недоступен, используется сохранённая библиотека: {error}'))
                 run_pack(pack, settings, play, lambda m: self.events.put(('log', m)),
                          lambda v, t: self.events.put(('progress', (v, t))), self.cancel)
                 self.events.put(('log', 'Готово'))
@@ -248,6 +279,12 @@ class Launcher:
             elif kind == 'progress':
                 value, total = payload
                 self.progress['value'] = value / max(total, 1) * 100
+            elif kind == 'catalog_pack':
+                selected_id = self.current()['id'] if self.library.curselection() else None
+                self.add_pack(payload)
+                if selected_id:
+                    self.library.selection_set(next(i for i, p in enumerate(self.packs) if p['id'] == selected_id))
+                    self.select_pack()
             elif kind == 'pack':
                 self.busy(False)
                 pack, path = payload
@@ -280,7 +317,23 @@ class Launcher:
         self.root.destroy()
 
 
+def enable_high_dpi():
+    """Opt out of Windows bitmap scaling before creating any Tk window."""
+    if os.name == 'nt':
+        import ctypes
+        try:
+            if ctypes.windll.user32.SetProcessDpiAwarenessContext(ctypes.c_void_p(-4)):
+                return
+        except (AttributeError, OSError):
+            pass
+        try:
+            ctypes.windll.shcore.SetProcessDpiAwareness(1)
+        except (AttributeError, OSError):
+            ctypes.windll.user32.SetProcessDPIAware()
+
+
 def startup():
+    enable_high_dpi()
     logs = data_dir() / 'logs'
     logs.mkdir(parents=True, exist_ok=True)
     handler = RotatingFileHandler(logs / 'launcher.log', maxBytes=2_000_000, backupCount=3, encoding='utf-8')

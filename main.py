@@ -5,8 +5,9 @@ if __name__ == "__main__":
     if len(sys.argv) == 3 and sys.argv[1] == '--smoke-test':
         import tkinter as tk
         from pathlib import Path
-        from jfcraft_ui import Launcher
+        from jfcraft_ui import Launcher, enable_high_dpi
         from jfcraft_core import atomic_json
+        enable_high_dpi()
         root = tk.Tk()
         root.withdraw()
         app = Launcher(root)

@@ -1,4 +1,10 @@
 # -*- mode: python ; coding: utf-8 -*-
+from PyInstaller.utils.hooks import collect_submodules
+import tkinter
+tkinter.Tcl().eval('info patchlevel')
+from PyInstaller.utils.hooks.tcl_tk import tcltk_info
+if not tcltk_info.available:
+    raise RuntimeError('Tk/Tcl unavailable: refusing to build a broken launcher')
 
 
 a = Analysis(
@@ -6,7 +12,7 @@ a = Analysis(
     pathex=[],
     binaries=[],
     datas=[('packs', 'packs')],
-    hiddenimports=['minecraft_launcher_lib'],
+    hiddenimports=['minecraft_launcher_lib', '_tkinter', 'tkinter', 'tkinter.ttk'] + collect_submodules('tkinter'),
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],

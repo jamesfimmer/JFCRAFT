@@ -5788,8 +5788,8 @@
     },
     {
       "path": "options.txt",
-      "size": 13181,
-      "sha256": "1f43f9296964a859fc594659eb7ffb1aea7f7de45584ff3311ee93a9bb0db181",
+      "size": 12858,
+      "sha256": "0649e4d65b736dce01e532a9f455d4e40e9f90a5f528c4065d64243acfe9ffb7",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/options.txt",
       "policy": "preserve"
     },
@@ -5836,5 +5836,6 @@
       "policy": "managed"
     }
   ],
-  "update_url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/packs/vanilla-expanded.json"
+  "update_url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/packs/vanilla-expanded.json",
+  "manifest_revision": 1
 }

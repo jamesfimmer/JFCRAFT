@@ -4,11 +4,14 @@ import hashlib
 from pathlib import Path
 import subprocess
 import sys
+import tempfile
+import shutil
 from urllib.parse import quote
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from jfcraft_core import atomic_json, sha256, safe_path, validate_manifest
 from jfcraft_archives import archive_member, rar_members
+from git_snapshot import snapshot
 
 COMMIT = 'c2150b27970dc4aed04ea7a99b9964c78d6485a2'
 PACKS = [
@@ -18,11 +21,8 @@ PACKS = [
 ]
 
 
-def main(repository):
+def build(repository):
     repository = Path(repository).resolve()
-    git = ['git', '-c', f'safe.directory={repository.as_posix()}', '-C', str(repository)]
-    if subprocess.check_output(git + ['rev-parse', 'HEAD'], text=True).strip() != COMMIT:
-        raise ValueError('Исходная копия должна соответствовать закреплённому коммиту')
     for pack_id, name, folder, minecraft, forge, installed, java in PACKS:
         root = repository / 'download-files' / folder
         listed = {line.strip() for line in (root / 'mod_list.txt').read_text(encoding='utf-8-sig').splitlines() if line.strip()}
@@ -44,30 +44,37 @@ def main(repository):
                     continue
             elif not relative.startswith(('config/', 'shaderpacks/', 'resourcepacks/')) and relative not in {'options.txt', 'servers.dat'}:
                 continue
-            entries[relative] = dict(path=relative, size=source.stat().st_size, sha256=sha256(source),
+            data = source.read_bytes()
+            entries[relative] = dict(path=relative, size=len(data), sha256=hashlib.sha256(data).hexdigest(),
                 url=base + quote(relative, safe='/'), policy='preserve' if relative in {'options.txt', 'servers.dat'} else 'merge' if relative.startswith('config/') else 'managed')
         for archive_path in sorted(root.glob('*.rar')):
             top = archive_path.stem
             if top not in {'config', 'shaderpacks', 'resourcepacks'}:
                 continue
             digest = sha256(archive_path)
-            for member in rar_members(archive_path):
+            # Extract once to an isolated temporary directory; invoking tar once
+            # per member is prohibitively slow for the LOTR config archive.
+            extracted = Path(tempfile.mkdtemp(prefix='jfcraft-rar-'))
+            subprocess.run([str(Path('C:/Windows/System32/tar.exe')), '-xf', str(archive_path), '-C', str(extracted)],
+                           check=True, timeout=180, creationflags=getattr(subprocess, 'CREATE_NO_WINDOW', 0))
+            for extracted_file in sorted(extracted.rglob('*')):
+                if not extracted_file.is_file():
+                    continue
+                member = extracted_file.relative_to(extracted).as_posix()
                 safe_path(root, member)
                 relative = member if member.startswith(top + '/') else top + '/' + member
                 if relative in entries:
                     continue
-                with archive_member(archive_path, member, 'rar') as stream:
-                    size, checksum = 0, hashlib.sha256()
-                    while chunk := stream.read(1024 * 1024):
-                        size += len(chunk)
-                        checksum.update(chunk)
+                size, checksum = extracted_file.stat().st_size, hashlib.sha256(extracted_file.read_bytes()).hexdigest()
                 url = base + quote(archive_path.name)
-                entries[relative] = dict(path=relative, size=size, sha256=checksum.hexdigest(), url=url,
+                entries[relative] = dict(path=relative, size=size, sha256=checksum, url=url,
                     policy='merge' if top == 'config' else 'managed', archive=dict(format='rar', member=member,
                     url=url, size=archive_path.stat().st_size, sha256=digest))
+            shutil.rmtree(extracted, ignore_errors=True)
         manifest = dict(schema=1, id=pack_id, name=name, version='legacy-' + COMMIT[:8], minecraft=minecraft,
                         forge=forge, installed_version=installed, java=java, files=list(entries.values()),
                         update_url=f'https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/packs/{pack_id}.json')
+        manifest['manifest_revision'] = 1
         validate_manifest(manifest)
         destination = Path(__file__).resolve().parents[1] / 'packs' / (pack_id + '.json')
         atomic_json(destination, manifest)
@@ -77,4 +84,5 @@ def main(repository):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('repository')
-    main(parser.parse_args().repository)
+    with snapshot(parser.parse_args().repository, COMMIT) as source_root:
+        build(source_root)

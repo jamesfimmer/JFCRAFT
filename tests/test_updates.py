@@ -37,6 +37,17 @@ class UpdateTests(unittest.TestCase):
         with patch('launcher_service.data_dir', return_value=self.root), patch('launcher_service.load_manifest', return_value=latest), self.assertRaises(ValueError):
             refresh_pack(self.pack, lambda m: None)
 
+    def test_old_remote_cannot_replace_corrected_manifest(self):
+        corrected = dict(self.pack, manifest_revision=1)
+        with patch('launcher_service.data_dir', return_value=self.root), patch('launcher_service.load_manifest', return_value=self.pack):
+            self.assertEqual(refresh_pack(corrected, lambda m: None), corrected)
+
+    def test_new_pack_version_is_not_blocked_by_revision(self):
+        corrected = dict(self.pack, manifest_revision=1)
+        latest = dict(self.pack, version='2')
+        with patch('launcher_service.data_dir', return_value=self.root), patch('launcher_service.load_manifest', return_value=latest):
+            self.assertEqual(refresh_pack(corrected, lambda m: None)['version'], '2')
+
     def test_merge_updates_untouched_config(self):
         path = self.root / 'config/a.cfg'
         path.parent.mkdir()
