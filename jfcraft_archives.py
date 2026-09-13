@@ -6,6 +6,7 @@ import shutil
 import subprocess
 import tempfile
 import zipfile
+import rarfile
 
 
 def tar_executable():
@@ -16,9 +17,8 @@ def tar_executable():
 
 
 def rar_members(path):
-    result = subprocess.run([tar_executable(), '-tf', str(path)], capture_output=True, timeout=60,
-                            creationflags=getattr(subprocess, 'CREATE_NO_WINDOW', 0), check=True)
-    return [name for name in result.stdout.decode('utf-8').splitlines() if not name.endswith('/')]
+    with rarfile.RarFile(path) as archive:
+        return [item.filename for item in archive.infolist() if not item.isdir()]
 
 
 @contextmanager
@@ -29,6 +29,14 @@ def archive_member(path, member, kind='zip'):
         return
     if kind != 'rar':
         raise ValueError('Неизвестный формат архива')
+    # Read stored RAR members directly. Generic archive detection can mistake
+    # an embedded ZIP for the outer RAR and expose the wrong directory tree.
+    with rarfile.RarFile(path) as archive:
+        info = archive.getinfo(member)
+        if info.compress_type == rarfile.RAR_M0:
+            with archive.open(info) as stream:
+                yield stream
+            return
     # bsdtar interprets member operands as glob patterns, even without a shell.
     pattern = ''.join({'[': '[[]', '*': '[*]', '?': '[?]'}.get(c, c) for c in member)
     with tempfile.TemporaryFile() as errors:

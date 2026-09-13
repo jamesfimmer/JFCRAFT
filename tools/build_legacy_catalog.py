@@ -5,10 +5,12 @@ import subprocess
 import sys
 from urllib.parse import quote
 import zipfile
+from contextlib import closing
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from jfcraft_core import atomic_json, sha256, validate_manifest
 from git_snapshot import snapshot
+from jfcraft_archives import rar_members, archive_member
 
 ROOT = Path(__file__).resolve().parents[1]
 COMMIT = '262c645cacbe76de64b1bf5f3831a4c22d73e412'
@@ -37,6 +39,7 @@ def build(source_root):
                         forge=f'{minecraft}-{forge}', installed_version=f'{minecraft}-forge-{forge}', java=17, files=[])
         manifest['update_url'] = f'https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/packs/{pack_id}.json'
         source = source_root / 'download-files' / folder
+        archive_tops = {p.stem for p in source.glob('*.rar')} | {p.stem for p in source.glob('*.zip')}
         files = {}
         for file in sorted(source.rglob('*')):
             if not file.is_file() or file.relative_to(source_root).as_posix() not in tracked:
@@ -44,24 +47,34 @@ def build(source_root):
             relative = file.relative_to(source).as_posix()
             url = BASE + quote(file.relative_to(source_root).as_posix(), safe='/')
             if allowed(relative):
+                if relative.split('/')[0] in archive_tops and relative.split('/')[0] in {'shaderpacks', 'resourcepacks', 'config'}:
+                    continue
                 files[relative] = record(relative, file.read_bytes(), url)
-            elif relative in {'mods.zip', 'config.zip', 'options.zip', 'shaderpacks.zip'}:
+            elif relative in {'mods.zip', 'config.zip', 'options.zip', 'shaderpacks.zip', 'resourcepacks.zip', 'config.rar', 'shaderpacks.rar', 'resourcepacks.rar'}:
                 digest = sha256(file)
-                with zipfile.ZipFile(file) as archive:
-                    for member in archive.infolist():
-                        if member.is_dir():
-                            continue
-                        target = member.filename
+                kind = file.suffix[1:]
+                if kind == 'rar':
+                    members = rar_members(file)
+                else:
+                    with zipfile.ZipFile(file) as archive:
+                        members = [item.filename for item in archive.infolist() if not item.is_dir()]
+                for member in members:
+                        target = member
+                        if kind == 'rar' and top in {'shaderpacks', 'resourcepacks'}:
+                            if not member.lower().endswith('.zip'):
+                                continue
+                            target = top + '/' + Path(member).name
                         top = relative[:-4]
                         if top in ALLOWED and not target.startswith(top + '/'):
                             target = top + '/' + target
                         if not allowed(target):
                             continue
-                        entry = record(target, archive.read(member), url)
-                        entry['archive'] = dict(url=url, size=file.stat().st_size, sha256=digest, member=member.filename)
+                        with archive_member(file, member, kind) as stream:
+                            entry = record(target, stream.read(), url)
+                        entry['archive'] = dict(url=url, size=file.stat().st_size, sha256=digest, member=member, format=kind)
                         files.setdefault(target, entry)
         manifest['files'] = list(files.values())
-        manifest['manifest_revision'] = 1
+        manifest['manifest_revision'] = 2
         validate_manifest(manifest)
         atomic_json(ROOT / 'packs' / (pack_id + '.json'), manifest)
         print(name, len(files), 'files')

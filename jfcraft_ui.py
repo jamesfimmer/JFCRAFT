@@ -99,8 +99,8 @@ class Launcher:
         footer = tk.Frame(root, bg=BG)
         footer.pack(side='bottom', before=body, fill='x', padx=28, pady=12)
         self.button(footer, 'Папка сборки', self.open_instance).pack(side='left')
-        self.button(footer, 'Журналы', lambda: self.open_folder(data_dir() / 'logs')).pack(side='left', padx=10)
-        tk.Label(footer, text='Каждая сборка — отдельный профиль и сохранения', bg=BG, fg=MUTED, font=('Segoe UI', 9)).pack(side='right')
+        self.button(footer, 'Логи', lambda: self.open_folder(data_dir() / 'logs')).pack(side='left', padx=10)
+        #tk.Label(footer, text='Каждая сборка — отдельный профиль и сохранения', bg=BG, fg=MUTED, font=('Segoe UI', 9)).pack(side='right')
         sources = list((resource_dir() / 'packs').glob('*.json')) + list((data_dir() / 'manifests').glob('*.json'))
         for source in sources:
             try:

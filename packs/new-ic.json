@@ -18,7 +18,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "balm-forge-1.19.2-4.6.0.jar"
+        "member": "balm-forge-1.19.2-4.6.0.jar",
+        "format": "zip"
       }
     },
     {
@@ -31,7 +32,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "Bookshelf-Forge-1.19.2-16.3.20.jar"
+        "member": "Bookshelf-Forge-1.19.2-16.3.20.jar",
+        "format": "zip"
       }
     },
     {
@@ -44,7 +46,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "cc-tweaked-1.19.2-1.101.4.jar"
+        "member": "cc-tweaked-1.19.2-1.101.4.jar",
+        "format": "zip"
       }
     },
     {
@@ -57,7 +60,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "cfm-7.0.0-pre35-1.19.2.jar"
+        "member": "cfm-7.0.0-pre35-1.19.2.jar",
+        "format": "zip"
       }
     },
     {
@@ -70,7 +74,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "ChickenChunks-1.19.2-2.9.4.97-universal.jar"
+        "member": "ChickenChunks-1.19.2-2.9.4.97-universal.jar",
+        "format": "zip"
       }
     },
     {
@@ -83,7 +88,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "cloth-config-8.3.115-forge.jar"
+        "member": "cloth-config-8.3.115-forge.jar",
+        "format": "zip"
       }
     },
     {
@@ -96,7 +102,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "Clumps-forge-1.19.2-9.0.0+14.jar"
+        "member": "Clumps-forge-1.19.2-9.0.0+14.jar",
+        "format": "zip"
       }
     },
     {
@@ -109,7 +116,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "CodeChickenLib-1.19.2-4.3.2.490-universal.jar"
+        "member": "CodeChickenLib-1.19.2-4.3.2.490-universal.jar",
+        "format": "zip"
       }
     },
     {
@@ -122,7 +130,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "compactmachines-5.1.0.jar"
+        "member": "compactmachines-5.1.0.jar",
+        "format": "zip"
       }
     },
     {
@@ -135,7 +144,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "configured-2.1.1-1.19.2.jar"
+        "member": "configured-2.1.1-1.19.2.jar",
+        "format": "zip"
       }
     },
     {
@@ -148,7 +158,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "Controlling-forge-1.19.2-10.0+7.jar"
+        "member": "Controlling-forge-1.19.2-10.0+7.jar",
+        "format": "zip"
       }
     },
     {
@@ -161,7 +172,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "curios-forge-1.19.2-5.1.6.1.jar"
+        "member": "curios-forge-1.19.2-5.1.6.1.jar",
+        "format": "zip"
       }
     },
     {
@@ -174,7 +186,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "EnchantmentDescriptions-Forge-1.19.2-13.0.14.jar"
+        "member": "EnchantmentDescriptions-Forge-1.19.2-13.0.14.jar",
+        "format": "zip"
       }
     },
     {
@@ -187,7 +200,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "FluxNetworks-1.19.2-7.1.4.13.jar"
+        "member": "FluxNetworks-1.19.2-7.1.4.13.jar",
+        "format": "zip"
       }
     },
     {
@@ -200,7 +214,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "IC2Classic-1.19.2-2.0.8.1.jar"
+        "member": "IC2Classic-1.19.2-2.0.8.1.jar",
+        "format": "zip"
       }
     },
     {
@@ -213,7 +228,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "ImmersiveEngineering-1.19.2-9.2.3-167.jar"
+        "member": "ImmersiveEngineering-1.19.2-9.2.3-167.jar",
+        "format": "zip"
       }
     },
     {
@@ -226,7 +242,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "ImmersivePetroleum-1.19.2-4.2.0-28.jar"
+        "member": "ImmersivePetroleum-1.19.2-4.2.0-28.jar",
+        "format": "zip"
       }
     },
     {
@@ -239,7 +256,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "inventorysorter-1.19.2-21.0.4.jar"
+        "member": "inventorysorter-1.19.2-21.0.4.jar",
+        "format": "zip"
       }
     },
     {
@@ -252,7 +270,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "ironchest-1.19.2-14.2.7.jar"
+        "member": "ironchest-1.19.2-14.2.7.jar",
+        "format": "zip"
       }
     },
     {
@@ -265,7 +284,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "Jade-1.19.1-forge-8.9.1.jar"
+        "member": "Jade-1.19.1-forge-8.9.1.jar",
+        "format": "zip"
       }
     },
     {
@@ -278,7 +298,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "jecalculation-forge-1.19.2-4.0.4.jar"
+        "member": "jecalculation-forge-1.19.2-4.0.4.jar",
+        "format": "zip"
       }
     },
     {
@@ -291,7 +312,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "jei-1.19.2-forge-11.6.0.1019.jar"
+        "member": "jei-1.19.2-forge-11.6.0.1019.jar",
+        "format": "zip"
       }
     },
     {
@@ -304,7 +326,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "JustEnoughResources-1.19.2-1.2.3.243.jar"
+        "member": "JustEnoughResources-1.19.2-1.2.3.243.jar",
+        "format": "zip"
       }
     },
     {
@@ -317,7 +340,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "MouseTweaks-forge-mc1.19-2.23.jar"
+        "member": "MouseTweaks-forge-mc1.19-2.23.jar",
+        "format": "zip"
       }
     },
     {
@@ -330,7 +354,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "NaturesCompass-1.19.2-1.10.0-forge.jar"
+        "member": "NaturesCompass-1.19.2-1.10.0-forge.jar",
+        "format": "zip"
       }
     },
     {
@@ -343,7 +368,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "oculus-mc1.19.2-1.6.9.jar"
+        "member": "oculus-mc1.19.2-1.6.9.jar",
+        "format": "zip"
       }
     },
     {
@@ -356,7 +382,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "polymorph-forge-0.46.5+1.19.2.jar"
+        "member": "polymorph-forge-0.46.5+1.19.2.jar",
+        "format": "zip"
       }
     },
     {
@@ -369,7 +396,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "rubidium-mc1.19.2-0.6.2c.jar"
+        "member": "rubidium-mc1.19.2-0.6.2c.jar",
+        "format": "zip"
       }
     },
     {
@@ -382,7 +410,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "ScalableCatsForce-2.13.10-build-10-with-library.jar"
+        "member": "ScalableCatsForce-2.13.10-build-10-with-library.jar",
+        "format": "zip"
       }
     },
     {
@@ -395,7 +424,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "sophisticatedbackpacks-1.19.2-3.20.1.1013.jar"
+        "member": "sophisticatedbackpacks-1.19.2-3.20.1.1013.jar",
+        "format": "zip"
       }
     },
     {
@@ -408,7 +438,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "sophisticatedcore-1.19.2-0.6.2.552.jar"
+        "member": "sophisticatedcore-1.19.2-0.6.2.552.jar",
+        "format": "zip"
       }
     },
     {
@@ -421,7 +452,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "spark-1.10.37-forge.jar"
+        "member": "spark-1.10.37-forge.jar",
+        "format": "zip"
       }
     },
     {
@@ -434,7 +466,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "theoneprobe-1.19-6.2.2.jar"
+        "member": "theoneprobe-1.19-6.2.2.jar",
+        "format": "zip"
       }
     },
     {
@@ -447,7 +480,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "tl_skin_cape_forge_1.19_1.19.2-1.30.jar"
+        "member": "tl_skin_cape_forge_1.19_1.19.2-1.30.jar",
+        "format": "zip"
       }
     },
     {
@@ -460,7 +494,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "TreeChop-1.19.2-forge-0.18.6.jar"
+        "member": "TreeChop-1.19.2-forge-0.18.6.jar",
+        "format": "zip"
       }
     },
     {
@@ -473,7 +508,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "vanillaplustools-1.19-1.1.jar"
+        "member": "vanillaplustools-1.19-1.1.jar",
+        "format": "zip"
       }
     },
     {
@@ -486,7 +522,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "Xaeros_Minimap_23.9.7_Forge_1.19.1.jar"
+        "member": "Xaeros_Minimap_23.9.7_Forge_1.19.1.jar",
+        "format": "zip"
       }
     },
     {
@@ -499,7 +536,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "XaerosWorldMap_1.37.8_Forge_1.19.1.jar"
+        "member": "XaerosWorldMap_1.37.8_Forge_1.19.1.jar",
+        "format": "zip"
       }
     },
     {
@@ -512,7 +550,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "[1.19.2] SecurityCraft v1.9.6.1.jar"
+        "member": "[1.19.2] SecurityCraft v1.9.6.1.jar",
+        "format": "zip"
       }
     },
     {
@@ -525,7 +564,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "AdditionalEnchantedMiner-1.19.2-1192.3.48.jar"
+        "member": "AdditionalEnchantedMiner-1.19.2-1192.3.48.jar",
+        "format": "zip"
       }
     },
     {
@@ -538,7 +578,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "advancedsolars-2.0.4.jar"
+        "member": "advancedsolars-2.0.4.jar",
+        "format": "zip"
       }
     },
     {
@@ -551,7 +592,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "AE2WTLib-12.9.7.jar"
+        "member": "AE2WTLib-12.9.7.jar",
+        "format": "zip"
       }
     },
     {
@@ -564,7 +606,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "appleskin-forge-mc1.19-2.4.2.jar"
+        "member": "appleskin-forge-mc1.19-2.4.2.jar",
+        "format": "zip"
       }
     },
     {
@@ -577,7 +620,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "appliedenergistics2-forge-12.9.9.jar"
+        "member": "appliedenergistics2-forge-12.9.9.jar",
+        "format": "zip"
       }
     },
     {
@@ -590,7 +634,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/mods.zip",
         "size": 74944555,
         "sha256": "f2868712227726dff1e7cb6c56af323c683f89992e6f549603231f81b4d5197c",
-        "member": "architectury-6.5.90-forge.jar"
+        "member": "architectury-6.5.90-forge.jar",
+        "format": "zip"
       }
     },
     {
@@ -603,7 +648,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/options.zip",
         "size": 2645,
         "sha256": "765baede4b9ff2c7e3c5d571a053b49d579fadd96d71be70afc0f5f2ca29f914",
-        "member": "options.txt"
+        "member": "options.txt",
+        "format": "zip"
       }
     },
     {
@@ -616,7 +662,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/shaderpacks.zip",
         "size": 11973565,
         "sha256": "418be9cfbe410ef6e5325a38678b596508cebd1b4f11ecbf6b126bd49ae9d7f9",
-        "member": "BSL_v8.2.zip"
+        "member": "BSL_v8.2.zip",
+        "format": "zip"
       }
     },
     {
@@ -629,7 +676,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/shaderpacks.zip",
         "size": 11973565,
         "sha256": "418be9cfbe410ef6e5325a38678b596508cebd1b4f11ecbf6b126bd49ae9d7f9",
-        "member": "ComplementaryReimagined_r5.1.1.zip"
+        "member": "ComplementaryReimagined_r5.1.1.zip",
+        "format": "zip"
       }
     },
     {
@@ -642,7 +690,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/shaderpacks.zip",
         "size": 11973565,
         "sha256": "418be9cfbe410ef6e5325a38678b596508cebd1b4f11ecbf6b126bd49ae9d7f9",
-        "member": "ComplementaryUnbound_r5.1.1.zip"
+        "member": "ComplementaryUnbound_r5.1.1.zip",
+        "format": "zip"
       }
     },
     {
@@ -655,7 +704,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/shaderpacks.zip",
         "size": 11973565,
         "sha256": "418be9cfbe410ef6e5325a38678b596508cebd1b4f11ecbf6b126bd49ae9d7f9",
-        "member": "Pastel-Shaders-Universal-v1.100.zip"
+        "member": "Pastel-Shaders-Universal-v1.100.zip",
+        "format": "zip"
       }
     },
     {
@@ -668,7 +718,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/shaderpacks.zip",
         "size": 11973565,
         "sha256": "418be9cfbe410ef6e5325a38678b596508cebd1b4f11ecbf6b126bd49ae9d7f9",
-        "member": "SEUS-Renewed-v1.0.1.zip"
+        "member": "SEUS-Renewed-v1.0.1.zip",
+        "format": "zip"
       }
     },
     {
@@ -681,10 +732,11 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/NewIC-1.19.2/shaderpacks.zip",
         "size": 11973565,
         "sha256": "418be9cfbe410ef6e5325a38678b596508cebd1b4f11ecbf6b126bd49ae9d7f9",
-        "member": "superDuperVanilla.zip"
+        "member": "superDuperVanilla.zip",
+        "format": "zip"
       }
     }
   ],
   "update_url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/packs/new-ic.json",
-  "manifest_revision": 1
+  "manifest_revision": 2
 }

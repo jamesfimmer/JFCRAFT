@@ -18,7 +18,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/inventory_pets_illuminati_blacklist.json"
+        "member": "config/inventory_pets_illuminati_blacklist.json",
+        "format": "zip"
       }
     },
     {
@@ -31,7 +32,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/cataclysm.toml"
+        "member": "config/cataclysm.toml",
+        "format": "zip"
       }
     },
     {
@@ -44,7 +46,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/storagedrawers-common.toml"
+        "member": "config/storagedrawers-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -57,7 +60,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_creo-common.toml"
+        "member": "config/ars_creo-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -70,7 +74,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/oculus.properties"
+        "member": "config/oculus.properties",
+        "format": "zip"
       }
     },
     {
@@ -83,7 +88,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/curios-client.toml"
+        "member": "config/curios-client.toml",
+        "format": "zip"
       }
     },
     {
@@ -96,7 +102,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/attributeslib.cfg"
+        "member": "config/attributeslib.cfg",
+        "format": "zip"
       }
     },
     {
@@ -109,7 +116,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/citadel-common.toml"
+        "member": "config/citadel-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -122,7 +130,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs.toml"
+        "member": "config/alexsmobs.toml",
+        "format": "zip"
       }
     },
     {
@@ -135,7 +144,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/modonomicon-client.toml"
+        "member": "config/modonomicon-client.toml",
+        "format": "zip"
       }
     },
     {
@@ -148,7 +158,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/twilightforest-common.toml"
+        "member": "config/twilightforest-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -161,7 +172,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/vampirism-client-3.toml.bak"
+        "member": "config/vampirism-client-3.toml.bak",
+        "format": "zip"
       }
     },
     {
@@ -174,7 +186,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/epicknights/weapons.json5"
+        "member": "config/epicknights/weapons.json5",
+        "format": "zip"
       }
     },
     {
@@ -187,7 +200,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/epicknights/general.json5"
+        "member": "config/epicknights/general.json5",
+        "format": "zip"
       }
     },
     {
@@ -200,7 +214,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/epicknights/mobs_equipment.json5"
+        "member": "config/epicknights/mobs_equipment.json5",
+        "format": "zip"
       }
     },
     {
@@ -213,7 +228,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/epicknights/armor.json5"
+        "member": "config/epicknights/armor.json5",
+        "format": "zip"
       }
     },
     {
@@ -226,7 +242,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/epicknights/shields.json5"
+        "member": "config/epicknights/shields.json5",
+        "format": "zip"
       }
     },
     {
@@ -239,7 +256,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/jei/jei-mod-id-format.ini"
+        "member": "config/jei/jei-mod-id-format.ini",
+        "format": "zip"
       }
     },
     {
@@ -252,7 +270,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/jei/ingredient-list-type-sort-order.ini"
+        "member": "config/jei/ingredient-list-type-sort-order.ini",
+        "format": "zip"
       }
     },
     {
@@ -265,7 +284,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/jei/jei-colors.ini"
+        "member": "config/jei/jei-colors.ini",
+        "format": "zip"
       }
     },
     {
@@ -278,7 +298,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/jei/ingredient-list-mod-sort-order.ini"
+        "member": "config/jei/ingredient-list-mod-sort-order.ini",
+        "format": "zip"
       }
     },
     {
@@ -291,7 +312,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/jei/recipe-category-sort-order.ini"
+        "member": "config/jei/recipe-category-sort-order.ini",
+        "format": "zip"
       }
     },
     {
@@ -304,7 +326,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/jei/blacklist.cfg"
+        "member": "config/jei/blacklist.cfg",
+        "format": "zip"
       }
     },
     {
@@ -317,7 +340,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/jei/jei-client.ini"
+        "member": "config/jei/jei-client.ini",
+        "format": "zip"
       }
     },
     {
@@ -330,7 +354,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/jei/jei-debug.ini"
+        "member": "config/jei/jei-debug.ini",
+        "format": "zip"
       }
     },
     {
@@ -343,7 +368,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/vampirism-client.toml"
+        "member": "config/vampirism-client.toml",
+        "format": "zip"
       }
     },
     {
@@ -356,7 +382,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/creeperoverhaul.jsonc"
+        "member": "config/creeperoverhaul.jsonc",
+        "format": "zip"
       }
     },
     {
@@ -369,7 +396,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/xaeroworldmap.txt"
+        "member": "config/xaeroworldmap.txt",
+        "format": "zip"
       }
     },
     {
@@ -382,7 +410,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/forge-client.toml"
+        "member": "config/forge-client.toml",
+        "format": "zip"
       }
     },
     {
@@ -395,7 +424,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/polymorph-integrations.toml"
+        "member": "config/polymorph-integrations.toml",
+        "format": "zip"
       }
     },
     {
@@ -408,7 +438,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/cfm-common.toml"
+        "member": "config/cfm-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -421,7 +452,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/xaeropatreon.txt"
+        "member": "config/xaeropatreon.txt",
+        "format": "zip"
       }
     },
     {
@@ -434,7 +466,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/sophisticatedcore-client.toml"
+        "member": "config/sophisticatedcore-client.toml",
+        "format": "zip"
       }
     },
     {
@@ -447,7 +480,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/vampirism-common.toml"
+        "member": "config/vampirism-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -460,7 +494,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/storagedrawers-client.toml"
+        "member": "config/storagedrawers-client.toml",
+        "format": "zip"
       }
     },
     {
@@ -473,7 +508,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/rats-common.toml"
+        "member": "config/rats-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -486,7 +522,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/jeresources-common.toml"
+        "member": "config/jeresources-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -499,7 +536,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/cataclysm/koboleton_spawns.json"
+        "member": "config/cataclysm/koboleton_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -512,7 +550,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/cataclysm/deepling_angler_spawns.json"
+        "member": "config/cataclysm/deepling_angler_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -525,7 +564,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/cataclysm/deepling_brute_spawns.json"
+        "member": "config/cataclysm/deepling_brute_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -538,7 +578,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/cataclysm/deepling_spawns.json"
+        "member": "config/cataclysm/deepling_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -551,7 +592,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/cataclysm/amethyst_crab_spawns.json"
+        "member": "config/cataclysm/amethyst_crab_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -564,7 +606,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/supplementaries-common.toml"
+        "member": "config/supplementaries-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -577,7 +620,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/weeping-angels-spawns.toml"
+        "member": "config/weeping-angels-spawns.toml",
+        "format": "zip"
       }
     },
     {
@@ -590,7 +634,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau-server.toml"
+        "member": "config/ars_nouveau-server.toml",
+        "format": "zip"
       }
     },
     {
@@ -603,7 +648,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/sliceanddice-common.toml"
+        "member": "config/sliceanddice-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -616,7 +662,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/simplyswords_extra/loot_config.json5"
+        "member": "config/simplyswords_extra/loot_config.json5",
+        "format": "zip"
       }
     },
     {
@@ -629,7 +676,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/simplyswords_extra/backupconfig.json"
+        "member": "config/simplyswords_extra/backupconfig.json",
+        "format": "zip"
       }
     },
     {
@@ -642,7 +690,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/cristellib/minecraftED.json5"
+        "member": "config/cristellib/minecraftED.json5",
+        "format": "zip"
       }
     },
     {
@@ -655,7 +704,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/cristellib/minecraftP.json5"
+        "member": "config/cristellib/minecraftP.json5",
+        "format": "zip"
       }
     },
     {
@@ -668,7 +718,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/inventorypets-common.toml"
+        "member": "config/inventorypets-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -681,7 +732,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/simplyswords_main/gem_effects.json5"
+        "member": "config/simplyswords_main/gem_effects.json5",
+        "format": "zip"
       }
     },
     {
@@ -694,7 +746,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/simplyswords_main/unique_effects.json5"
+        "member": "config/simplyswords_main/unique_effects.json5",
+        "format": "zip"
       }
     },
     {
@@ -707,7 +760,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/simplyswords_main/weapon_attributes.json5"
+        "member": "config/simplyswords_main/weapon_attributes.json5",
+        "format": "zip"
       }
     },
     {
@@ -720,7 +774,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/simplyswords_main/status_effects.json5"
+        "member": "config/simplyswords_main/status_effects.json5",
+        "format": "zip"
       }
     },
     {
@@ -733,7 +788,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/simplyswords_main/runic_effects.json5"
+        "member": "config/simplyswords_main/runic_effects.json5",
+        "format": "zip"
       }
     },
     {
@@ -746,7 +802,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/simplyswords_main/general.json5"
+        "member": "config/simplyswords_main/general.json5",
+        "format": "zip"
       }
     },
     {
@@ -759,7 +816,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/simplyswords_main/loot.json5"
+        "member": "config/simplyswords_main/loot.json5",
+        "format": "zip"
       }
     },
     {
@@ -772,7 +830,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/bcc-common.toml"
+        "member": "config/bcc-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -785,7 +844,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/xaerominimap-common.txt"
+        "member": "config/xaerominimap-common.txt",
+        "format": "zip"
       }
     },
     {
@@ -798,7 +858,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/cfm-client.toml"
+        "member": "config/cfm-client.toml",
+        "format": "zip"
       }
     },
     {
@@ -811,7 +872,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/cumulus_menus-client.toml"
+        "member": "config/cumulus_menus-client.toml",
+        "format": "zip"
       }
     },
     {
@@ -824,7 +886,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/guideapi_vp-common.toml"
+        "member": "config/guideapi_vp-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -837,7 +900,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/aether-client.toml"
+        "member": "config/aether-client.toml",
+        "format": "zip"
       }
     },
     {
@@ -850,7 +914,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/xaerominimap.txt"
+        "member": "config/xaerominimap.txt",
+        "format": "zip"
       }
     },
     {
@@ -863,7 +928,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/railways-client.toml"
+        "member": "config/railways-client.toml",
+        "format": "zip"
       }
     },
     {
@@ -876,7 +942,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire-client.toml"
+        "member": "config/iceandfire-client.toml",
+        "format": "zip"
       }
     },
     {
@@ -889,7 +956,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/betterdungeons-forge-1_20.toml"
+        "member": "config/betterdungeons-forge-1_20.toml",
+        "format": "zip"
       }
     },
     {
@@ -902,7 +970,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/occultism-client.toml"
+        "member": "config/occultism-client.toml",
+        "format": "zip"
       }
     },
     {
@@ -915,7 +984,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/xaeroworldmap-common.txt"
+        "member": "config/xaeroworldmap-common.txt",
+        "format": "zip"
       }
     },
     {
@@ -928,7 +998,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/naturescompass-client.toml"
+        "member": "config/naturescompass-client.toml",
+        "format": "zip"
       }
     },
     {
@@ -941,7 +1012,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/createoreexcavation-common.toml"
+        "member": "config/createoreexcavation-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -954,7 +1026,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/betterstrongholds/README.txt"
+        "member": "config/betterstrongholds/README.txt",
+        "format": "zip"
       }
     },
     {
@@ -967,7 +1040,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/betterstrongholds/forge-1_20/README.txt"
+        "member": "config/betterstrongholds/forge-1_20/README.txt",
+        "format": "zip"
       }
     },
     {
@@ -980,7 +1054,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/betterstrongholds/forge-1_20/armorstands.json"
+        "member": "config/betterstrongholds/forge-1_20/armorstands.json",
+        "format": "zip"
       }
     },
     {
@@ -993,7 +1068,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/betterstrongholds/forge-1_20/itemframes.json"
+        "member": "config/betterstrongholds/forge-1_20/itemframes.json",
+        "format": "zip"
       }
     },
     {
@@ -1006,7 +1082,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/betterstrongholds/forge-1_20/rareblocks.json"
+        "member": "config/betterstrongholds/forge-1_20/rareblocks.json",
+        "format": "zip"
       }
     },
     {
@@ -1019,7 +1096,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/betterstrongholds/forge-1_20/ores.json"
+        "member": "config/betterstrongholds/forge-1_20/ores.json",
+        "format": "zip"
       }
     },
     {
@@ -1032,7 +1110,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/structure_gel-client.toml"
+        "member": "config/structure_gel-client.toml",
+        "format": "zip"
       }
     },
     {
@@ -1045,7 +1124,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/blue_skies-client.toml"
+        "member": "config/blue_skies-client.toml",
+        "format": "zip"
       }
     },
     {
@@ -1058,7 +1138,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/fml.toml"
+        "member": "config/fml.toml",
+        "format": "zip"
       }
     },
     {
@@ -1071,7 +1152,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/blue_skies-common.toml"
+        "member": "config/blue_skies-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -1084,7 +1166,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/Obscuria/aquamirae-common.toml"
+        "member": "config/Obscuria/aquamirae-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -1097,7 +1180,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/Obscuria/obscure-api-client.toml"
+        "member": "config/Obscuria/obscure-api-client.toml",
+        "format": "zip"
       }
     },
     {
@@ -1110,7 +1194,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/Obscuria/Data/aquamirae_cover.png"
+        "member": "config/Obscuria/Data/aquamirae_cover.png",
+        "format": "zip"
       }
     },
     {
@@ -1123,7 +1208,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/Obscuria/Data/obscure_api_cover.png"
+        "member": "config/Obscuria/Data/obscure_api_cover.png",
+        "format": "zip"
       }
     },
     {
@@ -1136,7 +1222,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/Obscuria/Data/loot_journal_cover.png"
+        "member": "config/Obscuria/Data/loot_journal_cover.png",
+        "format": "zip"
       }
     },
     {
@@ -1149,7 +1236,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/Obscuria/aquamirae-client.toml"
+        "member": "config/Obscuria/aquamirae-client.toml",
+        "format": "zip"
       }
     },
     {
@@ -1162,7 +1250,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/comforts-server.toml"
+        "member": "config/comforts-server.toml",
+        "format": "zip"
       }
     },
     {
@@ -1175,7 +1264,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/sophisticatedbackpacks-common.toml"
+        "member": "config/sophisticatedbackpacks-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -1188,7 +1278,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/sophisticatedcore-common.toml"
+        "member": "config/sophisticatedcore-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -1201,7 +1292,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/aether-common.toml"
+        "member": "config/aether-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -1214,7 +1306,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/xaerominimap_entities.json"
+        "member": "config/xaerominimap_entities.json",
+        "format": "zip"
       }
     },
     {
@@ -1227,7 +1320,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/dimdoors-config.json5"
+        "member": "config/dimdoors-config.json5",
+        "format": "zip"
       }
     },
     {
@@ -1240,7 +1334,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/forbidden_arcanus-client.toml"
+        "member": "config/forbidden_arcanus-client.toml",
+        "format": "zip"
       }
     },
     {
@@ -1253,7 +1348,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_instrumentum-client.toml"
+        "member": "config/ars_instrumentum-client.toml",
+        "format": "zip"
       }
     },
     {
@@ -1266,7 +1362,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/reliquary-common.toml"
+        "member": "config/reliquary-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -1279,7 +1376,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/twilightforest-client.toml"
+        "member": "config/twilightforest-client.toml",
+        "format": "zip"
       }
     },
     {
@@ -1292,7 +1390,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/create-common.toml"
+        "member": "config/create-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -1305,7 +1404,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/railways-common.toml"
+        "member": "config/railways-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -1318,7 +1418,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_elemental-common.toml"
+        "member": "config/ars_elemental-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -1331,7 +1432,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/rats-client.toml"
+        "member": "config/rats-client.toml",
+        "format": "zip"
       }
     },
     {
@@ -1344,7 +1446,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/defaultoptions-common.toml"
+        "member": "config/defaultoptions-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -1357,7 +1460,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/moonlight-common.toml"
+        "member": "config/moonlight-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -1370,7 +1474,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire-common.toml"
+        "member": "config/iceandfire-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -1383,7 +1488,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/botania-common.toml"
+        "member": "config/botania-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -1396,7 +1502,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/moonlight-client.toml"
+        "member": "config/moonlight-client.toml",
+        "format": "zip"
       }
     },
     {
@@ -1409,7 +1516,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/apotheosis/names.cfg"
+        "member": "config/apotheosis/names.cfg",
+        "format": "zip"
       }
     },
     {
@@ -1422,7 +1530,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/apotheosis/apotheosis.cfg"
+        "member": "config/apotheosis/apotheosis.cfg",
+        "format": "zip"
       }
     },
     {
@@ -1435,7 +1544,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/apotheosis/spawner.cfg"
+        "member": "config/apotheosis/spawner.cfg",
+        "format": "zip"
       }
     },
     {
@@ -1448,7 +1558,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/apotheosis/garden.cfg"
+        "member": "config/apotheosis/garden.cfg",
+        "format": "zip"
       }
     },
     {
@@ -1461,7 +1572,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/apotheosis/village.cfg"
+        "member": "config/apotheosis/village.cfg",
+        "format": "zip"
       }
     },
     {
@@ -1474,7 +1586,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/apotheosis/adventure.cfg"
+        "member": "config/apotheosis/adventure.cfg",
+        "format": "zip"
       }
     },
     {
@@ -1487,7 +1600,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/apotheosis/ench.cfg"
+        "member": "config/apotheosis/ench.cfg",
+        "format": "zip"
       }
     },
     {
@@ -1500,7 +1614,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/apotheosis/enchantments.cfg"
+        "member": "config/apotheosis/enchantments.cfg",
+        "format": "zip"
       }
     },
     {
@@ -1513,7 +1628,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/apotheosis/potion.cfg"
+        "member": "config/apotheosis/potion.cfg",
+        "format": "zip"
       }
     },
     {
@@ -1526,7 +1642,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/inventorysorter-client.toml"
+        "member": "config/inventorysorter-client.toml",
+        "format": "zip"
       }
     },
     {
@@ -1539,7 +1656,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/theoneprobe-client.toml"
+        "member": "config/theoneprobe-client.toml",
+        "format": "zip"
       }
     },
     {
@@ -1552,7 +1670,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_elemental-client.toml"
+        "member": "config/ars_elemental-client.toml",
+        "format": "zip"
       }
     },
     {
@@ -1565,7 +1684,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/bettermineshafts-forge-1_20.toml"
+        "member": "config/bettermineshafts-forge-1_20.toml",
+        "format": "zip"
       }
     },
     {
@@ -1578,7 +1698,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire/hippogryph_black_biomes.json"
+        "member": "config/iceandfire/hippogryph_black_biomes.json",
+        "format": "zip"
       }
     },
     {
@@ -1591,7 +1712,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire/graveyard_biomes.json"
+        "member": "config/iceandfire/graveyard_biomes.json",
+        "format": "zip"
       }
     },
     {
@@ -1604,7 +1726,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire/gorgon_temple_biomes.json"
+        "member": "config/iceandfire/gorgon_temple_biomes.json",
+        "format": "zip"
       }
     },
     {
@@ -1617,7 +1740,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire/fire_dragon_skeleton_biomes.json"
+        "member": "config/iceandfire/fire_dragon_skeleton_biomes.json",
+        "format": "zip"
       }
     },
     {
@@ -1630,7 +1754,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire/ice_dragon_skeleton_biomes.json"
+        "member": "config/iceandfire/ice_dragon_skeleton_biomes.json",
+        "format": "zip"
       }
     },
     {
@@ -1643,7 +1768,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire/lightning_lily_biomes.json"
+        "member": "config/iceandfire/lightning_lily_biomes.json",
+        "format": "zip"
       }
     },
     {
@@ -1656,7 +1782,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire/desert_myrmex_biomes.json"
+        "member": "config/iceandfire/desert_myrmex_biomes.json",
+        "format": "zip"
       }
     },
     {
@@ -1669,7 +1796,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire/hippogryph_white_biomes.json"
+        "member": "config/iceandfire/hippogryph_white_biomes.json",
+        "format": "zip"
       }
     },
     {
@@ -1682,7 +1810,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire/wandering_cyclops_biomes.json"
+        "member": "config/iceandfire/wandering_cyclops_biomes.json",
+        "format": "zip"
       }
     },
     {
@@ -1695,7 +1824,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire/ice_dragon_biomes.json"
+        "member": "config/iceandfire/ice_dragon_biomes.json",
+        "format": "zip"
       }
     },
     {
@@ -1708,7 +1838,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire/amphithere_biomes.json"
+        "member": "config/iceandfire/amphithere_biomes.json",
+        "format": "zip"
       }
     },
     {
@@ -1721,7 +1852,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire/hippogryph_dark_brown_biomes.json"
+        "member": "config/iceandfire/hippogryph_dark_brown_biomes.json",
+        "format": "zip"
       }
     },
     {
@@ -1734,7 +1866,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire/deathworm_biomes.json"
+        "member": "config/iceandfire/deathworm_biomes.json",
+        "format": "zip"
       }
     },
     {
@@ -1747,7 +1880,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire/hippocampus_biomes.json"
+        "member": "config/iceandfire/hippocampus_biomes.json",
+        "format": "zip"
       }
     },
     {
@@ -1760,7 +1894,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire/lightning_dragon_cave_biomes.json"
+        "member": "config/iceandfire/lightning_dragon_cave_biomes.json",
+        "format": "zip"
       }
     },
     {
@@ -1773,7 +1908,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire/frost_lily_biomes.json"
+        "member": "config/iceandfire/frost_lily_biomes.json",
+        "format": "zip"
       }
     },
     {
@@ -1786,7 +1922,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire/hippogryph_biomes.json"
+        "member": "config/iceandfire/hippogryph_biomes.json",
+        "format": "zip"
       }
     },
     {
@@ -1799,7 +1936,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire/ore_gen_biomes.json"
+        "member": "config/iceandfire/ore_gen_biomes.json",
+        "format": "zip"
       }
     },
     {
@@ -1812,7 +1950,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire/pixie_village_biomes.json"
+        "member": "config/iceandfire/pixie_village_biomes.json",
+        "format": "zip"
       }
     },
     {
@@ -1825,7 +1964,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire/fire_dragon_biomes.json"
+        "member": "config/iceandfire/fire_dragon_biomes.json",
+        "format": "zip"
       }
     },
     {
@@ -1838,7 +1978,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire/fire_dragon_cave_biomes.json"
+        "member": "config/iceandfire/fire_dragon_cave_biomes.json",
+        "format": "zip"
       }
     },
     {
@@ -1851,7 +1992,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire/hydra_cave_biomes.json"
+        "member": "config/iceandfire/hydra_cave_biomes.json",
+        "format": "zip"
       }
     },
     {
@@ -1864,7 +2006,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire/hippogryph_chestnut_biomes.json"
+        "member": "config/iceandfire/hippogryph_chestnut_biomes.json",
+        "format": "zip"
       }
     },
     {
@@ -1877,7 +2020,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire/stymphalian_bird_biomes.json"
+        "member": "config/iceandfire/stymphalian_bird_biomes.json",
+        "format": "zip"
       }
     },
     {
@@ -1890,7 +2034,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire/mountain_troll_biomes.json"
+        "member": "config/iceandfire/mountain_troll_biomes.json",
+        "format": "zip"
       }
     },
     {
@@ -1903,7 +2048,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire/ice_dragon_cave_biomes.json"
+        "member": "config/iceandfire/ice_dragon_cave_biomes.json",
+        "format": "zip"
       }
     },
     {
@@ -1916,7 +2062,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire/cockatrice_biomes.json"
+        "member": "config/iceandfire/cockatrice_biomes.json",
+        "format": "zip"
       }
     },
     {
@@ -1929,7 +2076,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire/snowy_troll_biomes.json"
+        "member": "config/iceandfire/snowy_troll_biomes.json",
+        "format": "zip"
       }
     },
     {
@@ -1942,7 +2090,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire/sea_serpent_biomes.json"
+        "member": "config/iceandfire/sea_serpent_biomes.json",
+        "format": "zip"
       }
     },
     {
@@ -1955,7 +2104,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire/cyclops_cave_biomes.json"
+        "member": "config/iceandfire/cyclops_cave_biomes.json",
+        "format": "zip"
       }
     },
     {
@@ -1968,7 +2118,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire/hippogryph_brown_biomes.json"
+        "member": "config/iceandfire/hippogryph_brown_biomes.json",
+        "format": "zip"
       }
     },
     {
@@ -1981,7 +2132,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire/hippogryph_creamy_biomes.json"
+        "member": "config/iceandfire/hippogryph_creamy_biomes.json",
+        "format": "zip"
       }
     },
     {
@@ -1994,7 +2146,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire/lightning_dragon_biomes.json"
+        "member": "config/iceandfire/lightning_dragon_biomes.json",
+        "format": "zip"
       }
     },
     {
@@ -2007,7 +2160,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire/fire_lily_biomes.json"
+        "member": "config/iceandfire/fire_lily_biomes.json",
+        "format": "zip"
       }
     },
     {
@@ -2020,7 +2174,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire/sapphire_gen_biomes.json"
+        "member": "config/iceandfire/sapphire_gen_biomes.json",
+        "format": "zip"
       }
     },
     {
@@ -2033,7 +2188,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire/mausoleum_biomes.json"
+        "member": "config/iceandfire/mausoleum_biomes.json",
+        "format": "zip"
       }
     },
     {
@@ -2046,7 +2202,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire/hippogryph_gray_biomes.json"
+        "member": "config/iceandfire/hippogryph_gray_biomes.json",
+        "format": "zip"
       }
     },
     {
@@ -2059,7 +2216,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire/siren_biomes.json"
+        "member": "config/iceandfire/siren_biomes.json",
+        "format": "zip"
       }
     },
     {
@@ -2072,7 +2230,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire/lightning_dragon_skeleton_biomes.json"
+        "member": "config/iceandfire/lightning_dragon_skeleton_biomes.json",
+        "format": "zip"
       }
     },
     {
@@ -2085,7 +2244,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire/forest_troll_biomes.json"
+        "member": "config/iceandfire/forest_troll_biomes.json",
+        "format": "zip"
       }
     },
     {
@@ -2098,7 +2258,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/iceandfire/jungle_myrmex_biomes.json"
+        "member": "config/iceandfire/jungle_myrmex_biomes.json",
+        "format": "zip"
       }
     },
     {
@@ -2111,7 +2272,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/treechop-common.toml"
+        "member": "config/treechop-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -2124,7 +2286,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/naturescompass-common.toml"
+        "member": "config/naturescompass-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -2137,7 +2300,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/treechop-client.toml"
+        "member": "config/treechop-client.toml",
+        "format": "zip"
       }
     },
     {
@@ -2150,7 +2314,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/towns_and_towers/structure_rarity_new.json5"
+        "member": "config/towns_and_towers/structure_rarity_new.json5",
+        "format": "zip"
       }
     },
     {
@@ -2163,7 +2328,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/towns_and_towers/structure_enable_or_disable_new.json5"
+        "member": "config/towns_and_towers/structure_enable_or_disable_new.json5",
+        "format": "zip"
       }
     },
     {
@@ -2176,7 +2342,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/werewolves-common.toml"
+        "member": "config/werewolves-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -2189,7 +2356,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/cosmic_cod_spawns.json"
+        "member": "config/alexsmobs/cosmic_cod_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2202,7 +2370,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/triops_spawns.json"
+        "member": "config/alexsmobs/triops_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2215,7 +2384,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/skreecher.json"
+        "member": "config/alexsmobs/skreecher.json",
+        "format": "zip"
       }
     },
     {
@@ -2228,7 +2398,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/emu_spawns.json"
+        "member": "config/alexsmobs/emu_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2241,7 +2412,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/shoebill_spawns.json"
+        "member": "config/alexsmobs/shoebill_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2254,7 +2426,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/warped_mosco_spawns.json"
+        "member": "config/alexsmobs/warped_mosco_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2267,7 +2440,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/underminer.json"
+        "member": "config/alexsmobs/underminer.json",
+        "format": "zip"
       }
     },
     {
@@ -2280,7 +2454,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/bison_spawns.json"
+        "member": "config/alexsmobs/bison_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2293,7 +2468,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/soul_vulture_spawns.json"
+        "member": "config/alexsmobs/soul_vulture_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2306,7 +2482,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/capuchin_monkey_spawns.json"
+        "member": "config/alexsmobs/capuchin_monkey_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2319,7 +2496,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/maned_wolf_spawns.json"
+        "member": "config/alexsmobs/maned_wolf_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2332,7 +2510,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/rocky_roller_spawns.json"
+        "member": "config/alexsmobs/rocky_roller_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2345,7 +2524,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/hummingbird_spawns.json"
+        "member": "config/alexsmobs/hummingbird_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2358,7 +2538,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/gorilla_spawns.json"
+        "member": "config/alexsmobs/gorilla_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2371,7 +2552,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/guster_spawns.json"
+        "member": "config/alexsmobs/guster_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2384,7 +2566,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/sugar_glider_spawns.json"
+        "member": "config/alexsmobs/sugar_glider_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2397,7 +2580,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/sunbird_spawns.json"
+        "member": "config/alexsmobs/sunbird_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2410,7 +2594,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/toucan_spawns.json"
+        "member": "config/alexsmobs/toucan_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2423,7 +2608,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/dropbear_spawns.json"
+        "member": "config/alexsmobs/dropbear_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2436,7 +2622,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/blue_jay_spawns.json"
+        "member": "config/alexsmobs/blue_jay_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2449,7 +2636,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/roadrunner_spawns.json"
+        "member": "config/alexsmobs/roadrunner_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2462,7 +2650,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/spectre_spawns.json"
+        "member": "config/alexsmobs/spectre_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2475,7 +2664,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/froststalker_spawns.json"
+        "member": "config/alexsmobs/froststalker_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2488,7 +2678,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/cosmaw_spawns.json"
+        "member": "config/alexsmobs/cosmaw_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2501,7 +2692,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/banana_slug_spawns.json"
+        "member": "config/alexsmobs/banana_slug_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2514,7 +2706,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/devils_hole_pupfish_spawns.json"
+        "member": "config/alexsmobs/devils_hole_pupfish_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2527,7 +2720,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/komodo_dragon_spawns.json"
+        "member": "config/alexsmobs/komodo_dragon_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2540,7 +2734,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/bone_serpent_spawns.json"
+        "member": "config/alexsmobs/bone_serpent_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2553,7 +2748,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/elephant_spawns.json"
+        "member": "config/alexsmobs/elephant_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2566,7 +2762,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/stradpole_spawns.json"
+        "member": "config/alexsmobs/stradpole_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2579,7 +2776,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/endergrade_spawns.json"
+        "member": "config/alexsmobs/endergrade_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2592,7 +2790,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/straddler_spawns.json"
+        "member": "config/alexsmobs/straddler_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2605,7 +2804,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/gazelle_spawns.json"
+        "member": "config/alexsmobs/gazelle_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2618,7 +2818,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/crimson_mosquito_spawns.json"
+        "member": "config/alexsmobs/crimson_mosquito_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2631,7 +2832,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/crow_spawns.json"
+        "member": "config/alexsmobs/crow_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2644,7 +2846,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/hammerhead_shark_spawns.json"
+        "member": "config/alexsmobs/hammerhead_shark_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2657,7 +2860,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/seal_spawns.json"
+        "member": "config/alexsmobs/seal_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2670,7 +2874,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/warped_toad_spawns.json"
+        "member": "config/alexsmobs/warped_toad_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2683,7 +2888,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/tarantula_hawk_spawns.json"
+        "member": "config/alexsmobs/tarantula_hawk_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2696,7 +2902,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/blobfish_spawns.json"
+        "member": "config/alexsmobs/blobfish_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2709,7 +2916,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/fly_spawns.json"
+        "member": "config/alexsmobs/fly_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2722,7 +2930,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/flutter_spawns.json"
+        "member": "config/alexsmobs/flutter_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2735,7 +2944,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/alligator_snapping_turtle_spawns.json"
+        "member": "config/alexsmobs/alligator_snapping_turtle_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2748,7 +2958,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/crocodile_spawns.json"
+        "member": "config/alexsmobs/crocodile_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2761,7 +2972,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/bunfungus_spawns.json"
+        "member": "config/alexsmobs/bunfungus_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2774,7 +2986,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/enderiophage_spawns.json"
+        "member": "config/alexsmobs/enderiophage_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2787,7 +3000,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/bald_eagle_spawns.json"
+        "member": "config/alexsmobs/bald_eagle_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2800,7 +3014,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/catfish_spawns.json"
+        "member": "config/alexsmobs/catfish_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2813,7 +3028,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/potoo_spawns.json"
+        "member": "config/alexsmobs/potoo_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2826,7 +3042,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/tiger_spawns.json"
+        "member": "config/alexsmobs/tiger_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2839,7 +3056,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/frilled_shark_spawns.json"
+        "member": "config/alexsmobs/frilled_shark_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2852,7 +3070,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/moose_spawns.json"
+        "member": "config/alexsmobs/moose_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2865,7 +3084,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/caiman_spawns.json"
+        "member": "config/alexsmobs/caiman_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2878,7 +3098,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/raccoon_spawns.json"
+        "member": "config/alexsmobs/raccoon_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2891,7 +3112,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/giant_squid_spawns.json"
+        "member": "config/alexsmobs/giant_squid_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2904,7 +3126,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/seagull_spawns.json"
+        "member": "config/alexsmobs/seagull_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2917,7 +3140,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/gelada_monkey_spawns.json"
+        "member": "config/alexsmobs/gelada_monkey_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2930,7 +3154,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/mimicube_spawns.json"
+        "member": "config/alexsmobs/mimicube_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2943,7 +3168,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/flying_fish_spawns.json"
+        "member": "config/alexsmobs/flying_fish_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2956,7 +3182,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/anteater_spawns.json"
+        "member": "config/alexsmobs/anteater_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2969,7 +3196,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/snow_leopard_spawns.json"
+        "member": "config/alexsmobs/snow_leopard_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2982,7 +3210,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/leafcutter_anthill_spawns.json"
+        "member": "config/alexsmobs/leafcutter_anthill_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -2995,7 +3224,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/comb_jelly_spawns.json"
+        "member": "config/alexsmobs/comb_jelly_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -3008,7 +3238,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/laviathan_spawns.json"
+        "member": "config/alexsmobs/laviathan_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -3021,7 +3252,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/murmur.json"
+        "member": "config/alexsmobs/murmur.json",
+        "format": "zip"
       }
     },
     {
@@ -3034,7 +3266,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/tusklin_spawns.json"
+        "member": "config/alexsmobs/tusklin_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -3047,7 +3280,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/mimic_octopus_spawns.json"
+        "member": "config/alexsmobs/mimic_octopus_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -3060,7 +3294,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/platypus_spawns.json"
+        "member": "config/alexsmobs/platypus_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -3073,7 +3308,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/tasmanian_devil_spawns.json"
+        "member": "config/alexsmobs/tasmanian_devil_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -3086,7 +3322,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/cockroach_spawns.json"
+        "member": "config/alexsmobs/cockroach_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -3099,7 +3336,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/kangaroo_spawns.json"
+        "member": "config/alexsmobs/kangaroo_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -3112,7 +3350,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/void_worm_spawns.json"
+        "member": "config/alexsmobs/void_worm_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -3125,7 +3364,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/rattlesnake_spawns.json"
+        "member": "config/alexsmobs/rattlesnake_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -3138,7 +3378,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/jerboa_spawns.json"
+        "member": "config/alexsmobs/jerboa_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -3151,7 +3392,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/anaconda_spawns.json"
+        "member": "config/alexsmobs/anaconda_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -3164,7 +3406,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/grizzly_bear_spawns.json"
+        "member": "config/alexsmobs/grizzly_bear_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -3177,7 +3420,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/orca_spawns.json"
+        "member": "config/alexsmobs/orca_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -3190,7 +3434,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/mungus_spawns.json"
+        "member": "config/alexsmobs/mungus_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -3203,7 +3448,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/cachalot_whale_spawns.json"
+        "member": "config/alexsmobs/cachalot_whale_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -3216,7 +3462,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/lobster_spawns.json"
+        "member": "config/alexsmobs/lobster_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -3229,7 +3476,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/farseer.json"
+        "member": "config/alexsmobs/farseer.json",
+        "format": "zip"
       }
     },
     {
@@ -3242,7 +3490,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/skelewag_spawns.json"
+        "member": "config/alexsmobs/skelewag_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -3255,7 +3504,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/rhinoceros_spawns.json"
+        "member": "config/alexsmobs/rhinoceros_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -3268,7 +3518,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/cachalot_whale_beached_spawns.json"
+        "member": "config/alexsmobs/cachalot_whale_beached_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -3281,7 +3532,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/mantis_shrimp_spawns.json"
+        "member": "config/alexsmobs/mantis_shrimp_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -3294,7 +3546,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/skunk_spawns.json"
+        "member": "config/alexsmobs/skunk_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -3307,7 +3560,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/mudskipper_spawns.json"
+        "member": "config/alexsmobs/mudskipper_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -3320,7 +3574,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/cave_centipede_spawns.json"
+        "member": "config/alexsmobs/cave_centipede_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -3333,7 +3588,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/rain_frog_spawns.json"
+        "member": "config/alexsmobs/rain_frog_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -3346,7 +3602,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/alexsmobs/terrapin_spawns.json"
+        "member": "config/alexsmobs/terrapin_spawns.json",
+        "format": "zip"
       }
     },
     {
@@ -3359,7 +3616,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/modernfix-mixins.properties"
+        "member": "config/modernfix-mixins.properties",
+        "format": "zip"
       }
     },
     {
@@ -3372,7 +3630,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau-client.toml"
+        "member": "config/ars_nouveau-client.toml",
+        "format": "zip"
       }
     },
     {
@@ -3385,7 +3644,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/embeddium-options.json"
+        "member": "config/embeddium-options.json",
+        "format": "zip"
       }
     },
     {
@@ -3398,7 +3658,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/structurize-client.toml"
+        "member": "config/structurize-client.toml",
+        "format": "zip"
       }
     },
     {
@@ -3411,7 +3672,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/vampirism-client-1.toml.bak"
+        "member": "config/vampirism-client-1.toml.bak",
+        "format": "zip"
       }
     },
     {
@@ -3424,7 +3686,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/forbidden_arcanus-common.toml"
+        "member": "config/forbidden_arcanus-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -3437,7 +3700,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/werewolves-client.toml"
+        "member": "config/werewolves-client.toml",
+        "format": "zip"
       }
     },
     {
@@ -3450,7 +3714,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/weeping_angels-common.toml"
+        "member": "config/weeping_angels-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -3463,7 +3728,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/modernfix-common.toml"
+        "member": "config/modernfix-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -3476,7 +3742,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/supplementaries-client.toml"
+        "member": "config/supplementaries-client.toml",
+        "format": "zip"
       }
     },
     {
@@ -3489,7 +3756,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/resourceful-config-web.json"
+        "member": "config/resourceful-config-web.json",
+        "format": "zip"
       }
     },
     {
@@ -3502,7 +3770,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/create-client.toml"
+        "member": "config/create-client.toml",
+        "format": "zip"
       }
     },
     {
@@ -3515,7 +3784,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/embeddium-mixins.properties"
+        "member": "config/embeddium-mixins.properties",
+        "format": "zip"
       }
     },
     {
@@ -3528,7 +3798,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/minecolonies-common.toml"
+        "member": "config/minecolonies-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -3541,7 +3812,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/appleskin-client.toml"
+        "member": "config/appleskin-client.toml",
+        "format": "zip"
       }
     },
     {
@@ -3554,7 +3826,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/configured-client.toml"
+        "member": "config/configured-client.toml",
+        "format": "zip"
       }
     },
     {
@@ -3567,7 +3840,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/vampirism-client-2.toml.bak"
+        "member": "config/vampirism-client-2.toml.bak",
+        "format": "zip"
       }
     },
     {
@@ -3580,7 +3854,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/jeresources.toml"
+        "member": "config/jeresources.toml",
+        "format": "zip"
       }
     },
     {
@@ -3593,7 +3868,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/enchdesc.json"
+        "member": "config/enchdesc.json",
+        "format": "zip"
       }
     },
     {
@@ -3606,7 +3882,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/connector.json"
+        "member": "config/connector.json",
+        "format": "zip"
       }
     },
     {
@@ -3619,7 +3896,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_ocultas/base-common.toml"
+        "member": "config/ars_ocultas/base-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -3632,7 +3910,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/balm-common.toml"
+        "member": "config/balm-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -3645,7 +3924,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/zeta-common.toml"
+        "member": "config/zeta-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -3658,7 +3938,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/aether/sun_altar_whitelist.json"
+        "member": "config/aether/sun_altar_whitelist.json",
+        "format": "zip"
       }
     },
     {
@@ -3671,7 +3952,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/aether/aether_customizations.txt"
+        "member": "config/aether/aether_customizations.txt",
+        "format": "zip"
       }
     },
     {
@@ -3684,7 +3966,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/embeddium-fingerprint.json"
+        "member": "config/embeddium-fingerprint.json",
+        "format": "zip"
       }
     },
     {
@@ -3697,7 +3980,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/patchouli-client.toml"
+        "member": "config/patchouli-client.toml",
+        "format": "zip"
       }
     },
     {
@@ -3710,7 +3994,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/vampirism-client-4.toml.bak"
+        "member": "config/vampirism-client-4.toml.bak",
+        "format": "zip"
       }
     },
     {
@@ -3723,7 +4008,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/MouseTweaks.cfg"
+        "member": "config/MouseTweaks.cfg",
+        "format": "zip"
       }
     },
     {
@@ -3736,7 +4022,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/jade/sort-order.json"
+        "member": "config/jade/sort-order.json",
+        "format": "zip"
       }
     },
     {
@@ -3749,7 +4036,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/jade/plugins.json"
+        "member": "config/jade/plugins.json",
+        "format": "zip"
       }
     },
     {
@@ -3762,7 +4050,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/jade/hide-blocks.json"
+        "member": "config/jade/hide-blocks.json",
+        "format": "zip"
       }
     },
     {
@@ -3775,7 +4064,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/jade/hide-entities.json"
+        "member": "config/jade/hide-entities.json",
+        "format": "zip"
       }
     },
     {
@@ -3788,7 +4078,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/jade/jade.json"
+        "member": "config/jade/jade.json",
+        "format": "zip"
       }
     },
     {
@@ -3801,7 +4092,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/minecolonies-client.toml"
+        "member": "config/minecolonies-client.toml",
+        "format": "zip"
       }
     },
     {
@@ -3814,7 +4106,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_wall.toml"
+        "member": "config/ars_nouveau/glyph_wall.toml",
+        "format": "zip"
       }
     },
     {
@@ -3827,7 +4120,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_interact.toml"
+        "member": "config/ars_nouveau/glyph_interact.toml",
+        "format": "zip"
       }
     },
     {
@@ -3840,7 +4134,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_leap.toml"
+        "member": "config/ars_nouveau/glyph_leap.toml",
+        "format": "zip"
       }
     },
     {
@@ -3853,7 +4148,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_ender_inventory.toml"
+        "member": "config/ars_nouveau/glyph_ender_inventory.toml",
+        "format": "zip"
       }
     },
     {
@@ -3866,7 +4162,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_infuse.toml"
+        "member": "config/ars_nouveau/glyph_infuse.toml",
+        "format": "zip"
       }
     },
     {
@@ -3879,7 +4176,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_break.toml"
+        "member": "config/ars_nouveau/glyph_break.toml",
+        "format": "zip"
       }
     },
     {
@@ -3892,7 +4190,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_ignite.toml"
+        "member": "config/ars_nouveau/glyph_ignite.toml",
+        "format": "zip"
       }
     },
     {
@@ -3905,7 +4204,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_summon_steed.toml"
+        "member": "config/ars_nouveau/glyph_summon_steed.toml",
+        "format": "zip"
       }
     },
     {
@@ -3918,7 +4218,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_fangs.toml"
+        "member": "config/ars_nouveau/glyph_fangs.toml",
+        "format": "zip"
       }
     },
     {
@@ -3931,7 +4232,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_cold_snap.toml"
+        "member": "config/ars_nouveau/glyph_cold_snap.toml",
+        "format": "zip"
       }
     },
     {
@@ -3944,7 +4246,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_place_block.toml"
+        "member": "config/ars_nouveau/glyph_place_block.toml",
+        "format": "zip"
       }
     },
     {
@@ -3957,7 +4260,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_animate_block.toml"
+        "member": "config/ars_nouveau/glyph_animate_block.toml",
+        "format": "zip"
       }
     },
     {
@@ -3970,7 +4274,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_cut.toml"
+        "member": "config/ars_nouveau/glyph_cut.toml",
+        "format": "zip"
       }
     },
     {
@@ -3983,7 +4288,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_phantom_block.toml"
+        "member": "config/ars_nouveau/glyph_phantom_block.toml",
+        "format": "zip"
       }
     },
     {
@@ -3996,7 +4302,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_decelerate.toml"
+        "member": "config/ars_nouveau/glyph_decelerate.toml",
+        "format": "zip"
       }
     },
     {
@@ -4009,7 +4316,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_crush.toml"
+        "member": "config/ars_nouveau/glyph_crush.toml",
+        "format": "zip"
       }
     },
     {
@@ -4022,7 +4330,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_rotate.toml"
+        "member": "config/ars_nouveau/glyph_rotate.toml",
+        "format": "zip"
       }
     },
     {
@@ -4035,7 +4344,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/reset.toml"
+        "member": "config/ars_nouveau/reset.toml",
+        "format": "zip"
       }
     },
     {
@@ -4048,7 +4358,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_rune.toml"
+        "member": "config/ars_nouveau/glyph_rune.toml",
+        "format": "zip"
       }
     },
     {
@@ -4061,7 +4372,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_self.toml"
+        "member": "config/ars_nouveau/glyph_self.toml",
+        "format": "zip"
       }
     },
     {
@@ -4074,7 +4386,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_sensitive.toml"
+        "member": "config/ars_nouveau/glyph_sensitive.toml",
+        "format": "zip"
       }
     },
     {
@@ -4087,7 +4400,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_craft.toml"
+        "member": "config/ars_nouveau/glyph_craft.toml",
+        "format": "zip"
       }
     },
     {
@@ -4100,7 +4414,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_hex.toml"
+        "member": "config/ars_nouveau/glyph_hex.toml",
+        "format": "zip"
       }
     },
     {
@@ -4113,7 +4428,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_amplify.toml"
+        "member": "config/ars_nouveau/glyph_amplify.toml",
+        "format": "zip"
       }
     },
     {
@@ -4126,7 +4442,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_intangible.toml"
+        "member": "config/ars_nouveau/glyph_intangible.toml",
+        "format": "zip"
       }
     },
     {
@@ -4139,7 +4456,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_gravity.toml"
+        "member": "config/ars_nouveau/glyph_gravity.toml",
+        "format": "zip"
       }
     },
     {
@@ -4152,7 +4470,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_touch.toml"
+        "member": "config/ars_nouveau/glyph_touch.toml",
+        "format": "zip"
       }
     },
     {
@@ -4165,7 +4484,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_lightning.toml"
+        "member": "config/ars_nouveau/glyph_lightning.toml",
+        "format": "zip"
       }
     },
     {
@@ -4178,7 +4498,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_wind_shear.toml"
+        "member": "config/ars_nouveau/glyph_wind_shear.toml",
+        "format": "zip"
       }
     },
     {
@@ -4191,7 +4512,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_summon_vex.toml"
+        "member": "config/ars_nouveau/glyph_summon_vex.toml",
+        "format": "zip"
       }
     },
     {
@@ -4204,7 +4526,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_slowfall.toml"
+        "member": "config/ars_nouveau/glyph_slowfall.toml",
+        "format": "zip"
       }
     },
     {
@@ -4217,7 +4540,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_name.toml"
+        "member": "config/ars_nouveau/glyph_name.toml",
+        "format": "zip"
       }
     },
     {
@@ -4230,7 +4554,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_randomize.toml"
+        "member": "config/ars_nouveau/glyph_randomize.toml",
+        "format": "zip"
       }
     },
     {
@@ -4243,7 +4568,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_wither.toml"
+        "member": "config/ars_nouveau/glyph_wither.toml",
+        "format": "zip"
       }
     },
     {
@@ -4256,7 +4582,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_launch.toml"
+        "member": "config/ars_nouveau/glyph_launch.toml",
+        "format": "zip"
       }
     },
     {
@@ -4269,7 +4596,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_underfoot.toml"
+        "member": "config/ars_nouveau/glyph_underfoot.toml",
+        "format": "zip"
       }
     },
     {
@@ -4282,7 +4610,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_harm.toml"
+        "member": "config/ars_nouveau/glyph_harm.toml",
+        "format": "zip"
       }
     },
     {
@@ -4295,7 +4624,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_split.toml"
+        "member": "config/ars_nouveau/glyph_split.toml",
+        "format": "zip"
       }
     },
     {
@@ -4308,7 +4638,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_accelerate.toml"
+        "member": "config/ars_nouveau/glyph_accelerate.toml",
+        "format": "zip"
       }
     },
     {
@@ -4321,7 +4652,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_delay.toml"
+        "member": "config/ars_nouveau/glyph_delay.toml",
+        "format": "zip"
       }
     },
     {
@@ -4334,7 +4666,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_harvest.toml"
+        "member": "config/ars_nouveau/glyph_harvest.toml",
+        "format": "zip"
       }
     },
     {
@@ -4347,7 +4680,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_linger.toml"
+        "member": "config/ars_nouveau/glyph_linger.toml",
+        "format": "zip"
       }
     },
     {
@@ -4360,7 +4694,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_snare.toml"
+        "member": "config/ars_nouveau/glyph_snare.toml",
+        "format": "zip"
       }
     },
     {
@@ -4373,7 +4708,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_dampen.toml"
+        "member": "config/ars_nouveau/glyph_dampen.toml",
+        "format": "zip"
       }
     },
     {
@@ -4386,7 +4722,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_invisibility.toml"
+        "member": "config/ars_nouveau/glyph_invisibility.toml",
+        "format": "zip"
       }
     },
     {
@@ -4399,7 +4736,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_grow.toml"
+        "member": "config/ars_nouveau/glyph_grow.toml",
+        "format": "zip"
       }
     },
     {
@@ -4412,7 +4750,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/burst.toml"
+        "member": "config/ars_nouveau/burst.toml",
+        "format": "zip"
       }
     },
     {
@@ -4425,7 +4764,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_explosion.toml"
+        "member": "config/ars_nouveau/glyph_explosion.toml",
+        "format": "zip"
       }
     },
     {
@@ -4438,7 +4778,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_fell.toml"
+        "member": "config/ars_nouveau/glyph_fell.toml",
+        "format": "zip"
       }
     },
     {
@@ -4451,7 +4792,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_summon_decoy.toml"
+        "member": "config/ars_nouveau/glyph_summon_decoy.toml",
+        "format": "zip"
       }
     },
     {
@@ -4464,7 +4806,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/wololo.toml"
+        "member": "config/ars_nouveau/wololo.toml",
+        "format": "zip"
       }
     },
     {
@@ -4477,7 +4820,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_redstone_signal.toml"
+        "member": "config/ars_nouveau/glyph_redstone_signal.toml",
+        "format": "zip"
       }
     },
     {
@@ -4490,7 +4834,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_glide.toml"
+        "member": "config/ars_nouveau/glyph_glide.toml",
+        "format": "zip"
       }
     },
     {
@@ -4503,7 +4848,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_summon_undead.toml"
+        "member": "config/ars_nouveau/glyph_summon_undead.toml",
+        "format": "zip"
       }
     },
     {
@@ -4516,7 +4862,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_blink.toml"
+        "member": "config/ars_nouveau/glyph_blink.toml",
+        "format": "zip"
       }
     },
     {
@@ -4529,7 +4876,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_evaporate.toml"
+        "member": "config/ars_nouveau/glyph_evaporate.toml",
+        "format": "zip"
       }
     },
     {
@@ -4542,7 +4890,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_extend_time.toml"
+        "member": "config/ars_nouveau/glyph_extend_time.toml",
+        "format": "zip"
       }
     },
     {
@@ -4555,7 +4904,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_flare.toml"
+        "member": "config/ars_nouveau/glyph_flare.toml",
+        "format": "zip"
       }
     },
     {
@@ -4568,7 +4918,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_dispel.toml"
+        "member": "config/ars_nouveau/glyph_dispel.toml",
+        "format": "zip"
       }
     },
     {
@@ -4581,7 +4932,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_projectile.toml"
+        "member": "config/ars_nouveau/glyph_projectile.toml",
+        "format": "zip"
       }
     },
     {
@@ -4594,7 +4946,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_fortune.toml"
+        "member": "config/ars_nouveau/glyph_fortune.toml",
+        "format": "zip"
       }
     },
     {
@@ -4607,7 +4960,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_pierce.toml"
+        "member": "config/ars_nouveau/glyph_pierce.toml",
+        "format": "zip"
       }
     },
     {
@@ -4620,7 +4974,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_pickup.toml"
+        "member": "config/ars_nouveau/glyph_pickup.toml",
+        "format": "zip"
       }
     },
     {
@@ -4633,7 +4988,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_extract.toml"
+        "member": "config/ars_nouveau/glyph_extract.toml",
+        "format": "zip"
       }
     },
     {
@@ -4646,7 +5002,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_gust.toml"
+        "member": "config/ars_nouveau/glyph_gust.toml",
+        "format": "zip"
       }
     },
     {
@@ -4659,7 +5016,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_exchange.toml"
+        "member": "config/ars_nouveau/glyph_exchange.toml",
+        "format": "zip"
       }
     },
     {
@@ -4672,7 +5030,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_smelt.toml"
+        "member": "config/ars_nouveau/glyph_smelt.toml",
+        "format": "zip"
       }
     },
     {
@@ -4685,7 +5044,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_orbit.toml"
+        "member": "config/ars_nouveau/glyph_orbit.toml",
+        "format": "zip"
       }
     },
     {
@@ -4698,7 +5058,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_pull.toml"
+        "member": "config/ars_nouveau/glyph_pull.toml",
+        "format": "zip"
       }
     },
     {
@@ -4711,7 +5072,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_light.toml"
+        "member": "config/ars_nouveau/glyph_light.toml",
+        "format": "zip"
       }
     },
     {
@@ -4724,7 +5086,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_bounce.toml"
+        "member": "config/ars_nouveau/glyph_bounce.toml",
+        "format": "zip"
       }
     },
     {
@@ -4737,7 +5100,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_summon_wolves.toml"
+        "member": "config/ars_nouveau/glyph_summon_wolves.toml",
+        "format": "zip"
       }
     },
     {
@@ -4750,7 +5114,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_heal.toml"
+        "member": "config/ars_nouveau/glyph_heal.toml",
+        "format": "zip"
       }
     },
     {
@@ -4763,7 +5128,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_firework.toml"
+        "member": "config/ars_nouveau/glyph_firework.toml",
+        "format": "zip"
       }
     },
     {
@@ -4776,7 +5142,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_toss.toml"
+        "member": "config/ars_nouveau/glyph_toss.toml",
+        "format": "zip"
       }
     },
     {
@@ -4789,7 +5156,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_sense_magic.toml"
+        "member": "config/ars_nouveau/glyph_sense_magic.toml",
+        "format": "zip"
       }
     },
     {
@@ -4802,7 +5170,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_freeze.toml"
+        "member": "config/ars_nouveau/glyph_freeze.toml",
+        "format": "zip"
       }
     },
     {
@@ -4815,7 +5184,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_conjure_water.toml"
+        "member": "config/ars_nouveau/glyph_conjure_water.toml",
+        "format": "zip"
       }
     },
     {
@@ -4828,7 +5198,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_duration_down.toml"
+        "member": "config/ars_nouveau/glyph_duration_down.toml",
+        "format": "zip"
       }
     },
     {
@@ -4841,7 +5212,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau/glyph_aoe.toml"
+        "member": "config/ars_nouveau/glyph_aoe.toml",
+        "format": "zip"
       }
     },
     {
@@ -4854,7 +5226,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/chunkloaders-common.toml"
+        "member": "config/chunkloaders-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -4867,7 +5240,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/structure_gel-common.toml"
+        "member": "config/structure_gel-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -4880,7 +5254,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/spark/config.json"
+        "member": "config/spark/config.json",
+        "format": "zip"
       }
     },
     {
@@ -4893,7 +5268,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/goblintraders-entities.toml"
+        "member": "config/goblintraders-entities.toml",
+        "format": "zip"
       }
     },
     {
@@ -4906,7 +5282,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/reliquary-client.toml"
+        "member": "config/reliquary-client.toml",
+        "format": "zip"
       }
     },
     {
@@ -4919,7 +5296,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/flywheel-client.toml"
+        "member": "config/flywheel-client.toml",
+        "format": "zip"
       }
     },
     {
@@ -4932,7 +5310,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/botania-client.toml"
+        "member": "config/botania-client.toml",
+        "format": "zip"
       }
     },
     {
@@ -4945,7 +5324,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/betterstrongholds-forge-1_20.toml"
+        "member": "config/betterstrongholds-forge-1_20.toml",
+        "format": "zip"
       }
     },
     {
@@ -4958,7 +5338,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/weeping_angels-client.toml"
+        "member": "config/weeping_angels-client.toml",
+        "format": "zip"
       }
     },
     {
@@ -4971,7 +5352,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ferritecore-mixin.toml"
+        "member": "config/ferritecore-mixin.toml",
+        "format": "zip"
       }
     },
     {
@@ -4984,7 +5366,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_nouveau-common.toml"
+        "member": "config/ars_nouveau-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -4997,7 +5380,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/quark-common.toml"
+        "member": "config/quark-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -5010,7 +5394,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_artifice/glyph_falling.toml"
+        "member": "config/ars_artifice/glyph_falling.toml",
+        "format": "zip"
       }
     },
     {
@@ -5023,7 +5408,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_artifice/glyph_landing.toml"
+        "member": "config/ars_artifice/glyph_landing.toml",
+        "format": "zip"
       }
     },
     {
@@ -5036,7 +5422,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_artifice/glyph_interval.toml"
+        "member": "config/ars_artifice/glyph_interval.toml",
+        "format": "zip"
       }
     },
     {
@@ -5049,7 +5436,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/ars_artifice/glyph_anguish.toml"
+        "member": "config/ars_artifice/glyph_anguish.toml",
+        "format": "zip"
       }
     },
     {
@@ -5062,7 +5450,8 @@
         "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/config.zip",
         "size": 522543,
         "sha256": "08ed96087c9a0b0962cf7d25f36b7a8cd302e5bc02d4d5afffb6042e0bc5c346",
-        "member": "config/theoneprobe-common.toml"
+        "member": "config/theoneprobe-common.toml",
+        "format": "zip"
       }
     },
     {
@@ -5801,41 +6190,76 @@
       "policy": "preserve"
     },
     {
-      "path": "shaderpacks/Chocapic13_V9.zip",
-      "size": 14149623,
-      "sha256": "542e2b1699a668e6ebd744fd8343eae62ef509efcb4c96fca61898b597f8446d",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/shaderpacks/Chocapic13_V9.zip",
-      "policy": "managed"
-    },
-    {
-      "path": "shaderpacks/ComplementaryReimagined_r5.1.1.zip",
-      "size": 409956,
-      "sha256": "f4925044d6975225296cb9cb84b3ee9388bc00d3aacce066eee92bc427ca66cf",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/shaderpacks/ComplementaryReimagined_r5.1.1.zip",
-      "policy": "managed"
-    },
-    {
       "path": "shaderpacks/ComplementaryUnbound_r5.1.1.zip",
       "size": 409957,
       "sha256": "669d29e01d52bf9d8bb9f63c4c4131e5e5a9e0ebcff397f135803acbf0b88d94",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/shaderpacks/ComplementaryUnbound_r5.1.1.zip",
-      "policy": "managed"
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/shaderpacks.zip",
+      "policy": "managed",
+      "archive": {
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/shaderpacks.zip",
+        "size": 14854425,
+        "sha256": "c02df71c1cabcb87e2ad6256af3baacd2095673319b87fa95a0a26177e5b2b61",
+        "member": "ComplementaryUnbound_r5.1.1.zip",
+        "format": "zip"
+      }
     },
     {
       "path": "shaderpacks/MakeUp-UltraFast-8.8f.zip",
       "size": 337839,
       "sha256": "ab8668aac59278d411e72b8a250a9f952e7e7d31003d50265f8e46ff7b784d8b",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/shaderpacks/MakeUp-UltraFast-8.8f.zip",
-      "policy": "managed"
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/shaderpacks.zip",
+      "policy": "managed",
+      "archive": {
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/shaderpacks.zip",
+        "size": 14854425,
+        "sha256": "c02df71c1cabcb87e2ad6256af3baacd2095673319b87fa95a0a26177e5b2b61",
+        "member": "MakeUp-UltraFast-8.8f.zip",
+        "format": "zip"
+      }
     },
     {
       "path": "shaderpacks/Sildur's Vibrant Shaders v1.51 Extreme-VL.zip",
       "size": 142239,
       "sha256": "2c88fa2ad00e9006c4bc469fb3438376345b00fa31adad0d716a12a72cce182b",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/shaderpacks/Sildur%27s%20Vibrant%20Shaders%20v1.51%20Extreme-VL.zip",
-      "policy": "managed"
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/shaderpacks.zip",
+      "policy": "managed",
+      "archive": {
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/shaderpacks.zip",
+        "size": 14854425,
+        "sha256": "c02df71c1cabcb87e2ad6256af3baacd2095673319b87fa95a0a26177e5b2b61",
+        "member": "Sildur's Vibrant Shaders v1.51 Extreme-VL.zip",
+        "format": "zip"
+      }
+    },
+    {
+      "path": "shaderpacks/Chocapic13_V9.zip",
+      "size": 14149623,
+      "sha256": "542e2b1699a668e6ebd744fd8343eae62ef509efcb4c96fca61898b597f8446d",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/shaderpacks.zip",
+      "policy": "managed",
+      "archive": {
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/shaderpacks.zip",
+        "size": 14854425,
+        "sha256": "c02df71c1cabcb87e2ad6256af3baacd2095673319b87fa95a0a26177e5b2b61",
+        "member": "Chocapic13_V9.zip",
+        "format": "zip"
+      }
+    },
+    {
+      "path": "shaderpacks/ComplementaryReimagined_r5.1.1.zip",
+      "size": 409956,
+      "sha256": "f4925044d6975225296cb9cb84b3ee9388bc00d3aacce066eee92bc427ca66cf",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/shaderpacks.zip",
+      "policy": "managed",
+      "archive": {
+        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/262c645cacbe76de64b1bf5f3831a4c22d73e412/download-files/VanillaExpanded-1.20.1/shaderpacks.zip",
+        "size": 14854425,
+        "sha256": "c02df71c1cabcb87e2ad6256af3baacd2095673319b87fa95a0a26177e5b2b61",
+        "member": "ComplementaryReimagined_r5.1.1.zip",
+        "format": "zip"
+      }
     }
   ],
   "update_url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/packs/vanilla-expanded.json",
-  "manifest_revision": 1
+  "manifest_revision": 2
 }

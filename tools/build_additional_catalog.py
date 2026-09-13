@@ -52,29 +52,40 @@ def build(repository):
             if top not in {'config', 'shaderpacks', 'resourcepacks'}:
                 continue
             digest = sha256(archive_path)
-            # Extract once to an isolated temporary directory; invoking tar once
-            # per member is prohibitively slow for the LOTR config archive.
-            extracted = Path(tempfile.mkdtemp(prefix='jfcraft-rar-'))
-            subprocess.run([str(Path('C:/Windows/System32/tar.exe')), '-xf', str(archive_path), '-C', str(extracted)],
-                           check=True, timeout=180, creationflags=getattr(subprocess, 'CREATE_NO_WINDOW', 0))
-            for extracted_file in sorted(extracted.rglob('*')):
-                if not extracted_file.is_file():
-                    continue
-                member = extracted_file.relative_to(extracted).as_posix()
-                safe_path(root, member)
-                relative = member if member.startswith(top + '/') else top + '/' + member
+            extracted = None
+            if top == 'config':
+                extracted = Path(tempfile.mkdtemp(prefix='jfcraft-rar-'))
+                subprocess.run([str(Path('C:/Windows/System32/tar.exe')), '-xf', str(archive_path), '-C', str(extracted)], check=True, timeout=180,
+                               creationflags=getattr(subprocess, 'CREATE_NO_WINDOW', 0))
+            for member in sorted(rar_members(archive_path)):
+                # Shader/resource RARs contain complete ZIP packs. Install those
+                # ZIPs into their Minecraft directory; never enumerate the ZIP's
+                # internal shader/assets files as standalone files.
+                if top in {'shaderpacks', 'resourcepacks'}:
+                    if not member.lower().endswith('.zip'):
+                        continue
+                    relative = top + '/' + Path(member).name
+                else:
+                    safe_path(root, member)
+                    relative = member if member.startswith(top + '/') else top + '/' + member
                 if relative in entries:
                     continue
-                size, checksum = extracted_file.stat().st_size, hashlib.sha256(extracted_file.read_bytes()).hexdigest()
+                if extracted is not None:
+                    content = (extracted / member).read_bytes()
+                else:
+                    with archive_member(archive_path, member, 'rar') as stream:
+                        content = stream.read()
+                size, checksum = len(content), hashlib.sha256(content).hexdigest()
                 url = base + quote(archive_path.name)
                 entries[relative] = dict(path=relative, size=size, sha256=checksum, url=url,
                     policy='merge' if top == 'config' else 'managed', archive=dict(format='rar', member=member,
                     url=url, size=archive_path.stat().st_size, sha256=digest))
-            shutil.rmtree(extracted, ignore_errors=True)
+            if extracted is not None:
+                shutil.rmtree(extracted, ignore_errors=True)
         manifest = dict(schema=1, id=pack_id, name=name, version='legacy-' + COMMIT[:8], minecraft=minecraft,
                         forge=forge, installed_version=installed, java=java, files=list(entries.values()),
                         update_url=f'https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/packs/{pack_id}.json')
-        manifest['manifest_revision'] = 1
+        manifest['manifest_revision'] = 2
         validate_manifest(manifest)
         destination = Path(__file__).resolve().parents[1] / 'packs' / (pack_id + '.json')
         atomic_json(destination, manifest)
