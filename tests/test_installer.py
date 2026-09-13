@@ -79,16 +79,28 @@ class InstallTests(unittest.TestCase):
             download.assert_not_called()
         self.assertEqual((self.root / 'options.txt').read_bytes(), b'personal')
         self.assertEqual((self.root / 'saves/world/level.dat').read_bytes(), b'world')
-        self.assertTrue((self.root / 'mods/personal.jar').exists())
+        self.assertFalse((self.root / 'mods/personal.jar').exists())
+        self.assertEqual(next((self.root / '.jfcraft-backups').rglob('personal.jar')).read_bytes(), b'mine')
 
-    def test_remove_only_previously_managed(self):
+    def test_remove_all_unlisted_mods(self):
         self.write('mods/old.jar', b'old')
         self.write('mods/user.jar', b'user')
         atomic_json(self.root / '.jfcraft-state.json', manifest(file('mods/old.jar')))
         self.installer.install(manifest())
         self.assertFalse((self.root / 'mods/old.jar').exists())
-        self.assertTrue((self.root / 'mods/user.jar').exists())
+        self.assertFalse((self.root / 'mods/user.jar').exists())
         self.assertEqual(next((self.root / '.jfcraft-backups').rglob('old.jar')).read_bytes(), b'old')
+
+    def test_cleanup_keeps_listed_nested_mods_and_backs_up_extras(self):
+        self.write('mods/1.7.10/required.jar', b'new')
+        self.write('mods/1.7.10/extra.jar', b'extra')
+        self.write('saves/world/level.dat', b'world')
+        with patch('requests.get', side_effect=AssertionError('network')):
+            self.installer.clean_extra_mods(manifest(file('mods/1.7.10/required.jar')))
+        self.assertTrue((self.root / 'mods/1.7.10/required.jar').exists())
+        self.assertFalse((self.root / 'mods/1.7.10/extra.jar').exists())
+        self.assertEqual(next((self.root / '.jfcraft-backups').rglob('extra.jar')).read_bytes(), b'extra')
+        self.assertEqual((self.root / 'saves/world/level.dat').read_bytes(), b'world')
 
     def test_recover_interrupted_update(self):
         self.write('mods/a.jar', b'new')

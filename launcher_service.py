@@ -162,6 +162,8 @@ def run_pack(pack, settings, play, report, progress, cancel):
         else:
             pack = refresh_pack(pack, report)
         java = check_java(settings.get('java', ''), pack['java'])
+        if play:
+            installer.clean_extra_mods(pack)
         if not play:
             ensure_forge(pack, root, java, report, cancel, repair=True)
             installer.install(pack)

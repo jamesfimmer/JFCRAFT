@@ -17,6 +17,8 @@ class OfflineTests(unittest.TestCase):
             root = home / 'instances' / pack['id']
             atomic_json(root / '.jfcraft-state.json', pack)
             atomic_json(root / 'versions' / pack['installed_version'] / (pack['installed_version'] + '.json'), {})
+            (root / 'mods').mkdir()
+            (root / 'mods/extra.jar').write_bytes(b'extra')
             advertised = dict(pack, installed_version='not-installed', version='future')
             process = Mock()
             process.wait.return_value = 0
@@ -31,3 +33,4 @@ class OfflineTests(unittest.TestCase):
                 run_pack(advertised, {'username': 'Player', 'min_ram': 1024, 'max_ram': 2048},
                          True, lambda m: None, lambda v, t: None, threading.Event())
                 self.assertEqual(command.call_args.args[0], pack['installed_version'])
+                self.assertFalse((root / 'mods/extra.jar').exists())

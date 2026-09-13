@@ -177,6 +177,54 @@ class Installer:
         journal.unlink()
         self.report('Незавершённая установка восстановлена')
 
+    def extra_mods(self, manifest):
+        """Return files absent from the pack, including version subdirectories."""
+        wanted = {item['path'].casefold() for item in manifest['files']}
+        mods = safe_path(self.root, 'mods')
+        if mods.is_symlink() or mods.resolve() != mods.absolute():
+            raise ValueError('Папка mods не должна быть ссылкой на другую папку')
+        extras = []
+        for directory, directories, files in os.walk(mods, followlinks=False):
+            self.check_cancel()
+            for name in directories + files:
+                path = Path(directory) / name
+                relative = path.relative_to(self.root).as_posix()
+                safe_path(self.root, relative)
+                if path.is_symlink() or path.resolve() != path.absolute():
+                    raise ValueError(f'Ссылка внутри папки mods не допускается: {relative}')
+            for name in files:
+                relative = (Path(directory) / name).relative_to(self.root).as_posix()
+                if relative.casefold() not in wanted:
+                    extras.append(relative)
+        return extras
+
+    def clean_extra_mods(self, manifest):
+        """Local-only cleanup before launch, with recoverable backups."""
+        validate_manifest(manifest)
+        extras = self.extra_mods(manifest)
+        if not extras:
+            return
+        backup = self.root / '.jfcraft-backups' / uuid.uuid4().hex
+        for name in extras:
+            self.check_cancel()
+            saved = safe_path(backup, name)
+            saved.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(safe_path(self.root, name), saved)
+        journal = self.root / '.jfcraft-journal.json'
+        atomic_json(journal, {'backup': backup.relative_to(self.root).as_posix(),
+                            'previous': manifest,
+                            'operations': [{'path': name, 'existed': True} for name in extras]})
+        try:
+            for name in extras:
+                self.check_cancel()
+                safe_path(self.root, name).unlink()
+            journal.unlink()
+        except Exception:
+            self.recover()
+            raise
+        for name in extras:
+            self.report(f'Лишний файл убран из mods в резервную копию: {name}')
+
     def install(self, manifest):
         validate_manifest(manifest)
         self.root.mkdir(parents=True, exist_ok=True)
@@ -228,6 +276,9 @@ class Installer:
             for old in previous['files']:
                 if old['path'].casefold() not in wanted and old.get('policy', 'managed') == 'managed' and safe_path(self.root, old['path']).is_file():
                     changes.append(old['path'])
+            for name in self.extra_mods(manifest):
+                if name not in changes:
+                    changes.append(name)
             self.check_cancel()
             operations = []
             for name in changes:
