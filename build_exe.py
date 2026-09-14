@@ -4,7 +4,6 @@ Run from the project root:
     python build_exe.py
 """
 from pathlib import Path
-import shutil
 import subprocess
 import sys
 

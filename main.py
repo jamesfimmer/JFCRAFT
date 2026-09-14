@@ -1,4 +1,4 @@
-from launcher_ui import startup
+from jfcraft_ui import startup
 
 if __name__ == "__main__":
     import sys
