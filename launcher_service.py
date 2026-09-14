@@ -1,6 +1,8 @@
 """Application settings and Minecraft process lifecycle, independent of Tk."""
 from contextlib import contextmanager
 import hashlib
+import logging
+from http.client import IncompleteRead
 import json
 import os
 from pathlib import Path
@@ -10,6 +12,7 @@ import subprocess
 import sys
 import uuid
 import requests
+from urllib3.exceptions import HTTPError as Urllib3HTTPError
 
 from jfcraft_core import Installer, atomic_json, Cancelled, load_manifest
 
@@ -121,7 +124,20 @@ def ensure_forge(pack, root, java, report, cancel, repair=False):
     version_file.parent.mkdir(parents=True, exist_ok=True)
     # 6.5 can extract the legacy install_profile directly, despite its conservative
     # supports_automatic_install helper. The 1.7.10 build needs the trailing suffix.
-    mc.forge.install_forge_version(pack['forge'], str(root), callback=callback, java=java)
+    for attempt in range(1, 4):
+        check_cancel(cancel)
+        try:
+            mc.forge.install_forge_version(pack['forge'], str(root), callback=callback, java=java)
+            break
+        except (requests.RequestException, Urllib3HTTPError, IncompleteRead) as error:
+            logging.warning('Сбой загрузки Minecraft/Forge, попытка %s/3', attempt, exc_info=True)
+            check_cancel(cancel)
+            if attempt == 3:
+                report('Не удалось завершить загрузку Minecraft/Forge после трёх попыток. Нажми «Играть», чтобы повторить.')
+                raise requests.ConnectionError('Загрузка Minecraft/Forge прервалась после трёх попыток') from error
+            report(f'Соединение прервалось при загрузке Minecraft/Forge. Повторная попытка {attempt + 1}/3…')
+            if cancel.wait(attempt):
+                check_cancel(cancel)
     if not version_file.exists():
         # Legacy installers use a display name for the directory but a different
         # versionInfo.id inside the JSON. Normalize to the actual launch ID.
