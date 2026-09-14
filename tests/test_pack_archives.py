@@ -3,7 +3,6 @@ import hashlib
 import io
 import json
 from pathlib import Path
-import shutil
 import tempfile
 import unittest
 from unittest.mock import patch
@@ -35,15 +34,12 @@ class PackArchiveTests(unittest.TestCase):
                 root = Path(directory)
                 installer = Installer(root)
                 def local_download(item, target):
-                    relative = '/'.join(unquote(urlsplit(item['url']).path).split('/')[4:])
-                    source = ROOT / relative
-                    if 'archive' in item:
-                        archive = item['archive']
-                        with archive_member(source, archive['member'], archive.get('format', 'zip')) as stream:
-                            content = stream.read()
-                    else:
-                        content = source.read_bytes() if source.exists() else subprocess.check_output(
-                            ['git', 'show', '262c645cacbe76de64b1bf5f3831a4c22d73e412:' + relative], cwd=ROOT)
+                    # Reproduce the bytes at the URL, not a potentially different
+                    # working-tree copy. Installer itself extracts archive members.
+                    parts = unquote(urlsplit(item['url']).path).split('/')
+                    commit, relative = parts[3], '/'.join(parts[4:])
+                    content = subprocess.check_output(
+                        ['git', 'show', f'{commit}:{relative}'], cwd=ROOT)
                     self.assertEqual(len(content), item['size'])
                     self.assertEqual(hashlib.sha256(content).hexdigest(), item['sha256'])
                     target.parent.mkdir(parents=True, exist_ok=True)
