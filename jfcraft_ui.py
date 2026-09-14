@@ -251,7 +251,6 @@ class Launcher:
         if self.is_busy:
             return
         self.update_actions()
-        needs_install = not play or not self.installed
         try:
             pack = self.current()
             settings = validate_settings(dict(self.settings, **{key: value.get().strip() for key, value in self.values.items()}))
@@ -268,19 +267,14 @@ class Launcher:
         self.status.configure(text='Подготовка сборки…')
         def work():
             try:
-                if needs_install:
+                if not play:
                     try:
                         for available in sync_catalog(lambda m: self.events.put(('log', m))):
                             self.events.put(('catalog_pack', available))
                     except Exception as error:
                         self.events.put(('log', f'Каталог недоступен, используется сохранённая библиотека: {error}'))
-                    run_pack(pack, settings, False, lambda m: self.events.put(('log', m)),
-                             lambda v, t: self.events.put(('progress', (v, t))), self.cancel)
-                if play:
-                    if self.cancel.is_set():
-                        raise Cancelled('Операция отменена')
-                    run_pack(pack, settings, True, lambda m: self.events.put(('log', m)),
-                             lambda v, t: self.events.put(('progress', (v, t))), self.cancel)
+                run_pack(pack, settings, play, lambda m: self.events.put(('log', m)),
+                         lambda v, t: self.events.put(('progress', (v, t))), self.cancel)
                 self.events.put(('log', 'Готово'))
             except Cancelled:
                 self.events.put(('log', 'Установка отменена'))

@@ -5,7 +5,9 @@ Winter Craft и Middle-earth Chronicles Classic.
 
 Скачай `JFCRAFT.exe` из [Releases](https://github.com/jamesfimmer/JFCRAFT/releases),
 выбери ник, память и Java, затем нажми **Играть**. Первая установка скачивает
-Minecraft, Forge и файлы сборки. Для обслуживания используй меню **⋯**:
+Minecraft, Forge и файлы сборки. «Играть» проверяет обновления и исправляет файлы
+перед запуском. При недоступности сети запускается уже установленный выпуск;
+для первой установки нужен интернет. Для обслуживания используй меню **⋯**:
 
 - **Обновить / восстановить** — обновить описание и файлы;
 - **Открыть папку сборки** — открыть профиль;
@@ -23,17 +25,19 @@ Minecraft, Forge и файлы сборки. Для обслуживания и�
 python -m pip install -r requirements.txt
 python main.py
 python -m unittest discover -s tests
-python tools/audit_catalog.py
+python tools/audit_catalog.py --working-tree
 ```
 
-Манифесты — в `packs`, каталог — `packs/catalog/index.json`. Для новой сборки положи
-файлы в `download-files/<folder>` и выполни:
+Манифесты — в `packs`, каталог — `packs/catalog/index.json`. Файлы лежат отдельно
+в `download-files/<folder>/mods`, `config`, `shaderpacks`, `resourcepacks`;
+внешние RAR/ZIP-контейнеры не нужны. Для новой сборки выполни:
 
 ```powershell
 python tools/build_pack.py download-files/MyPack packs/my-pack.json --folder MyPack --id my-pack --name "My Pack" --version 1.0.0 --minecraft 1.20.1 --forge 1.20.1-47.3.0 --installed-version 1.20.1-forge-47.3.0 --java 17
 ```
 
-После commit/push лаунчер увидит сборку через каталог. Releases используются только
+Добавь ID в каталог. Публикуй файлы и манифесты одним commit/push. Ссылки указывают
+на `main`, а контрольные суммы защищают от несовпадения содержимого. Releases используются только
 для распространения `JFCRAFT.exe`. EXE собирается командой `python build_exe.py`.
 
 Свой логотип для EXE положи в `assets/jfcraft-logo.png`; следующая сборка подхватит его автоматически.

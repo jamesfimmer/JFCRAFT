@@ -12,1774 +12,1144 @@
       "path": "mods/AmbientSounds_FORGE_v6.1.4_mc1.20.1.jar",
       "size": 83885724,
       "sha256": "701e90966b207c6362daf4446cfac72eed550b7d9b16df3a5154e38615c55547",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/AmbientSounds_FORGE_v6.1.4_mc1.20.1.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/AmbientSounds_FORGE_v6.1.4_mc1.20.1.jar",
       "policy": "managed"
     },
     {
       "path": "mods/Animation_Overhaul-forge-1.20.x-1.3.1.jar",
       "size": 270915,
       "sha256": "63671e2de35d9b6bf4e09ea68574a6a37c9f35a54c97b6f65fbcf6f2da4cdde5",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/Animation_Overhaul-forge-1.20.x-1.3.1.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/Animation_Overhaul-forge-1.20.x-1.3.1.jar",
       "policy": "managed"
     },
     {
       "path": "mods/appleskin-forge-mc1.20.1-2.5.1.jar",
       "size": 47428,
       "sha256": "e12419e43e3babc810af289403c5cd96bd7f09809b389acc6bb2f122b4b2a426",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/appleskin-forge-mc1.20.1-2.5.1.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/appleskin-forge-mc1.20.1-2.5.1.jar",
       "policy": "managed"
     },
     {
       "path": "mods/balm-forge-1.20.1-7.3.10-all.jar",
       "size": 373791,
       "sha256": "c858b9033efff9a181724a3164e225249c9928f0cdd8a627cbc18d7ac23440a0",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/balm-forge-1.20.1-7.3.10-all.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/balm-forge-1.20.1-7.3.10-all.jar",
       "policy": "managed"
     },
     {
       "path": "mods/BetterAdvancements-Forge-1.20.1-0.4.2.10.jar",
       "size": 98123,
       "sha256": "3ff02700a0897682a221374a1547e9e739d7b195989f9400d3a1d3b59d8a2a20",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/BetterAdvancements-Forge-1.20.1-0.4.2.10.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/BetterAdvancements-Forge-1.20.1-0.4.2.10.jar",
       "policy": "managed"
     },
     {
       "path": "mods/BetterAnimationsCollection-v8.0.0-1.20.1-Forge.jar",
       "size": 198652,
       "sha256": "32d630824317684cd944f4558677ccf06d5aca2cd679baa7886587052b39a8a4",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/BetterAnimationsCollection-v8.0.0-1.20.1-Forge.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/BetterAnimationsCollection-v8.0.0-1.20.1-Forge.jar",
       "policy": "managed"
     },
     {
       "path": "mods/BetterCompatibilityChecker-forge-4.0.8+mc1.20.1.jar",
       "size": 26540,
       "sha256": "71ecffc7c33ae896d9299f392db11bd50027c2dcbd8b16593fa6b6a6a4018502",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/BetterCompatibilityChecker-forge-4.0.8%2Bmc1.20.1.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/BetterCompatibilityChecker-forge-4.0.8%2Bmc1.20.1.jar",
       "policy": "managed"
     },
     {
       "path": "mods/Bookshelf-Forge-1.20.1-20.2.13.jar",
       "size": 343962,
       "sha256": "c31fed2c1a1c0d72d3ef996bb84521b7d6a8fbd3115c89c001f13a7ffd56f64b",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/Bookshelf-Forge-1.20.1-20.2.13.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/Bookshelf-Forge-1.20.1-20.2.13.jar",
       "policy": "managed"
     },
     {
       "path": "mods/chat_heads-0.13.7-forge-1.20.jar",
       "size": 265135,
       "sha256": "8d90c9acd7d5e81d65306c28431efe4eb82df2feee6ae933581ab746de0e4656",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/chat_heads-0.13.7-forge-1.20.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/chat_heads-0.13.7-forge-1.20.jar",
       "policy": "managed"
     },
     {
       "path": "mods/christmas_culinary_and_decorations-1.5.0-forge-1.20.1.jar",
       "size": 3243184,
       "sha256": "cf2499e5da67e329d9dd75f8766b4497e0dc16cc03b1449e3cca89e00bf2f44a",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/christmas_culinary_and_decorations-1.5.0-forge-1.20.1.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/christmas_culinary_and_decorations-1.5.0-forge-1.20.1.jar",
       "policy": "managed"
     },
     {
       "path": "mods/christmasfestivity-1.20.1-1.6.3-forge.jar",
       "size": 4722536,
       "sha256": "b7fc1749af768da86798285d8a52218818756904bc425e98fd8d3187ccb67421",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/christmasfestivity-1.20.1-1.6.3-forge.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/christmasfestivity-1.20.1-1.6.3-forge.jar",
       "policy": "managed"
     },
     {
       "path": "mods/christmasmusicdiscs-1.20.1-v1.3.jar",
       "size": 27901395,
       "sha256": "0f02dccca7de793712fa6e6ebaa90e8871cbd48b20b626387d991f50061daece",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/christmasmusicdiscs-1.20.1-v1.3.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/christmasmusicdiscs-1.20.1-v1.3.jar",
       "policy": "managed"
     },
     {
       "path": "mods/Clumps-forge-1.20.1-12.0.0.4.jar",
       "size": 20299,
       "sha256": "1d1cfcf386f182b1d0bdbe4bd4fc57b96234e8c7468e95e1575ad4dd6433243a",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/Clumps-forge-1.20.1-12.0.0.4.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/Clumps-forge-1.20.1-12.0.0.4.jar",
       "policy": "managed"
     },
     {
       "path": "mods/configured-forge-1.20.1-2.2.3.jar",
       "size": 418929,
       "sha256": "05dceddd57825f911135c929504ef320b75953d05e7dc918dba58a0574e5315f",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/configured-forge-1.20.1-2.2.3.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/configured-forge-1.20.1-2.2.3.jar",
       "policy": "managed"
     },
     {
       "path": "mods/Controlling-forge-1.20.1-12.0.2.jar",
       "size": 115280,
       "sha256": "516308a93824119f6a1ebc75425aa21ee8f8de0c331942793a054ba6d9c24944",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/Controlling-forge-1.20.1-12.0.2.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/Controlling-forge-1.20.1-12.0.2.jar",
       "policy": "managed"
     },
     {
       "path": "mods/CreativeCore_FORGE_v2.12.27_mc1.20.1.jar",
       "size": 1153866,
       "sha256": "14a8640eae2e48ab039a994d38bc980262b5288d1090cb5e5e769bc5250e1834",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/CreativeCore_FORGE_v2.12.27_mc1.20.1.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/CreativeCore_FORGE_v2.12.27_mc1.20.1.jar",
       "policy": "managed"
     },
     {
       "path": "mods/curios-forge-5.11.0+1.20.1.jar",
       "size": 389988,
       "sha256": "814e7e7f3dcfe48c38479b35070d6ff5c9bfa2a235f793e849d8ac8caa98826a",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/curios-forge-5.11.0%2B1.20.1.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/curios-forge-5.11.0%2B1.20.1.jar",
       "policy": "managed"
     },
     {
       "path": "mods/Decorative Winter-forge-1.20.1-3.0.0.jar",
       "size": 146342,
       "sha256": "2fcbb7467537d2b3a69ec198c2eaaf75fd0b15d867a83df8f871f8bf5822a90e",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/Decorative%20Winter-forge-1.20.1-3.0.0.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/Decorative%20Winter-forge-1.20.1-3.0.0.jar",
       "policy": "managed"
     },
     {
       "path": "mods/decorative_blocks-forge-1.20.1-4.1.3.jar",
       "size": 573928,
       "sha256": "19bc47b32258dd703b808f76e7b89da1746ecddaec4ad2bd5eaa356c0d2b3d87",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/decorative_blocks-forge-1.20.1-4.1.3.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/decorative_blocks-forge-1.20.1-4.1.3.jar",
       "policy": "managed"
     },
     {
       "path": "mods/decorative_storage-2.1212-forge-1.20.1.jar",
       "size": 613691,
       "sha256": "f61b1b18e98df0962528ce395b51a7f14bff67d2f6525753b5d72876b86f01bb",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/decorative_storage-2.1212-forge-1.20.1.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/decorative_storage-2.1212-forge-1.20.1.jar",
       "policy": "managed"
     },
     {
       "path": "mods/embeddium-0.3.31+mc1.20.1.jar",
       "size": 1320675,
       "sha256": "eed3d1325f2acc2fd4e69bb495e5ccb91d962126ac5330f0582ebc2a3daf47fb",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/embeddium-0.3.31%2Bmc1.20.1.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/embeddium-0.3.31%2Bmc1.20.1.jar",
       "policy": "managed"
     },
     {
       "path": "mods/EnchantmentDescriptions-Forge-1.20.1-17.1.19.jar",
       "size": 69476,
       "sha256": "d8501371240082c3436c03380f7a59820fd981e9c5d9fb2978a222ea114b23ae",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/EnchantmentDescriptions-Forge-1.20.1-17.1.19.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/EnchantmentDescriptions-Forge-1.20.1-17.1.19.jar",
       "policy": "managed"
     },
     {
       "path": "mods/Fallingleaves-1.20.1-2.1.0.jar",
       "size": 130363,
       "sha256": "46c1d4d94780ffad392b6139d4b0e535d399a310d9884c1f13230f31d43350a7",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/Fallingleaves-1.20.1-2.1.0.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/Fallingleaves-1.20.1-2.1.0.jar",
       "policy": "managed"
     },
     {
       "path": "mods/ferritecore-6.0.1-forge.jar",
       "size": 123034,
       "sha256": "9c2c9396a49e796d88497758caa4637d2bcbb433c318e2dd9cebcffbaf0f6c54",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/ferritecore-6.0.1-forge.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/ferritecore-6.0.1-forge.jar",
       "policy": "managed"
     },
     {
       "path": "mods/fishermans_haven-1.1212-forge-1.20.1.jar",
       "size": 1095352,
       "sha256": "5ac71b2eb6e19b96113a8ad13fcab3c2b498421e347cc83d2ab73fd46a375035",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/fishermans_haven-1.1212-forge-1.20.1.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/fishermans_haven-1.1212-forge-1.20.1.jar",
       "policy": "managed"
     },
     {
       "path": "mods/framework-forge-1.20.1-0.7.12.jar",
       "size": 308420,
       "sha256": "28ade2da0795ca36de2925e14cb5fe6b4e51ae84c149352fd9690951fe1baf87",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/framework-forge-1.20.1-0.7.12.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/framework-forge-1.20.1-0.7.12.jar",
       "policy": "managed"
     },
     {
       "path": "mods/geckolib-forge-1.20.1-4.4.9.jar",
       "size": 991552,
       "sha256": "f133914a852fabcf0e3903ddcbb00583b842c9944f06cfc673765c80591258fa",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/geckolib-forge-1.20.1-4.4.9.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/geckolib-forge-1.20.1-4.4.9.jar",
       "policy": "managed"
     },
     {
       "path": "mods/GlitchCore-forge-1.20.1-0.0.1.1.jar",
       "size": 87550,
       "sha256": "e42a8b513da08a910c133caeafad9fc2fcc22fdaaa2eb3e2516e9112a5a0db61",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/GlitchCore-forge-1.20.1-0.0.1.1.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/GlitchCore-forge-1.20.1-0.0.1.1.jar",
       "policy": "managed"
     },
     {
       "path": "mods/gravestone-forge-1.20.1-1.0.24.jar",
       "size": 316050,
       "sha256": "f4dfc92a9be4147155817229dbab0d46d5f4ce612b382693b65874afda83d758",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/gravestone-forge-1.20.1-1.0.24.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/gravestone-forge-1.20.1-1.0.24.jar",
       "policy": "managed"
     },
     {
       "path": "mods/guardvillagers-1.20.1-1.6.7.jar",
       "size": 215439,
       "sha256": "531ffbb6f0af9727a1c0dc8043c1c8bfbcf36b698901a58e591319236c865234",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/guardvillagers-1.20.1-1.6.7.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/guardvillagers-1.20.1-1.6.7.jar",
       "policy": "managed"
     },
     {
       "path": "mods/handcrafted-forge-1.20.1-3.0.6.jar",
       "size": 7111059,
       "sha256": "1da3c7c524bfb656bb370757af55f08f1678e8e1cb934e1c4c04aa773ed64a79",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/handcrafted-forge-1.20.1-3.0.6.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/handcrafted-forge-1.20.1-3.0.6.jar",
       "policy": "managed"
     },
     {
       "path": "mods/inventorysorter-1.20.1-23.0.8.jar",
       "size": 52385,
       "sha256": "3263afb2c416d36c8d36effb726750a7c9e370f9712a78f7b7d325a39406d7cf",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/inventorysorter-1.20.1-23.0.8.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/inventorysorter-1.20.1-23.0.8.jar",
       "policy": "managed"
     },
     {
       "path": "mods/Jade-1.20.1-forge-11.11.1.jar",
       "size": 547726,
       "sha256": "7a893cd40cc2e0c81e958e5738ada5610f328e049851de7d07e5444371c929b2",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/Jade-1.20.1-forge-11.11.1.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/Jade-1.20.1-forge-11.11.1.jar",
       "policy": "managed"
     },
     {
       "path": "mods/jei-1.20.1-forge-15.20.0.105.jar",
       "size": 1379051,
       "sha256": "4a11937b09516d2485b4d9515c66c7d13b9ebd15ea5f435f296613616503a84a",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/jei-1.20.1-forge-15.20.0.105.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/jei-1.20.1-forge-15.20.0.105.jar",
       "policy": "managed"
     },
     {
       "path": "mods/JustEnoughProfessions-forge-1.20.1-3.0.1.jar",
       "size": 24607,
       "sha256": "13e2012375d16663192cf67f5e4139335e5dcbeaf2adf7e8a4816b013802f96a",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/JustEnoughProfessions-forge-1.20.1-3.0.1.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/JustEnoughProfessions-forge-1.20.1-3.0.1.jar",
       "policy": "managed"
     },
     {
       "path": "mods/JustEnoughResources-1.20.1-1.4.0.247.jar",
       "size": 276231,
       "sha256": "311d3a83db489d27b96cd15deb690ce64c78cffb552c25c3dff85956a14ec09e",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/JustEnoughResources-1.20.1-1.4.0.247.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/JustEnoughResources-1.20.1-1.4.0.247.jar",
       "policy": "managed"
     },
     {
       "path": "mods/justzoom_forge_2.0.0_MC_1.20.1.jar",
       "size": 196560,
       "sha256": "2a6927a95c50ca454a2bf38c2b985a91bd5eb04825b1da2115fdb2d7317ee9fd",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/justzoom_forge_2.0.0_MC_1.20.1.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/justzoom_forge_2.0.0_MC_1.20.1.jar",
       "policy": "managed"
     },
     {
       "path": "mods/Kiwi-1.20.1-Forge-11.8.28.jar",
       "size": 1628502,
       "sha256": "ae9809d774875b2a8677ed67ad30912cb552c32e0bd7493f2623cf0a266d0f3f",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/Kiwi-1.20.1-Forge-11.8.28.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/Kiwi-1.20.1-Forge-11.8.28.jar",
       "policy": "managed"
     },
     {
       "path": "mods/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
       "size": 625185,
       "sha256": "e78686b92c3761ec26eb9d3c53efdd3d6ca77981cbd3723995e1163b7103ae0b",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
       "policy": "managed"
     },
     {
       "path": "mods/maidensmerrymaking-1-20.1-7.jar",
       "size": 40360216,
       "sha256": "3d48b3abdc2439be7f62380280b48f6506928244f2f162cb2ba31168ac14f9a1",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/maidensmerrymaking-1-20.1-7.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/maidensmerrymaking-1-20.1-7.jar",
       "policy": "managed"
     },
     {
       "path": "mods/ManyIdeasChristmas-1.20.1-1.0.0.jar",
       "size": 643072,
       "sha256": "c4895db131d78fd5a17bb18858d2c7f7abdcac94a790dd4d09216f5bbf7dd49f",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/ManyIdeasChristmas-1.20.1-1.0.0.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/ManyIdeasChristmas-1.20.1-1.0.0.jar",
       "policy": "managed"
     },
     {
       "path": "mods/ManyIdeasCore-1.20.1-1.4.2.jar",
       "size": 933519,
       "sha256": "723002fef1e7a8f008602e57598efd2d603a07a4b7fa0a4f4574ce03ad340e1c",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/ManyIdeasCore-1.20.1-1.4.2.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/ManyIdeasCore-1.20.1-1.4.2.jar",
       "policy": "managed"
     },
     {
       "path": "mods/mcw-windows-2.3.0-mc1.20.1forge.jar",
       "size": 1309586,
       "sha256": "42deb1873ef76a8286d8c50da97be59c079e14ecd690faa76fe7e4f327ab14e0",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/mcw-windows-2.3.0-mc1.20.1forge.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/mcw-windows-2.3.0-mc1.20.1forge.jar",
       "policy": "managed"
     },
     {
       "path": "mods/modernfix-forge-5.19.7+mc1.20.1.jar",
       "size": 779424,
       "sha256": "fdbd1b6c161b37d493c708fbbd23ced4217d512545980e9ab06ae1f303e03a45",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/modernfix-forge-5.19.7%2Bmc1.20.1.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/modernfix-forge-5.19.7%2Bmc1.20.1.jar",
       "policy": "managed"
     },
     {
       "path": "mods/moonlight-1.20-2.13.40-forge.jar",
       "size": 1209255,
       "sha256": "c4dc086863f9767a5a8939a20cc93109216c72100c405e98fcd3c223acad4ae3",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/moonlight-1.20-2.13.40-forge.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/moonlight-1.20-2.13.40-forge.jar",
       "policy": "managed"
     },
     {
       "path": "mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
       "size": 76237,
       "sha256": "6c27d16aa715ac6613a55fc463739e2c7b78279e4e4c4cede299e4a2d4a70f08",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
       "policy": "managed"
     },
     {
       "path": "mods/NaturesCompass-1.20.1-1.11.2-forge.jar",
       "size": 215119,
       "sha256": "28e05589c9e4021d9504c9eea387ed4e80adcdcd0626a9623a53754cfa69f7bf",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/NaturesCompass-1.20.1-1.11.2-forge.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/NaturesCompass-1.20.1-1.11.2-forge.jar",
       "policy": "managed"
     },
     {
       "path": "mods/Necronomicon-Forge-1.6.0+1.20.1.jar",
       "size": 33251,
       "sha256": "403b23457288c624a55feb90d5e813c88c23a611bc42cda397c4bfac94b4c3a3",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/Necronomicon-Forge-1.6.0%2B1.20.1.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/Necronomicon-Forge-1.6.0%2B1.20.1.jar",
       "policy": "managed"
     },
     {
       "path": "mods/netherportalfix-forge-1.20-13.0.1.jar",
       "size": 217831,
       "sha256": "06f1354664aee53d4c32c83f76ed94bb72426a75b7e0eb8e415abfba3634cf4e",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/netherportalfix-forge-1.20-13.0.1.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/netherportalfix-forge-1.20-13.0.1.jar",
       "policy": "managed"
     },
     {
       "path": "mods/oculus-mc1.20.1-1.7.0.jar",
       "size": 2831148,
       "sha256": "4b3df65f47e7fb2ce6db5426be339044b2acbe6680c58c4a3ca18df55bc233b8",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/oculus-mc1.20.1-1.7.0.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/oculus-mc1.20.1-1.7.0.jar",
       "policy": "managed"
     },
     {
       "path": "mods/Placebo-1.20.1-8.6.2.jar",
       "size": 285351,
       "sha256": "1fcacfb17c4f5f3880d99a1bf29c76bc2d6bf6ed6e02ca8051a3b6eee4c99c5a",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/Placebo-1.20.1-8.6.2.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/Placebo-1.20.1-8.6.2.jar",
       "policy": "managed"
     },
     {
       "path": "mods/polymorph-forge-0.49.8+1.20.1.jar",
       "size": 299140,
       "sha256": "c5384788f354effb9866a9a084c521bb3e05d246690765e1130a2778efd49ba4",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/polymorph-forge-0.49.8%2B1.20.1.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/polymorph-forge-0.49.8%2B1.20.1.jar",
       "policy": "managed"
     },
     {
       "path": "mods/PuzzlesLib-v8.1.25-1.20.1-Forge.jar",
       "size": 1002463,
       "sha256": "9e3941c9abc80b6f935dca294eb0804bfd3d633df5c3b4d4efc94df8f072f983",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/PuzzlesLib-v8.1.25-1.20.1-Forge.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/PuzzlesLib-v8.1.25-1.20.1-Forge.jar",
       "policy": "managed"
     },
     {
       "path": "mods/reevesfurniture-1.3112-forge-1.20.1.jar",
       "size": 5348444,
       "sha256": "a9bdf3417658e8cd669982e4625b6a7aac112eba4803f671a98309db6c2cfc80",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/reevesfurniture-1.3112-forge-1.20.1.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/reevesfurniture-1.3112-forge-1.20.1.jar",
       "policy": "managed"
     },
     {
       "path": "mods/refurbished_furniture-forge-1.20.1-1.0.8.jar",
       "size": 6681214,
       "sha256": "ca0ea8131e43b57068a10c2e69aa906652be73a9b74eb857ab77835a335bc7c7",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/refurbished_furniture-forge-1.20.1-1.0.8.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/refurbished_furniture-forge-1.20.1-1.0.8.jar",
       "policy": "managed"
     },
     {
       "path": "mods/resourcefullib-forge-1.20.1-2.1.29.jar",
       "size": 432753,
       "sha256": "b13afb95231d88e1caea5a045967e0fc291b29020b0d26ad39e6f9e9a551fee8",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/resourcefullib-forge-1.20.1-2.1.29.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/resourcefullib-forge-1.20.1-2.1.29.jar",
       "policy": "managed"
     },
     {
       "path": "mods/Searchables-forge-1.20.1-1.0.3.jar",
       "size": 77732,
       "sha256": "c1a76e93886210574d3f298c0461241fb711e52ac22c7a04d3236840f29e6576",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/Searchables-forge-1.20.1-1.0.3.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/Searchables-forge-1.20.1-1.0.3.jar",
       "policy": "managed"
     },
     {
       "path": "mods/SereneSeasons-forge-1.20.1-9.1.0.0.jar",
       "size": 160862,
       "sha256": "a858012c4cdbae463ae4a59ec74b609ce1dd2ea704b411555318c5e735e11617",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/SereneSeasons-forge-1.20.1-9.1.0.0.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/SereneSeasons-forge-1.20.1-9.1.0.0.jar",
       "policy": "managed"
     },
     {
       "path": "mods/SnowRealMagic-1.20.1-Forge-10.5.2.jar",
       "size": 343776,
       "sha256": "7903848ebfec370cf8353d1545bd1f6ce960c01f87ebe45effc4b845e2328c01",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/SnowRealMagic-1.20.1-Forge-10.5.2.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/SnowRealMagic-1.20.1-Forge-10.5.2.jar",
       "policy": "managed"
     },
     {
       "path": "mods/snowyspirit-1.20-3.0.10.jar",
       "size": 5362591,
       "sha256": "7de7c0b4b397b5675279c9c7bae630e27eb3dc4754ae7a268c59d3f24eb58138",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/snowyspirit-1.20-3.0.10.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/snowyspirit-1.20-3.0.10.jar",
       "policy": "managed"
     },
     {
       "path": "mods/sophisticatedbackpacks-1.20.1-3.20.17.1150.jar",
       "size": 860631,
       "sha256": "2fc7d59da16992fe3e16ee9dc36a0a72f8f14634917e94a84bd210232a280482",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/sophisticatedbackpacks-1.20.1-3.20.17.1150.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/sophisticatedbackpacks-1.20.1-3.20.17.1150.jar",
       "policy": "managed"
     },
     {
       "path": "mods/sophisticatedcore-1.20.1-1.0.1.809.jar",
       "size": 1120842,
       "sha256": "42049d4fed213a9fe20608719316ef24798d8f44537af19740d7976cde5ffa8c",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/sophisticatedcore-1.20.1-1.0.1.809.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/sophisticatedcore-1.20.1-1.0.1.809.jar",
       "policy": "managed"
     },
     {
       "path": "mods/spark-1.10.53-forge.jar",
       "size": 3114590,
       "sha256": "eba275ba9bb0cb5b542913c3138c6eeff6a752898266d63d125d185f26ac99ed",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/spark-1.10.53-forge.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/spark-1.10.53-forge.jar",
       "policy": "managed"
     },
     {
       "path": "mods/supermartijn642configlib-1.1.8-forge-mc1.20.jar",
       "size": 206584,
       "sha256": "bea425ef7e9cd27a7fc0f4b89e00cbd0a1ee050f071ecaa9f28f7238f400f0a3",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/supermartijn642configlib-1.1.8-forge-mc1.20.jar",
       "policy": "managed"
     },
     {
       "path": "mods/supermartijn642corelib-1.1.17a-forge-mc1.20.1.jar",
       "size": 515364,
       "sha256": "a29c15cf8e2d59d5014691acceb2a0362de25dfefcc53d7ed45aadb94d118807",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/supermartijn642corelib-1.1.17a-forge-mc1.20.1.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/supermartijn642corelib-1.1.17a-forge-mc1.20.1.jar",
       "policy": "managed"
     },
     {
       "path": "mods/supplementaries-1.20-3.1.11.jar",
       "size": 18052237,
       "sha256": "5f6ebae7c78de7dea8120e3192ba95abd64d53f27b743782696d69a3120e1c49",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/supplementaries-1.20-3.1.11.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/supplementaries-1.20-3.1.11.jar",
       "policy": "managed"
     },
     {
       "path": "mods/ToastControl-1.20.1-8.0.3.jar",
       "size": 26957,
       "sha256": "e9923900cabbc12ffde7cc36113936f24b773bb33b22c19e4109cca52fc55ad6",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/ToastControl-1.20.1-8.0.3.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/ToastControl-1.20.1-8.0.3.jar",
       "policy": "managed"
     },
     {
       "path": "mods/trashcans-1.0.18b-forge-mc1.20.jar",
       "size": 158164,
       "sha256": "533c14cfcc5d99e4889d9cdddea2e2ef382febfd5ae5ecb3b0676538a1ccdda4",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/trashcans-1.0.18b-forge-mc1.20.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/trashcans-1.0.18b-forge-mc1.20.jar",
       "policy": "managed"
     },
     {
       "path": "mods/TreeChop-1.20.1-forge-0.19.0-fixed.jar",
       "size": 517225,
       "sha256": "219fbe5bf8d862dc7b524ca5a0151f66bba4d53a01010858e136a9e8c4d55d4f",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/TreeChop-1.20.1-forge-0.19.0-fixed.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/TreeChop-1.20.1-forge-0.19.0-fixed.jar",
       "policy": "managed"
     },
     {
       "path": "mods/Xaeros_Minimap_24.6.1_Forge_1.20.jar",
       "size": 1605900,
       "sha256": "5dbf377eb939bbdc1092f668e6b84a075d73bc351f2a81d3b6948094937cbba7",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/Xaeros_Minimap_24.6.1_Forge_1.20.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/Xaeros_Minimap_24.6.1_Forge_1.20.jar",
       "policy": "managed"
     },
     {
       "path": "mods/XaerosWorldMap_1.39.2_Forge_1.20.jar",
       "size": 931860,
       "sha256": "207895a2f0d04e128b952d959855dfb9582eb2176bd840045a74b2f9debf35ee",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/mods/XaerosWorldMap_1.39.2_Forge_1.20.jar",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/mods/XaerosWorldMap_1.39.2_Forge_1.20.jar",
       "policy": "managed"
     },
     {
       "path": "options.txt",
       "size": 8010,
       "sha256": "ad608a3ffbcc6521c79af39c55414a76271014f1b84f7ec1d980e4c414bf6a67",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/options.txt",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/options.txt",
       "policy": "preserve"
     },
     {
       "path": "servers.dat",
       "size": 83,
       "sha256": "67f577efeb3762cb067ec5334efa12dbd0fca1923b2484cb55f25d99743cca67",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/servers.dat",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/servers.dat",
       "policy": "preserve"
     },
     {
       "path": "config/MouseTweaks.cfg",
       "size": 135,
       "sha256": "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/MouseTweaks.cfg",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/MouseTweaks.cfg",
+      "policy": "merge"
     },
     {
       "path": "config/ambientsounds-client.json",
       "size": 4083,
       "sha256": "d002319f21f057d57ab1e6a018877d57e687b2e3cd6a5479164ec66d98cd0f78",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/ambientsounds-client.json",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/ambientsounds-client.json",
+      "policy": "merge"
     },
     {
       "path": "config/animation_overhaul/animations.json5",
       "size": 3227,
       "sha256": "00f4a867204a3424faf35ecd8291bcf76dd212c330525fe5ecffb5f39aeea347",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/animation_overhaul/animations.json5",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/animation_overhaul/animations.json5",
+      "policy": "merge"
     },
     {
       "path": "config/animation_overhaul/local_player.json5",
       "size": 285,
       "sha256": "fe9d61e0f3d0ee52069e5527b801f2f9077c5c223fe78d66d933fec246c5a91f",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/animation_overhaul/local_player.json5",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/animation_overhaul/local_player.json5",
+      "policy": "merge"
     },
     {
       "path": "config/appleskin-client.toml",
       "size": 1361,
       "sha256": "e6609ffbea927ee6390b1317bb6f3abb3f31ee591ca5c1d5e748f5e625fefea1",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/appleskin-client.toml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/appleskin-client.toml",
+      "policy": "merge"
     },
     {
       "path": "config/balm-common.toml",
       "size": 553,
       "sha256": "2e83e8a8f8e120214aeb50f55eb08f26c53b90e841c1949a9b7ca400f6c34088",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/balm-common.toml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/balm-common.toml",
+      "policy": "merge"
     },
     {
       "path": "config/bcc-common.toml",
       "size": 370,
       "sha256": "d048f1f87fd8e006a5a77accb0416f7ef673197b29d65d0397dce7eb6b2b7d0f",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/bcc-common.toml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/bcc-common.toml",
+      "policy": "merge"
     },
     {
       "path": "config/betteradvancements-client.toml",
       "size": 924,
       "sha256": "2c5eba79cde20bd1658a43dc0527e5d45b2e462d2f065e228527eee8513446be",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/betteradvancements-client.toml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/betteradvancements-client.toml",
+      "policy": "merge"
     },
     {
       "path": "config/betteranimationscollection-client.toml",
       "size": 9814,
       "sha256": "b697f9a6af47faf4e8b0af883d2f2cd6ddfac649e54047fa0c6bdaab6b7aaf7b",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/betteranimationscollection-client.toml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/betteranimationscollection-client.toml",
+      "policy": "merge"
     },
     {
       "path": "config/christmas_festivity_client.toml",
       "size": 219,
       "sha256": "be54e0ac026e0397cf5aaf5ae762ccb0e113ffffc4795a5661b2fbf3cde2a51b",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/christmas_festivity_client.toml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/christmas_festivity_client.toml",
+      "policy": "merge"
     },
     {
       "path": "config/christmas_festivity_common.toml",
       "size": 244,
       "sha256": "acefec78960a59ffd2029fbf9c6118e4d22d0773b4b431470e4a0266092227fb",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/christmas_festivity_common.toml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/christmas_festivity_common.toml",
+      "policy": "merge"
     },
     {
       "path": "config/collective.json5",
       "size": 827,
       "sha256": "b6243b955bf123f86c947510d9f8f3a4b5f7b8fe3775d834f458d60a3223847f",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/collective.json5",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/collective.json5",
+      "policy": "merge"
     },
     {
       "path": "config/configured-client.toml",
       "size": 93,
       "sha256": "a823c528792d2fda677b9a05956a8c609b6279386b6b4b840d992fa43b931698",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/configured-client.toml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/configured-client.toml",
+      "policy": "merge"
     },
     {
       "path": "config/embeddium-fingerprint.json",
       "size": 427,
       "sha256": "4b63a4dccffff1ceecca123fa58df88b764d886bd586f28669c0b4fca14ad8e2",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/embeddium-fingerprint.json",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/embeddium-fingerprint.json",
+      "policy": "merge"
     },
     {
       "path": "config/embeddium-mixins.properties",
       "size": 267,
       "sha256": "28e5b8f2e7d93aa4a086c908e6fe135055d1ebda0eb5465d165e1d3790f34a1b",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/embeddium-mixins.properties",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/embeddium-mixins.properties",
+      "policy": "merge"
     },
     {
       "path": "config/embeddium-options.json",
       "size": 852,
       "sha256": "b4b0aaec74cd2c37a2d0d384a4195768d8d7cbc9f86c7d993694e394fa35664d",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/embeddium-options.json",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/embeddium-options.json",
+      "policy": "merge"
     },
     {
       "path": "config/enchdesc.json",
       "size": 189,
       "sha256": "69e1df6089b71c3c2fe2c7cf6760937094fd22434111f527229a9fcea3f90bc5",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/enchdesc.json",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/enchdesc.json",
+      "policy": "merge"
     },
     {
       "path": "config/eternalwinter-common.toml",
       "size": 649,
       "sha256": "66b8e78a834c8ad2faa1d6b37b0d989b671f76f194ffe9ed3e4f46da7dda3ef5",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/eternalwinter-common.toml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/eternalwinter-common.toml",
+      "policy": "merge"
     },
     {
       "path": "config/fabric/indigo-renderer.properties",
       "size": 291,
       "sha256": "c0f1044fb22c292448ce7db6f59140106a01835df17a07074b6c957c021de75e",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/fabric/indigo-renderer.properties",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/fabric/indigo-renderer.properties",
+      "policy": "merge"
     },
     {
       "path": "config/fallingleaves-client.toml",
       "size": 1207,
       "sha256": "57593ac22df771e7ed941c2da70987799fdfc6bc0c77bff173f82b6b03d3f560",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/fallingleaves-client.toml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/fallingleaves-client.toml",
+      "policy": "merge"
     },
     {
       "path": "config/ferritecore-mixin.toml",
       "size": 1516,
       "sha256": "c164439c632aa7c95c07edec5cfef74b8e2d5671a8445a781deeb4de7ad0c8b6",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/ferritecore-mixin.toml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/ferritecore-mixin.toml",
+      "policy": "merge"
     },
     {
       "path": "config/fml.toml",
       "size": 963,
       "sha256": "125de7caed3fb652b3194199ce1fb541542c69cb10bfc6cb848c4cea67f1c5e8",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/fml.toml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/fml.toml",
+      "policy": "merge"
     },
     {
       "path": "config/forge-client.toml",
       "size": 1399,
       "sha256": "7bc724152ad613fc492e7439074edeed178bc3405fc80a741add5ab562626684",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/forge-client.toml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/forge-client.toml",
+      "policy": "merge"
     },
     {
       "path": "config/guardvillagers-client.toml",
       "size": 210,
       "sha256": "0ea610c7e94452b89315e117551af0cc98f7718bfc52dbfb19260f19953a81ba",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/guardvillagers-client.toml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/guardvillagers-client.toml",
+      "policy": "merge"
     },
     {
       "path": "config/guardvillagers-common.toml",
       "size": 3893,
       "sha256": "2c62d09e465a85e8f1733c32e1a5f8b589990e0de4790a6e8d0a83c2594f3e1b",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/guardvillagers-common.toml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/guardvillagers-common.toml",
+      "policy": "merge"
     },
     {
       "path": "config/jade/hide-blocks.json",
       "size": 191,
       "sha256": "247df2699ebb5a0d4c9585aeeb267ef9388cd5bee2b13ca340f35124a135b35b",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/jade/hide-blocks.json",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/jade/hide-blocks.json",
+      "policy": "merge"
     },
     {
       "path": "config/jade/hide-entities.json",
       "size": 325,
       "sha256": "22b4560c3dc05da35a70bb6611da0ce04cff295ab8c663afd58e725c396a24b3",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/jade/hide-entities.json",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/jade/hide-entities.json",
+      "policy": "merge"
     },
     {
       "path": "config/jade/jade.json",
       "size": 974,
       "sha256": "8a9c0403b385ca106d0c0b541ea2f2128bf39e3f9b05b342b176ca11834857a4",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/jade/jade.json",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/jade/jade.json",
+      "policy": "merge"
     },
     {
       "path": "config/jade/plugins.json",
       "size": 1844,
       "sha256": "b9a4a928c3c755b7dc076e881886a03915b12a1cc3376931a2562b53db318885",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/jade/plugins.json",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/jade/plugins.json",
+      "policy": "merge"
     },
     {
       "path": "config/jade/sort-order.json",
       "size": 1648,
       "sha256": "3115445d69bb895aef0ceec657b81dc796f74be75ebf51090867c8fbc7ab1d9b",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/jade/sort-order.json",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/jade/sort-order.json",
+      "policy": "merge"
     },
     {
       "path": "config/jei/blacklist.cfg",
       "size": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/jei/blacklist.cfg",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/jei/blacklist.cfg",
+      "policy": "merge"
     },
     {
       "path": "config/jei/ingredient-list-mod-sort-order.ini",
       "size": 451,
       "sha256": "ed5ce8f03bd126c3eeaa77d4473a4b5eceb7874f5024c0b8457abedb566293b8",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/jei/ingredient-list-mod-sort-order.ini",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/jei/ingredient-list-mod-sort-order.ini",
+      "policy": "merge"
     },
     {
       "path": "config/jei/ingredient-list-type-sort-order.ini",
       "size": 74,
       "sha256": "39b5426fb7faf645a83c210d457352b05f64859d4b9adb58242c113c2c8e6878",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/jei/ingredient-list-type-sort-order.ini",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/jei/ingredient-list-type-sort-order.ini",
+      "policy": "merge"
     },
     {
       "path": "config/jei/jei-client.ini",
       "size": 7991,
       "sha256": "8c5ae3646c07bfd87fe9259333c2df2b7eb2670cd0c64c21f48f69e0a5629a18",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/jei/jei-client.ini",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/jei/jei-client.ini",
+      "policy": "merge"
     },
     {
       "path": "config/jei/jei-colors.ini",
       "size": 1338,
       "sha256": "5f37aacd70460fdc2631ff45e98e8a2ce4e52d3e9a50917edf40eeed1236952e",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/jei/jei-colors.ini",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/jei/jei-colors.ini",
+      "policy": "merge"
     },
     {
       "path": "config/jei/jei-debug.ini",
       "size": 918,
       "sha256": "ee9bb0f0f8465629951fe9a532f3ebe3327671a12d4cc6395860d7f7494b970b",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/jei/jei-debug.ini",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/jei/jei-debug.ini",
+      "policy": "merge"
     },
     {
       "path": "config/jei/jei-mod-id-format.ini",
       "size": 463,
       "sha256": "326b4f9b813ca8183bfaeee184cf7248c7a75c4d85b59322e349c0e964c253f3",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/jei/jei-mod-id-format.ini",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/jei/jei-mod-id-format.ini",
+      "policy": "merge"
     },
     {
       "path": "config/jei/recipe-category-sort-order.ini",
       "size": 1023,
       "sha256": "70c36563623125b2a0e1decd407b055371cda7b24092fcd4135ab7daad9d5246",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/jei/recipe-category-sort-order.ini",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/jei/recipe-category-sort-order.ini",
+      "policy": "merge"
     },
     {
       "path": "config/jeresources-common.toml",
       "size": 236,
       "sha256": "9dbe8c6973dc932be6dd20cb63381276740b23c75349dbe870fc8098c8529989",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/jeresources-common.toml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/jeresources-common.toml",
+      "policy": "merge"
     },
     {
       "path": "config/jeresources.toml",
       "size": 236,
       "sha256": "b101c668c6c658e2db126b7f6d3b9eb913537ff8903fbfce0128534299b2aea5",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/jeresources.toml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/jeresources.toml",
+      "policy": "merge"
     },
     {
       "path": "config/justzoom/config.txt",
       "size": 258,
       "sha256": "4ced9e0309c6d35a787880b113ebfaf1ae77ea79dcfb919eee73cd66753500b1",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/justzoom/config.txt",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/justzoom/config.txt",
+      "policy": "merge"
     },
     {
       "path": "config/kiwi-client.yaml",
       "size": 316,
       "sha256": "c82600d021fd9971b057bc23d2b9451dbd3d2117ec3dd55ef6c9859ebce71995",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/kiwi-client.yaml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/kiwi-client.yaml",
+      "policy": "merge"
     },
     {
       "path": "config/kiwi-common.yaml",
       "size": 73,
       "sha256": "1488107dd37c8f05131e65c5ad9adda7b674b08a8c0d639752d53b7926db2282",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/kiwi-common.yaml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/kiwi-common.yaml",
+      "policy": "merge"
     },
     {
       "path": "config/konkrete/locals/de_de.local",
       "size": 369,
       "sha256": "79a34cfd15c2d9c06498dc221be79279507d9b57666cd44f8d2c2cf95d3582ef",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/konkrete/locals/de_de.local",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/konkrete/locals/de_de.local",
+      "policy": "merge"
     },
     {
       "path": "config/konkrete/locals/en_us.local",
       "size": 426,
       "sha256": "fdf1864fd049b3f1b9af1f8db6c5125a627be7d06a451c778da3329843d3c39a",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/konkrete/locals/en_us.local",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/konkrete/locals/en_us.local",
+      "policy": "merge"
     },
     {
       "path": "config/konkrete/locals/pl_pl.local",
       "size": 313,
       "sha256": "d38a7776e362e4de6082078d803c1c9358d9d40526edfe4bdfd29c552aef76d8",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/konkrete/locals/pl_pl.local",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/konkrete/locals/pl_pl.local",
+      "policy": "merge"
     },
     {
       "path": "config/konkrete/locals/pt_br.local",
       "size": 322,
       "sha256": "dca55a2792451b31424cd5c24037141ec57cdca51955d062dd908fa9ca6a3e9c",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/konkrete/locals/pt_br.local",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/konkrete/locals/pt_br.local",
+      "policy": "merge"
     },
     {
       "path": "config/maidensmerrymaking-common.toml",
       "size": 2205,
       "sha256": "c21d84a5bc5de08ffbae25267c2f9884a30c4133729fa2115f5e8080b93930ea",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/maidensmerrymaking-common.toml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/maidensmerrymaking-common.toml",
+      "policy": "merge"
     },
     {
       "path": "config/manyideas_core-client.toml",
       "size": 203,
       "sha256": "9710273c6182aed75b277ce54cb34b9fdb24280178885b2668aca75e00663623",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/manyideas_core-client.toml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/manyideas_core-client.toml",
+      "policy": "merge"
     },
     {
       "path": "config/modernfix-common.toml",
       "size": 107,
       "sha256": "fad9aea710ec3508eab562cd8f2b5f8e2dda6ee1c5fb1fe818f90ce253017f66",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/modernfix-common.toml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/modernfix-common.toml",
+      "policy": "merge"
     },
     {
       "path": "config/modernfix-mixins.properties",
       "size": 5043,
       "sha256": "bc53d2c8846366ff58d2f93d0a6ba02741aa1c106bdab140f0069a65a12b1cb4",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/modernfix-mixins.properties",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/modernfix-mixins.properties",
+      "policy": "merge"
     },
     {
       "path": "config/moonlight-client.toml",
       "size": 1018,
       "sha256": "135255a72816385345a135fa013c93dd1737c35eebb80690d29d1b572917267d",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/moonlight-client.toml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/moonlight-client.toml",
+      "policy": "merge"
     },
     {
       "path": "config/moonlight-common.toml",
       "size": 2,
       "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/moonlight-common.toml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/moonlight-common.toml",
+      "policy": "merge"
     },
     {
       "path": "config/naturescompass-client.toml",
       "size": 432,
       "sha256": "4215398614d28a24d2fe39593bf25981dd67ae46f85bc710ee07ba2d37c74c0b",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/naturescompass-client.toml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/naturescompass-client.toml",
+      "policy": "merge"
     },
     {
       "path": "config/naturescompass-common.toml",
       "size": 1142,
       "sha256": "eebe4b4c01047b3d8cbf1106fcfe8af8e912ca62dfbb5258f46b36623b535fa2",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/naturescompass-common.toml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/naturescompass-common.toml",
+      "policy": "merge"
     },
     {
       "path": "config/necronomicon.json5",
       "size": 266,
       "sha256": "f97fc5ae7dd7d312e86ecddf2e4491fee3e3a16b7a26cbb3aa078fdd3255c4df",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/necronomicon.json5",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/necronomicon.json5",
+      "policy": "merge"
     },
     {
       "path": "config/oculus.properties",
       "size": 267,
       "sha256": "0ad32f87c999453366691e65b73a9eaceba6c36f2ca2c26d44aac5912ac42cf2",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/oculus.properties",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/oculus.properties",
+      "policy": "merge"
     },
     {
       "path": "config/polymorph-integrations.toml",
       "size": 333,
       "sha256": "43a7425a314be7d78c2e31d44ab8f46c5ee824ab10906ab8909923d23646b6ad",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/polymorph-integrations.toml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/polymorph-integrations.toml",
+      "policy": "merge"
     },
     {
       "path": "config/primalwinter.toml",
       "size": 2506,
       "sha256": "7592d559c00482f20ecc80e7040ee683d23df1c1df119a4ad946a8b06d9ba2e9",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/primalwinter.toml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/primalwinter.toml",
+      "policy": "merge"
     },
     {
       "path": "config/refurbished_furniture.client.toml",
       "size": 1005,
       "sha256": "3910a814528dae85fc3d09d6a3c31c2d420f611ee37a4b412d657259bf37318c",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/refurbished_furniture.client.toml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/refurbished_furniture.client.toml",
+      "policy": "merge"
     },
     {
       "path": "config/refurbished_furniture.server.toml",
       "size": 7650,
       "sha256": "c446a65559bc9b51669cabff1d1c417d99df6e6fa8b51073571dfaa3cef62db5",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/refurbished_furniture.server.toml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/refurbished_furniture.server.toml",
+      "policy": "merge"
     },
     {
       "path": "config/sereneseasons/fertility.toml",
       "size": 485,
       "sha256": "2d2d244c696678957a2077b87a80fcd0132e3e4e39c44313248748e0758702a3",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/sereneseasons/fertility.toml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/sereneseasons/fertility.toml",
+      "policy": "merge"
     },
     {
       "path": "config/sereneseasons/seasons.toml",
       "size": 4751,
       "sha256": "63df64345aabfc24e60cbbfb837c613314b98e6fafa644097bc152687eef44b7",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/sereneseasons/seasons.toml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/sereneseasons/seasons.toml",
+      "policy": "merge"
     },
     {
       "path": "config/snowballsfreezemobs.json5",
       "size": 111,
       "sha256": "8346df4d0d6ad5be707747657839a4e5dc3c4facc968468404a4727dfb448e41",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/snowballsfreezemobs.json5",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/snowballsfreezemobs.json5",
+      "policy": "merge"
     },
     {
       "path": "config/snowrealmagic-client.yaml",
       "size": 96,
       "sha256": "34909564dc66fb400f716437577c349965144e46febfb432a388aed3b0fe81e9",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/snowrealmagic-client.yaml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/snowrealmagic-client.yaml",
+      "policy": "merge"
     },
     {
       "path": "config/snowrealmagic-common.yaml",
       "size": 744,
       "sha256": "d5aeaffeced733b322c6aa2379fe94ab9fe41cb879914b3dbacda4dc81965bd8",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/snowrealmagic-common.yaml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/snowrealmagic-common.yaml",
+      "policy": "merge"
     },
     {
       "path": "config/snowyspirit-client.toml",
       "size": 227,
       "sha256": "4bda1a7c7502f04c769978d18739ca1351d0aa26c1a7ede6c07ba7abd0428d38",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/snowyspirit-client.toml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/snowyspirit-client.toml",
+      "policy": "merge"
     },
     {
       "path": "config/snowyspirit-common.toml",
       "size": 3825,
       "sha256": "faa1bfa48578bf46b3bec93857cf782cfd10599bd87c5ac4f3bc287e38ccf6f2",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/snowyspirit-common.toml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/snowyspirit-common.toml",
+      "policy": "merge"
     },
     {
       "path": "config/sophisticatedbackpacks-common.toml",
       "size": 122,
       "sha256": "6674ec92f625296aa8accc93d71fdf1eecfc8050111c5ae7b6d9a94b4fe14506",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/sophisticatedbackpacks-common.toml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/sophisticatedbackpacks-common.toml",
+      "policy": "merge"
     },
     {
       "path": "config/sophisticatedcore-client.toml",
       "size": 351,
       "sha256": "06813199751af809ce5043408f99066b30dccfa72b2597d74543dfa6b64e8d36",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/sophisticatedcore-client.toml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/sophisticatedcore-client.toml",
+      "policy": "merge"
     },
     {
       "path": "config/sophisticatedcore-common.toml",
       "size": 2554,
       "sha256": "5120359660f13c31b7cfc792b335a1f2d60fea4c011bfd8a1e3722be5f163416",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/sophisticatedcore-common.toml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/sophisticatedcore-common.toml",
+      "policy": "merge"
     },
     {
       "path": "config/spark/config.json",
       "size": 117,
       "sha256": "992ba9f3a4a7ce3de112eb95575328956fdc3ce6781c455ebce7b23db7e7da42",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/spark/config.json",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/spark/config.json",
+      "policy": "merge"
     },
     {
       "path": "config/supplementaries-client.toml",
       "size": 9129,
       "sha256": "cbeb635a9e2053b7e85f24b2b478081cbf2e277a675408d2e196888eaeae6e62",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/supplementaries-client.toml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/supplementaries-client.toml",
+      "policy": "merge"
     },
     {
       "path": "config/supplementaries-common.toml",
       "size": 24119,
       "sha256": "1c9870b32ccac21ba0f0b7a8955f82755174e2a4a0d09fd040c2ae70006802b7",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/supplementaries-common.toml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/supplementaries-common.toml",
+      "policy": "merge"
     },
     {
       "path": "config/toastcontrol-common.toml",
       "size": 1445,
       "sha256": "b0976505b1e84813c804b645fe0988fc1fc68bd1e0350db6cbc3fa2698d77587",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/toastcontrol-common.toml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/toastcontrol-common.toml",
+      "policy": "merge"
     },
     {
       "path": "config/trashcans-common.toml",
       "size": 84,
       "sha256": "9098a40f3445da4e4e330750079d5629abe4632c211c6f8db11bb0dea829e5d8",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/trashcans-common.toml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/trashcans-common.toml",
+      "policy": "merge"
     },
     {
       "path": "config/treechop-client.toml",
       "size": 1625,
       "sha256": "ae1995c3bac2a03f767a2c8da6af75364f8a0fc8de6bd82334d05191d97bdc79",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/treechop-client.toml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/treechop-client.toml",
+      "policy": "merge"
     },
     {
       "path": "config/treechop-common.toml",
       "size": 8869,
       "sha256": "52cbac225704a60bd7ce007bd378bc5cbfdf7d89530a0990b3c801ea299aa1fb",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/treechop-common.toml",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/treechop-common.toml",
+      "policy": "merge"
     },
     {
       "path": "config/xaerominimap-common.txt",
       "size": 145,
       "sha256": "771a844d13ab6c2ff99f14b8fd912d02c55a1a4104361692b740c3e596084f6f",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/xaerominimap-common.txt",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/xaerominimap-common.txt",
+      "policy": "merge"
     },
     {
       "path": "config/xaerominimap.txt",
       "size": 3640,
       "sha256": "72d0eb97c8513c5acdd192aef23781b3ebe7da4f2fc15e1bcda7ef4fcf6dd386",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/xaerominimap.txt",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/xaerominimap.txt",
+      "policy": "merge"
     },
     {
       "path": "config/xaerominimap_entities.json",
       "size": 5531,
       "sha256": "b8ddf54611a9ab8c53177fc0d062321e9e731192b65b9e50d0fcb38a86a91696",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/xaerominimap_entities.json",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/xaerominimap_entities.json",
+      "policy": "merge"
     },
     {
       "path": "config/xaeropatreon.txt",
       "size": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/xaeropatreon.txt",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/xaeropatreon.txt",
+      "policy": "merge"
     },
     {
       "path": "config/xaeroworldmap-common.txt",
       "size": 120,
       "sha256": "f02ca95d7246bd4b9c7de895c46108fff42fd5fcf9d56816b7bdba821597b58f",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/xaeroworldmap-common.txt",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/xaeroworldmap-common.txt",
+      "policy": "merge"
     },
     {
       "path": "config/xaeroworldmap.txt",
       "size": 1218,
       "sha256": "6028733f967d0d0f6a80dd236d3dcc7d2446912c719ab9a7d3f83d8624d9b92d",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-      "policy": "merge",
-      "archive": {
-        "format": "rar",
-        "member": "config/xaeroworldmap.txt",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/config.rar",
-        "size": 58553,
-        "sha256": "961ad0face3e276a4ab1273b0a8b724dda3fa2e7855edc26c0d23b997153e1e6"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/config/xaeroworldmap.txt",
+      "policy": "merge"
     },
     {
       "path": "resourcepacks/ChristmasPack_1.20.1_v2.0.zip",
       "size": 9719944,
       "sha256": "f6d93acd7bfa772a48b097f66a5d9aa9feb1814bd7a1e3307a8578e92428a810",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/resourcepacks.rar",
-      "policy": "managed",
-      "archive": {
-        "format": "rar",
-        "member": "resourcepacks/ChristmasPack_1.20.1_v2.0.zip",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/resourcepacks.rar",
-        "size": 9720220,
-        "sha256": "ad4f6048103e2fecc0eb09453ea8aefa5b0a37975d08eb4f2b89323b2a9edea0"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/resourcepacks/ChristmasPack_1.20.1_v2.0.zip",
+      "policy": "managed"
     },
     {
       "path": "shaderpacks/BSL_v8.4.zip",
       "size": 1105442,
       "sha256": "f57821c6f0d744ca72b41d3ad9762452e53d5b0eb3a888c0636ad29b7d0d1548",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/shaderpacks.rar",
-      "policy": "managed",
-      "archive": {
-        "format": "rar",
-        "member": "shaderpacks/BSL_v8.4.zip",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/shaderpacks.rar",
-        "size": 3390913,
-        "sha256": "c20899a51e93d0670028442ea7dc1d070a6c2b3100daa53e87dec92be432197a"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/shaderpacks/BSL_v8.4.zip",
+      "policy": "managed"
     },
     {
       "path": "shaderpacks/ComplementaryReimagined_r5.3.zip",
       "size": 446656,
       "sha256": "6e8234a2213c5a35238582d15dcc286584a029fbf42a993c1220188054799224",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/shaderpacks.rar",
-      "policy": "managed",
-      "archive": {
-        "format": "rar",
-        "member": "shaderpacks/ComplementaryReimagined_r5.3.zip",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/shaderpacks.rar",
-        "size": 3390913,
-        "sha256": "c20899a51e93d0670028442ea7dc1d070a6c2b3100daa53e87dec92be432197a"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/shaderpacks/ComplementaryReimagined_r5.3.zip",
+      "policy": "managed"
     },
     {
       "path": "shaderpacks/ComplementaryUnbound_r5.3.zip",
       "size": 446661,
       "sha256": "66061b3c5b4843e31bc9a7562a7ac697a51bb77c73defc7071f996b783efacce",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/shaderpacks.rar",
-      "policy": "managed",
-      "archive": {
-        "format": "rar",
-        "member": "shaderpacks/ComplementaryUnbound_r5.3.zip",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/shaderpacks.rar",
-        "size": 3390913,
-        "sha256": "c20899a51e93d0670028442ea7dc1d070a6c2b3100daa53e87dec92be432197a"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/shaderpacks/ComplementaryUnbound_r5.3.zip",
+      "policy": "managed"
     },
     {
       "path": "shaderpacks/MakeUp-UltraFast-9.1b.zip",
       "size": 367518,
       "sha256": "ba149fe03e76ca3473855741d31df3a36267a0cbd3aab522a2e4ef1b475073cf",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/shaderpacks.rar",
-      "policy": "managed",
-      "archive": {
-        "format": "rar",
-        "member": "shaderpacks/MakeUp-UltraFast-9.1b.zip",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/shaderpacks.rar",
-        "size": 3390913,
-        "sha256": "c20899a51e93d0670028442ea7dc1d070a6c2b3100daa53e87dec92be432197a"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/shaderpacks/MakeUp-UltraFast-9.1b.zip",
+      "policy": "managed"
     },
     {
       "path": "shaderpacks/Pastel-Shaders-Universal-v1.200.zip",
       "size": 1023746,
       "sha256": "72d100aa877177247a6afce644f05c87fd76b341ae78ca549ab0cfec8e86aad1",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/shaderpacks.rar",
-      "policy": "managed",
-      "archive": {
-        "format": "rar",
-        "member": "shaderpacks/Pastel-Shaders-Universal-v1.200.zip",
-        "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/c2150b27970dc4aed04ea7a99b9964c78d6485a2/download-files/WinterCraft-1.20.1/shaderpacks.rar",
-        "size": 3390913,
-        "sha256": "c20899a51e93d0670028442ea7dc1d070a6c2b3100daa53e87dec92be432197a"
-      }
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/WinterCraft-1.20.1/shaderpacks/Pastel-Shaders-Universal-v1.200.zip",
+      "policy": "managed"
     }
   ],
   "update_url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/packs/wintercraft.json",
-  "manifest_revision": 2
+  "manifest_revision": 3
 }

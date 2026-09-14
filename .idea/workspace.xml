@@ -5,13 +5,104 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ba1f7ac-d517-4781-91b7-9ca7911f1e8c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/check.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/check.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher_ui.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.spec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modpack.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_ic.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vanilla_expanded.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/BetterFoliage.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/BetterFoliage.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/BiblioCraft.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/BiblioCraft.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/ChunkAnimator.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/ChunkAnimator.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/ClientFixer.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/ClientFixer.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/CodeChickenCore.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/CodeChickenCore.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/CustomNpcs.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/CustomNpcs.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/DIAdvancedCompatibility.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/DIAdvancedCompatibility.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/DamageIndicatorsMod.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/DamageIndicatorsMod.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/Ding.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/Ding.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/InvTweaks.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/InvTweaks.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/InvTweaksRules.txt" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/InvTweaksRules.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/InvTweaksTree.txt" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/InvTweaksTree.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/LOTR_EntityRegistry.txt" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/LOTR_EntityRegistry.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/MUD.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/MUD.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/MorePlayerModels.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/MorePlayerModels.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/MouseTweaks.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/MouseTweaks.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/Neat.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/Neat.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/StorageDrawers.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/StorageDrawers.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/Waila.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/Waila.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/WailaHarvestability.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/WailaHarvestability.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/battlegear2.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/battlegear2.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/campfirebackport.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/campfirebackport.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/campfirebackportmixins.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/campfirebackportmixins.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/carbonconfig.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/carbonconfig.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/defaultkeys.txt" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/defaultkeys.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/defaultoptions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/defaultoptions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/defaultoptionsof.txt" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/defaultoptionsof.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/dss.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/dss.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/fastleafdecay.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/fastleafdecay.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/forge.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/forge.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/forgeChunkLoading.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/forgeChunkLoading.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/genst.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/genst.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/gravestone.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/gravestone.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/gtnhlib.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/gtnhlib.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/iChunUtil.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/iChunUtil.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/iChunUtil_KeyBinds.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/iChunUtil_KeyBinds.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/itemphysic.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/itemphysic.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/localconfig-example.txt" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/localconfig-example.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/localconfig.txt" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/localconfig.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/lotr.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/lotr.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/mobends.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/mobends.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/neirecipehandlers.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/neirecipehandlers.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/shouldersurfing.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/shouldersurfing.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/skinport.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/skinport.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/sonicvisuals.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/sonicvisuals.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/soundfilters.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/soundfilters.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/splash.properties" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/splash.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/unimixins.properties" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/config/unimixins.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/mods/DynamicSurroundings-1.7.10-1.0.6.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/mods/LOTR+RU Update 1.14-v19.02.25-09.05.02.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/mods/LOTR_UpdatedLangFiles/en_US.lang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/mods/LOTR_UpdatedLangFiles/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/mods/SkinPort-1.7.10-v10d.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/options.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/NewIC-1.19.2/mods.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/NewIC-1.19.2/options.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/NewIC-1.19.2/shaderpacks.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Pokecraft-1.20.1/config.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Pokecraft-1.20.1/mods/amendments-1.20-1.2.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Pokecraft-1.20.1/mods/curios-forge-5.9.1+1.20.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Pokecraft-1.20.1/mods/mcw-furniture-3.2.2-mc1.20.1forge.jar" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Pokecraft-1.20.1/mods/mcw-furniture-3.2.2-mc1.20.1forge.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Pokecraft-1.20.1/mods/polymorph-forge-0.49.5+1.20.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Pokecraft-1.20.1/mods/rctmod-forge-1.20.1-0.10.4-alpha.jar" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Pokecraft-1.20.1/mods/rctmod-forge-1.20.1-0.10.4-alpha.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Pokecraft-1.20.1/mods/valhelsia_furniture-forge-1.20.1-1.1.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Pokecraft-1.20.1/mods/valhelsia_furniture-forge-1.20.1-1.1.3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Pokecraft-1.20.1/mods/valhelsia_structures-forge-1.20.1-1.1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Pokecraft-1.20.1/mods/valhelsia_structures-forge-1.20.1-1.1.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Pokecraft-1.20.1/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/Pokecraft-1.20.1/options.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/Pokecraft-1.20.1/shaderpacks.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/VanillaExpanded-1.20.1/config.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/VanillaExpanded-1.20.1/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/VanillaExpanded-1.20.1/options.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/VanillaExpanded-1.20.1/shaderpacks.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/VanillaExpanded-1.20.1/shaderpacks.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/WinterCraft-1.20.1/config.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/WinterCraft-1.20.1/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/download-files/WinterCraft-1.20.1/options.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/WinterCraft-1.20.1/resourcepacks.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-files/WinterCraft-1.20.1/shaderpacks.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jfcraft_core.py" beforeDir="false" afterPath="$PROJECT_DIR$/jfcraft_core.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jfcraft_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/jfcraft_ui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/launcher_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packs/middle-earth-classic.json" beforeDir="false" afterPath="$PROJECT_DIR$/packs/middle-earth-classic.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packs/new-ic.json" beforeDir="false" afterPath="$PROJECT_DIR$/packs/new-ic.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packs/pokecraft.json" beforeDir="false" afterPath="$PROJECT_DIR$/packs/pokecraft.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packs/vanilla-expanded.json" beforeDir="false" afterPath="$PROJECT_DIR$/packs/vanilla-expanded.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packs/wintercraft.json" beforeDir="false" afterPath="$PROJECT_DIR$/packs/wintercraft.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_offline.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_offline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_pack_archives.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_pack_archives.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/audit_catalog.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/audit_catalog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/build_additional_catalog.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/build_legacy_catalog.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/build_pack.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/build_pack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/git_snapshot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/smoke_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/smoke_ui.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

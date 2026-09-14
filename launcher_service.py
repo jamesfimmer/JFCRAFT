@@ -147,26 +147,34 @@ def run_pack(pack, settings, play, report, progress, cancel):
     with profile_lock(root):
         installer = Installer(root, report, progress, cancel)
         installer.recover()
-        if play:
-            state = root / '.jfcraft-state.json'
-            if not state.exists():
-                raise ValueError('Сначала установи сборку с подключением к интернету.')
-            installed = load_manifest(state)
+        state = root / '.jfcraft-state.json'
+        installed = load_manifest(state) if state.exists() else None
+        if installed:
             if installed['id'] != pack['id']:
                 raise ValueError('Сохранённое описание относится к другой сборке.')
+        can_fallback = bool(play and installed and
+            (root / 'versions' / installed['installed_version'] / (installed['installed_version'] + '.json')).is_file())
+        check_cancel(cancel)
+        try:
+            pack = refresh_pack(pack, report, require_online=play)
+            check_cancel(cancel)
+            java = check_java(settings.get('java', ''), pack['java'])
+            same_runtime = installed and all(pack[k] == installed[k] for k in ('minecraft', 'forge', 'installed_version'))
+            if not (can_fallback and same_runtime):
+                # Runtime installation cannot be rolled back like pack files.
+                can_fallback = False
+                ensure_forge(pack, root, java, report, cancel, repair=not play)
+            installer.install(pack)
+        except requests.RequestException:
+            check_cancel(cancel)
+            if not can_fallback:
+                raise ValueError('Не удалось скачать необходимые файлы. Для первой установки или восстановления нужен интернет.') from None
+            installer.recover()
             pack = installed
-            version_file = root / 'versions' / pack['installed_version'] / (pack['installed_version'] + '.json')
-            if not version_file.exists():
-                raise ValueError('Не найден установленный Forge. Выполни установку / обновление.')
-            report('Запуск установленной сборки без проверки обновлений и скачивания файлов…')
-        else:
-            pack = refresh_pack(pack, report)
-        java = check_java(settings.get('java', ''), pack['java'])
+            java = check_java(settings.get('java', ''), pack['java'])
+            report('Обновление недоступно. Запускается установленная версия ' + pack['version'])
         if play:
             installer.clean_extra_mods(pack)
-        if not play:
-            ensure_forge(pack, root, java, report, cancel, repair=True)
-            installer.install(pack)
         check_cancel(cancel)
         if not play:
             return
@@ -187,7 +195,7 @@ def run_pack(pack, settings, play, report, progress, cancel):
         report('Игра закрыта')
 
 
-def refresh_pack(pack, report):
+def refresh_pack(pack, report, require_online=False):
     """A mutable HTTPS manifest points to immutable, checksum-pinned assets."""
     cache = data_dir() / 'manifests' / (pack['id'] + '.json')
     if cache.exists():
@@ -202,6 +210,8 @@ def refresh_pack(pack, report):
     try:
         latest = load_manifest(source)
     except requests.RequestException:
+        if require_online:
+            raise
         report('Канал обновлений недоступен. Используется сохранённое описание сборки.')
         return pack
     if latest['id'] != pack['id']:

@@ -1,6 +1,5 @@
-"""Regression coverage for real RAR containers holding ZIP packs."""
+"""Exercise direct pack downloads against every checked-in manifest."""
 import hashlib
-import io
 import json
 from pathlib import Path
 import tempfile
@@ -8,38 +7,29 @@ import unittest
 from unittest.mock import patch
 from urllib.parse import unquote, urlsplit
 import zipfile
-import subprocess
 
-from jfcraft_archives import archive_member, rar_members
 from jfcraft_core import Installer
 
 ROOT = Path(__file__).resolve().parents[1]
 
 
 class PackArchiveTests(unittest.TestCase):
-    def test_outer_rar_returns_shader_zip_not_shader_sources(self):
-        source = ROOT / 'download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks.rar'
-        member = 'shaderpacks/SEUS-Renewed-v1.0.1.zip'
-        self.assertIn(member, rar_members(source))
-        with archive_member(source, member, 'rar') as stream:
-            content = stream.read()
-        with zipfile.ZipFile(io.BytesIO(content)) as shader:
+    def test_shader_zip_remains_a_complete_pack(self):
+        source = ROOT / 'download-files/Middle-Earth-Chronicles-1.7.10/shaderpacks/SEUS-Renewed-v1.0.1.zip'
+        with zipfile.ZipFile(source) as shader:
             self.assertTrue(any(name.startswith('shaders/') for name in shader.namelist()))
 
     def test_all_pack_assets_install_as_intact_zip_files(self):
         for path in sorted((ROOT / 'packs').glob('*.json')):
             pack = json.loads(path.read_text(encoding='utf-8'))
-            pack['files'] = [f for f in pack['files'] if f['path'].startswith(('shaderpacks/', 'resourcepacks/'))]
             with self.subTest(pack=pack['id']), tempfile.TemporaryDirectory() as directory:
                 root = Path(directory)
                 installer = Installer(root)
                 def local_download(item, target):
-                    # Reproduce the bytes at the URL, not a potentially different
-                    # working-tree copy. Installer itself extracts archive members.
+                    self.assertNotIn('archive', item)
                     parts = unquote(urlsplit(item['url']).path).split('/')
-                    commit, relative = parts[3], '/'.join(parts[4:])
-                    content = subprocess.check_output(
-                        ['git', 'show', f'{commit}:{relative}'], cwd=ROOT)
+                    relative = '/'.join(parts[4:])
+                    content = (ROOT / relative).read_bytes()
                     self.assertEqual(len(content), item['size'])
                     self.assertEqual(hashlib.sha256(content).hexdigest(), item['sha256'])
                     target.parent.mkdir(parents=True, exist_ok=True)

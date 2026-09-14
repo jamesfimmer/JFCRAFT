@@ -30,7 +30,7 @@ with patch('jfcraft_ui.sync_catalog', return_value=[]), patch('jfcraft_ui.run_pa
     app.start(True)
     app.worker.join(timeout=5)
     assert not app.worker.is_alive()
-    assert [call.args[2] for call in run.call_args_list] == [False, True]
+    assert [call.args[2] for call in run.call_args_list] == [True]
     app.poll()
 pack = app.current()
 instance = data_dir() / 'instances' / pack['id']

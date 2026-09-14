@@ -225,7 +225,7 @@ class Installer:
             self.recover()
             raise
         for name in extras:
-            self.report(f'Лишний файл убран из mods в резервную копию: {name}')
+            self.report(f'Лишний мод удалён из сборки: {name}. Резервная копия: {backup / name}')
 
     def install(self, manifest):
         validate_manifest(manifest)
@@ -307,6 +307,9 @@ class Installer:
             except Exception:
                 self.recover()
                 raise
+            for name in changes:
+                if name.startswith('mods/') and name.casefold() not in wanted:
+                    self.report(f'Лишний мод удалён из сборки: {name}. Резервная копия: {backup / name}')
             self.report(f"Сборка {manifest['version']} проверена. Изменено файлов: {len(changes)}")
         finally:
             if staging.exists():

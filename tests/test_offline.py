@@ -1,6 +1,7 @@
 import tempfile
 import threading
 import unittest
+import requests
 from pathlib import Path
 from unittest.mock import patch, Mock
 
@@ -10,7 +11,7 @@ from test_installer import manifest
 
 
 class OfflineTests(unittest.TestCase):
-    def test_play_uses_installed_version_without_network_or_installer(self):
+    def test_unreachable_updates_use_installed_version_without_installer(self):
         with tempfile.TemporaryDirectory() as directory:
             home = Path(directory)
             pack = manifest()
@@ -24,7 +25,7 @@ class OfflineTests(unittest.TestCase):
             process.wait.return_value = 0
             with patch('launcher_service.data_dir', return_value=home), \
                  patch('launcher_service.check_java', return_value='java'), \
-                 patch('launcher_service.refresh_pack', side_effect=AssertionError('network refresh')), \
+                 patch('launcher_service.refresh_pack', side_effect=requests.ConnectionError('offline')), \
                  patch('launcher_service.ensure_forge', side_effect=AssertionError('runtime install')), \
                  patch('launcher_service.Installer.install', side_effect=AssertionError('pack install')), \
                  patch('requests.sessions.Session.request', side_effect=AssertionError('network')), \

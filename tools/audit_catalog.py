@@ -1,5 +1,6 @@
 """Check every downloadable asset against exact Git blobs (no text conversion)."""
 import hashlib
+import argparse
 import json
 from pathlib import Path
 import subprocess
@@ -11,7 +12,7 @@ sys.path.insert(0, str(ROOT))
 from jfcraft_core import validate_manifest
 
 
-def main():
+def main(working_tree=False):
     assets = {}
     entries = 0
     for path in sorted((ROOT / 'packs').glob('*.json')):
@@ -30,6 +31,12 @@ def main():
         for url, expected in assets.items():
             parts = unquote(urlsplit(url).path).split('/')
             commit, path = parts[3], '/'.join(parts[4:])
+            if working_tree:
+                from jfcraft_core import safe_path, sha256
+                local = safe_path(ROOT, path)
+                if (local.stat().st_size, sha256(local)) != expected:
+                    raise ValueError('Working tree asset mismatch: ' + path)
+                continue
             process.stdin.write(f'{commit}:{path}\n'.encode('utf-8'))
             process.stdin.flush()
             header = process.stdout.readline().split()
@@ -50,8 +57,10 @@ def main():
         process.stdin.close()
         process.stdout.close()
         process.wait(timeout=10)
-    print(f'AUDIT_OK: {entries} entries, {len(assets)} unique assets match exact Git blobs')
+    print(f'AUDIT_OK: {entries} entries, {len(assets)} unique assets match ' + ('working tree' if working_tree else 'exact Git blobs'))
 
 
 if __name__ == '__main__':
-    main()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--working-tree', action='store_true', help='Verify local files before commit')
+    main(parser.parse_args().working_tree)

@@ -14,6 +14,7 @@ patchouli_data.json
 !packs/*.json
 !packs/catalog/
 !packs/catalog/*.json
+!download-files/**/*.json
 .buildenv/
 __pycache__/
 *.py[cod]
