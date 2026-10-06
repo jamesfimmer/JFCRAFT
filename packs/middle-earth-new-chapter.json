@@ -2,7 +2,7 @@
   "schema": 1,
   "id": "middle-earth-new-chapter",
   "name": "Middle-Earth: New Chapter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "minecraft": "1.7.10",
   "forge": "1.7.10-10.13.4.1614-1.7.10",
   "installed_version": "1.7.10-Forge10.13.4.1614-1.7.10",
@@ -2530,8 +2530,8 @@
     },
     {
       "path": "config/lwjgl3ify-relauncher.json",
-      "size": 736,
-      "sha256": "04366a0d85d16e0d1a5e6256eb20e515148b132ff12881d8e02691f17001459c",
+      "size": 451,
+      "sha256": "c8393b37e9847553b985455dd1a9b663ae76a338b177935505b2c338f26d5aa2",
       "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/Middle-Earth-Chonicles-New-Chapter-1.7.10/config/lwjgl3ify-relauncher.json",
       "policy": "merge"
     },
@@ -3558,10 +3558,122 @@
       "policy": "preserve"
     },
     {
-      "path": "shaderpacks/shaderpacks.rar",
-      "size": 11673252,
-      "sha256": "1c3b1464ab5422117564c993f4150b1e332dd67eebfed7556a6a2e9b084de58b",
-      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/Middle-Earth-Chonicles-New-Chapter-1.7.10/shaderpacks/shaderpacks.rar",
+      "path": "shaderpacks/bsl-shaders.pw.toml",
+      "size": 696,
+      "sha256": "81696e44494bdb2582f35f394f0489c6831e7db25784327c8eee16dfd9253bdc",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/Middle-Earth-Chonicles-New-Chapter-1.7.10/shaderpacks/bsl-shaders.pw.toml",
+      "policy": "managed"
+    },
+    {
+      "path": "shaderpacks/BSL_v10.1.6.zip",
+      "size": 1134155,
+      "sha256": "0e9e8d045ea273c19832a0f49d503a6e27e76759769ea4f38f9bbfdc1cf987c2",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/Middle-Earth-Chonicles-New-Chapter-1.7.10/shaderpacks/BSL_v10.1.6.zip",
+      "policy": "managed"
+    },
+    {
+      "path": "shaderpacks/complementary-reimagined.pw.toml",
+      "size": 1035,
+      "sha256": "d4b74c29a70d9a966e579a4b96efc67965a6a75061255222b46665b76ab40065",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/Middle-Earth-Chonicles-New-Chapter-1.7.10/shaderpacks/complementary-reimagined.pw.toml",
+      "policy": "managed"
+    },
+    {
+      "path": "shaderpacks/complementary-unbound.pw.toml",
+      "size": 1026,
+      "sha256": "0c990a4fbee13db655b83f293fe8df911971898b79be06722ed457485072766f",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/Middle-Earth-Chonicles-New-Chapter-1.7.10/shaderpacks/complementary-unbound.pw.toml",
+      "policy": "managed"
+    },
+    {
+      "path": "shaderpacks/ComplementaryReimagined_r5.9.3.zip",
+      "size": 553397,
+      "sha256": "fed6c879e732cf7fc7bc6570ebb1def43235aa7e96f62859fbdbdbfa0b484b38",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/Middle-Earth-Chonicles-New-Chapter-1.7.10/shaderpacks/ComplementaryReimagined_r5.9.3.zip",
+      "policy": "managed"
+    },
+    {
+      "path": "shaderpacks/ComplementaryUnbound_r5.9.3.zip",
+      "size": 553400,
+      "sha256": "98ac741dee294d2a3c82d153349148c3bb7fb688c30eb3b49c3b9ac37e968c5a",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/Middle-Earth-Chonicles-New-Chapter-1.7.10/shaderpacks/ComplementaryUnbound_r5.9.3.zip",
+      "policy": "managed"
+    },
+    {
+      "path": "shaderpacks/makeup-ultra-fast-shader.pw.toml",
+      "size": 1159,
+      "sha256": "82c6ec2080b965c64ecfd9e1d197d1185b11fdd4215363ab28fc29c68c6a9969",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/Middle-Earth-Chonicles-New-Chapter-1.7.10/shaderpacks/makeup-ultra-fast-shader.pw.toml",
+      "policy": "managed"
+    },
+    {
+      "path": "shaderpacks/MakeUp-UltraFast-9.5e.zip",
+      "size": 400417,
+      "sha256": "8eae9f4b46c8c0fd98968d9ff58d9d25903cf11c79926d8d08c7ae0029d09f97",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/Middle-Earth-Chonicles-New-Chapter-1.7.10/shaderpacks/MakeUp-UltraFast-9.5e.zip",
+      "policy": "managed"
+    },
+    {
+      "path": "shaderpacks/SEUS-Renewed-v1.0.1.zip",
+      "size": 7062638,
+      "sha256": "76a1ff6c0d7827ecd0857e5a9b5298337f232662767abf0f011154c85b6da8ef",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/Middle-Earth-Chonicles-New-Chapter-1.7.10/shaderpacks/SEUS-Renewed-v1.0.1.zip",
+      "policy": "managed"
+    },
+    {
+      "path": "shaderpacks/SEUS-Renewed-v1.0.1.zip.txt",
+      "size": 58,
+      "sha256": "8040af84a07eb0f5ba8010106d10c22245e25e6157947627b655093b86d0ae14",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/Middle-Earth-Chonicles-New-Chapter-1.7.10/shaderpacks/SEUS-Renewed-v1.0.1.zip.txt",
+      "policy": "managed"
+    },
+    {
+      "path": "shaderpacks/Sildur's Vibrant Shaders v1.52 Extreme.zip",
+      "size": 142502,
+      "sha256": "a9fb2ff2bb0a6bd1261e6133de93916b4a4466c1dc3931aafe9a5c80882a6052",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/Middle-Earth-Chonicles-New-Chapter-1.7.10/shaderpacks/Sildur%27s%20Vibrant%20Shaders%20v1.52%20Extreme.zip",
+      "policy": "managed"
+    },
+    {
+      "path": "shaderpacks/Sildur's Vibrant Shaders v1.52 High-MB.zip",
+      "size": 142542,
+      "sha256": "0b495ce37e0c74e30c16236c9657da209345591571a42ade62229f3a25f622fe",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/Middle-Earth-Chonicles-New-Chapter-1.7.10/shaderpacks/Sildur%27s%20Vibrant%20Shaders%20v1.52%20High-MB.zip",
+      "policy": "managed"
+    },
+    {
+      "path": "shaderpacks/Sildur's Vibrant Shaders v1.52 High.zip",
+      "size": 142499,
+      "sha256": "93d98a79746c8178700e4dcb96a6e8b50f05aa2e8e686be2482c010d027d4dec",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/Middle-Earth-Chonicles-New-Chapter-1.7.10/shaderpacks/Sildur%27s%20Vibrant%20Shaders%20v1.52%20High.zip",
+      "policy": "managed"
+    },
+    {
+      "path": "shaderpacks/Sildur's Vibrant Shaders v1.52 Lite.zip",
+      "size": 142508,
+      "sha256": "1d49d456b2dad25cfd3a85943992bb0a20ed39ef9a4430a6de5a0fe094ca9a49",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/Middle-Earth-Chonicles-New-Chapter-1.7.10/shaderpacks/Sildur%27s%20Vibrant%20Shaders%20v1.52%20Lite.zip",
+      "policy": "managed"
+    },
+    {
+      "path": "shaderpacks/Sildur's Vibrant Shaders v1.52 Medium.zip",
+      "size": 142509,
+      "sha256": "ec9f588d32301b04d38a65fe1753a6c4b3874089ec9f65ffeb8f0c3e2ac994d8",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/Middle-Earth-Chonicles-New-Chapter-1.7.10/shaderpacks/Sildur%27s%20Vibrant%20Shaders%20v1.52%20Medium.zip",
+      "policy": "managed"
+    },
+    {
+      "path": "shaderpacks/Solas Shader V3.7b.zip",
+      "size": 1252311,
+      "sha256": "b7dfe4c7353d677a92cc4c86b87bc0633f1014305d927ca6a482c303427bf825",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/Middle-Earth-Chonicles-New-Chapter-1.7.10/shaderpacks/Solas%20Shader%20V3.7b.zip",
+      "policy": "managed"
+    },
+    {
+      "path": "shaderpacks/solas-shader.pw.toml",
+      "size": 1132,
+      "sha256": "da483d512b233b30c85a04ef888a019e55b9ce4c5f6c978924e46a004491e612",
+      "url": "https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/download-files/Middle-Earth-Chonicles-New-Chapter-1.7.10/shaderpacks/solas-shader.pw.toml",
       "policy": "managed"
     }
   ],

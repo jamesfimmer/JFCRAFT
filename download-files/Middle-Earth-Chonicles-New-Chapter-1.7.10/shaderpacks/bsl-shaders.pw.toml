@@ -1,0 +1,39 @@
+filename = 'BSL_v10.1.6.zip'
+name = 'BSL Shaders'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [
+    '1.7.10',
+    '1.8.9',
+    '1.9.4',
+    '1.10.2',
+    '1.11.2',
+    '1.12.2',
+    '1.13.2',
+    '1.14.4',
+    '1.15.2',
+    '1.16.5',
+    '1.17.1',
+    '1.18.2',
+    '1.19.4',
+    '1.20.6',
+    '1.21.11',
+    '26.1',
+    '26.1.1',
+    '26.1.2',
+    '26.2',
+    '26.3'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'BSL v10.1.6'
+
+[download]
+hash = 'd66e045308fd3a30d6ccdf0a03286d962d21167e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8929949
+project-id = 322506

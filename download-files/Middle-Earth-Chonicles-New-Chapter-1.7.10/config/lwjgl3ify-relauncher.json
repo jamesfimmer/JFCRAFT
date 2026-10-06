@@ -1,15 +1,12 @@
 {
-  "javaInstallationsCache": [
-    "C:\\Users\\James\\AppData\\Roaming\\PrismLauncher\\instances\\Middle-Earth Chronicles- New Chapter\\minecraft\\config\\lotr\\runtime\\jdk-21\\jdk-21.0.12.1+1-jre\\bin\\java.exe",
-    "C:\\Users\\James\\AppData\\Roaming\\.tlauncher\\starter\\jre_default\\jre-21.0.11-windows-x64\\bin\\java.exe"
-  ],
-  "javaInstallation": 0,
+  "javaInstallationsCache": [],
+  "javaInstallation": -1,
   "minMemoryMB": 2048,
   "maxMemoryMB": 8192,
   "garbageCollector": "G1GC",
   "customOptions": [],
-  "hideSettingsOnLaunch": true,
-  "forwardLogs": false,
+  "hideSettingsOnLaunch": false,
+  "forwardLogs": true,
   "allowDebugger": false,
   "waitForDebugger": false,
   "mixinDebug": false,

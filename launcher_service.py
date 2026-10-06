@@ -156,6 +156,39 @@ def check_cancel(cancel):
         raise Cancelled('Операция отменена')
 
 
+def prepare_lwjgl_relauncher(pack, root, report):
+    """Repair machine-specific Java paths copied with a LOTR+ pack."""
+    config = root / 'config/lwjgl3ify-relauncher.json'
+    if not config.is_file() or not any('lwjgl3ify-' in item['path'] and
+                                      item['path'].startswith('mods/') for item in pack['files']):
+        return
+    data = json.loads(config.read_text(encoding='utf-8'))
+    installations = data.get('javaInstallationsCache', [])
+    index = data.get('javaInstallation', -1)
+    selected = installations[index] if isinstance(index, int) and 0 <= index < len(installations) else ''
+    if selected and Path(selected).is_absolute() and Path(selected).is_file():
+        return
+    candidates = [root / item['path'] for item in pack['files']
+                  if item['path'].startswith('config/lotr/runtime/') and item['path'].endswith('/bin/java.exe')]
+    for candidate in candidates:
+        if not candidate.is_file():
+            continue
+        try:
+            java = check_java(str(candidate.resolve()), 21)
+        except (ValueError, OSError, subprocess.SubprocessError):
+            continue
+        backup = config.with_suffix('.json.before-java-path-fix')
+        if not backup.exists():
+            shutil.copy2(config, backup)
+        data['javaInstallationsCache'] = [java]
+        data['javaInstallation'] = 0
+        data['forwardLogs'] = True
+        atomic_json(config, data)
+        report('Исправлен путь Java 21 для lwjgl3ify: ' + java)
+        return
+    raise ValueError('lwjgl3ify ссылается на отсутствующую Java. Не найдена рабочая Java 21 внутри сборки.')
+
+
 def run_pack(pack, settings, play, report, progress, cancel):
     import minecraft_launcher_lib as mc
     settings = validate_settings(settings)
@@ -194,6 +227,7 @@ def run_pack(pack, settings, play, report, progress, cancel):
         check_cancel(cancel)
         if not play:
             return
+        prepare_lwjgl_relauncher(pack, root, report)
         offline_uuid = uuid.UUID(bytes=hashlib.md5(('OfflinePlayer:' + settings['username']).encode()).digest(), version=3)
         options = {'username': settings['username'], 'uuid': str(offline_uuid), 'token': '0',
                    'launcherName': 'JFCRAFT', 'launcherVersion': VERSION,
