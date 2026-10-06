@@ -1,0 +1,18 @@
+filename = 'InventoryTweaks-1.59-dev-152.jar'
+name = 'Inventory Tweaks [1.12 only] '
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.2', '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Inventory Tweaks 1.59-dev-152'
+
+[download]
+hash = '3643e09b93e66c5690de7b9c3daa62da7789e7f5'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2210792
+project-id = 223094

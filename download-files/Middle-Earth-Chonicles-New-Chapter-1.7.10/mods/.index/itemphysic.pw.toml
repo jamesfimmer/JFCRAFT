@@ -1,0 +1,25 @@
+filename = 'ItemPhysic Full 1.2.5 mc1.7.10.jar'
+name = 'ItemPhysic Full'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ItemPhysic Full 1.2.5 mc1.7.10.jar'
+
+[download]
+hash = '6f6ab1fe105f4b9a737870b5228c72a34550182f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2498124
+project-id = 258587
+
+[[x-prismlauncher-dependencies]]
+addonId = '257814'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '263128'
+type = 'OPTIONAL'

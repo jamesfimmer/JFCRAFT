@@ -41,3 +41,5 @@ python tools/build_pack.py download-files/MyPack packs/my-pack.json --folder MyP
 для распространения `JFCRAFT.exe`. EXE собирается командой `python build_exe.py`.
 
 Свой логотип для EXE положи в `assets/jfcraft-logo.png`; следующая сборка подхватит его автоматически.
+
+Создание сборок через окно: `python build_pack_ui.py`. Выбери папку внутри `download-files`, заполни параметры или загрузи существующий манифест. Окно сохраняет манифест и добавляет ID в каталог; commit/push выполняется вручную. Для новой сборки нужен новый ID, для обновления — новая версия.

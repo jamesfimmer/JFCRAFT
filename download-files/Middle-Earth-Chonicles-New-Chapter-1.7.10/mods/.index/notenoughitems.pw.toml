@@ -1,0 +1,21 @@
+filename = 'NotEnoughItems-1.7.10-1.0.5.120-universal.jar'
+name = 'NotEnoughItems'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'NotEnoughItems-1.7.10-1.0.5.120-universal.jar'
+
+[download]
+hash = 'a7587d48f19b6e9e8791c0e3d2e9aca3b36882c7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2302312
+project-id = 222211
+
+[[x-prismlauncher-dependencies]]
+addonId = '222213'
+type = 'REQUIRED'

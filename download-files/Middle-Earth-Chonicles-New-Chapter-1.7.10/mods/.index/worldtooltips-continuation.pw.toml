@@ -1,0 +1,21 @@
+filename = 'world-tooltips-1.2.3-87.jar'
+name = 'WorldTooltips - Continuation'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.2.3-87'
+
+[download]
+hash = '76a0cb33cad6524aff6e44c521fc08b19f83c203adb85b15cc05db88e9016254f6f852519e4aa910e4c4f7c4554107379ffb3e2bc7a4d65d8cf6f44f37aad31f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/q7cgIoxK/versions/SyV6Zs9a/world-tooltips-1.2.3-87.jar'
+
+[update.modrinth]
+mod-id = 'q7cgIoxK'
+version = 'SyV6Zs9a'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'vTvnv7qp'
+type = 'OPTIONAL'

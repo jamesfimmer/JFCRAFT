@@ -1,0 +1,18 @@
+filename = 'sit-1.7.10-v1.1.jar'
+name = 'Sit'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'sit-1.7.10-v1.1.jar'
+
+[download]
+hash = 'd1e9092c55740b710b696c53551ce3c38f760210'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2533368
+project-id = 278717

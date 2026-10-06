@@ -1,0 +1,21 @@
+filename = 'Controlling-1.7.10-1.0.0.8.jar'
+name = 'Controlling'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Controlling-1.7.10-1.0.0.8.jar'
+
+[download]
+hash = '1eef5fbbf40b022529854106be2d3bfd20c990b5'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5507281
+project-id = 250398
+
+[[x-prismlauncher-dependencies]]
+addonId = '858542'
+type = 'REQUIRED'

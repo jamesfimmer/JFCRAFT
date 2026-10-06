@@ -1,0 +1,21 @@
+filename = 'BackTools-4.0.0.jar'
+name = 'Back Tools'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'BackTools-4.0.0.jar'
+
+[download]
+hash = '852c22c5eba1243fb21e120d12db424a137fbc95'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2232093
+project-id = 229061
+
+[[x-prismlauncher-dependencies]]
+addonId = '229060'
+type = 'REQUIRED'

@@ -1,0 +1,14 @@
+#LOTR+ F3 system info \u2014 delete this file to force a fresh hardware probe
+#Sun Sep 20 22:44:11 SAMT 2026
+logicalCores=12
+javaArch=64-bit
+physicalCores=6
+osName=Windows 11 Pro
+totalMemoryGB=31.85617446899414
+gpuName=NVIDIA GeForce RTX 5060 Ti/PCIe/SSE2
+version=3
+gpuDriverVersion=4.6.0 NVIDIA 616.64
+javaVersion=1.8.0_51
+osArch=amd64
+memoryFrequencyMHz=0
+processorName=12th Gen Intel(R) Core(TM) i5-12400F
