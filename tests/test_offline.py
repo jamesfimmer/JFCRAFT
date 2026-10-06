@@ -24,13 +24,13 @@ class OfflineTests(unittest.TestCase):
             process = Mock()
             process.wait.return_value = 0
             with patch('launcher_service.data_dir', return_value=home), \
-                 patch('launcher_service.check_java', return_value='java'), \
+                 patch('launcher_service.resolve_java', return_value='java'), \
                  patch('launcher_service.refresh_pack', side_effect=requests.ConnectionError('offline')), \
                  patch('launcher_service.ensure_forge', side_effect=AssertionError('runtime install')), \
                  patch('launcher_service.Installer.install', side_effect=AssertionError('pack install')), \
                  patch('requests.sessions.Session.request', side_effect=AssertionError('network')), \
                  patch('minecraft_launcher_lib.command.get_minecraft_command', return_value=['java']) as command, \
-                 patch('launcher_service.subprocess.Popen', return_value=process):
+                 patch('launcher_service.launch_game', return_value=process):
                 run_pack(advertised, {'username': 'Player', 'min_ram': 1024, 'max_ram': 2048},
                          True, lambda m: None, lambda v, t: None, threading.Event())
                 self.assertEqual(command.call_args.args[0], pack['installed_version'])

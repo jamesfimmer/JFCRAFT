@@ -10,7 +10,7 @@ import tkinter as tk
 from tkinter import filedialog, messagebox, simpledialog, ttk
 
 from jfcraft_core import atomic_json, Cancelled, load_manifest
-from launcher_service import data_dir, load_settings, resource_dir, run_pack, validate_settings, VERSION, sync_catalog, older_manifest, remove_pack
+from launcher_service import data_dir, load_settings, resource_dir, run_pack, validate_settings, VERSION, sync_catalog, older_manifest, remove_pack, GameProcess, pack_status, featured_pack_id
 
 BG = '#111917'
 PANEL = '#1c2823'
@@ -24,9 +24,17 @@ class Launcher:
         self.root = root
         self.events = queue.Queue()
         self.cancel = threading.Event()
+        self.game = GameProcess()
+        self.stopping_game = False
         self.worker = None
         self.is_busy = False
+        self.pending_catalog = None
+        self.started_packs = set()
         self.packs = []
+        self.featured_id = featured_pack_id()
+        self.featured_selected = False
+        self.library_indices = []
+        self.library_signature = None
         self.controls = []
         self.settings = load_settings()
         root.title('JFCRAFT • by jamesfimmer')
@@ -50,6 +58,16 @@ class Launcher:
         left.pack(side='left', fill='y', padx=(0, 20))
         left.pack_propagate(False)
         tk.Label(left, text='БИБЛИОТЕКА', bg=PANEL, fg=MUTED, font=('Segoe UI', 10, 'bold')).pack(anchor='w', padx=18, pady=(20, 12))
+        self.featured_frame = tk.Frame(left, bg=PANEL)
+        self.featured_frame.pack(fill='x', padx=14)
+        tk.Label(self.featured_frame, text='АКТУАЛЬНАЯ', bg=PANEL, fg=GOLD,
+                 font=('Segoe UI', 9, 'bold')).pack(anchor='w', pady=(0, 8))
+        self.featured_button = self.button(self.featured_frame, '', self.choose_featured)
+        self.featured_button.configure(wraplength=220, justify='left', anchor='w',
+                                      bg=PANEL, fg=TEXT, activebackground='#425343', activeforeground=TEXT)
+        self.featured_button.pack(fill='x')
+        tk.Label(self.featured_frame, text='ОСТАЛЬНЫЕ СБОРКИ', bg=PANEL, fg=MUTED,
+                 font=('Segoe UI', 9, 'bold')).pack(anchor='w', pady=(22, 8))
         self.library = tk.Listbox(left, bg=PANEL, fg=TEXT, selectbackground='#425343', selectforeground=TEXT,
                                   font=('Segoe UI', 11), relief='flat', borderwidth=0, highlightthickness=0,
                                   activestyle='none', exportselection=False, height=9)
@@ -62,12 +80,14 @@ class Launcher:
         self.title.pack(fill='x', pady=(8, 5))
         self.subtitle = tk.Label(right, bg=BG, fg=GOLD, anchor='w', font=('Segoe UI', 10))
         self.subtitle.pack(fill='x')
+        self.install_label = tk.Label(right, bg=BG, fg=MUTED, anchor='w', font=('Segoe UI', 10, 'bold'), wraplength=650)
+        self.install_label.pack(fill='x', pady=(8, 0))
         self.description = tk.Label(right, bg=BG, fg=MUTED, justify='left', anchor='w', wraplength=670, font=('Segoe UI', 10))
         self.description.pack(fill='x', pady=(12, 18))
         form = tk.Frame(right, bg=PANEL, padx=16, pady=14)
         form.pack(fill='x')
         self.values = {}
-        for row, (key, label) in enumerate([('username', 'Никнейм'), ('min_ram', 'Минимум памяти, МБ'), ('max_ram', 'Максимум памяти, МБ'), ('java', 'Путь к java.exe')]):
+        for row, (key, label) in enumerate([('username', 'Никнейм'), ('min_ram', 'Минимум памяти, МБ'), ('max_ram', 'Максимум памяти, МБ')]):
             tk.Label(form, text=label, bg=PANEL, fg=TEXT, anchor='w', font=('Segoe UI', 10)).grid(row=row, column=0, sticky='w', pady=5, padx=(0, 20))
             variable = tk.StringVar(value=str(self.settings.get(key, '')))
             self.values[key] = variable
@@ -75,14 +95,16 @@ class Launcher:
             entry.grid(row=row, column=1, sticky='ew', ipady=4)
             self.controls.append(entry)
         form.columnconfigure(1, weight=1)
-        self.button(form, '…', self.choose_java).grid(row=3, column=2, padx=(8, 0))
+        self.values['java'] = tk.StringVar(value='')
         actions = tk.Frame(right, bg=BG)
         actions.pack(fill='x', pady=(12, 0))
         self.play_button = self.button(actions, 'Играть', lambda: self.start(True), primary=True)
         self.play_button.pack(side='left')
         self.pack_menu = tk.Menu(root, tearoff=False)
-        self.pack_menu.add_command(label='Обновить / восстановить', command=lambda: self.start(False))
+        self.pack_menu.add_command(label='Восстановить сборку', command=lambda: self.start(False))
         self.pack_menu.add_command(label='Открыть папку сборки', command=self.open_instance)
+        self.pack_menu.add_command(label='Выбрать Java вручную…', command=self.choose_java)
+        self.pack_menu.add_command(label='Подбирать Java автоматически', command=lambda: self.values['java'].set(''))
         self.pack_menu.add_separator()
         self.pack_menu.add_command(label='Удалить сборку…', command=self.delete_pack)
         self.menu_button = self.button(actions, '⋯', self.show_pack_menu)
@@ -90,6 +112,8 @@ class Launcher:
         self.play_button.configure(disabledforeground='#777d76')
         self.cancel_button = tk.Button(actions, text='Отменить', command=self.cancel_install, bg=PANEL, fg=MUTED, relief='flat', padx=12, pady=8, state='disabled')
         self.cancel_button.pack(side='left')
+        self.stop_button = tk.Button(actions, text='Закрыть Minecraft', command=self.stop_game,
+                                     bg=PANEL, fg=TEXT, relief='flat', padx=12, pady=8)
         self.progress = ttk.Progressbar(right, mode='determinate')
         self.progress.pack(fill='x', pady=(16, 8))
         self.status = tk.Label(right, text='Готов к запуску', bg=BG, fg=MUTED, anchor='w', wraplength=670)
@@ -98,20 +122,60 @@ class Launcher:
         self.console.pack(fill='both', expand=True, pady=(10, 12))
         footer = tk.Frame(root, bg=BG)
         footer.pack(side='bottom', before=body, fill='x', padx=28, pady=12)
-        self.button(footer, 'Папка сборки', self.open_instance).pack(side='left')
         self.button(footer, 'Логи', lambda: self.open_folder(data_dir() / 'logs')).pack(side='left', padx=10)
         #tk.Label(footer, text='Каждая сборка — отдельный профиль и сохранения', bg=BG, fg=MUTED, font=('Segoe UI', 9)).pack(side='right')
+        self.play_button.configure(state='disabled')
+        self.root.after(100, self.poll)
+        self.catalog_worker = threading.Thread(target=self.load_library, daemon=True)
+        self.catalog_worker.start()
+
+    def load_library(self):
+        packs = []
         sources = list((resource_dir() / 'packs').glob('*.json')) + list((data_dir() / 'manifests').glob('*.json'))
         for source in sources:
             try:
-                self.add_pack(load_manifest(source))
+                packs.append(load_manifest(source))
             except Exception as error:
-                self.log(f'Не удалось прочитать {source.name}: {error}')
+                self.events.put(('catalog_log', f'Не удалось прочитать {source.name}: {error}'))
+        self.events.put(('local_library', packs))
+        self.refresh_library()
+
+    def refresh_library(self):
+        try:
+            packs = sync_catalog(lambda message: None, persist=False)
+            self.events.put(('catalog', packs))
+        except Exception as error:
+            self.events.put(('catalog_log', f'Каталог недоступен; используется сохранённая библиотека. {error}'))
+
+    def apply_catalog(self):
+        if self.pending_catalog is None or self.is_busy:
+            return
+        selected = self.current()['id'] if self.selected_indices() else None
+        java = self.values['java'].get()
+        if hasattr(self.pending_catalog, 'featured'):
+            self.featured_id = self.pending_catalog.featured
+            atomic_json(data_dir() / 'catalog.json', {'featured': self.featured_id})
+        for pack in self.pending_catalog:
+            cached = data_dir() / 'manifests' / (pack['id'] + '.json')
+            try:
+                if cached.exists():
+                    local = load_manifest(cached)
+                    if pack['id'] in self.started_packs or older_manifest(pack, local):
+                        pack = local
+                self.add_pack(pack, render=False)
+                atomic_json(cached, pack)
+            except Exception as error:
+                self.log(f'Не удалось сохранить описание {pack["id"]}: {error}')
+        self.pending_catalog = None
+        self.render_library()
         if self.packs:
-            selected = next((i for i, p in enumerate(self.packs) if p['id'] == self.settings.get('pack')), 0)
-            self.library.selection_set(selected)
+            index = next((i for i, p in enumerate(self.packs) if p['id'] == selected), 0)
+            self.library.selection_clear(0, 'end')
+            self.choose_index(index)
             self.select_pack()
-        self.root.after(100, self.poll)
+            if selected:
+                self.values['java'].set(java)
+        self.log('Библиотека сборок обновлена с GitHub.')
 
     def button(self, parent, text, command, primary=False):
         button = tk.Button(parent, text=text, command=command, bg=GOLD if primary else '#2c3c33', fg=BG if primary else TEXT,
@@ -120,20 +184,71 @@ class Launcher:
         self.controls.append(button)
         return button
 
-    def add_pack(self, pack):
+    def add_pack(self, pack, render=True):
         existing = next((i for i, p in enumerate(self.packs) if p['id'] == pack['id']), None)
         if existing is not None:
             if older_manifest(pack, self.packs[existing]):
                 return
             self.packs[existing] = pack
-            self.library.delete(existing)
-            self.library.insert(existing, pack['name'])
+
         else:
             self.packs.append(pack)
-            self.library.insert('end', pack['name'])
+        if render:
+            self.render_library()
+
+
+    def selected_indices(self):
+        rows = self.library.curselection()
+        if rows and rows[0] < len(self.library_indices):
+            return (self.library_indices[rows[0]],)
+        if self.featured_selected:
+            return tuple(i for i, p in enumerate(self.packs) if p['id'] == self.featured_id)[:1]
+        return ()
+
+    def choose_index(self, index):
+        self.library.selection_clear(0, 'end')
+        self.featured_selected = self.packs[index]['id'] == self.featured_id
+        if not self.featured_selected and index in self.library_indices:
+            self.library.selection_set(self.library_indices.index(index))
+
+    def choose_featured(self):
+        if self.is_busy:
+            return
+        index = next((i for i, p in enumerate(self.packs) if p['id'] == self.featured_id), None)
+        if index is not None:
+            self.choose_index(index)
+            self.select_pack()
+
+    def render_library(self):
+        rows = []
+        for index, pack in enumerate(self.packs):
+            kind, _ = pack_status(pack, data_dir() / 'instances' / pack['id'])
+            symbol = {'missing': '○', 'installed': '✓', 'update': '↑', 'repair': '!'}[kind]
+            rows.append((index, pack['id'], f"{symbol}  {pack['name']}"))
+        signature = (self.featured_id, tuple(rows))
+        if signature == self.library_signature:
+            return
+        self.library_signature = signature
+        selected = self.selected_indices()
+        self.library.delete(0, 'end')
+        self.library_indices = []
+        found = False
+        for index, pack_id, label in rows:
+            if pack_id == self.featured_id:
+                found = True
+                self.featured_button.configure(text=label)
+            else:
+                self.library_indices.append(index)
+                self.library.insert('end', label)
+        if found:
+            self.featured_frame.pack(fill='x', padx=14, before=self.library)
+        else:
+            self.featured_frame.pack_forget()
+        if selected:
+            self.choose_index(selected[0])
 
     def current(self):
-        selection = self.library.curselection()
+        selection = self.selected_indices()
         if not selection:
             raise ValueError('Выбери сборку из библиотеки')
         return self.packs[selection[0]]
@@ -148,26 +263,19 @@ class Launcher:
         size = sum(f['size'] for f in pack['files']) / 1024**2
         self.description.configure(text=pack.get('description', f"{len(pack['files'])} файлов • {size:.0f} МБ"))
         chosen = self.settings.get('java_by_pack', {}).get(pack['id'], '')
-        if not chosen:
-            java_base = Path(os.environ.get('ProgramFiles', 'C:/Program Files')) / 'Java'
-            pattern = 'jre1.8*/bin/java.exe' if pack['java'] == 8 else f"jdk-{pack['java']}*/bin/java.exe"
-            chosen = next((str(p) for p in java_base.glob(pattern)), '')
         self.values['java'].set(chosen)
         self.update_actions()
 
     def update_actions(self):
-        installed = False
-        try:
-            pack = self.current()
-            root = data_dir() / 'instances' / pack['id']
-            state = load_manifest(root / '.jfcraft-state.json')
-            version = state['installed_version']
-            installed = (state['id'] == pack['id'] and
-                         (root / 'versions' / version / (version + '.json')).is_file() and
-                         not (root / '.jfcraft-journal.json').exists())
-        except (ValueError, OSError, KeyError):
-            pass
-        self.installed = installed
+        selected = self.selected_indices()
+        featured_active = bool(selected and self.packs[selected[0]]['id'] == self.featured_id)
+        self.featured_button.configure(bg='#425343' if featured_active else PANEL)
+        self.render_library()
+        if selected:
+            pack = self.packs[selected[0]]
+            kind, text = pack_status(pack, data_dir() / 'instances' / pack['id'])
+            self.installed = kind in ('installed', 'update')
+            self.install_label.configure(text=text, fg=GOLD if kind in ('update', 'repair') else '#8bc99a' if kind == 'installed' else MUTED)
         self.play_button.configure(state='disabled' if self.is_busy or not self.packs else 'normal', bg=GOLD)
 
     def show_pack_menu(self):
@@ -253,6 +361,7 @@ class Launcher:
         self.update_actions()
         try:
             pack = self.current()
+            self.started_packs.add(pack['id'])
             settings = validate_settings(dict(self.settings, **{key: value.get().strip() for key, value in self.values.items()}))
             settings['pack'] = pack['id']
             settings.setdefault('java_by_pack', {})[pack['id']] = settings['java']
@@ -267,14 +376,8 @@ class Launcher:
         self.status.configure(text='Подготовка сборки…')
         def work():
             try:
-                if not play:
-                    try:
-                        for available in sync_catalog(lambda m: self.events.put(('log', m))):
-                            self.events.put(('catalog_pack', available))
-                    except Exception as error:
-                        self.events.put(('log', f'Каталог недоступен, используется сохранённая библиотека: {error}'))
                 run_pack(pack, settings, play, lambda m: self.events.put(('log', m)),
-                         lambda v, t: self.events.put(('progress', (v, t))), self.cancel)
+                         lambda v, t: self.events.put(('progress', (v, t))), self.cancel, self.game)
                 self.events.put(('log', 'Готово'))
             except Cancelled:
                 self.events.put(('log', 'Установка отменена'))
@@ -291,6 +394,23 @@ class Launcher:
         self.status.configure(text='Отмена после текущего шага. Запущенная игра продолжит работать.')
         self.cancel_button.configure(state='disabled')
 
+    def stop_game(self):
+        if self.stopping_game or not self.game.running():
+            return
+        if not messagebox.askyesno('Принудительно закрыть Minecraft?',
+                'Несохранённый прогресс может потеряться. Завершить игру?', parent=self.root):
+            return
+        self.stopping_game = True
+        self.stop_button.configure(state='disabled')
+        def work():
+            try:
+                self.game.stop()
+            except Exception as error:
+                self.events.put(('error', str(error)))
+            finally:
+                self.events.put(('stop_done', None))
+        threading.Thread(target=work, daemon=False).start()
+
     def poll(self):
         for _ in range(100):
             try:
@@ -306,10 +426,10 @@ class Launcher:
                 value, total = payload
                 self.progress['value'] = value / max(total, 1) * 100
             elif kind == 'catalog_pack':
-                selected_id = self.current()['id'] if self.library.curselection() else None
+                selected_id = self.current()['id'] if self.selected_indices() else None
                 self.add_pack(payload)
                 if selected_id:
-                    self.library.selection_set(next(i for i, p in enumerate(self.packs) if p['id'] == selected_id))
+                    self.choose_index(next(i for i, p in enumerate(self.packs) if p['id'] == selected_id))
                     self.select_pack()
             elif kind == 'pack':
                 self.busy(False)
@@ -319,10 +439,48 @@ class Launcher:
                     self.settings['sources'].append(path)
                 atomic_json(data_dir() / 'settings.json', self.settings)
                 self.library.selection_clear(0, 'end')
-                self.library.selection_set(next(i for i, p in enumerate(self.packs) if p['id'] == pack['id']))
+                self.choose_index(next(i for i, p in enumerate(self.packs) if p['id'] == pack['id']))
                 self.select_pack()
             elif kind == 'done':
+                selected = self.selected_indices()
+                if selected:
+                    pack = self.packs[selected[0]]
+                    cached = data_dir() / 'manifests' / (pack['id'] + '.json')
+                    try:
+                        latest = load_manifest(cached)
+                        if latest['id'] == pack['id']:
+                            self.add_pack(latest)
+                            self.choose_index(selected[0])
+                            java = self.values['java'].get()
+                            self.select_pack()
+                            self.values['java'].set(java)
+                    except (OSError, ValueError, KeyError):
+                        pass
                 self.busy(False)
+            elif kind == 'stop_done':
+                self.stopping_game = False
+            elif kind == 'local_library':
+                for pack in payload:
+                    self.add_pack(pack, render=False)
+                self.render_library()
+                if self.packs:
+                    index = next((i for i, p in enumerate(self.packs) if p['id'] == self.settings.get('pack')),
+                                 next((i for i, p in enumerate(self.packs) if p['id'] == self.featured_id), 0))
+                    self.choose_index(index)
+                    self.select_pack()
+            elif kind == 'catalog':
+                self.pending_catalog = payload
+            elif kind == 'catalog_log':
+                self.log(payload)
+        self.apply_catalog()
+        if not self.stopping_game:
+            if self.game.running():
+                self.cancel_button.pack_forget()
+                self.stop_button.pack(side='left')
+                self.stop_button.configure(state='normal')
+            else:
+                self.stop_button.pack_forget()
+                self.cancel_button.pack(side='left')
         self.root.after(100, self.poll)
 
     def open_folder(self, path):

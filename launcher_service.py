@@ -10,13 +10,56 @@ import re
 import shutil
 import subprocess
 import sys
+import threading
 import uuid
 import requests
 from urllib3.exceptions import HTTPError as Urllib3HTTPError
 
-from jfcraft_core import Installer, atomic_json, Cancelled, load_manifest
+from jfcraft_core import Installer, atomic_json, Cancelled, load_manifest, safe_path
+from game_process import launch_game, WindowsGame
+from java_runtime import find_java, install_java
 
 VERSION = '2.0.0-dev'
+
+
+class GameProcess:
+    """Track only the game started by this launcher window."""
+    def __init__(self):
+        self.lock = threading.Lock()
+        self.process = None
+        self.stopped = False
+
+    def attach(self, process):
+        with self.lock:
+            self.process = process
+            self.stopped = False
+
+    def running(self):
+        with self.lock:
+            return self.process is not None and self.process.poll() is None
+
+    def detach(self):
+        with self.lock:
+            self.process = None
+
+    def stop(self):
+        with self.lock:
+            process = self.process
+            if process is None or process.poll() is not None:
+                return False
+            if isinstance(process, WindowsGame):
+                process.terminate_tree()
+            elif os.name == 'nt':
+                # /T includes lwjgl3ify's Java 21 child and its relauncher stub.
+                result = subprocess.run(['taskkill', '/PID', str(process.pid), '/T', '/F'],
+                                        capture_output=True, timeout=15,
+                                        creationflags=subprocess.CREATE_NO_WINDOW)
+                if result.returncode and process.poll() is None:
+                    raise RuntimeError('Windows не смогла завершить процесс Minecraft.')
+            else:
+                process.kill()
+            self.stopped = True
+            return True
 
 
 def data_dir():
@@ -112,6 +155,21 @@ def check_java(executable, required):
     return executable
 
 
+def resolve_java(required, preferred, report, progress, cancel, allow_download=True):
+    home = data_dir() / 'runtimes'
+    java = find_java(required, home, preferred, check_java, cancel)
+    if java:
+        report(f'Java {required}: {java}')
+        return java
+    if not allow_download:
+        raise ValueError(f'Java {required} не найдена. Для её первой установки нужен интернет.')
+    with profile_lock(home / f'java-{required}'):
+        java = find_java(required, home, preferred, check_java, cancel)
+        if java:
+            return java
+        return install_java(required, home / f'java-{required}', check_java, report, progress, cancel)
+
+
 def ensure_forge(pack, root, java, report, cancel, repair=False):
     import minecraft_launcher_lib as mc
     callback = {'setStatus': lambda message: (check_cancel(cancel), report(message))}
@@ -156,7 +214,7 @@ def check_cancel(cancel):
         raise Cancelled('Операция отменена')
 
 
-def prepare_lwjgl_relauncher(pack, root, report):
+def prepare_lwjgl_relauncher(pack, root, report, cancel=None, progress=lambda v, t: None):
     """Repair machine-specific Java paths copied with a LOTR+ pack."""
     config = root / 'config/lwjgl3ify-relauncher.json'
     if not config.is_file() or not any('lwjgl3ify-' in item['path'] and
@@ -167,9 +225,14 @@ def prepare_lwjgl_relauncher(pack, root, report):
     index = data.get('javaInstallation', -1)
     selected = installations[index] if isinstance(index, int) and 0 <= index < len(installations) else ''
     if selected and Path(selected).is_absolute() and Path(selected).is_file():
-        return
+        try:
+            check_java(selected, 21)
+            return
+        except (ValueError, OSError, subprocess.SubprocessError):
+            pass
     candidates = [root / item['path'] for item in pack['files']
                   if item['path'].startswith('config/lotr/runtime/') and item['path'].endswith('/bin/java.exe')]
+    java = None
     for candidate in candidates:
         if not candidate.is_file():
             continue
@@ -177,19 +240,20 @@ def prepare_lwjgl_relauncher(pack, root, report):
             java = check_java(str(candidate.resolve()), 21)
         except (ValueError, OSError, subprocess.SubprocessError):
             continue
-        backup = config.with_suffix('.json.before-java-path-fix')
-        if not backup.exists():
-            shutil.copy2(config, backup)
-        data['javaInstallationsCache'] = [java]
-        data['javaInstallation'] = 0
-        data['forwardLogs'] = True
-        atomic_json(config, data)
-        report('Исправлен путь Java 21 для lwjgl3ify: ' + java)
-        return
-    raise ValueError('lwjgl3ify ссылается на отсутствующую Java. Не найдена рабочая Java 21 внутри сборки.')
+        break
+    if java is None:
+        java = resolve_java(21, '', report, progress, cancel or threading.Event())
+    backup = config.with_suffix('.json.before-java-path-fix')
+    if not backup.exists():
+        shutil.copy2(config, backup)
+    data['javaInstallationsCache'] = [java]
+    data['javaInstallation'] = 0
+    data['forwardLogs'] = True
+    atomic_json(config, data)
+    report('Java 21 для lwjgl3ify: ' + java)
 
 
-def run_pack(pack, settings, play, report, progress, cancel):
+def run_pack(pack, settings, play, report, progress, cancel, game=None):
     import minecraft_launcher_lib as mc
     settings = validate_settings(settings)
     root = data_dir() / 'instances' / pack['id']
@@ -207,7 +271,7 @@ def run_pack(pack, settings, play, report, progress, cancel):
         try:
             pack = refresh_pack(pack, report, require_online=play)
             check_cancel(cancel)
-            java = check_java(settings.get('java', ''), pack['java'])
+            java = resolve_java(pack['java'], settings.get('java', ''), report, progress, cancel)
             same_runtime = installed and all(pack[k] == installed[k] for k in ('minecraft', 'forge', 'installed_version'))
             if not (can_fallback and same_runtime):
                 # Runtime installation cannot be rolled back like pack files.
@@ -220,14 +284,14 @@ def run_pack(pack, settings, play, report, progress, cancel):
                 raise ValueError('Не удалось скачать необходимые файлы. Для первой установки или восстановления нужен интернет.') from None
             installer.recover()
             pack = installed
-            java = check_java(settings.get('java', ''), pack['java'])
+            java = resolve_java(pack['java'], settings.get('java', ''), report, progress, cancel, allow_download=False)
             report('Обновление недоступно. Запускается установленная версия ' + pack['version'])
         if play:
             installer.clean_extra_mods(pack)
         check_cancel(cancel)
         if not play:
             return
-        prepare_lwjgl_relauncher(pack, root, report)
+        prepare_lwjgl_relauncher(pack, root, report, cancel, progress)
         offline_uuid = uuid.UUID(bytes=hashlib.md5(('OfflinePlayer:' + settings['username']).encode()).digest(), version=3)
         options = {'username': settings['username'], 'uuid': str(offline_uuid), 'token': '0',
                    'launcherName': 'JFCRAFT', 'launcherVersion': VERSION,
@@ -238,8 +302,19 @@ def run_pack(pack, settings, play, report, progress, cancel):
         log_dir.mkdir(exist_ok=True)
         report('Minecraft запущен. Журнал игры: ' + str(log_dir / 'jfcraft-game.log'))
         with (log_dir / 'jfcraft-game.log').open('w', encoding='utf-8') as log:
-            process = subprocess.Popen(command, cwd=root, stdout=log, stderr=subprocess.STDOUT)
-            code = process.wait()
+            process = launch_game(command, cwd=root, stdout=log, stderr=subprocess.STDOUT)
+            if game is not None:
+                game.attach(process)
+            try:
+                code = process.wait()
+            finally:
+                if game is not None:
+                    game.detach()
+                if isinstance(process, WindowsGame):
+                    process.close()
+        if game is not None and game.stopped:
+            report('Minecraft принудительно закрыт пользователем.')
+            return
         if code:
             raise RuntimeError(f'Minecraft завершился с кодом {code}. См. logs/jfcraft-game.log')
         report('Игра закрыта')
@@ -284,17 +359,67 @@ def older_manifest(candidate, current):
             candidate.get('manifest_revision', 0) < current.get('manifest_revision', 0))
 
 
-def sync_catalog(report):
-    """Refresh the official library on an explicit install/update action only."""
+
+def pack_status(pack, root):
+    """Cheap metadata status; file integrity is checked when Play is pressed."""
+    root = Path(root)
+    state_path = root / '.jfcraft-state.json'
+    if not state_path.exists():
+        return 'missing', 'Не установлена'
+    try:
+        # Display status only: full validation remains in the installer.
+        state = json.loads(state_path.read_text(encoding='utf-8'))
+        version = state['installed_version']
+        if not isinstance(version, str) or '/' in version:
+            return 'repair', 'Требуется восстановление'
+        safe_path(root / 'versions', version)
+        if (state['id'] != pack['id'] or (root / '.jfcraft-journal.json').exists()
+                or not (root / 'versions' / version / (version + '.json')).is_file()):
+            return 'repair', 'Требуется восстановление'
+        keys = ('version', 'minecraft', 'forge', 'installed_version', 'java', 'files')
+        changed = any(state.get(key) != pack.get(key) for key in keys)
+        changed = changed or pack.get('manifest_revision', 0) > state.get('manifest_revision', 0)
+        if changed and not older_manifest(pack, state):
+            return 'update', (f"Доступно обновление · {state['version']} → {pack['version']}"
+                              if state['version'] != pack['version'] else f"Доступно обновление файлов · {pack['version']}")
+        return 'installed', f"Установлена · {state['version']}"
+    except (OSError, ValueError, KeyError, TypeError):
+        return 'repair', 'Требуется восстановление'
+
+
+class CatalogPacks(list):
+    def __init__(self, packs=(), featured=None):
+        super().__init__(packs)
+        self.featured = featured
+
+
+def featured_pack_id():
+    for path in (data_dir() / 'catalog.json', resource_dir() / 'packs/catalog/index.json'):
+        try:
+            value = json.loads(path.read_text(encoding='utf-8')).get('featured')
+            if value is None or isinstance(value, str):
+                return value
+        except (OSError, ValueError):
+            pass
+    return None
+
+
+def sync_catalog(report, persist=True):
+    """Background UI sync defers cache writes until installation is idle."""
     url = 'https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/packs/catalog/index.json'
     response = requests.get(url, timeout=(10, 30))
     response.raise_for_status()
     catalog = response.json()
     if catalog.get('schema') != 1 or not isinstance(catalog.get('packs'), list) or len(catalog['packs']) > 100:
         raise ValueError('Некорректный каталог сборок')
-    packs = []
+    featured = catalog.get('featured', featured_pack_id())
+    if 'featured' not in catalog and featured not in catalog['packs']:
+        featured = None
+    if featured is not None and featured not in catalog['packs']:
+        raise ValueError('Актуальная сборка отсутствует в каталоге')
+    packs = CatalogPacks(featured=featured)
     for pack_id in catalog['packs']:
-        if not isinstance(pack_id, str) or not re.fullmatch(r'[a-z0-9][a-z0-9-]{0,63}', pack_id):
+        if not isinstance(pack_id, str) or not re.fullmatch(r'[a-z0-9][a-z0-9_-]{0,63}', pack_id):
             raise ValueError('Некорректное имя сборки в каталоге')
         source = f'https://raw.githubusercontent.com/jamesfimmer/JFCRAFT/main/packs/{pack_id}.json'
         pack = load_manifest(source)
@@ -306,8 +431,15 @@ def sync_catalog(report):
             local = load_manifest(bundled)
             if older_manifest(pack, local):
                 pack = local
+        cached = data_dir() / 'manifests' / (pack_id + '.json')
+        if cached.exists():
+            local = load_manifest(cached)
+            if older_manifest(pack, local):
+                pack = local
         packs.append(pack)
-    for pack in packs:
-        atomic_json(data_dir() / 'manifests' / (pack['id'] + '.json'), pack)
+    if persist:
+        atomic_json(data_dir() / 'catalog.json', catalog)
+        for pack in packs:
+            atomic_json(data_dir() / 'manifests' / (pack['id'] + '.json'), pack)
     report('Библиотека сборок обновлена с GitHub.')
     return packs

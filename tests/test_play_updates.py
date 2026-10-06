@@ -21,11 +21,11 @@ class PlayUpdateTests(unittest.TestCase):
         self.root = self.home / 'instances/test'
         self.cancel = threading.Event()
         self.stack.enter_context(patch('launcher_service.data_dir', return_value=self.home))
-        self.stack.enter_context(patch('launcher_service.check_java', return_value='java'))
+        self.stack.enter_context(patch('launcher_service.resolve_java', return_value='java'))
         self.refresh = self.stack.enter_context(patch('launcher_service.refresh_pack', return_value=self.latest))
         self.forge = self.stack.enter_context(patch('launcher_service.ensure_forge'))
         self.command = self.stack.enter_context(patch('minecraft_launcher_lib.command.get_minecraft_command', return_value=['java']))
-        self.process = self.stack.enter_context(patch('launcher_service.subprocess.Popen', return_value=Mock(wait=Mock(return_value=0))))
+        self.process = self.stack.enter_context(patch('launcher_service.launch_game', return_value=Mock(wait=Mock(return_value=0))))
 
     def installed(self):
         atomic_json(self.root / '.jfcraft-state.json', self.old)

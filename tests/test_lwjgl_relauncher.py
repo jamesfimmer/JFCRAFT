@@ -19,7 +19,7 @@ class RelauncherTests(unittest.TestCase):
             with patch('launcher_service.check_java', return_value=str(java.resolve())) as check:
                 prepare_lwjgl_relauncher(pack,root,lambda m:None)
                 prepare_lwjgl_relauncher(pack,root,lambda m:None)
-            check.assert_called_once()
+            self.assertEqual(check.call_count, 2)
             result=json.loads(config.read_text())
             self.assertEqual(result['javaInstallationsCache'],[str(java.resolve())])
             self.assertEqual(result['maxMemoryMB'],4096)
